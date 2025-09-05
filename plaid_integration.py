@@ -1,3 +1,4 @@
+from fernet_util import FERNET
 import hashlib
 import base64
 
@@ -9,11 +10,9 @@ def _make_fernet():
     # Else derive from APP_SECRET deterministically
     sec = os.getenv("APP_SECRET", "").encode("utf-8")
     if sec:
-        digest = hashlib.sha256(sec).digest()  # 32 bytes
         key = base64.urlsafe_b64encode(digest) # 44-char base64
         return Fernet(key)
     # Last resort (ephemeral, not suitable for persisted tokens)
-    return Fernet(Fernet.generate_key())
 # plaid_integration.py
 import os, hashlib
 from typing import Optional, Dict, Any, List
@@ -32,7 +31,6 @@ from plaid.model.accounts_get_request import AccountsGetRequest
 from plaid.model.transactions_sync_request import TransactionsSyncRequest
 
 APP_SECRET = (os.getenv("APP_SECRET") or "dev-secret").encode()
-FERNET = Fernet(Fernet.generate_key() if len(APP_SECRET) < 32 else hashlib.sha256(APP_SECRET).digest()[:32] + b"0"*0)  # simple helper
 # NOTE: For a proper static key: set APP_SECRET to a 32+ char random value and replace the above with Fernet(APP_SECRET32)
 
 def get_plaid_client() -> plaid_api.PlaidApi:
