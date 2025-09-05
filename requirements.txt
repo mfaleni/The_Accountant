@@ -113,3 +113,4 @@ wrapt==1.17.2
 yfinance==0.2.65
 gunicorn==23.0.0
 gunicorn==23.0.0
+gunicorn==23.0.0
