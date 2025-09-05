@@ -76,6 +76,7 @@ CREATE TABLE IF NOT EXISTS category_rules (
 """)
 con.commit()
 print("BOOT: tables now:",
+if [ -d migrations ]; then for f in migrations/*.sql; do [ -f "$f" ] && sqlite3 "$DB" < "$f"; done; fi
       [r[0] for r in c.execute("SELECT name FROM sqlite_master WHERE type='table'")])
 print("BOOT: transactions rows:",
       c.execute("SELECT COUNT(*) FROM transactions").fetchone()[0])
