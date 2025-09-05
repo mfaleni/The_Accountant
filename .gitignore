@@ -18,3 +18,4 @@ dupe_audit_latest/*
 node_modules/
 
 seed/*.gz
+.env
