@@ -83,3 +83,9 @@ con.close()
 PY
 
 exec gunicorn wsgi:application --workers 2 --bind 0.0.0.0:$PORT --timeout 120
+
+# --- staged-import migration (idempotent) ---
+if [ -f "/opt/render/project/src/migrations/20250905_staged_import.sql" ]; then
+  echo "BOOT: applying staged-import migration"
+  sqlite3 /opt/render/project/src/finance.db < /opt/render/project/src/migrations/20250905_staged_import.sql || true
+fi

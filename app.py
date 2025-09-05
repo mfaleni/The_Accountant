@@ -1460,3 +1460,188 @@ if __name__ == "__main__":
         initialize_database()  # safe no-op if exists
     apply_v1_compat_migrations()  # <-- ensure columns on every boot
     app.run(host="0.0.0.0", port=5056, debug=True, use_reloader=False)
+# === Staged import endpoints ===
+from flask import request, jsonify, send_file, render_template
+import json, io, csv, sqlite3, hashlib, os
+import database
+from plaid_integration import transactions_get_by_date
+from database import get_or_create_account
+
+def _rule_suggest(cat_rules, desc: str):
+    d = (desc or "").lower().strip()
+    for pat, cat in cat_rules:
+        if pat and pat.lower() in d:
+            return {"merchant": None, "category": cat, "sub_category": ""}
+    return None
+
+def _ai_suggest(desc, amount):
+    if not os.getenv("ENABLE_AI") or os.getenv("ENABLE_AI") == "0":
+        return None
+    try:
+        from openai import OpenAI
+        client = OpenAI()
+        prompt = f"Merchant+category suggestion.\nDescription: {desc}\nAmount: {amount}\nReturn JSON like {\"merchant\":\"\",\"category\":\"\",\"sub_category\":\"\"}."
+        msg = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role":"user","content":prompt}],
+            temperature=0.1
+        )
+        data = json.loads(msg.choices[0].message.content.strip())
+        return {"merchant": data.get("merchant",""), "category": data.get("category",""), "sub_category": data.get("sub_category","")}
+    except Exception:
+        return None
+
+@app.post("/import/plaid/start")
+def import_plaid_start():
+    p = request.get_json(force=True)
+    item_id = p["item_id"]; start = p["start_date"]; end = p["end_date"]; account_ids = p.get("account_ids")
+    got = transactions_get_by_date(item_id, start, end, account_ids)
+    if "error" in got: return jsonify(got), 400
+    txns = got["transactions"]
+    con = database.get_db_connection(); cur = con.cursor()
+    cur.execute("""INSERT INTO import_batches (source,item_id,account_ids,start_date,end_date,status)
+                   VALUES ('plaid',?,?,?,?, 'raw')""", (item_id, json.dumps(account_ids or []), start, end))
+    batch_id = cur.lastrowid
+    ins = 0
+    for t in txns:
+        try:
+            cur.execute("""
+            INSERT OR IGNORE INTO import_raw
+            (batch_id, plaid_txn_id, account_id, date, authorized_date, name, merchant_name, amount, pending, currency, original_json)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?)
+            """, (batch_id, t.get("transaction_id"), t.get("account_id"),
+                  t.get("date"), t.get("authorized_date"),
+                  t.get("name"), t.get("merchant_name"),
+                  float(t.get("amount") or 0.0), 1 if t.get("pending") else 0,
+                  (t.get("iso_currency_code") or t.get("unofficial_currency_code") or "USD"),
+                  json.dumps(t)))
+            ins += cur.rowcount
+        except Exception:
+            pass
+    con.commit(); con.close()
+    return jsonify({"batch_id": batch_id, "raw_inserted": ins})
+
+@app.post("/import/suggest/<int:batch_id>")
+def import_suggest(batch_id):
+    con = database.get_db_connection(); cur = con.cursor()
+    rows = cur.execute("SELECT id,name,merchant_name,amount FROM import_raw WHERE batch_id=?", (batch_id,)).fetchall()
+    rules = cur.execute("SELECT merchant_pattern, category FROM category_rules").fetchall()
+    made = 0
+    for rid, name, merch, amt in rows:
+        s = _rule_suggest(rules, name or merch or "")
+        src = None
+        if s:
+            src = "rule"
+        else:
+            s_ai = _ai_suggest(name or merch or "", amt)
+            if s_ai:
+                s = {"merchant": s_ai["merchant"], "category": s_ai["category"], "sub_category": s_ai.get("sub_category","")}
+                src = "ai"
+        if s:
+            cur.execute("""
+            INSERT OR REPLACE INTO import_suggestions
+            (batch_id, raw_id, suggested_merchant, suggested_category, suggested_subcategory, confidence, source)
+            VALUES (?,?,?,?,?,?,?)
+            """, (batch_id, rid, s.get("merchant") or "", s.get("category") or "", s.get("sub_category") or "", 0.9 if src=="rule" else 0.6, src))
+            made += 1
+    cur.execute("UPDATE import_batches SET status='suggested' WHERE id=?", (batch_id,))
+    con.commit(); con.close()
+    return jsonify({"batch_id": batch_id, "suggested": made})
+
+@app.get("/import/review/<int:batch_id>.json")
+def import_review_json(batch_id):
+    con = database.get_db_connection(); cur = con.cursor()
+    q = """
+    SELECT r.id as raw_id, r.date, r.name, r.merchant_name, r.amount, r.pending,
+           COALESCE(s.suggested_merchant,'') AS merchant,
+           COALESCE(s.suggested_category,'') AS category,
+           COALESCE(s.suggested_subcategory,'') AS sub_category,
+           COALESCE(s.source,'') AS source
+    FROM import_raw r
+    LEFT JOIN import_suggestions s ON s.raw_id=r.id
+    WHERE r.batch_id=?
+    ORDER BY r.date, r.amount DESC
+    """
+    rows = [dict(zip([c[0] for c in cur.description], x)) for x in cur.execute(q, (batch_id,)).fetchall()]
+    con.close()
+    return jsonify({"batch_id": batch_id, "rows": rows})
+
+@app.get("/import/review/<int:batch_id>.csv")
+def import_review_csv(batch_id):
+    con = database.get_db_connection(); cur = con.cursor()
+    q = """
+    SELECT r.date, r.name, r.merchant_name, r.amount, r.pending,
+           COALESCE(s.suggested_merchant,'') AS merchant,
+           COALESCE(s.suggested_category,'') AS category,
+           COALESCE(s.suggested_subcategory,'') AS sub_category
+    FROM import_raw r LEFT JOIN import_suggestions s ON s.raw_id=r.id
+    WHERE r.batch_id=? ORDER BY r.date, r.amount DESC
+    """
+    rows = cur.execute(q, (batch_id,)).fetchall()
+    con.close()
+    out = io.StringIO(); w = csv.writer(out)
+    w.writerow(["date","name","merchant_name","amount","pending","merchant","category","sub_category"])
+    for r in rows: w.writerow(r)
+    mem = io.BytesIO(out.getvalue().encode("utf-8")); mem.seek(0)
+    return send_file(mem, mimetype="text/csv", as_attachment=True, download_name=f"batch_{batch_id}_review.csv")
+
+@app.post("/import/commit/<int:batch_id>")
+def import_commit(batch_id):
+    p = request.get_json(force=True) if request.data else {}
+    overrides = {int(o["raw_id"]): o for o in p.get("overrides", [])}
+    dup_policy = (p.get("duplicate_policy") or "skip").lower()
+    con = database.get_db_connection(); cur = con.cursor()
+    q = """
+    SELECT r.id, r.date, r.name, r.merchant_name, r.amount, r.account_id, r.plaid_txn_id,
+           COALESCE(s.suggested_merchant,''), COALESCE(s.suggested_category,''), COALESCE(s.suggested_subcategory,'')
+    FROM import_raw r LEFT JOIN import_suggestions s ON s.raw_id=r.id
+    WHERE r.batch_id=?
+    """
+    rows = cur.execute(q, (batch_id,)).fetchall()
+    # discover columns present in transactions (so we can insert safely)
+    cols = {r[1].lower(): r[1] for r in cur.execute("PRAGMA table_info('transactions')")}
+    has = lambda c: c in cols
+    inserted = 0; skipped = 0
+    for (raw_id, dt, nm, merch, amt, plaid_acct, plaid_txn_id, sug_merch, sug_cat, sug_sub) in rows:
+        ov = overrides.get(int(raw_id))
+        merchant = (ov and ov.get("merchant")) or (sug_merch or merch or nm or "")
+        category = (ov and ov.get("category")) or (sug_cat or "")
+        subcat   = (ov and ov.get("sub_category")) or (sug_sub or "")
+        local_acct_id = get_or_create_account(con, plaid_acct or "Plaid Account")
+        # duplicate guard
+        if dup_policy == "skip":
+            if has("plaid_txn_id"):
+                exists = cur.execute("SELECT 1 FROM transactions WHERE plaid_txn_id=? LIMIT 1", (plaid_txn_id,)).fetchone() if plaid_txn_id else None
+                if exists: skipped += 1; continue
+            exists = cur.execute("""
+              SELECT 1 FROM transactions
+              WHERE transaction_date=? AND amount=? AND original_description=? AND account_id=?
+              LIMIT 1
+            """, (dt, amt, nm, local_acct_id)).fetchone()
+            if exists: skipped += 1; continue
+        # build insert dynamically
+        fields = ["transaction_date","original_description","cleaned_description","amount","category","sub_category","account_id","unique_hash"]
+        vals   = [dt, nm, merchant, float(amt), category, subcat, local_acct_id, hashlib.sha256(f"{local_acct_id}|{dt}|{(nm or '').lower()}|{float(amt):.2f}|{plaid_txn_id or ''}".encode()).hexdigest()]
+        if has("transaction_id"):
+            fields.append("transaction_id"); vals.append(plaid_txn_id)
+        if has("plaid_txn_id"):
+            fields.append("plaid_txn_id");   vals.append(plaid_txn_id)
+        sql = f"INSERT INTO transactions ({','.join(fields)}) VALUES ({','.join(['?']*len(vals))})"
+        cur.execute(sql, vals); inserted += 1
+    cur.execute("UPDATE import_batches SET status='committed' WHERE id=?", (batch_id,))
+    con.commit(); con.close()
+    return jsonify({"batch_id": batch_id, "inserted": inserted, "skipped": skipped})
+
+@app.post("/import/discard/<int:batch_id>")
+def import_discard(batch_id):
+    con = database.get_db_connection(); cur = con.cursor()
+    cur.execute("DELETE FROM import_suggestions WHERE batch_id=?", (batch_id,))
+    cur.execute("DELETE FROM import_raw WHERE batch_id=?", (batch_id,))
+    cur.execute("UPDATE import_batches SET status='discarded' WHERE id=?", (batch_id,))
+    con.commit(); con.close()
+    return jsonify({"ok": True})
+
+# simple page to drive the flow
+@app.get("/plaid_import")
+def plaid_import_page():
+    return render_template("plaid_import.html")

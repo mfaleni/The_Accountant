@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Plaid staged import</title></head>
+  <body>
+    <h2>Plaid staged import</h2>
+    <p>Enter your Plaid <code>item_id</code> and a date range to fetch into staging.</p>
+    <label>Item ID <input id="plaid-item" placeholder="PLAID_ITEM_ID"></label>
+    <label>Start <input id="start" type="date"></label>
+    <label>End <input id="end" type="date"></label>
+    <button id="fetch-plaid">Fetch from Plaid</button>
+    <pre id="out"></pre>
+    <script>
+    document.getElementById('fetch-plaid').onclick = async () => {
+      const item = document.getElementById('plaid-item').value.trim();
+      const start = document.getElementById('start').value;
+      const end = document.getElementById('end').value;
+      const r = await fetch('/import/plaid/start', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ item_id: item, start_date: start, end_date: end })
+      }).then(r=>r.json());
+      if (r.batch_id){
+        const s = await fetch(`/import/suggest/${r.batch_id}`, {method:'POST'}).then(r=>r.json());
+        document.getElementById('out').innerHTML =
+          `Batch #${r.batch_id} (raw: ${r.raw_inserted}) — suggestions: ${s.suggested}\n` +
+          `Review CSV: /import/review/${r.batch_id}.csv\n` +
+          `Review JSON: /import/review/${r.batch_id}.json\n`;
+      } else {
+        document.getElementById('out').textContent = JSON.stringify(r, null, 2);
+      }
+    };
+    </script>
+  </body>
+</html>
