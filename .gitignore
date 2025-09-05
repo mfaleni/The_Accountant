@@ -16,3 +16,5 @@ accountant6_audit_*/*
 csv_dupe_by_rawdesc_latest/*
 dupe_audit_latest/*
 node_modules/
+
+seed/*.gz
