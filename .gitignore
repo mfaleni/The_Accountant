@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
+finance.db
+finance.*.db
+deleted_transactions*.db
+deleted_transactions_*/*
+duplicates_removed_*.csv
+The New Wholy Grail*.csv
+The New Wholy Grail*.xlsx
+accountant6_audit_*/*
+csv_dupe_by_rawdesc_latest/*
+dupe_audit_latest/*
+node_modules/

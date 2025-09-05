@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: the-305-accountant-6
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: |
+      # choose ONE of these start commands and delete the other:
+      # gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT
+      uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 5056
+      - key: APP_SECRET
+        generateValue: true
+      - key: PLAID_ENV
+        value: sandbox
+      - key: PLAID_CLIENT_ID
+        sync: false     # set in Render dashboard
+      - key: PLAID_SECRET
+        sync: false     # set in Render dashboard
+      - key: PLAID_REDIRECT_URI
+        value: https://the-305-accountant-6.onrender.com/plaid/oauth/callback
+      - key: PLAID_WEBHOOK_URL
+        value: https://the-305-accountant-6.onrender.com/plaid/webhook
+      - key: DATABASE_URL
+        value: sqlite:///finance.db
+    # NOTE: For production, prefer Postgres or a persistent disk; see comments below.

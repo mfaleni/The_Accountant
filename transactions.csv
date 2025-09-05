@@ -1,0 +1,1578 @@
+transaction_id,date,account,description,amount,category,new_category,new_description,Sub_category
+966,1/1/25,Mich City,Lost Continent,-25.5,Travel & Entertainment,,,Travel & Entertainment
+965,1/1/25,Mich City,Lost Continent,-6.5,Travel & Entertainment,,,Travel & Entertainment
+968,1/1/25,Mich City,Unknown,-75.0,Travel & Entertainment,,,Transport
+967,1/1/25,Mich City,Restaurant,-38.29,Travel & Entertainment,,,Travel & Entertainment
+1154,1/1/25,Mich Amex,Netflix,-26.02,Subscriptions,,,Streaming
+944,1/10/25,Mich City,Publix,-7.52,Groceries,,,Groceries
+943,1/10/25,Mich City,Publix,-5.3,Groceries,,,Groceries
+945,1/10/25,Mich City,Tumi,-26.75,General Merchandise,,,General Merchandise
+271,1/10/25,Fam Wells,Netflix,-17.53,Subscriptions,,,Streaming
+270,1/10/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1143,1/10/25,Mich Amex,AT&T,-97.49,Bills & Utilities,,,Bills & Utilities
+941,1/11/25,Mich City,Chevron,-63.89,Auto,,,Transport
+942,1/11/25,Mich City,VSI*PARKS,-55.0,Auto,,,Transport
+1314,1/11/25,Mich Bofa,Amazon,24.6,Amazon,,,Amazon
+1316,1/11/25,Mich Bofa,Amazon,35.3,Amazon,,,Amazon
+1315,1/11/25,Mich Bofa,Amazon,40.64,Amazon,,,Amazon
+1317,1/11/25,Mich Bofa,Amazon,114.28,Amazon,,,Amazon
+937,1/12/25,Mich City,CVS,-10.0,Medical,,,Medical
+940,1/12/25,Mich City,Sancocho Y Lena,-142.03,Travel & Entertainment,,,Dining
+938,1/12/25,Mich City,Omakai Sushi,-195.3,Travel & Entertainment,,,Dining
+939,1/12/25,Mich City,Santo Dulce Food,-18.19,Travel & Entertainment,,,Dining
+936,1/13/25,Mich City,Ferdandez Lareu Mari,5.6,Travel & Entertainment,,,Travel & Entertainment
+935,1/13/25,Mich City,Financial Transactions,7144.0,Financial Transactions,,,Card Payment
+267,1/13/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+269,1/13/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+268,1/13/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1312,1/13/25,Mich Bofa,Amazon,-128.35,Amazon,,,Amazon
+1311,1/13/25,Mich Bofa,Amazon,-126.59,Amazon,,,Amazon
+1313,1/13/25,Mich Bofa,Amazon,106.98,Amazon,,,Amazon
+1566,1/13/25,Mich Wells,Coinbase,-29.99,Income,,,Crypto Income
+1568,1/13/25,Mich Wells,Transfers,12700.0,Financial Transactions,,,Loan
+1567,1/13/25,Mich Wells,Zelle To Valet Seacoast Alex,-5.0,Travel & Entertainment,,,Travel & Entertainment
+932,1/14/25,Mich City,American Airlines,-122.4,Travel & Entertainment,,,Travel & Entertainment
+934,1/14/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+933,1/14/25,Mich City,Falení/Lorenzo,-5.6,Travel & Entertainment,,,Travel & Entertainment
+930,1/14/25,Mich City,Apple,-99.0,Subscriptions,,,Electronics
+931,1/14/25,Mich City,National General Insurance,-31.03,Auto,,,Services
+266,1/14/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1139,1/14/25,Mich Amex,American Airlines,5.6,Travel & Entertainment,,,Travel & Entertainment
+1140,1/14/25,Mich Amex,Restaurante Moorea,-262.56,Travel & Entertainment,,,Dining
+1141,1/14/25,Mich Amex,Swiss Intl Air Lines,-165.08,Travel & Entertainment,,,Travel & Entertainment
+1142,1/14/25,Mich Amex,Uber,-4.32,Travel & Entertainment,,,Transport
+1565,1/14/25,Mich Wells,Citi Card,5017.07,Financial Transactions,,,Card Payment
+1564,1/14/25,Mich Wells,Citi Card,7144.0,Financial Transactions,,,Card Payment
+265,1/15/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1138,1/15/25,Mich Amex,Uber,-24.33,Travel & Entertainment,,,Transport
+1137,1/15/25,Mich Amex,Uber,-2.9,Travel & Entertainment,,,Transport
+1136,1/15/25,Mich Amex,Uber,-2.79,Travel & Entertainment,,,Transport
+1135,1/15/25,Mich Amex,Uber,-0.98,Travel & Entertainment,,,Transport
+1563,1/15/25,Mich Wells,Bus Tele Svcs,6644.64,Income,,,Income
+1562,1/15/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1134,1/16/25,Mich Amex,SBB Mobile,-62.62,Travel & Entertainment,,,Travel & Entertainment
+1561,1/16/25,Mich Wells,Business Telecommunications,6687.72,Financial Transactions,,,Expense Reports
+1559,1/16/25,Mich Wells,Transfers,-5000.0,Financial Transactions,,,Loan Payment
+1560,1/16/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+929,1/17/25,Mich City,Chevron,-47.59,Auto,,,Transport
+928,1/17/25,Mich City,Nike,86.14,General Merchandise,,,General Merchandise
+264,1/17/25,Fam Wells,Car Mich,1100.0,Auto,,,Vehicle Payment
+1133,1/17/25,Mich Amex,Doral Steakhouse,-536.18,Travel & Entertainment,,,Dining
+1310,1/17/25,Mich Bofa,Amazon,-52.41,Amazon,,,Amazon
+1558,1/17/25,Mich Wells,Zelle To Sebastian Caminero,-125.0,Pelu,,,Pelu Lore Mich
+925,1/18/25,Mich City,Laz Parking,-7.0,Auto,,,Transport
+923,1/18/25,Mich City,Navarro Discount Pharmacy,-7.29,Medical,,,Medical
+924,1/18/25,Mich City,St. Christopher,-130.49,Education,,,Education
+926,1/18/25,Mich City,Gourmet,-7.76,Travel & Entertainment,,,Dining
+927,1/18/25,Mich City,Francisca Charcoal,-90.88,Travel & Entertainment,,,Dining
+1132,1/18/25,Mich Amex,Iberia,-98.0,Travel & Entertainment,,,Travel & Entertainment
+1131,1/18/25,Mich Amex,Iberia,-31.91,Travel & Entertainment,,,Travel & Entertainment
+1309,1/18/25,Mich Bofa,Amazon,-12.83,Amazon,,,Amazon
+1130,1/19/25,Mich Amex,Uber,-45.77,Travel & Entertainment,,,Transport
+962,1/2/25,Mich City,Ceviche Mix,-51.55,Travel & Entertainment,,,Dining
+963,1/2/25,Mich City,Crooked Can Brewing,-24.04,Travel & Entertainment,,,Dining
+964,1/2/25,Mich City,Hunger Street Taco,-47.12,Travel & Entertainment,,,Dining
+283,1/2/25,Fam Wells,Kukenam,-409.16,Education,,,Education
+282,1/2/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+285,1/2/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+284,1/2/25,Fam Wells,Zelle To Brough Stephen,-480.0,Travel & Entertainment,,,Travel & Entertainment
+1575,1/2/25,Mich Wells,Financial Transactions,251.48,Financial Transactions,,,Card Payment
+1577,1/2/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1576,1/2/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+919,1/20/25,Mich City,American Airlines,122.4,Travel & Entertainment,,,Travel & Entertainment
+920,1/20/25,Mich City,American Airlines,-57.4,Travel & Entertainment,,,Travel & Entertainment
+921,1/20/25,Mich City,Hilton,-717.59,Travel & Entertainment,,,Travel & Lodging
+922,1/20/25,Mich City,Hilton Tapa Bar,-38.46,Travel & Entertainment,,,Dining
+917,1/21/25,Mich City,Columbus HS,-882.71,Education,,,Education
+918,1/21/25,Mich City,Hilton,-123.0,Travel & Entertainment,,,Travel & Lodging
+261,1/21/25,Fam Wells,FPL,-271.7,Bills & Utilities,,,Bills & Utilities
+263,1/21/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+260,1/21/25,Fam Wells,WF Credit Card,734.0,Financial Transactions,,,Card Payment
+262,1/21/25,Fam Wells,Zelle To Leon Rocio,-285.0,Medical,,,Medical
+1129,1/21/25,Mich Amex,Hotel,-3408.34,Travel & Entertainment,,,Travel & Entertainment
+1557,1/21/25,Mich Wells,Citi Card,90.93,Financial Transactions,,,Card Payment
+915,1/22/25,Mich City,Unknown,-6.93,Groceries,,,Groceries
+916,1/22/25,Mich City,Paia Fish Market,-24.9,Travel & Entertainment,,,Dining
+1127,1/22/25,Mich Amex,Amazon,74.44,Amazon,,,Amazon
+1128,1/22/25,Mich Amex,Financial Transactions,8593.27,Financial Transactions,,,Card Payment
+1307,1/22/25,Mich Bofa,Amazon,35.3,Amazon,,,Amazon
+1305,1/22/25,Mich Bofa,Amazon,41.15,Amazon,,,Amazon
+1308,1/22/25,Mich Bofa,Amazon,74.79,Amazon,,,Amazon
+1306,1/22/25,Mich Bofa,Amazon,128.35,Amazon,,,Amazon
+1556,1/22/25,Mich Wells,Transfers,-2000.0,Financial Transactions,,,Loan Payment
+914,1/23/25,Mich City,Four Mountain Sports,-968.45,General Merchandise,,,General Merchandise
+913,1/23/25,Mich City,Four Mountain Sports,-18.23,General Merchandise,,,General Merchandise
+1126,1/23/25,Mich Amex,American Airlines,-35.0,Travel & Entertainment,,,Travel & Entertainment
+1553,1/23/25,Mich Wells,Wells Fargo,1200.0,Financial Transactions,,,Card Payment
+1554,1/23/25,Mich Wells,Zelle From Lisa Castro,1200.0,Travel & Entertainment,,,Travel & Entertainment
+1555,1/23/25,Mich Wells,Zelle From Lisa Castro,1.0,Travel & Entertainment,,,Travel & Entertainment
+1552,1/23/25,Mich Wells,Zelle To Domanti Marietto,-50.0,Travel & Entertainment,,,Travel & Entertainment
+911,1/24/25,Mich City,Ritz-Carlton,-5.47,Travel & Entertainment,,,Travel & Lodging
+912,1/24/25,Mich City,Four Mountain Sports,-77.45,General Merchandise,,,General Merchandise
+910,1/24/25,Mich City,Gorsuch,-1967.6,General Merchandise,,,General Merchandise
+259,1/24/25,Fam Wells,Healthy Paws,-100.03,Lucky,,,Pet Services
+258,1/24/25,Fam Wells,T-Mobile,-192.58,Bills & Utilities,,,Andre Cell
+1125,1/24/25,Mich Amex,Betula,-828.59,Travel & Entertainment,,,Dining
+1123,1/25/25,Mich Amex,Little Nell,-318.96,Travel & Entertainment,,,Dining
+1124,1/25/25,Mich Amex,StartingGate,-298.5,Travel & Entertainment,,,Dining
+909,1/26/25,Mich City,Little Nell,-157.16,Travel & Entertainment,,,Dining
+257,1/27/25,Fam Wells,Dr. Yolanda Bogarin,-35.0,Medical,,,Medical
+255,1/27/25,Fam Wells,Financial Transactions,-0.15,Financial Transactions,,,Bank Fees
+256,1/27/25,Fam Wells,Amazon,-5.25,Subscriptions,,,Cloud Services
+254,1/27/25,Fam Wells,ReadySetFund,-10.0,Travel & Entertainment,,,Travel & Entertainment
+1551,1/27/25,Mich Wells,Financial Transactions,-250.0,Financial Transactions,,,Cash
+905,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+903,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+907,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+904,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+908,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+906,1/28/25,Mich City,American Airlines,-5.6,Travel & Entertainment,,,Travel & Entertainment
+253,1/28/25,Fam Wells,Dr. Santos,-25.0,Travel & Entertainment,,,Travel & Entertainment
+1120,1/28/25,Mich Amex,Amazon,53.24,Amazon,,,Amazon
+1122,1/28/25,Mich Amex,W Aspen,-339.42,Travel & Entertainment,,,Travel & Lodging
+1121,1/28/25,Mich Amex,W Aspen,-120.56,Travel & Entertainment,,,Travel & Lodging
+902,1/29/25,Mich City,Tumi,-473.5,General Merchandise,,,General Merchandise
+252,1/29/25,Fam Wells,Car Mich,1302.06,Auto,,,Vehicle Payment
+1117,1/29/25,Mich Amex,MyPark,-5.35,Auto,,,Transport
+1118,1/29/25,Mich Amex,SMH Cashiers Office,-50.0,Travel & Entertainment,,,Travel & Entertainment
+1119,1/29/25,Mich Amex,W Aspen,-23.67,Travel & Entertainment,,,Travel & Lodging
+961,1/3/25,Mich City,Wawa,-22.0,Travel & Entertainment,,,Transport
+1153,1/3/25,Mich Amex,Unknown,-96.89,General Merchandise,,,General Merchandise
+1325,1/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+901,1/30/25,Mich City,CVS,-39.5,Medical,,,Medical
+250,1/30/25,Fam Wells,Transfers,-55.0,Andre,,,Andre Expenses
+251,1/30/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1116,1/30/25,Mich Amex,W Aspen,23.67,Travel & Entertainment,,,Travel & Lodging
+1115,1/30/25,Mich Amex,W Aspen,120.56,Travel & Entertainment,,,Travel & Lodging
+1304,1/30/25,Mich Bofa,Amazon,12.83,Amazon,,,Amazon
+1303,1/30/25,Mich Bofa,Amazon,-17.37,Amazon,,,Amazon
+898,1/31/25,Mich City,Chevron,-3.1,Auto,,,Transport
+900,1/31/25,Mich City,City of Miami Beach,-8.5,Auto,,,Transport
+899,1/31/25,Mich City,City of Miami Beach,-4.5,Auto,,,Transport
+897,1/31/25,Mich City,Publix,-21.98,Groceries,,,Groceries
+248,1/31/25,Fam Wells,Financial Transactions,0.09,Financial Transactions,,,Bank Fees
+249,1/31/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+1300,1/31/25,Mich Bofa,Amazon,-21.39,Amazon,,,Amazon
+1301,1/31/25,Mich Bofa,Amazon,-237.18,Amazon,,,Amazon
+1302,1/31/25,Mich Bofa,Amazon,-74.89,Amazon,,,Amazon
+1550,1/31/25,Mich Wells,BTS,6644.64,Income,,,Income
+1549,1/31/25,Mich Wells,BTS,12257.15,Income,,,Income
+1546,1/31/25,Mich Wells,Financial Transactions,0.01,Financial Transactions,,,Bank Fees
+1548,1/31/25,Mich Wells,Transfers,-3755.35,Financial Transactions,,,Loan Payment
+1547,1/31/25,Mich Wells,Transfers,-8500.0,Financial Transactions,,,Loan Payment
+960,1/4/25,Mich City,Shell,-75.64,Auto,,,Transport
+957,1/4/25,Mich City,TST,-21.76,Travel & Entertainment,,,Dining
+959,1/4/25,Mich City,TST,-283.35,Travel & Entertainment,,,Dining
+958,1/4/25,Mich City,TST,-164.74,Travel & Entertainment,,,Dining
+1152,1/4/25,Mich Amex,U-Haul,-45.96,Travel & Entertainment,,,Transport
+956,1/5/25,Mich City,Chevron,-67.69,Auto,,,Transport
+954,1/5/25,Mich City,Target,107.48,General Merchandise,,,General Merchandise
+955,1/5/25,Mich City,Walmart,118.91,General Merchandise,,,General Merchandise
+953,1/6/25,Mich City,H&M,-149.77,General Merchandise,,,General Merchandise
+952,1/6/25,Mich City,STC,-1302.0,Travel & Entertainment,,,Travel & Entertainment
+951,1/6/25,Mich City,Beirut,-111.47,Travel & Entertainment,,,Dining
+276,1/6/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+278,1/6/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+279,1/6/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+280,1/6/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+277,1/6/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+281,1/6/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1148,1/6/25,Mich Amex,Amazon,-276.37,Amazon,,,Amazon
+1149,1/6/25,Mich Amex,Amazon,276.37,Amazon,,,Amazon
+1150,1/6/25,Mich Amex,Unknown,-303.13,General Merchandise,,,General Merchandise
+1151,1/6/25,Mich Amex,Restaurant,-16.66,Travel & Entertainment,,,Travel & Entertainment
+1324,1/6/25,Mich Bofa,Amazon,-765.12,Amazon,,,Amazon
+1323,1/6/25,Mich Bofa,Financial Transactions,-42.52,Financial Transactions,,,Bank Fees
+1573,1/6/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1572,1/6/25,Mich Wells,Chase,96.85,Financial Transactions,,,Card Payment
+1574,1/6/25,Mich Wells,Zelle To Mich Regions,-1080.0,Financial Transactions,,,Transfer
+950,1/7/25,Mich City,Robeks,-123.48,Travel & Entertainment,,,Dining
+274,1/7/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+275,1/7/25,Fam Wells,Fernandez M,-465.86,Aditional Expenses,,,Aditional Expenses
+1146,1/7/25,Mich Amex,Amazon,70.28,Amazon,,,Amazon
+1145,1/7/25,Mich Amex,Amazon,78.41,Amazon,,,Amazon
+1147,1/7/25,Mich Amex,StockX,-919.08,General Merchandise,,,General Merchandise
+1322,1/7/25,Mich Bofa,Amazon,-35.3,Amazon,,,Amazon
+1321,1/7/25,Mich Bofa,Amazon,69.5,Amazon,,,Amazon
+1571,1/7/25,Mich Wells,Zelle To Psicologo,-100.0,Medical,,,Psicologo
+949,1/8/25,Mich City,Bitcoin.Tax,-49.95,Crypto Income,,,Services
+273,1/8/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1144,1/8/25,Mich Amex,The Wine To Buy,-211.57,Liquor Store,,,Liquor Store
+1570,1/8/25,Mich Wells,Zelle To Psicologo Dr Arturo,-100.0,Medical,,,Psicologo
+947,1/9/25,Mich City,Bark For C,-101.05,Lucky,,,Pet Services
+948,1/9/25,Mich City,EL CAR WASH,-10.0,Auto,,,Vehicle Maintenance
+946,1/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+272,1/9/25,Fam Wells,ATT,-14.92,Bills & Utilities,,,Bills & Utilities
+1319,1/9/25,Mich Bofa,Amazon,-24.6,Amazon,,,Amazon
+1318,1/9/25,Mich Bofa,Amazon,-154.92,Amazon,,,Amazon
+1320,1/9/25,Mich Bofa,Amazon,-284.58,Amazon,,,Amazon
+1569,1/9/25,Mich Wells,Zelle To Ana Gomez,-100.0,Travel & Entertainment,,,Travel & Entertainment
+1343,12/11/24,Mich Bofa,Amazon,146.14,Amazon,,,Amazon
+1342,12/13/24,Mich Bofa,Amazon,-373.43,Amazon,,,Amazon
+1340,12/16/24,Mich Bofa,Amazon,-108.62,Amazon,,,Amazon
+1341,12/16/24,Mich Bofa,Amazon,-31.17,Amazon,,,Amazon
+1339,12/17/24,Mich Bofa,Amazon,-17.11,Amazon,,,Amazon
+1338,12/17/24,Mich Bofa,Amazon,-155.98,Amazon,,,Amazon
+1336,12/18/24,Mich Bofa,Amazon,-235.37,Amazon,,,Amazon
+1337,12/18/24,Mich Bofa,Amazon,22.84,Amazon,,,Amazon
+1335,12/19/24,Mich Bofa,Amazon,24.34,Amazon,,,Amazon
+1334,12/19/24,Mich Bofa,Amazon,108.62,Amazon,,,Amazon
+1333,12/21/24,Mich Bofa,Amazon,-39.56,Amazon,,,Amazon
+1331,12/23/24,Mich Bofa,Amazon,-106.98,Amazon,,,Amazon
+1330,12/23/24,Mich Bofa,Amazon,491.13,Amazon,,,Amazon
+1332,12/23/24,Mich Bofa,Amazon,-40.55,Amazon,,,Amazon
+1329,12/24/24,Mich Bofa,Amazon,-38.51,Amazon,,,Amazon
+1328,12/27/24,Mich Bofa,Amazon,-149.79,Amazon,,,Amazon
+1327,12/30/24,Mich Bofa,Amazon,-30.68,Amazon,,,Amazon
+1326,12/30/24,Mich Bofa,Amazon,-85.59,Amazon,,,Amazon
+1346,12/7/24,Mich Bofa,Amazon,-21.59,Amazon,,,Amazon
+1345,12/7/24,Mich Bofa,Amazon,146.14,Amazon,,,Amazon
+1344,12/9/24,Mich Bofa,Amazon,-28.88,Amazon,,,Amazon
+894,2/1/25,Mich City,Chevron,-64.59,Auto,,,Transport
+895,2/1/25,Mich City,City of Miami Beach,-2.5,Auto,,,Transport
+896,2/1/25,Mich City,Meat Club Market,-135.0,Groceries,,,Groceries
+1114,2/1/25,Mich Amex,Netflix,-26.02,Subscriptions,,,Streaming
+883,2/10/25,Mich City,LS MOTOR SHOP,-100.0,Auto,,,Vehicle Maintenance
+884,2/10/25,Mich City,Miami Airp Books,-27.24,General Merchandise,,,General Merchandise
+237,2/10/25,Fam Wells,ATT,-14.93,Bills & Utilities,,,Bills & Utilities
+236,2/10/25,Fam Wells,Netflix,-17.53,Subscriptions,,,Streaming
+235,2/10/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+1108,2/10/25,Mich Amex,AT&T,-97.49,Bills & Utilities,,,Bills & Utilities
+1535,2/10/25,Mich Wells,Zelle From Lenin Cardenas,765.0,Travel & Entertainment,,,Travel & Entertainment
+1534,2/10/25,Mich Wells,Zelle From Lenin Cardenas,100.0,Travel & Entertainment,,,Travel & Entertainment
+1533,2/10/25,Mich Wells,Zelle To Padovan Samuel,-15.0,Travel & Entertainment,,,Travel & Entertainment
+882,2/11/25,Mich City,Spirit,-69.95,Travel & Entertainment,,,Travel & Entertainment
+234,2/11/25,Fam Wells,Transfers,-60.0,Education,,,Education
+233,2/11/25,Fam Wells,Transfers,-134.0,Medical,,,Medical
+1294,2/11/25,Mich Bofa,Amazon,149.79,Amazon,,,Amazon
+1532,2/11/25,Mich Wells,Coinbase,-29.99,Travel & Entertainment,,,Travel & Entertainment
+232,2/12/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+1531,2/12/25,Mich Wells,Transfers,-1000.0,Financial Transactions,,,Loan Payment
+881,2/13/25,Mich City,NATL GEN INS,-31.03,Auto,,,Insurance
+880,2/13/25,Mich City,Financial Transactions,8571.33,Financial Transactions,,,Card Payment
+1530,2/13/25,Mich Wells,Transfers,9500.0,Financial Transactions,,,Loan
+878,2/14/25,Mich City,Mia Sushi Maki,-8.11,Travel & Entertainment,,,Dining
+877,2/14/25,Mich City,Tatel,-484.79,Travel & Entertainment,,,Dining
+876,2/14/25,Mich City,TATEL,-114.93,Travel & Entertainment,,,Dining
+879,2/14/25,Mich City,Gusto,-191.52,Travel & Entertainment,,,Dining
+1107,2/14/25,Mich Amex,UM MY CHART,-75.0,Medical,,,Medical
+1529,2/14/25,Mich Wells,BUS TELE SVCS,6644.64,Income,,,Income
+1528,2/14/25,Mich Wells,Financial Transactions,654.31,Financial Transactions,,,Card Payment
+1527,2/14/25,Mich Wells,Financial Transactions,8571.33,Financial Transactions,,,Card Payment
+870,2/15/25,Mich City,Cappuccino,-31.81,Travel & Entertainment,,,Dining
+875,2/15/25,Mich City,Chevron,-66.76,Auto,,,Transport
+869,2/15/25,Mich City,La Mallorquina,-13.35,Travel & Entertainment,,,Dining
+874,2/15/25,Mich City,LAZ Parking,-6.0,Auto,,,Transport
+873,2/15/25,Mich City,Oysho,-123.29,General Merchandise,,,General Merchandise
+872,2/15/25,Mich City,Rte Marisqueria El Bar,-89.38,Travel & Entertainment,,,Dining
+868,2/15/25,Mich City,Sancocho y Lena Steak,-71.34,Travel & Entertainment,,,Dining
+871,2/15/25,Mich City,Taberna Los Gallos,-79.07,Travel & Entertainment,,,Dining
+863,2/16/25,Mich City,Adolfo Suárez Madrid-Barajas,-7.05,Travel & Entertainment,,,Taxi
+867,2/16/25,Mich City,Chevron,-8.82,Travel & Entertainment,,,Gas
+865,2/16/25,Mich City,Emporio del Grano,-14.62,Travel & Entertainment,,,Dining
+862,2/16/25,Mich City,Marathon Petroleum,-2.9,Travel & Entertainment,,,Gas
+864,2/16/25,Mich City,Marathon Petroleum,-7.89,Travel & Entertainment,,,Gas
+866,2/16/25,Mich City,Labelle Brewing Co,-46.54,Travel & Entertainment,,,Dining
+1105,2/16/25,Mich Amex,7-Eleven,-17.56,General Merchandise,,,General Merchandise
+1106,2/16/25,Mich Amex,Marathon Petroleum,-10.12,Travel & Entertainment,,,Gas
+855,2/17/25,Mich City,Restaurant,-4.21,Travel & Entertainment,,,Travel & Entertainment
+854,2/17/25,Mich City,Restaurant,-1.05,Travel & Entertainment,,,Travel & Entertainment
+856,2/17/25,Mich City,Casa del Caffè,-14.2,Travel & Entertainment,,,Dining
+857,2/17/25,Mich City,Charge,-49.74,Travel & Entertainment,,,Travel & Entertainment
+859,2/17/25,Mich City,Hotel Milano,-106.2,Travel & Entertainment,,,Travel & Lodging
+860,2/17/25,Mich City,Labcorp,-48.87,Medical,,,Medical
+858,2/17/25,Mich City,Digestive Medicine,-62.81,Medical,,,Medical
+861,2/17/25,Mich City,Adrian Fish Market,-252.89,Travel & Entertainment,,,Dining
+1293,2/17/25,Mich Bofa,Amazon,-561.61,Amazon,,,Amazon
+1292,2/17/25,Mich Bofa,Financial Transactions,500.0,Financial Transactions,,,Card Payment
+1291,2/17/25,Mich Bofa,Financial Transactions,3000.0,Financial Transactions,,,Card Payment
+852,2/18/25,Mich City,City Bar,-14.5,Travel & Entertainment,,,Dining
+851,2/18/25,Mich City,City Bar,-3.05,Travel & Entertainment,,,Dining
+849,2/18/25,Mich City,Dolce Bassano,-15.45,Travel & Entertainment,,,Dining
+850,2/18/25,Mich City,Tag Renewal,-53.65,Auto,,,Parking
+848,2/18/25,Mich City,SIS,-3.15,Travel & Entertainment,,,Travel & Entertainment
+853,2/18/25,Mich City,Dr. Santos,-25.0,Medical,,,Services
+230,2/18/25,Fam Wells,Financial Transactions,195.83,Financial Transactions,,,Refunds
+228,2/18/25,Fam Wells,Financial Transactions,-5.0,Financial Transactions,,,Bank Fees
+229,2/18/25,Fam Wells,Montegrappa,-105.15,Travel & Entertainment,,,Taxi
+231,2/18/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1290,2/18/25,Mich Bofa,Amazon,158.6,Amazon,,,Amazon
+1289,2/18/25,Mich Bofa,Amazon,237.18,Amazon,,,Amazon
+1523,2/18/25,Mich Wells,Bank of America,500.0,Financial Transactions,,,Card Payment
+1522,2/18/25,Mich Wells,Bank of America,3000.0,Financial Transactions,,,Card Payment
+1526,2/18/25,Mich Wells,Transfers,3500.0,Financial Transactions,,,Loan
+1525,2/18/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1524,2/18/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+846,2/19/25,Mich City,City Bar,-8.92,Travel & Entertainment,,,Dining
+847,2/19/25,Mich City,Ristorante Bar Agora',-188.64,Travel & Entertainment,,,Dining
+227,2/19/25,Fam Wells,FPL,-205.19,Bills & Utilities,,,Bills & Utilities
+226,2/19/25,Fam Wells,Car Mich,1100.0,Auto,,,Vehicle Payment
+893,2/2/25,Mich City,Restaurant,-12.97,Travel & Entertainment,,,Travel & Entertainment
+845,2/20/25,Mich City,Bar Autorimessa,-88.41,Travel & Entertainment,,,Dining
+844,2/20/25,Mich City,Darsena,-47.08,Travel & Entertainment,,,Taxi
+842,2/20/25,Mich City,Darsena,-31.39,Travel & Entertainment,,,Taxi
+843,2/20/25,Mich City,Trattoria Da Gioia,-42.19,Travel & Entertainment,,,Dining
+1287,2/20/25,Mich Bofa,Amazon,-51.35,Amazon,,,Amazon
+1286,2/20/25,Mich Bofa,Amazon,-582.0,Amazon,,,Amazon
+1285,2/20/25,Mich Bofa,Amazon,-85.38,Amazon,,,Amazon
+1288,2/20/25,Mich Bofa,Amazon,-342.35,Amazon,,,Amazon
+1521,2/20/25,Mich Wells,Zelle To Sebastian Caminero,-150.0,Pelu,,,Pelu Lore Mich
+841,2/21/25,Mich City,DFS Italia,-16.77,General Merchandise,,,General Merchandise
+840,2/21/25,Mich City,Stella Shop,-206.48,General Merchandise,,,General Merchandise
+225,2/21/25,Fam Wells,Financial Transactions,734.0,Financial Transactions,,,Card Payment
+1104,2/21/25,Mich Amex,Jack Duggan's Pub,-41.21,Travel & Entertainment,,,Dining
+832,2/22/25,Mich City,C.Coffee Lovers,-2.63,Travel & Entertainment,,,Dining
+836,2/22/25,Mich City,Globus,-183.97,General Merchandise,,,General Merchandise
+837,2/22/25,Mich City,Hotel Adler,-222.99,Travel & Entertainment,,,Travel & Lodging
+839,2/22/25,Mich City,Lufthansa,-63.05,Travel & Entertainment,,,Travel & Entertainment
+833,2/22/25,Mich City,Parafarmacrimi,-12.47,Medical,,,Medical
+835,2/22/25,Mich City,Scheerer Optik,-52.4,Medical,,,Medical
+834,2/22/25,Mich City,Uber,-33.62,Travel & Entertainment,,,Taxi
+838,2/22/25,Mich City,Uber,-16.72,Travel & Entertainment,,,Taxi
+1103,2/22/25,Mich Amex,Financial Transactions,8886.7,Financial Transactions,,,Card Payment
+1282,2/22/25,Mich Bofa,Amazon,32.09,Amazon,,,Amazon
+1283,2/22/25,Mich Bofa,Amazon,53.49,Amazon,,,Amazon
+1284,2/22/25,Mich Bofa,Amazon,85.38,Amazon,,,Amazon
+829,2/23/25,Mich City,Brasserie Federal,-80.83,Travel & Entertainment,,,Dining
+830,2/23/25,Mich City,Coop,-237.09,Travel & Entertainment,,,Groceries
+828,2/23/25,Mich City,Elvetino,-32.56,Travel & Entertainment,,,Dining
+831,2/23/25,Mich City,Le Gitan,-250.86,Travel & Entertainment,,,Dining
+1100,2/23/25,Mich Amex,Marriott,-366.82,Travel & Entertainment,,,Travel & Lodging
+1099,2/23/25,Mich Amex,Marriott,-11.71,Travel & Entertainment,,,Travel & Lodging
+1101,2/23/25,Mich Amex,Bayard,-816.14,General Merchandise,,,General Merchandise
+1102,2/23/25,Mich Amex,SBB,-27.87,Travel & Entertainment,,,Travel & Entertainment
+823,2/24/25,Mich City,Coop,-48.22,Travel & Entertainment,,,Groceries
+826,2/24/25,Mich City,GGB,-565.28,Travel & Entertainment,,,Travel & Entertainment
+822,2/24/25,Mich City,Hotel Gornergrat-Dorf,-10.59,Travel & Entertainment,,,Travel & Lodging
+825,2/24/25,Mich City,Hotel Schweizerhof,-278.74,Travel & Entertainment,,,Travel & Lodging
+824,2/24/25,Mich City,Restaurant Findlerhof,-250.86,Travel & Entertainment,,,Dining
+827,2/24/25,Mich City,Taxi Christophe,-30.33,Travel & Entertainment,,,Taxi
+224,2/24/25,Fam Wells,Healthy Paws,-100.03,Lucky,,,Pet Services
+223,2/24/25,Fam Wells,T-Mobile,-194.66,Bills & Utilities,,,Andre Cell
+1098,2/24/25,Mich Amex,Kjus,-961.93,General Merchandise,,,General Merchandise
+817,2/25/25,Mich City,CasaMia,-59.21,Travel & Entertainment,,,Dining
+820,2/25/25,Mich City,Coop,-69.71,Travel & Entertainment,,,Groceries
+814,2/25/25,Mich City,Glacier Sport,-33.4,General Merchandise,,,General Merchandise
+819,2/25/25,Mich City,Iglu-Dorf,-67.03,Travel & Entertainment,,,Dining
+818,2/25/25,Mich City,Osteria Bella Italia,-63.12,Travel & Entertainment,,,Dining
+821,2/25/25,Mich City,Restaurant zum See,-418.95,Travel & Entertainment,,,Dining
+816,2/25/25,Mich City,Schmuggler,-43.57,Travel & Entertainment,,,Dining
+815,2/25/25,Mich City,Taxi 24 Lombardo,-33.52,Travel & Entertainment,,,Taxi
+813,2/25/25,Mich City,ZBAG Schluhmatte,-12.29,Travel & Entertainment,,,Travel & Entertainment
+221,2/25/25,Fam Wells,Financial Transactions,-0.15,Financial Transactions,,,Bank Fees
+222,2/25/25,Fam Wells,Amazon Prime,-5.25,Subscriptions,,,Cloud Services
+807,2/26/25,Mich City,Bäckerei Fuchs,-8.42,Travel & Entertainment,,,Dining
+808,2/26/25,Mich City,Restaurant,-38.16,Travel & Entertainment,,,Travel & Entertainment
+809,2/26/25,Mich City,Hirschberg,-68.46,Travel & Entertainment,,,Travel & Entertainment
+806,2/26/25,Mich City,Müller Handels,-1.74,Travel & Entertainment,,,Groceries
+810,2/26/25,Mich City,Osteria Bella Italia,-179.49,Travel & Entertainment,,,Dining
+811,2/26/25,Mich City,Restaurant Adler,-190.8,Travel & Entertainment,,,Dining
+812,2/26/25,Mich City,Taxi Christophe,-33.45,Travel & Entertainment,,,Taxi
+220,2/26/25,Fam Wells,Restaurant,-10.0,Travel & Entertainment,,,Travel & Entertainment
+1281,2/26/25,Mich Bofa,Amazon,273.88,Amazon,,,Amazon
+798,2/27/25,Mich City,B MAINENTE GMBH,-85.26,Travel & Entertainment,,,Travel & Entertainment
+802,2/27/25,Mich City,American Airlines,-78.4,Travel & Entertainment,,,Travel & Entertainment
+800,2/27/25,Mich City,American Airlines,-68.0,Travel & Entertainment,,,Travel & Entertainment
+805,2/27/25,Mich City,American Airlines,-78.4,Travel & Entertainment,,,Travel & Entertainment
+804,2/27/25,Mich City,American Airlines,-68.0,Travel & Entertainment,,,Travel & Entertainment
+803,2/27/25,Mich City,American Airlines,-78.4,Travel & Entertainment,,,Travel & Entertainment
+801,2/27/25,Mich City,American Airlines,-68.0,Travel & Entertainment,,,Travel & Entertainment
+797,2/27/25,Mich City,Panoramic Gourmet,-65.63,Travel & Entertainment,,,Dining
+799,2/27/25,Mich City,Restaurant Engiadina,-224.37,Travel & Entertainment,,,Dining
+796,2/27/25,Mich City,Taxi Botelho,-40.39,Travel & Entertainment,,,Taxi
+795,2/27/25,Mich City,Taxi Engadina,-26.92,Travel & Entertainment,,,Taxi
+794,2/27/25,Mich City,Restaurant,-21.66,Travel & Entertainment,,,Travel & Entertainment
+1280,2/27/25,Mich Bofa,Amazon,-26.94,Amazon,,,Amazon
+793,2/28/25,Mich City,Badrutt's Restaurants,-300.7,Travel & Entertainment,,,Dining
+790,2/28/25,Mich City,Bergrestaurant Corvigl,-113.88,Travel & Entertainment,,,Dining
+791,2/28/25,Mich City,Boutique Hotel Monopol,-117.69,Travel & Entertainment,,,Travel & Lodging
+787,2/28/25,Mich City,Coop,-3.7,Travel & Entertainment,,,Groceries
+786,2/28/25,Mich City,Coop,-2.13,Travel & Entertainment,,,Groceries
+788,2/28/25,Mich City,Hotel Steffani,-25.78,Travel & Entertainment,,,Dining
+789,2/28/25,Mich City,La Stalla,-108.72,Travel & Entertainment,,,Dining
+792,2/28/25,Mich City,Skiservice Corvatsch,-192.78,General Merchandise,,,General Merchandise
+218,2/28/25,Fam Wells,Financial Transactions,0.08,Financial Transactions,,,Bank Fees
+219,2/28/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+1519,2/28/25,Mich Wells,BUS TELE SVCS,6644.64,Income,,,Income
+1518,2/28/25,Mich Wells,BUS TELE SVCS,9219.67,Income,,,Income
+1516,2/28/25,Mich Wells,Financial Transactions,0.03,Financial Transactions,,,Bank Fees
+1520,2/28/25,Mich Wells,BUSINESS TELECOMMUNICATIONS SE,4822.28,Financial Transactions,,,Expense Reports
+1517,2/28/25,Mich Wells,Transfers,-4800.0,Financial Transactions,,,Loan Payment
+242,2/3/25,Fam Wells,Kukenam,-409.16,Education,,,Education
+243,2/3/25,Fam Wells,Water Bill,-304.11,Bills & Utilities,,,Bills & Utilities
+241,2/3/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+247,2/3/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+245,2/3/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+246,2/3/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+244,2/3/25,Fam Wells,Zelle To Romero Yelitza Costurera Doral,-48.0,Clothing,,,Costurera
+1298,2/3/25,Mich Bofa,Amazon,-190.69,Amazon,,,Amazon
+1299,2/3/25,Mich Bofa,Amazon,-53.49,Amazon,,,Amazon
+1297,2/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+1543,2/3/25,Mich Wells,Apple Card,934.42,Financial Transactions,,,Card Payment
+1545,2/3/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1544,2/3/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+1540,2/4/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1542,2/4/25,Mich Wells,Coinbase,14401.13,Income,,,Crypto Income
+1541,2/4/25,Mich Wells,Transfers,-14269.37,Financial Transactions,,,Loan Payment
+238,2/5/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+240,2/5/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+239,2/5/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1296,2/5/25,Mich Bofa,Amazon,21.39,Amazon,,,Amazon
+1538,2/5/25,Mich Wells,Car Mich,932.9,Auto,,,Vehicle Payment
+1539,2/5/25,Mich Wells,Transfers,500.0,Financial Transactions,,,Loan
+1295,2/6/25,Mich Bofa,Financial Transactions,-57.95,Financial Transactions,,,Bank Fees
+1537,2/6/25,Mich Wells,Transfers,1000.0,Financial Transactions,,,Loan
+892,2/7/25,Mich City,Kokai Sushi & Lounge,-283.53,Travel & Entertainment,,,Dining
+1113,2/7/25,Mich Amex,American Airlines,-35.0,Travel & Entertainment,,,Travel & Entertainment
+1536,2/7/25,Mich Wells,Zelle From Moe Nathan,100.0,Travel & Entertainment,,,Travel & Entertainment
+890,2/8/25,Mich City,Chevron,-22.24,Auto,,,Transport
+888,2/8/25,Mich City,Haagen Dazs,-22.88,Travel & Entertainment,,,Dining
+889,2/8/25,Mich City,MOTOR SHOP CENTER,-282.94,Auto,,,Vehicle Maintenance
+891,2/8/25,Mich City,Total Wine,-173.15,Liquor Store,,,Liquor Store
+1111,2/8/25,Mich Amex,EL CAR WASH,-21.38,Auto,,,Vehicle Maintenance
+1112,2/8/25,Mich Amex,MB-PARKING,-4.35,Auto,,,Transport
+885,2/9/25,Mich City,Experian,-21.95,Financial Transactions,,,Financial Services
+886,2/9/25,Mich City,Publix,-59.09,Groceries,,,Groceries
+887,2/9/25,Mich City,Grazianos Market,-93.39,Travel & Entertainment,,,Dining
+1109,2/9/25,Mich Amex,Parking,-71.95,Travel & Entertainment,,,Travel & Entertainment
+1110,2/9/25,Mich Amex,UM MY CHART,-75.0,Medical,,,Medical
+781,3/1/25,Mich City,Restaurant,-1.25,Travel & Entertainment,,,Dining
+782,3/1/25,Mich City,Caffe Spettacolo,-5.68,Travel & Entertainment,,,Dining
+783,3/1/25,Mich City,Hotel Arte + Pizzeria St. Moritz,-1048.57,Travel & Entertainment,,,Travel & Lodging
+785,3/1/25,Mich City,Osteria Italiana Milano,-145.92,Travel & Entertainment,,,Dining
+780,3/1/25,Mich City,Taxi St. Morit,-27.84,Travel & Entertainment,,,Taxi
+784,3/1/25,Mich City,Uber,-41.0,Travel & Entertainment,,,Taxi
+1096,3/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Streaming
+1097,3/1/25,Mich Amex,Westin,-366.89,Travel & Entertainment,,,Travel & Lodging
+737,3/10/25,Mich City,Grazianos Market,-48.94,Groceries,,,Groceries
+207,3/10/25,Fam Wells,Navarro Discount,-5.34,Groceries,,,Groceries
+205,3/10/25,Fam Wells,Financial Transactions,-3.0,Financial Transactions,,,Bank Fees
+206,3/10/25,Fam Wells,Financial Transactions,-63.5,Financial Transactions,,,Cash
+204,3/10/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+203,3/10/25,Fam Wells,Transfers,-148.41,Aditional Expenses,,,Aditional Expenses
+1087,3/10/25,Mich Amex,Clear,199.0,Travel & Entertainment,,,Travel & Entertainment
+1088,3/10/25,Mich Amex,Clear,199.0,Travel & Entertainment,,,Travel & Entertainment
+1509,3/10/25,Mich Wells,Transfers,-6224.0,Financial Transactions,,,Savings
+1508,3/10/25,Mich Wells,Zelle To Hermilio,-40.0,Auto,,,Transport
+1507,3/10/25,Mich Wells,Zelle To Supply Services Miami Fabio Lavac,-100.0,Auto,,,Car Wash
+734,3/11/25,Mich City,Global Blue,40.04,General Merchandise,,,General Merchandise
+735,3/11/25,Mich City,Global Blue,59.08,General Merchandise,,,General Merchandise
+736,3/11/25,Mich City,Global Blue,68.1,General Merchandise,,,General Merchandise
+202,3/11/25,Fam Wells,CVS,-10.0,Medical,,,Medical
+1084,3/11/25,Mich Amex,AT&T,-117.47,Bills & Utilities,,,Utilities
+1085,3/11/25,Mich Amex,El Car Wash,33.41,Auto,,,Vehicle Maintenance
+1086,3/11/25,Mich Amex,Monimoto,-49.0,Auto,,,Services
+1506,3/11/25,Mich Wells,Coinbase,-29.99,Income,,,Crypto Income
+732,3/12/25,Mich City,MPA PARKING,-10.25,Auto,,,Transport
+731,3/12/25,Mich City,MPA PARKING,-3.75,Auto,,,Transport
+730,3/12/25,Mich City,Financial Transactions,8694.71,Financial Transactions,,,Card Payment
+733,3/12/25,Mich City,Michaels,-27.72,Travel & Entertainment,,,Dining
+200,3/12/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+201,3/12/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+1083,3/12/25,Mich Amex,EZ Contacts,-588.17,Medical,,,Medical
+1275,3/12/25,Mich Bofa,Amazon,-308.11,Amazon,,,Amazon
+1274,3/12/25,Mich Bofa,Amazon,-597.86,Amazon,,,Amazon
+1273,3/12/25,Mich Bofa,Amazon,-29.94,Amazon,,,Amazon
+1505,3/12/25,Mich Wells,Transfers,13220.0,Financial Transactions,,,Loan
+729,3/13/25,Mich City,NATL GEN INS,-33.12,Auto,,,Insurance
+199,3/13/25,Fam Wells,Zelle To Gustavo Lugus Peluquero,-150.0,Pelu,,,Andre Pelu
+198,3/13/25,Fam Wells,Zelle To Professional Peluquero Lugus,-100.0,Pelu,,,Andre Pelu
+1272,3/13/25,Mich Bofa,Amazon,-27.81,Amazon,,,Amazon
+1269,3/13/25,Mich Bofa,Amazon,-21.35,Amazon,,,Amazon
+1270,3/13/25,Mich Bofa,F1,0.93,Travel & Entertainment,,,Travel & Entertainment
+1271,3/13/25,Mich Bofa,F1,-110.49,Travel & Entertainment,,,Travel & Entertainment
+1504,3/13/25,Mich Wells,Financial Transactions,4523.58,Financial Transactions,,,Card Payment
+1503,3/13/25,Mich Wells,Financial Transactions,8694.71,Financial Transactions,,,Card Payment
+1502,3/14/25,Mich Wells,BUS TELE SVCS,6644.64,Income,,,Income
+1501,3/14/25,Mich Wells,Zelle To Sebastian Caminero,-100.0,Pelu,,,Pelu Lore Mich
+1268,3/15/25,Mich Bofa,Amazon,-86.6,Amazon,,,Amazon
+725,3/16/25,Mich City,Dolores But You Can,-145.16,Travel & Entertainment,,,Dining
+728,3/16/25,Mich City,Hampton Social,-185.15,Travel & Entertainment,,,Dining
+726,3/16/25,Mich City,Hampton Social,-63.0,Travel & Entertainment,,,Dining
+727,3/16/25,Mich City,Winn-Dixie,-83.55,Groceries,,,Groceries
+1082,3/16/25,Mich Amex,Miami Beach Marina,-428.25,Travel & Entertainment,,,Travel & Entertainment
+722,3/17/25,Mich City,American Airlines,-252.4,Travel & Entertainment,,,Travel & Entertainment
+723,3/17/25,Mich City,American Airlines,-252.4,Travel & Entertainment,,,Travel & Entertainment
+721,3/17/25,Mich City,COLUMBUS HS,-928.08,Education,,,Education
+724,3/17/25,Mich City,Uber,-15.61,Travel & Entertainment,,,Taxi
+197,3/17/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+196,3/17/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+1081,3/17/25,Mich Amex,Ski Aspen,-1821.08,General Merchandise,,,General Merchandise
+1267,3/17/25,Mich Bofa,Amazon,-40.65,Amazon,,,Amazon
+1500,3/17/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1498,3/17/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+1496,3/17/25,Mich Wells,Zelle To Gabriel,-5.0,Travel & Entertainment,,,Travel & Entertainment
+1499,3/17/25,Mich Wells,Zelle To Omnijr Parking Llc,-20.0,Auto,,,Transport
+1495,3/17/25,Mich Wells,Zelle To Tip Orando,-20.0,Travel & Entertainment,,,Travel & Entertainment
+1497,3/17/25,Mich Wells,Zelle To Tren Tip,-20.0,Travel & Entertainment,,,Travel & Entertainment
+720,3/18/25,Mich City,Casa,-250.91,Travel & Entertainment,,,Dining
+193,3/18/25,Fam Wells,Car Mich,-1100.0,Auto,,,Vehicle Payment
+195,3/18/25,Fam Wells,Transfers,-99.0,Andre,,,Andre Expenses
+194,3/18/25,Fam Wells,Walmart,-30.99,General Merchandise,,,General Merchandise
+1077,3/18/25,Mich Amex,Peter Glenn Ski,-176.55,Amazon,,,General Merchandise
+1078,3/18/25,Mich Amex,Google,-9.05,Subscriptions,,,Subscriptions
+1079,3/18/25,Mich Amex,National Car,-270.98,Travel & Entertainment,,,Travel & Lodging
+1080,3/18/25,Mich Amex,RueLaLa,-951.18,General Merchandise,,,General Merchandise
+1266,3/18/25,Mich Bofa,Amazon,86.6,Amazon,,,Amazon
+1494,3/18/25,Mich Wells,Zelle To Orlando Tip Orlando,-5.0,Travel & Entertainment,,,Travel & Entertainment
+718,3/19/25,Mich City,Coral Gables,-10.77,Auto,,,Transport
+717,3/19/25,Mich City,Coral Gables,-8.44,Auto,,,Transport
+716,3/19/25,Mich City,Coral Gables,-3.77,Auto,,,Transport
+719,3/19/25,Mich City,MPA Parking,-12.5,Auto,,,Transport
+715,3/19/25,Mich City,Uber,-224.83,Travel & Entertainment,,,Taxi
+191,3/19/25,Fam Wells,FPL,-206.37,Bills & Utilities,,,Bills & Utilities
+192,3/19/25,Fam Wells,Zelle To Romero Yelitza Costurera Doral,-60.0,Clothing,,,Costurera
+774,3/2/25,Mich City,ALEHOP,-52.11,General Merchandise,,,General Merchandise
+775,3/2/25,Mich City,BAR MANERO,-145.92,Travel & Entertainment,,,Dining
+779,3/2/25,Mich City,EL GRAN ASADOR,-562.84,Travel & Entertainment,,,Dining
+778,3/2/25,Mich City,FARMACIA LOPEZ VICENTE,-373.88,Medical,,,Medical
+773,3/2/25,Mich City,JAIBO CAMPERO,-32.31,Travel & Entertainment,,,Dining
+766,3/2/25,Mich City,Restaurant,-7.3,Travel & Entertainment,,,Dining
+768,3/2/25,Mich City,JAIBO CROQUETAS,-11.47,Travel & Entertainment,,,Dining
+771,3/2/25,Mich City,JAIBO JAPONES,-13.03,Travel & Entertainment,,,Dining
+770,3/2/25,Mich City,LA AREPERA MADRID,-12.51,Travel & Entertainment,,,Dining
+767,3/2/25,Mich City,Restaurant,-7.61,Travel & Entertainment,,,Dining
+765,3/2/25,Mich City,Restaurant,-3.96,Travel & Entertainment,,,Dining
+764,3/2/25,Mich City,Restaurant,-2.61,Travel & Entertainment,,,Dining
+776,3/2/25,Mich City,OYSHO,-242.55,General Merchandise,,,General Merchandise
+777,3/2/25,Mich City,OYSHO,-247.15,General Merchandise,,,General Merchandise
+769,3/2/25,Mich City,Parking,-12.25,Travel & Entertainment,,,Parking
+772,3/2/25,Mich City,URBANO CAFE,-18.45,Travel & Entertainment,,,Dining
+1095,3/2/25,Mich Amex,GoFundMe,-58.75,Travel & Entertainment,,,Travel & Entertainment
+713,3/20/25,Mich City,Chevron,-54.79,Auto,,,Transport
+712,3/20/25,Mich City,MPA Parking,-5.0,Auto,,,Transport
+714,3/20/25,Mich City,Sam's Club,-755.48,General Merchandise,,,General Merchandise
+711,3/20/25,Mich City,Sports Basement,-237.76,General Merchandise,,,General Merchandise
+710,3/20/25,Mich City,Spizzigo,-126.9,Travel & Entertainment,,,Dining
+189,3/20/25,Fam Wells,Check,-40.0,Travel & Entertainment,,,Travel & Entertainment
+190,3/20/25,Fam Wells,Publix,-500.99,Groceries,,,Groceries
+1075,3/20/25,Mich Amex,Celebrity Cruises,-107.96,Travel & Entertainment,,,Travel & Lodging
+1076,3/20/25,Mich Amex,Marathon,-3.6,Auto,,,Transport
+1265,3/20/25,Mich Bofa,Amazon,342.35,Amazon,,,Amazon
+1264,3/20/25,Mich Bofa,Amazon,-376.42,Amazon,,,Amazon
+709,3/21/25,Mich City,Uber,-59.63,Travel & Entertainment,,,Taxi
+708,3/22/25,Mich City,Four Mountain Sports,-108.79,General Merchandise,,,General Merchandise
+707,3/22/25,Mich City,Grub Thai,-169.03,Travel & Entertainment,,,Dining
+706,3/22/25,Mich City,Juan Valdez Cafe,-31.08,Travel & Entertainment,,,Dining
+705,3/22/25,Mich City,Uber,-30.45,Travel & Entertainment,,,Taxi
+1072,3/22/25,Mich Amex,Financial Transactions,2477.14,Financial Transactions,,,Card Payment
+1074,3/22/25,Mich Amex,Uber,-54.1,Travel & Entertainment,,,Taxi
+1073,3/22/25,Mich Amex,Uber,-10.37,Travel & Entertainment,,,Taxi
+1262,3/22/25,Mich Bofa,Amazon,287.73,Amazon,,,Amazon
+1263,3/22/25,Mich Bofa,Amazon,376.42,Amazon,,,Amazon
+704,3/23/25,Mich City,Snowmass Sports,-22.02,General Merchandise,,,General Merchandise
+703,3/23/25,Mich City,The Tavern Kitchen,-306.05,Travel & Entertainment,,,Dining
+702,3/23/25,Mich City,Venga Venga,-283.51,Travel & Entertainment,,,Dining
+701,3/24/25,Mich City,105 Pizza + Bowl,-500.0,Travel & Entertainment,,,Dining
+700,3/24/25,Mich City,Catch Steak,-204.94,Travel & Entertainment,,,Dining
+186,3/24/25,Fam Wells,Healthy Paws Pet,-100.03,Lucky,,,Pet Services
+188,3/24/25,Fam Wells,Transfers,501.0,Financial Transactions,,,Loan
+185,3/24/25,Fam Wells,Transfers,-100.0,Aditional Expenses,,,Aditional Expenses
+187,3/24/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+183,3/24/25,Fam Wells,T-Mobile,-201.26,Bills & Utilities,,,Andre Cell
+184,3/24/25,Fam Wells,Financial Transactions,734.0,Financial Transactions,,,Card Payment
+1071,3/24/25,Mich Amex,Uber,-56.63,Travel & Entertainment,,,Taxi
+698,3/25/25,Mich City,SP MILLER SPORTS,-409.89,General Merchandise,,,General Merchandise
+699,3/25/25,Mich City,Rock Island Oyster,-157.54,Travel & Entertainment,,,Dining
+181,3/25/25,Fam Wells,Financial Transactions,-0.16,Financial Transactions,,,Bank Fees
+182,3/25/25,Fam Wells,Amazon,-5.42,Subscriptions,,,Cloud Services
+1069,3/25/25,Mich Amex,Uber,-26.85,Travel & Entertainment,,,Taxi
+1070,3/25/25,Mich Amex,Viewline Resort,-267.69,Travel & Entertainment,,,Travel & Lodging
+1493,3/25/25,Mich Wells,Zelle To Kayla Snowm,-100.0,Travel & Entertainment,,,Travel & Entertainment
+696,3/26/25,Mich City,LITTLE NELL F & B,-60.28,Travel & Entertainment,,,Dining
+697,3/26/25,Mich City,Betula Aspen,-376.42,Travel & Entertainment,,,Dining
+695,3/26/25,Mich City,Venga Venga,-121.7,Travel & Entertainment,,,Dining
+694,3/27/25,Mich City,Whataburger,-23.71,Travel & Entertainment,,,Dining
+693,3/27/25,Mich City,Miller Sport,-755.0,General Merchandise,,,General Merchandise
+691,3/27/25,Mich City,Stussy,-148.73,General Merchandise,,,General Merchandise
+692,3/27/25,Mich City,TRG Duty Free,-106.09,General Merchandise,,,General Merchandise
+690,3/27/25,Mich City,ASPEN ONE,-74.0,Travel & Entertainment,,,Dining
+1067,3/27/25,Mich Amex,EVO,-176.55,General Merchandise,,,General Merchandise
+1068,3/27/25,Mich Amex,Rental Toll,-11.47,Auto,,,Transport
+1490,3/27/25,Mich Wells,Venmo Michel Faleni,-20.0,Travel & Entertainment,,,Travel & Entertainment
+1491,3/27/25,Mich Wells,Venmo Michel Faleni,-10.0,Travel & Entertainment,,,Travel & Entertainment
+1492,3/27/25,Mich Wells,Zelle To Elizabeth,-50.0,Travel & Entertainment,,,Travel & Entertainment
+689,3/28/25,Mich City,MEAT CLUB MARKET,-323.39,Groceries,,,Groceries
+687,3/28/25,Mich City,Publix,-291.89,Groceries,,,Groceries
+688,3/28/25,Mich City,Beirut,-191.87,Travel & Entertainment,,,Dining
+1065,3/28/25,Mich Amex,Uber Eats,-176.46,Travel & Entertainment,,,Dining
+1066,3/28/25,Mich Amex,Viewline Resort,-135.52,Travel & Entertainment,,,Travel & Lodging
+1261,3/28/25,Mich Bofa,Amazon,-18.18,Amazon,,,Amazon
+686,3/29/25,Mich City,SAKS,-544.55,General Merchandise,,,General Merchandise
+1062,3/29/25,Mich Amex,Designer Optics,-188.16,Medical,,,Medical
+1063,3/29/25,Mich Amex,PPDC Downtown Doral,-11.55,Travel & Entertainment,,,Travel & Entertainment
+1064,3/29/25,Mich Amex,Viewline Resort,-182.0,Travel & Entertainment,,,Travel & Lodging
+1260,3/29/25,Mich Bofa,Amazon,239.65,Amazon,,,Amazon
+762,3/3/25,Mich City,FARMACIA GIBERT,-402.96,Medical,,,Medical
+761,3/3/25,Mich City,Taxi Espana,-35.39,Travel & Entertainment,,,Taxi
+760,3/3/25,Mich City,Restaurant,-25.54,Travel & Entertainment,,,Dining
+763,3/3/25,Mich City,Uber,-16.31,Travel & Entertainment,,,Taxi
+759,3/3/25,Mich City,Uber,-13.65,Travel & Entertainment,,,Taxi
+216,3/3/25,Fam Wells,Kukenam Summer C,-409.16,Education,,,Education
+215,3/3/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+217,3/3/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1279,3/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+1512,3/3/25,Mich Wells,Transfers,-1500.0,Savings,,,Savings
+1513,3/3/25,Mich Wells,Transfers,-8810.0,Financial Transactions,,,Loan Payment
+1514,3/3/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1515,3/3/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+685,3/31/25,Mich City,WAL-MART,-396.0,General Merchandise,,,General Merchandise
+179,3/31/25,Fam Wells,Financial Transactions,0.1,Financial Transactions,,,Bank Fees
+180,3/31/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+1489,3/31/25,Mich Wells,BTS,6644.65,Income,,,Income
+1488,3/31/25,Mich Wells,BUS TELE SVCS,9155.42,Income,,,Income
+1486,3/31/25,Mich Wells,Financial Transactions,0.03,Financial Transactions,,,Bank Fees
+1487,3/31/25,Mich Wells,Transfers,-9155.0,Financial Transactions,,,Loan Payment
+758,3/4/25,Mich City,Uber,-17.86,Travel & Entertainment,,,Taxi
+214,3/4/25,Fam Wells,DDCUS,-400.0,Education,,,Education
+213,3/4/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+212,3/4/25,Fam Wells,Transfers,-50.0,Andre,,,Andre Expenses
+1094,3/4/25,Mich Amex,PayPal,-53.93,Travel & Entertainment,,,Taxi
+1511,3/4/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+755,3/5/25,Mich City,DIESEL,-353.4,General Merchandise,,,General Merchandise
+757,3/5/25,Mich City,Moncler,-572.25,General Merchandise,,,General Merchandise
+754,3/5/25,Mich City,Globalblue,75.6,General Merchandise,,,General Merchandise
+756,3/5/25,Mich City,Tumi,-526.41,General Merchandise,,,General Merchandise
+208,3/5/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+210,3/5/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+211,3/5/25,Fam Wells,Virtual Imaging,-48.24,Medical,,,Medical
+209,3/5/25,Fam Wells,Zelle To Carroz Lorena,-200.0,Travel & Entertainment,,,Travel & Entertainment
+1093,3/5/25,Mich Amex,Bistro Mato,-185.47,Travel & Entertainment,,,Dining
+1278,3/5/25,Mich Bofa,Amazon,342.35,Amazon,,,Amazon
+752,3/6/25,Mich City,STC Switzerland Travel,100.0,Travel & Entertainment,,,Travel & Entertainment
+753,3/6/25,Mich City,Taxi,-13.15,Travel & Entertainment,,,Taxi
+1277,3/6/25,Mich Bofa,Financial Transactions,-19.45,Financial Transactions,,,Bank Fees
+748,3/7/25,Mich City,Casa Lac,-110.72,Travel & Entertainment,,,Dining
+750,3/7/25,Mich City,Gentlebar,-108.55,Travel & Entertainment,,,Dining
+749,3/7/25,Mich City,Gentlebar,-105.62,Travel & Entertainment,,,Dining
+751,3/7/25,Mich City,La Alacena de Aragon,-129.01,Travel & Entertainment,,,Dining
+746,3/7/25,Mich City,Taxi Espana,-10.37,Travel & Entertainment,,,Taxi
+745,3/7/25,Mich City,Taxi Espana,-5.97,Travel & Entertainment,,,Taxi
+747,3/7/25,Mich City,Taxi Espana,-10.8,Travel & Entertainment,,,Taxi
+1510,3/7/25,Mich Wells,City National Bank,6224.0,Financial Transactions,,,Expense Reports
+744,3/8/25,Mich City,Laz Parking,-7.0,Auto,,,Transport
+742,3/8/25,Mich City,Taxi Espana,-35.94,Travel & Entertainment,,,Taxi
+743,3/8/25,Mich City,Navarro Discount,-71.23,Medical,,,Medical
+1090,3/8/25,Mich Amex,Amazon,-53.8,Amazon,,,Amazon
+1091,3/8/25,Mich Amex,El Car Wash,-39.57,Auto,,,Vehicle Maintenance
+1092,3/8/25,Mich Amex,Westin,-8.71,Travel & Entertainment,,,Dining
+1276,3/8/25,Mich Bofa,Amazon,-25.66,Amazon,,,Amazon
+741,3/9/25,Mich City,Chevron,-73.22,Auto,,,Transport
+738,3/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+740,3/9/25,Mich City,Pisco,-116.48,Travel & Entertainment,,,Dining
+739,3/9/25,Mich City,Winn-Dixie,-80.3,Groceries,,,Groceries
+1089,3/9/25,Mich Amex,Clear,-199.0,Travel & Entertainment,,,Travel & Entertainment
+178,4/1/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1060,4/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Subscriptions
+1061,4/1/25,Mich Amex,Toll,-11.47,Auto,,,Transport
+1483,4/1/25,Mich Wells,Financial Transactions,149.85,Financial Transactions,,,Card Payment
+1484,4/1/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1485,4/1/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+666,4/10/25,Mich City,Hotel Sanctuary,-2720.92,Travel & Entertainment,,,Travel & Lodging
+170,4/10/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+1050,4/10/25,Mich Amex,AT&T,-108.19,Bills & Utilities,,,Utilities
+1051,4/10/25,Mich Amex,Kjus North America,961.93,General Merchandise,,,General Merchandise
+1052,4/10/25,Mich Amex,RueLaLa,448.09,General Merchandise,,,General Merchandise
+665,4/11/25,Mich City,Dons Liquor,-567.15,Liquor Store,,,Liquor Store
+1048,4/11/25,Mich Amex,Jaguar Land Rover,-2308.48,Auto,,,Vehicle Maintenance
+1049,4/11/25,Mich Amex,UM My Chart,-43.0,Medical,,,Medical
+1476,4/11/25,Mich Wells,Coinbase,11953.0,Income,,,Crypto Income
+1475,4/11/25,Mich Wells,Coinbase,-29.99,Income,,,Crypto Income
+664,4/12/25,Mich City,Bark for C,-101.05,Lucky,,,Pet Services
+662,4/13/25,Mich City,Hotel Sanctuary,-92.3,Travel & Entertainment,,,Travel & Lodging
+663,4/13/25,Mich City,Minimarket,-14.42,Groceries,,,Groceries
+660,4/14/25,Mich City,Financial Transactions,13099.62,Financial Transactions,,,Card Payment
+661,4/14/25,Mich City,USPS,-45.18,General Merchandise,,,General Merchandise
+659,4/14/25,Mich City,Walmart,127.33,General Merchandise,,,General Merchandise
+166,4/14/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+168,4/14/25,Fam Wells,Transfers,11576.0,Taxes,,,Taxes
+169,4/14/25,Fam Wells,Transfers,1000.0,Financial Transactions,,,Loan
+167,4/14/25,Fam Wells,Transfers,-149.0,Andre,,,Andre Expenses
+1047,4/14/25,Mich Amex,EVO.COM,176.55,General Merchandise,,,General Merchandise
+1472,4/14/25,Mich Wells,Transfers,13100.0,Financial Transactions,,,Loan
+1469,4/14/25,Mich Wells,Transfers,-11576.0,Taxes,,,Taxes
+1474,4/14/25,Mich Wells,Zelle From Daniel Lopez,11.11,Financial Transactions,,,DelaFlor Loan
+1473,4/14/25,Mich Wells,Zelle From Edell Jakob,600.0,Travel & Entertainment,,,Travel & Entertainment
+1470,4/14/25,Mich Wells,Zelle To Delaflor Dannilo,-988.0,Financial Transactions,,,DelaFlor Loan
+1471,4/14/25,Mich Wells,Zelle To Delaflor Dannilo,-11.19,Financial Transactions,,,DelaFlor Loan
+658,4/15/25,Mich City,Financial Transactions,-444.12,Financial Transactions,,,Bank Fees
+657,4/15/25,Mich City,Financial Transactions,-30.0,Financial Transactions,,,Bank Fees
+656,4/15/25,Mich City,National General Insurance,-28.08,Auto,,,Services
+164,4/15/25,Fam Wells,IRS,-12576.0,Taxes,,,Taxes
+165,4/15/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1046,4/15/25,Mich Amex,Celebrity Cruises,-2675.78,Travel & Entertainment,,,Travel & Lodging
+1249,4/15/25,Mich Bofa,Amazon,-20.17,Amazon,,,Amazon
+1468,4/15/25,Mich Wells,BTS,6644.63,Income,,,Income
+1465,4/15/25,Mich Wells,Citi Card,13099.62,Financial Transactions,,,Card Payment
+1466,4/15/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1467,4/15/25,Mich Wells,Zelle From Daniel Lopez,2500.0,Financial Transactions,,,DelaFlor Loan
+1045,4/16/25,Mich Amex,PayPal,-49.98,Travel & Entertainment,,,Dining
+1248,4/16/25,Mich Bofa,Amazon,-14.97,Amazon,,,Amazon
+1463,4/16/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+1464,4/16/25,Mich Wells,Zelle From Daniel Lopez,1500.0,Financial Transactions,,,DelaFlor Loan
+1462,4/16/25,Mich Wells,Zelle To The Project Main,-3000.0,Financial Transactions,,,DelaFlor Loan
+653,4/17/25,Mich City,Quest Diagnostics,-63.33,Medical,,,Medical
+652,4/17/25,Mich City,Quest Diagnostics,-35.23,Medical,,,Medical
+651,4/17/25,Mich City,Quest Diagnostics,-33.14,Medical,,,Medical
+654,4/17/25,Mich City,SMH Cashiers Office,-202.8,Education,,,Education
+655,4/17/25,Mich City,La Ferneteria,-397.84,Travel & Entertainment,,,Dining
+163,4/17/25,Fam Wells,FPL,-221.48,Bills & Utilities,,,Bills & Utilities
+162,4/17/25,Fam Wells,Car Mich,-1100.0,Auto,,,Vehicle Payment
+1460,4/17/25,Mich Wells,Cash,-1000.0,Financial Transactions,,,Cash
+1461,4/17/25,Mich Wells,Transfers,-1000.0,Financial Transactions,,,Loan Payment
+649,4/18/25,Mich City,American Airlines,-312.76,Travel & Entertainment,,,Travel & Entertainment
+648,4/18/25,Mich City,American Airlines,-312.76,Travel & Entertainment,,,Travel & Entertainment
+646,4/18/25,Mich City,ISTOURS,-300.0,Education,,,Education
+647,4/18/25,Mich City,Marianela Cardenas DDS,-700.0,Medical,,,Medical
+644,4/18/25,Mich City,Miami DD Club,-305.75,Travel & Entertainment,,,Dining
+643,4/18/25,Mich City,Miami DD Club,-122.7,Travel & Entertainment,,,Dining
+650,4/18/25,Mich City,Pastis,-65.08,Travel & Entertainment,,,Dining
+645,4/18/25,Mich City,She Giuliani Salon & Spa,-32.96,Pelu,,,Andre Pelu
+161,4/18/25,Fam Wells,Zelle To Sebastian Caminero,-100.0,Pelu,,,Pelu Lore Mich
+1044,4/18/25,Mich Amex,Google,-9.05,Subscriptions,,,Subscriptions
+1247,4/18/25,Mich Bofa,Amazon,-38.65,Amazon,,,Amazon
+638,4/19/25,Mich City,Best Buy,-64.19,General Merchandise,,,Electronics
+641,4/19/25,Mich City,Chevron,-68.18,Auto,,,Transport
+634,4/19/25,Mich City,DONS LIQUOR,45.84,Liquor Store,,,Liquor Store
+637,4/19/25,Mich City,Parkmobile,-20.35,Auto,,,Transport
+636,4/19/25,Mich City,MB-PARKING,-4.35,Auto,,,Transport
+639,4/19/25,Mich City,Total Wine and More,-161.45,Liquor Store,,,Liquor Store
+635,4/19/25,Mich City,BARCELONETA,-107.71,Travel & Entertainment,,,Dining
+640,4/19/25,Mich City,CASA,-356.9,Travel & Entertainment,,,Dining
+642,4/19/25,Mich City,Coconut Grove,-28.0,Auto,,,Transport
+1043,4/19/25,Mich Amex,SAKS OFF 5TH,-145.49,General Merchandise,,,General Merchandise
+1042,4/19/25,Mich Amex,SAKS OFF 5TH,-64.19,General Merchandise,,,General Merchandise
+177,4/2/25,Fam Wells,Kukenam,-409.16,Education,,,Education
+176,4/2/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+1259,4/2/25,Mich Bofa,Amazon,26.94,Amazon,,,Amazon
+1258,4/2/25,Mich Bofa,Amazon,-38.52,Amazon,,,Amazon
+1480,4/2/25,Mich Wells,Financial Transactions,58.24,Financial Transactions,,,Card Payment
+1482,4/2/25,Mich Wells,BUSINESS TELECOMMUNICATIONS SE,10220.68,Financial Transactions,,,Expense Reports
+1481,4/2/25,Mich Wells,Transfers,-1200.0,Financial Transactions,,,Loan Payment
+633,4/21/25,Mich City,American Airlines,-702.64,Travel & Entertainment,,,Travel & Entertainment
+160,4/21/25,Fam Wells,Apple Cash Balance - - Ca S585109731302145,-50.0,Lore,,,Lore
+159,4/21/25,Fam Wells,Financial Transactions,734.0,Financial Transactions,,,Card Payment
+1041,4/21/25,Mich Amex,Financial Transactions,4071.54,Financial Transactions,,,Card Payment
+632,4/22/25,Mich City,Best Buy,64.19,General Merchandise,,,Electronics
+158,4/22/25,Fam Wells,DDCUS,-40.0,Education,,,Education
+157,4/24/25,Fam Wells,Healthy Paws Pet,-100.03,Lucky,,,Pet Services
+156,4/24/25,Fam Wells,T-Mobile,-192.83,Bills & Utilities,,,Andre Cell
+1459,4/24/25,Mich Wells,Zelle To Jc Cell Negro,-150.0,Travel & Entertainment,,,Travel & Entertainment
+154,4/25/25,Fam Wells,Financial Transactions,-0.17,Financial Transactions,,,Bank Fees
+155,4/25/25,Fam Wells,Amazon,-5.69,Subscriptions,,,Cloud Services
+1246,4/25/25,Mich Bofa,Amazon,89.87,Amazon,,,Amazon
+630,4/26/25,Mich City,Kaseya Center,-24.61,Travel & Entertainment,,,Travel & Entertainment
+631,4/26/25,Mich City,Kaseya Center,-36.76,Travel & Entertainment,,,Travel & Entertainment
+629,4/26/25,Mich City,Rodizi,-245.8,Travel & Entertainment,,,Dining
+627,4/26/25,Mich City,Miami Heat Store,-247.17,Travel & Entertainment,,,Travel & Entertainment
+626,4/26/25,Mich City,Miami Heat Store,-37.45,Travel & Entertainment,,,Travel & Entertainment
+625,4/26/25,Mich City,Miami Heat Store,-3.64,Travel & Entertainment,,,Travel & Entertainment
+628,4/26/25,Mich City,Devia Juice Bar,-35.38,Travel & Entertainment,,,Dining
+624,4/27/25,Mich City,American Airlines,-10.0,Travel & Entertainment,,,Travel & Entertainment
+623,4/27/25,Mich City,Grazianos Market,-62.06,Groceries,,,Groceries
+622,4/27/25,Mich City,Winn-Dixie,-14.95,Groceries,,,Groceries
+1040,4/27/25,Mich Amex,First Class Parking,-25.0,Auto,,,Transport
+621,4/28/25,Mich City,Grazianos Market,-84.9,Groceries,,,Groceries
+1245,4/28/25,Mich Bofa,Amazon,-16.67,Amazon,,,Amazon
+1243,4/28/25,Mich Bofa,Amazon,-126.42,Amazon,,,Amazon
+1244,4/28/25,Mich Bofa,Amazon,-56.7,Amazon,,,Amazon
+153,4/29/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+1038,4/29/25,Mich Amex,Ticketmaster,-566.51,Travel & Entertainment,,,Travel & Entertainment
+1039,4/29/25,Mich Amex,Walmart,-145.36,General Merchandise,,,General Merchandise
+1241,4/29/25,Mich Bofa,Amazon,-26.3,Amazon,,,Amazon
+1240,4/29/25,Mich Bofa,Amazon,-45.34,Amazon,,,Amazon
+1242,4/29/25,Mich Bofa,Amazon,-31.56,Amazon,,,Amazon
+682,4/3/25,Mich City,Dicks Sporting Goods,-85.6,General Merchandise,,,General Merchandise
+683,4/3/25,Mich City,MB-PARKING,-10.35,Auto,,,Transport
+681,4/3/25,Mich City,Publix,-10.71,Groceries,,,Groceries
+680,4/3/25,Mich City,SAKS,303.84,General Merchandise,,,General Merchandise
+684,4/3/25,Mich City,UA,-106.96,General Merchandise,,,General Merchandise
+175,4/3/25,Fam Wells,Fernandez M,-228.32,Aditional Expenses,,,Aditional Expenses
+1059,4/3/25,Mich Amex,Backcountry,-176.55,General Merchandise,,,General Merchandise
+1257,4/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+1479,4/3/25,Mich Wells,Financial Transactions,8967.14,Financial Transactions,,,Card Payment
+618,4/30/25,Mich City,American Airlines,-21.6,Travel & Entertainment,,,Travel & Entertainment
+620,4/30/25,Mich City,American Airlines,-21.6,Travel & Entertainment,,,Travel & Entertainment
+619,4/30/25,Mich City,American Airlines,-391.96,Travel & Entertainment,,,Travel & Entertainment
+617,4/30/25,Mich City,American Airlines,-391.96,Travel & Entertainment,,,Travel & Entertainment
+616,4/30/25,Mich City,Yeti,-230.05,General Merchandise,,,General Merchandise
+151,4/30/25,Fam Wells,Financial Transactions,0.1,Financial Transactions,,,Bank Fees
+152,4/30/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+1037,4/30/25,Mich Amex,OpenAI,-20.0,Subscriptions,,,Subscriptions
+1239,4/30/25,Mich Bofa,Amazon,-19.09,Amazon,,,Amazon
+1238,4/30/25,Mich Bofa,Amazon,126.42,Amazon,,,Amazon
+1237,4/30/25,Mich Bofa,Amazon,-59.37,Amazon,,,Amazon
+1458,4/30/25,Mich Wells,BTS,6644.65,Income,,,Income
+1457,4/30/25,Mich Wells,BTS,10134.88,Income,,,Income
+1454,4/30/25,Mich Wells,Financial Transactions,0.02,Financial Transactions,,,Bank Fees
+1456,4/30/25,Mich Wells,Transfers,-10000.0,Financial Transactions,,,Loan Payment
+1455,4/30/25,Mich Wells,Zelle To Supply Services Miami Fabio Lavac,-55.0,Auto,,,Car Wash
+678,4/4/25,Mich City,Restaurant,-64.2,Travel & Entertainment,,,Dining
+679,4/4/25,Mich City,Francisca Charcoal,-196.83,Travel & Entertainment,,,Dining
+174,4/4/25,Fam Wells,MENTA Y CANELA,-56.75,Pelu,,,Andre Pelu
+1057,4/4/25,Mich Amex,PayPal,-59.98,Travel & Entertainment,,,Travel & Entertainment
+1058,4/4/25,Mich Amex,Gusto,-61.7,Travel & Entertainment,,,Dining
+1477,4/4/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1478,4/4/25,Mich Wells,Zelle To Elmer,-5.0,Travel & Entertainment,,,Travel & Entertainment
+672,4/5/25,Mich City,Chevron,-78.42,Auto,,,Transport
+675,4/5/25,Mich City,Fandango,-112.0,Travel & Entertainment,,,Travel & Entertainment
+673,4/5/25,Mich City,Fandango,-28.0,Travel & Entertainment,,,Travel & Entertainment
+674,4/5/25,Mich City,Las Mercedes Grill,-58.9,Travel & Entertainment,,,Dining
+677,4/5/25,Mich City,Meat Club Market,-145.85,Groceries,,,Groceries
+676,4/5/25,Mich City,Caracas Bakery,-91.99,Travel & Entertainment,,,Dining
+1056,4/5/25,Mich Amex,BTS North F&B,-210.0,Travel & Entertainment,,,Dining
+1055,4/5/25,Mich Amex,BTS NORTH F& B,-90.0,Travel & Entertainment,,,Dining
+1256,4/5/25,Mich Bofa,Amazon,-42.98,Amazon,,,Amazon
+1255,4/5/25,Mich Bofa,Amazon,259.79,Amazon,,,Amazon
+1254,4/5/25,Mich Bofa,Amazon,-11.36,Amazon,,,Amazon
+1253,4/5/25,Mich Bofa,Amazon,-9.84,Amazon,,,Amazon
+669,4/6/25,Mich City,MB-Parking,-6.35,Auto,,,Transport
+671,4/6/25,Mich City,TravelAssist,-68.0,Travel & Entertainment,,,Travel & Lodging
+670,4/6/25,Mich City,Walmart,-410.0,General Merchandise,,,General Merchandise
+668,4/6/25,Mich City,Walmart,-177.95,General Merchandise,,,General Merchandise
+1054,4/6/25,Mich Amex,Proyecto,-83.35,Travel & Entertainment,,,Travel & Entertainment
+171,4/7/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+172,4/7/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+173,4/7/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1250,4/7/25,Mich Bofa,Amazon,-89.87,Amazon,,,Amazon
+1252,4/7/25,Mich Bofa,Amazon,-79.99,Amazon,,,Amazon
+1251,4/7/25,Mich Bofa,Amazon,-127.33,Amazon,,,Amazon
+667,4/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+1053,4/9/25,Mich Amex,EZ Contacts,576.22,Medical,,,Medical
+613,5/1/25,Mich City,Fandango,-48.8,Travel & Entertainment,,,Travel & Entertainment
+615,5/1/25,Mich City,Navarro Discount Pharm,-183.66,Medical,,,Medical
+614,5/1/25,Mich City,Yeti,-90.95,General Merchandise,,,General Merchandise
+612,5/1/25,Mich City,eBay,-347.7,General Merchandise,,,General Merchandise
+150,5/1/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+149,5/1/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1035,5/1/25,Mich Amex,Hotels.com,-1309.54,Travel & Entertainment,,,Travel & Lodging
+1036,5/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Subscriptions
+1236,5/1/25,Mich Bofa,Amazon,-45.75,Amazon,,,Amazon
+1453,5/1/25,Mich Wells,Transfers,1174.0,Savings,,,Loan
+1451,5/1/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1452,5/1/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+1450,5/1/25,Mich Wells,Zelle To Ritz Oliver,-20.0,Travel & Entertainment,,,Travel & Entertainment
+595,5/10/25,Mich City,Doral Ace Hardware,-2.38,Maintenance,,,Hardware Store
+596,5/10/25,Mich City,El Capitan Sports Center,-42.8,General Merchandise,,,General Merchandise
+597,5/10/25,Mich City,Shadow Wagyu,-355.03,Travel & Entertainment,,,Dining
+1025,5/10/25,Mich Amex,AT&T,-108.19,Bills & Utilities,,,Utilities
+594,5/11/25,Mich City,City of Miami Beach,-20.5,Auto,,,Transport
+593,5/11/25,Mich City,Winn-Dixie,-39.44,Groceries,,,Groceries
+1024,5/11/25,Mich Amex,Pablo Flowers,-228.0,General Merchandise,,,General Merchandise
+592,5/12/25,Mich City,Chevron,-49.02,Auto,,,Transport
+589,5/12/25,Mich City,Financial Transactions,13778.4,Financial Transactions,,,Card Payment
+591,5/12/25,Mich City,Grazianos Market,-121.61,Groceries,,,Groceries
+590,5/12/25,Mich City,Yeti,90.95,General Merchandise,,,General Merchandise
+137,5/12/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+139,5/12/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+138,5/12/25,Fam Wells,Zelle To Quero Cesar,-150.0,Maintenance,,,Maintenance
+1228,5/12/25,Mich Bofa,Amazon,-124.1,Amazon,,,Amazon
+1226,5/12/25,Mich Bofa,Amazon,-37.45,Amazon,,,Amazon
+1227,5/12/25,Mich Bofa,Amazon,-53.45,Amazon,,,Amazon
+1441,5/12/25,Mich Wells,Transfers,18000.0,Financial Transactions,,,Loan
+1440,5/12/25,Mich Wells,Transfers,-26448.0,Savings,,,Savings
+588,5/13/25,Mich City,National General Insurance,-28.08,Auto,,,Services
+136,5/13/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1023,5/13/25,Mich Amex,Walmart,85.54,General Merchandise,,,General Merchandise
+1022,5/13/25,Mich Amex,Walmart,171.07,General Merchandise,,,General Merchandise
+1223,5/13/25,Mich Bofa,Amazon,-14.97,Amazon,,,Amazon
+1225,5/13/25,Mich Bofa,Amazon,-159.0,Amazon,,,Amazon
+1224,5/13/25,Mich Bofa,Amazon,-33.46,Amazon,,,Amazon
+1222,5/13/25,Mich Bofa,Amazon,-36.11,Amazon,,,Amazon
+1439,5/13/25,Mich Wells,Financial Transactions,13778.4,Financial Transactions,,,Card Payment
+584,5/14/25,Mich City,Google One,-0.49,Subscriptions,,,Cloud Services
+583,5/14/25,Mich City,Spirit,-467.98,Travel & Entertainment,,,Travel & Entertainment
+586,5/14/25,Mich City,Dr. Santos,-25.0,Medical,,,Services
+585,5/14/25,Mich City,Medical Associates,-20.0,Medical,,,Medical
+587,5/14/25,Mich City,Tickets,-36.0,Auto,,,Transport
+135,5/14/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1021,5/14/25,Mich Amex,CVS,-70.94,Medical,,,Medical
+1221,5/14/25,Mich Bofa,Amazon,127.33,Amazon,,,Amazon
+580,5/15/25,Mich City,Columbus,-1856.16,Education,,,Education
+582,5/15/25,Mich City,Financial Transactions,-448.65,Financial Transactions,,,Bank Fees
+581,5/15/25,Mich City,Financial Transactions,-2.86,Financial Transactions,,,Bank Fees
+132,5/15/25,Fam Wells,Financial Transactions,-3.0,Financial Transactions,,,Bank Fees
+133,5/15/25,Fam Wells,Financial Transactions,-403.25,Financial Transactions,,,Cash
+134,5/15/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1218,5/15/25,Mich Bofa,Amazon,-53.5,Amazon,,,Amazon
+1220,5/15/25,Mich Bofa,Amazon,-47.07,Amazon,,,Amazon
+1217,5/15/25,Mich Bofa,Amazon,36.11,Amazon,,,Amazon
+1219,5/15/25,Mich Bofa,Amazon,37.45,Amazon,,,Amazon
+1438,5/15/25,Mich Wells,BUS TELE SVCS,6644.64,Income,,,Income
+1435,5/15/25,Mich Wells,Financial Transactions,4058.53,Financial Transactions,,,Card Payment
+1437,5/15/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1436,5/15/25,Mich Wells,Zelle To Sebastian Caminero,-110.0,Pelu,,,Pelu Lore Mich
+579,5/16/25,Mich City,Baires Grill,-188.67,Travel & Entertainment,,,Dining
+578,5/16/25,Mich City,Publix,-25.78,Groceries,,,Groceries
+577,5/16/25,Mich City,eBay,214.0,General Merchandise,,,General Merchandise
+131,5/16/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+1020,5/16/25,Mich Amex,Tires Plus,-70.62,Auto,,,Vehicle Maintenance
+1216,5/16/25,Mich Bofa,Amazon,-115.16,Amazon,,,Amazon
+1434,5/16/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+573,5/17/25,Mich City,Baires Grill,-189.69,Travel & Entertainment,,,Dining
+575,5/17/25,Mich City,Chevron,-13.78,Auto,,,Transport
+574,5/17/25,Mich City,LAZ PARKING,-12.0,Travel & Entertainment,,,Parking
+576,5/17/25,Mich City,Parking,-33.0,Travel & Entertainment,,,Parking
+1215,5/17/25,Mich Bofa,Amazon,-65.25,Amazon,,,Amazon
+572,5/18/25,Mich City,Meat Club Market,-136.82,Groceries,,,Groceries
+571,5/18/25,Mich City,Meat Club Market,-8.44,Groceries,,,Groceries
+570,5/18/25,Mich City,Craft Doral Isles,-4.24,Travel & Entertainment,,,Dining
+569,5/18/25,Mich City,Francisca Charcoal,-56.84,Travel & Entertainment,,,Dining
+1017,5/18/25,Mich Amex,Google,-9.05,Subscriptions,,,Subscriptions
+1019,5/18/25,Mich Amex,CRAZY ABOUT YOU,-93.2,Travel & Entertainment,,,Dining
+1018,5/18/25,Mich Amex,CRAZY ABOUT YOU,-47.96,Travel & Entertainment,,,Dining
+567,5/19/25,Mich City,Macy's,-444.91,General Merchandise,,,General Merchandise
+568,5/19/25,Mich City,Macy's,-159.69,General Merchandise,,,General Merchandise
+566,5/19/25,Mich City,Macy's,-149.05,General Merchandise,,,General Merchandise
+129,5/19/25,Fam Wells,Apple Cash Balance - - Ca S585136451460432,-50.0,Lore,,,Lore
+127,5/19/25,Fam Wells,FPL,-290.85,Bills & Utilities,,,Bills & Utilities
+128,5/19/25,Fam Wells,MENTA Y CANELA,-54.75,Pelu,,,Andre Pelu
+130,5/19/25,Fam Wells,Apple Cash Sent Mo 1infiniteloop Ca S585136450831550,-39.24,Lore,,,Lore
+611,5/2/25,Mich City,Ryanair,-472.84,Travel & Entertainment,,,Travel & Entertainment
+610,5/2/25,Mich City,Total Wine & More,-18.17,Liquor Store,,,Liquor Store
+146,5/2/25,Fam Wells,Kukenam,-409.16,Education,,,Education
+147,5/2/25,Fam Wells,Water Bill,-304.11,Bills & Utilities,,,Bills & Utilities
+148,5/2/25,Fam Wells,Fernandez,-881.0,Aditional Expenses,,,Aditional Expenses
+145,5/2/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+1449,5/2/25,Mich Wells,Apple,1231.83,Financial Transactions,,,Card Payment
+563,5/20/25,Mich City,Cafeteria Prado,-7.68,Travel & Entertainment,,,Dining
+564,5/20/25,Mich City,EL PATIO VERTICAL,-19.25,Travel & Entertainment,,,Dining
+562,5/20/25,Mich City,Google,0.4,Subscriptions,,,Cloud Services
+565,5/20/25,Mich City,TARIN JOYEROS,-1004.81,Jewerly,,,Jewelry
+1433,5/21/25,Mich Wells,Transfers,2318.0,Auto,,,Car Insurance Payment
+561,5/22/25,Mich City,PRIMAPRIX,-3.35,Groceries,,,Groceries
+126,5/22/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1016,5/22/25,Mich Amex,Financial Transactions,5995.59,Financial Transactions,,,Card Payment
+1432,5/22/25,Mich Wells,Financial Transactions,1469.96,Financial Transactions,,,Card Payment
+1431,5/22/25,Mich Wells,Financial Transactions,2318.0,Financial Transactions,,,Card Payment
+560,5/23/25,Mich City,Carolina Herrera,-596.61,General Merchandise,,,General Merchandise
+558,5/23/25,Mich City,DIESEL,-420.01,General Merchandise,,,General Merchandise
+557,5/23/25,Mich City,FARMACIA CUZCO,-408.09,Medical,,,Medical
+556,5/23/25,Mich City,Las Rozas,-22.44,General Merchandise,,,General Merchandise
+559,5/23/25,Mich City,VALENTINO,-465.92,General Merchandise,,,General Merchandise
+553,5/24/25,Mich City,BO SPECIALTY COFFEE,-45.74,Travel & Entertainment,,,Dining
+555,5/24/25,Mich City,EL CORTE INGLES,-184.02,General Merchandise,,,General Merchandise
+554,5/24/25,Mich City,EL CORTE INGLES,-54.78,General Merchandise,,,General Merchandise
+551,5/24/25,Mich City,EL CORTE INGLES,-17.35,General Merchandise,,,General Merchandise
+550,5/24/25,Mich City,EL CORTE INGLES,-14.56,General Merchandise,,,General Merchandise
+548,5/24/25,Mich City,Farmacia M Mar,-39.48,Medical,,,Medical
+549,5/24/25,Mich City,KIOSKO,-3.41,Travel & Entertainment,,,Dining
+552,5/24/25,Mich City,La Tasca De Retiro,-25.03,Travel & Entertainment,,,Dining
+1214,5/24/25,Mich Bofa,Amazon,-37.15,Amazon,,,Amazon
+547,5/25/25,Mich City,Hotel Las Leyendas,-207.29,Travel & Entertainment,,,Travel & Lodging
+546,5/25/25,Mich City,Parking,-15.47,Travel & Entertainment,,,Parking
+545,5/25/25,Mich City,YEMAS DE SANTA TERESA,-14.73,Travel & Entertainment,,,Dining
+544,5/26/25,Mich City,HARPERANDNEYER,-39.82,General Merchandise,,,General Merchandise
+1213,5/26/25,Mich Bofa,Amazon,179.14,Amazon,,,Amazon
+125,5/27/25,Fam Wells,Healthy Paws Pet,-100.03,Lucky,,,Pet Services
+123,5/27/25,Fam Wells,Financial Transactions,-0.17,Financial Transactions,,,Bank Fees
+124,5/27/25,Fam Wells,Amazon,-5.68,Subscriptions,,,Cloud Services
+122,5/27/25,Fam Wells,T-Mobile,-193.26,Bills & Utilities,,,Andre Cell
+1015,5/27/25,Mich Amex,Hertz,-42.69,Travel & Entertainment,,,Travel & Lodging
+1212,5/27/25,Mich Bofa,Amazon,-142.22,Amazon,,,Amazon
+543,5/28/25,Mich City,El Faro Latin Cafe,-3.45,Travel & Entertainment,,,Dining
+121,5/28/25,Fam Wells,Apple Cash Sent Mo 1infiniteloop Ca S585146665364909,-20.0,Lore,,,Lore
+1014,5/28/25,Mich Amex,Hertz,-174.27,Travel & Entertainment,,,Travel & Lodging
+1211,5/28/25,Mich Bofa,Amazon,-136.9,Amazon,,,Amazon
+542,5/29/25,Mich City,Total Wine and More,-248.29,Liquor Store,,,Liquor Store
+541,5/29/25,Mich City,Tax Refund,68.58,General Merchandise,,,General Merchandise
+119,5/29/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+120,5/29/25,Fam Wells,Zelle To Basketball Charlie,-25.0,Education,,,Basket Lore
+1012,5/29/25,Mich Amex,Evvia Estiatorio,-159.4,Travel & Entertainment,,,Dining
+1013,5/29/25,Mich Amex,OpenAI,-10.0,Subscriptions,,,Subscriptions
+1430,5/29/25,Mich Wells,Venmo Michel Faleni,-5.0,Travel & Entertainment,,,Travel & Entertainment
+607,5/3/25,Mich City,Chevron,-74.0,Auto,,,Transport
+603,5/3/25,Mich City,Hard Rock Stadium,-12.96,Travel & Entertainment,,,Travel & Entertainment
+609,5/3/25,Mich City,Hard Rock Stadium,-64.8,Travel & Entertainment,,,Travel & Entertainment
+608,5/3/25,Mich City,Hard Rock Stadium,-57.02,Travel & Entertainment,,,Travel & Entertainment
+602,5/3/25,Mich City,Official F1 Shop,-288.9,General Merchandise,,,General Merchandise
+606,5/3/25,Mich City,DH Vending,-23.76,Travel & Entertainment,,,Travel & Entertainment
+605,5/3/25,Mich City,DH Vending,-15.84,Travel & Entertainment,,,Travel & Entertainment
+604,5/3/25,Mich City,DH Vending,-13.2,Travel & Entertainment,,,Travel & Entertainment
+1235,5/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+539,5/30/25,Mich City,Butchers Korea BBQ,-237.68,Travel & Entertainment,,,Dining
+540,5/30/25,Mich City,KYOSHO,-182.45,Travel & Entertainment,,,Dining
+537,5/30/25,Mich City,Globalblue,44.92,General Merchandise,,,General Merchandise
+538,5/30/25,Mich City,Globalblue,52.25,General Merchandise,,,General Merchandise
+118,5/30/25,Fam Wells,Financial Transactions,0.12,Financial Transactions,,,Bank Fees
+1011,5/30/25,Mich Amex,OpenAI,-20.0,Subscriptions,,,Subscriptions
+1210,5/30/25,Mich Bofa,Amazon,192.59,Amazon,,,Amazon
+1428,5/30/25,Mich Wells,BUS TELE SVCS,6644.64,Income,,,Income
+1427,5/30/25,Mich Wells,BUS TELE SVCS,9100.75,Income,,,Income
+1424,5/30/25,Mich Wells,Financial Transactions,0.04,Financial Transactions,,,Bank Fees
+1429,5/30/25,Mich Wells,BUSINESS TELECOMMUNICATIONS SE,10664.9,Financial Transactions,,,Expense Reports
+1426,5/30/25,Mich Wells,Transfers,-9376.0,Financial Transactions,,,Loan Payment
+1425,5/30/25,Mich Wells,Transfers,-9100.0,Financial Transactions,,,Loan Payment
+533,5/31/25,Mich City,American Airlines,-11.2,Travel & Entertainment,,,Travel & Entertainment
+535,5/31/25,Mich City,American Airlines,-11.2,Travel & Entertainment,,,Travel & Entertainment
+536,5/31/25,Mich City,American Airlines,-11.2,Travel & Entertainment,,,Travel & Entertainment
+534,5/31/25,Mich City,Cold Play Special,-39.72,Travel & Entertainment,,,Travel & Entertainment
+532,5/31/25,Mich City,Cold Play Special,-6.9,Travel & Entertainment,,,Travel & Entertainment
+531,5/31/25,Mich City,Amandine Lounge,-33.05,Travel & Entertainment,,,Dining
+1209,5/31/25,Mich Bofa,Amazon,-144.42,Amazon,,,Amazon
+601,5/4/25,Mich City,Segafredo Cafe,-149.64,Travel & Entertainment,,,Dining
+1034,5/4/25,Mich Amex,Hotels.com,-1461.38,Travel & Entertainment,,,Travel & Lodging
+600,5/5/25,Mich City,Naples Jaguar,-5000.0,Auto,,,Vehicle Payment
+144,5/5/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+1033,5/5/25,Mich Amex,Saks Off 5th,81.3,General Merchandise,,,General Merchandise
+1232,5/5/25,Mich Bofa,Amazon,-192.59,Amazon,,,Amazon
+1233,5/5/25,Mich Bofa,Amazon,-363.74,Amazon,,,Amazon
+1234,5/5/25,Mich Bofa,PayPal,-163.24,Auto,,,Car Insurance Payment
+1446,5/5/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1448,5/5/25,Mich Wells,Zelle To Fernandez Mina,-200.0,General Merchandise,,,General Merchandise
+1447,5/5/25,Mich Wells,Zelle To Sebastian Caminero,-60.0,Pelu,,,Pelu Lore Mich
+143,5/6/25,Fam Wells,CVS,-10.0,Medical,,,Medical
+142,5/6/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+1031,5/6/25,Mich Amex,Airwallex,-117.64,Travel & Entertainment,,,Travel & Lodging
+1032,5/6/25,Mich Amex,Ferryhopper,-414.59,Travel & Entertainment,,,Travel & Lodging
+1231,5/6/25,Mich Bofa,Amazon,-179.14,Amazon,,,Amazon
+1445,5/6/25,Mich Wells,Zelle To Top Golf Tip,-20.0,Travel & Entertainment,,,Travel & Entertainment
+141,5/7/25,Fam Wells,Zelle To Faciales Ymack,-100.0,Medical,,,Health & Wellness
+1230,5/7/25,Mich Bofa,Amazon,45.34,Amazon,,,Amazon
+1229,5/7/25,Mich Bofa,Amazon,45.75,Amazon,,,Amazon
+1444,5/7/25,Mich Wells,Zelle From By Geruncho Inc,1000.0,Financial Transactions,,,Geruncho Loan
+1029,5/8/25,Mich Amex,Amazon,198.7,Amazon,,,Amazon
+1030,5/8/25,Mich Amex,Hertz,-270.02,Travel & Entertainment,,,Travel & Lodging
+1443,5/8/25,Mich Wells,Zelle To Valet Zuma,-50.0,Travel & Entertainment,,,Travel & Entertainment
+598,5/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+599,5/9/25,Mich City,MPA Parking,-6.5,Auto,,,Transport
+140,5/9/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1027,5/9/25,Mich Amex,Amazon,-293.48,Amazon,,,Amazon
+1026,5/9/25,Mich Amex,Amazon,-198.7,Amazon,,,Amazon
+1028,5/9/25,Mich Amex,Walmart,-320.78,General Merchandise,,,General Merchandise
+1442,5/9/25,Mich Wells,Transfers,26448.53,Financial Transactions,,,Savings
+529,6/1/25,Mich City,Cold Play Special,-83.16,Travel & Entertainment,,,Travel & Entertainment
+530,6/1/25,Mich City,Total Wine and More,-118.05,Liquor Store,,,Liquor Store
+1010,6/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Subscriptions
+505,6/10/25,Mich City,HCO Dental,-40.0,Medical,,,Medical
+506,6/10/25,Mich City,The Home Depot,-132.62,Maintenance,,,Hardware Store
+102,6/10/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+504,6/11/25,Mich City,Central Locksmith,-49.45,Beach,,,Services
+101,6/11/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+100,6/11/25,Fam Wells,Zelle To Romero Yelitza Costurera Doral,-60.0,Clothing,,,Costurera
+1004,6/11/25,Mich Amex,AT&T,-108.19,Bills & Utilities,,,Utilities
+1190,6/11/25,Mich Bofa,Amazon,298.95,Amazon,,,Amazon
+503,6/12/25,Mich City,Meat Club Market,-205.0,Groceries,,,Groceries
+502,6/12/25,Mich City,Meat Town Distributors,-61.45,Groceries,,,Groceries
+501,6/12/25,Mich City,Financial Transactions,13816.99,Financial Transactions,,,Card Payment
+97,6/12/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+98,6/12/25,Fam Wells,Fernandez M,-652.04,Aditional Expenses,,,Aditional Expenses
+99,6/12/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1415,6/12/25,Mich Wells,Transfers,5000.0,Financial Transactions,,,Loan
+1416,6/12/25,Mich Wells,Transfers,12500.0,Financial Transactions,,,Loan
+498,6/13/25,Mich City,American Airlines,-36.4,Travel & Entertainment,,,Travel & Entertainment
+496,6/13/25,Mich City,Chevron,-73.03,Auto,,,Transport
+495,6/13/25,Mich City,NATL GEN INS,-28.08,Auto,,,Insurance
+499,6/13/25,Mich City,Shell,-60.54,Auto,,,Transport
+497,6/13/25,Mich City,Shell,-33.54,Auto,,,Transport
+500,6/13/25,Mich City,The Home Depot,-108.46,Maintenance,,,Hardware Store
+96,6/13/25,Fam Wells,Financial Transactions,-500.0,Financial Transactions,,,Cash
+95,6/13/25,Fam Wells,Zelle To Quero Cesar,-150.0,Maintenance,,,Maintenance
+1187,6/13/25,Mich Bofa,Amazon,12.38,Amazon,,,Amazon
+1183,6/13/25,Mich Bofa,Amazon,38.51,Amazon,,,Amazon
+1188,6/13/25,Mich Bofa,Amazon,48.14,Amazon,,,Amazon
+1185,6/13/25,Mich Bofa,Amazon,53.5,Amazon,,,Amazon
+1184,6/13/25,Mich Bofa,Amazon,92.01,Amazon,,,Amazon
+1182,6/13/25,Mich Bofa,Amazon,96.28,Amazon,,,Amazon
+1186,6/13/25,Mich Bofa,Amazon,154.6,Amazon,,,Amazon
+1189,6/13/25,Mich Bofa,Amazon,193.12,Amazon,,,Amazon
+1414,6/13/25,Mich Wells,BTS,6644.63,Income,,,Income
+1413,6/13/25,Mich Wells,Financial Transactions,4890.85,Financial Transactions,,,Card Payment
+1412,6/13/25,Mich Wells,Financial Transactions,13816.99,Financial Transactions,,,Card Payment
+493,6/14/25,Mich City,Crowder Bros,-71.14,Maintenance,,,Hardware Store
+494,6/14/25,Mich City,ALMA DE ESPANA,-213.56,Travel & Entertainment,,,Dining
+491,6/15/25,Mich City,BRADENTON BEACH LIQUOR,-117.67,Liquor Store,,,Liquor Store
+490,6/15/25,Mich City,Chevron,-15.44,Auto,,,Transport
+489,6/15/25,Mich City,YETI,-89.88,General Merchandise,,,General Merchandise
+492,6/15/25,Mich City,YETI,-53.5,General Merchandise,,,General Merchandise
+488,6/16/25,Mich City,Chevron,-78.4,Auto,,,Transport
+94,6/16/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+93,6/16/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+92,6/16/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+1411,6/16/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1410,6/16/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+483,6/17/25,Mich City,BARK FOR C,-105.3,Lucky,,,Pet Services
+487,6/17/25,Mich City,Chevron,-75.06,Auto,,,Transport
+485,6/17/25,Mich City,Flossome Orthodontics,-150.0,Medical,,,Medical
+484,6/17/25,Mich City,Men's Wearhouse,-64.19,General Merchandise,,,General Merchandise
+486,6/17/25,Mich City,Total Wine & More,-280.06,Liquor Store,,,Liquor Store
+91,6/17/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+90,6/17/25,Fam Wells,Zelle To Professional Peluquero Lugus,-200.0,Pelu,,,Andre Pelu
+1409,6/17/25,Mich Wells,Zelle To The Beach,-1956.18,Beach,,,Beach
+87,6/18/25,Fam Wells,FPL,-341.09,Bills & Utilities,,,Bills & Utilities
+89,6/18/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+88,6/18/25,Fam Wells,Whole Foods,-25.32,Groceries,,,Groceries
+1003,6/18/25,Mich Amex,Google,-9.05,Subscriptions,,,Subscriptions
+1179,6/18/25,Mich Bofa,Amazon,-102.69,Amazon,,,Amazon
+1178,6/18/25,Mich Bofa,Amazon,265.36,Amazon,,,Amazon
+1181,6/18/25,Mich Bofa,Amazon,-29.46,Amazon,,,Amazon
+1180,6/18/25,Mich Bofa,Amazon,-36.37,Amazon,,,Amazon
+1408,6/18/25,Mich Wells,BUSINESS TELECOMMUNICATIONS SE,3493.43,Financial Transactions,,,Expense Reports
+482,6/19/25,Mich City,Publix,-49.95,Groceries,,,Groceries
+1177,6/19/25,Mich Bofa,Amazon,-36.36,Amazon,,,Amazon
+528,6/2/25,Mich City,Bun Mee,-75.59,Travel & Entertainment,,,Dining
+527,6/2/25,Mich City,ISTOURS,-100.0,Education,,,Education
+116,6/2/25,Fam Wells,Financial Transactions,-200.0,Financial Transactions,,,Cash
+115,6/2/25,Fam Wells,Kukenam,-409.2,Travel & Entertainment,,,Travel & Entertainment
+114,6/2/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+117,6/2/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+1207,6/2/25,Mich Bofa,Amazon,-265.36,Amazon,,,Amazon
+1208,6/2/25,Mich Bofa,Amazon,-12.38,Amazon,,,Amazon
+1420,6/2/25,Mich Wells,Financial Transactions,1288.17,Financial Transactions,,,Card Payment
+1421,6/2/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1422,6/2/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+1419,6/2/25,Mich Wells,Venmo Michel Faleni,-5.0,Travel & Entertainment,,,Travel & Entertainment
+1423,6/2/25,Mich Wells,Zelle From Aquiles Addeo,134.0,Travel & Entertainment,,,Travel & Entertainment
+478,6/20/25,Mich City,Google,-19.99,Subscriptions,,,Cloud Services
+476,6/20/25,Mich City,Miami Beach Park,-3.0,Auto,,,Transport
+474,6/20/25,Mich City,Publix,-157.07,Groceries,,,Groceries
+481,6/20/25,Mich City,Ross Stores,-84.25,General Merchandise,,,General Merchandise
+475,6/20/25,Mich City,T.J. Maxx,-189.33,General Merchandise,,,General Merchandise
+477,6/20/25,Mich City,Target,-16.13,General Merchandise,,,General Merchandise
+479,6/20/25,Mich City,Total Wine and More,-183.14,Liquor Store,,,Liquor Store
+480,6/20/25,Mich City,Bondi Sushi,-209.66,Travel & Entertainment,,,Dining
+86,6/20/25,Fam Wells,Unknown,-1.77,Beach,,,Beach
+85,6/20/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1176,6/20/25,Mich Bofa,Amazon,-158.51,Amazon,,,Amazon
+1175,6/20/25,Mich Bofa,Amazon,-139.08,Amazon,,,Amazon
+1407,6/20/25,Mich Wells,Transfers,5000.0,Financial Transactions,,,Loan
+1405,6/20/25,Mich Wells,Transfers,-3200.0,Financial Transactions,,,Loan Payment
+1406,6/20/25,Mich Wells,Zelle To Sebastian Caminero,-160.0,Pelu,,,Pelu Lore Mich
+470,6/21/25,Mich City,Bloomingdale's,-165.79,General Merchandise,,,General Merchandise
+473,6/21/25,Mich City,BR Factory,-157.83,General Merchandise,,,General Merchandise
+469,6/21/25,Mich City,Midtown Miami,-10.0,Travel & Entertainment,,,Travel & Entertainment
+472,6/21/25,Mich City,Voyage Mega Outlet,-64.19,General Merchandise,,,General Merchandise
+471,6/21/25,Mich City,Whole Foods,-48.87,Groceries,,,Groceries
+1174,6/21/25,Mich Bofa,PayPal,-25.09,General Merchandise,,,General Merchandise
+467,6/22/25,Mich City,BR Factory,-69.55,General Merchandise,,,General Merchandise
+468,6/22/25,Mich City,Voyage Mega Outlet,-111.28,General Merchandise,,,General Merchandise
+463,6/22/25,Mich City,Voyage Mega Outlet,64.19,General Merchandise,,,General Merchandise
+464,6/22/25,Mich City,T.J. Maxx,128.38,General Merchandise,,,General Merchandise
+465,6/22/25,Mich City,ROC Group,-121.19,Travel & Entertainment,,,Dining
+466,6/22/25,Mich City,Whole Foods,-21.68,Groceries,,,Groceries
+1002,6/22/25,Mich Amex,Financial Transactions,5826.93,Financial Transactions,,,Card Payment
+461,6/23/25,Mich City,West Marine,-74.9,General Merchandise,,,General Merchandise
+462,6/23/25,Mich City,Yeti,-128.4,General Merchandise,,,General Merchandise
+83,6/23/25,Fam Wells,Bonbonite Nail Salon,-55.0,Pelu,,,Andre Pelu
+82,6/23/25,Fam Wells,Navarro Discount,-21.44,Medical,,,Medical
+84,6/23/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1172,6/23/25,Mich Bofa,Amazon,-170.08,Amazon,,,Amazon
+1173,6/23/25,Mich Bofa,Amazon,-8.55,Amazon,,,Amazon
+1403,6/23/25,Mich Wells,Financial Transactions,4939.89,Financial Transactions,,,Card Payment
+1404,6/23/25,Mich Wells,Zelle To Ldcouture,-100.0,Clothing,,,Costurera
+81,6/24/25,Fam Wells,Healthy Paws,-100.03,Lucky,,,Pet Services
+80,6/24/25,Fam Wells,T-Mobile,-192.6,Bills & Utilities,,,Andre Cell
+1170,6/24/25,Mich Bofa,Amazon,-10.69,Amazon,,,Amazon
+1169,6/24/25,Mich Bofa,Amazon,-10.69,Amazon,,,Amazon
+1168,6/24/25,Mich Bofa,Amazon,-10.69,Amazon,,,Amazon
+1167,6/24/25,Mich Bofa,Amazon,-10.69,Amazon,,,Amazon
+1166,6/24/25,Mich Bofa,Amazon,-10.69,Amazon,,,Amazon
+1165,6/24/25,Mich Bofa,Amazon,-37.44,Amazon,,,Amazon
+1171,6/24/25,Mich Bofa,Amazon,33.46,Amazon,,,Amazon
+460,6/25/25,Mich City,Fab's Conch Salad,-35.0,Travel & Entertainment,,,Dining
+459,6/25/25,Mich City,Fab's Conch Salad,-5.0,Travel & Entertainment,,,Dining
+78,6/25/25,Fam Wells,Financial Transactions,-0.17,Financial Transactions,,,Bank Fees
+79,6/25/25,Fam Wells,Amazon Prime,-5.81,Subscriptions,,,Cloud Services
+1402,6/25/25,Mich Wells,Zelle To Burrows Leante,-150.0,Travel & Entertainment,,,Travel & Entertainment
+1400,6/25/25,Mich Wells,Zelle To Glenwood,-50.0,Travel & Entertainment,,,Travel & Entertainment
+1401,6/25/25,Mich Wells,Zelle To Uzziah,-28.0,Travel & Entertainment,,,Travel & Entertainment
+458,6/26/25,Mich City,Fathia Investments,-760.0,Travel & Entertainment,,,Travel & Entertainment
+455,6/27/25,Mich City,Publix,-10.71,Groceries,,,Groceries
+457,6/27/25,Mich City,Restaurant,-230.85,Travel & Entertainment,,,Dining
+456,6/27/25,Mich City,Whole Foods,-74.41,Groceries,,,Groceries
+77,6/27/25,Fam Wells,Zelle To Leon Rocio,-200.0,Medical,,,Psicologo
+1001,6/27/25,Mich Amex,Celebrity Cruises,-697.03,Travel & Entertainment,,,Travel & Lodging
+452,6/28/25,Mich City,Parkmobile,-1.35,Auto,,,Transport
+454,6/28/25,Mich City,Ross,-104.8,General Merchandise,,,General Merchandise
+448,6/28/25,Mich City,T J Maxx,-65.22,General Merchandise,,,General Merchandise
+451,6/28/25,Mich City,Trader Joe's,-161.08,Groceries,,,Groceries
+449,6/28/25,Mich City,Walmart,-94.05,General Merchandise,,,General Merchandise
+450,6/28/25,Mich City,Walgreens,-96.74,Medical,,,Medical
+453,6/28/25,Mich City,Whole Foods,-30.52,Groceries,,,Groceries
+1161,6/28/25,Mich Bofa,Amazon,-28.87,Amazon,,,Amazon
+1160,6/28/25,Mich Bofa,Amazon,-64.18,Amazon,,,Amazon
+1163,6/28/25,Mich Bofa,Amazon,37.44,Amazon,,,Amazon
+1162,6/28/25,Mich Bofa,Amazon,74.89,Amazon,,,Amazon
+1164,6/28/25,Mich Bofa,Amazon,83.62,Amazon,,,Amazon
+446,6/29/25,Mich City,Chevron,-38.31,Auto,,,Transport
+445,6/29/25,Mich City,CVS,-27.58,Medical,,,Medical
+444,6/29/25,Mich City,CVS,-21.99,Medical,,,Medical
+447,6/29/25,Mich City,Rosinella,-39.94,Travel & Entertainment,,,Dining
+1009,6/3/25,Mich Amex,The Home Depot,-6.58,Maintenance,,,Hardware Store
+1206,6/3/25,Mich Bofa,Amazon,-40.46,Amazon,,,Amazon
+1205,6/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+72,6/30/25,Fam Wells,Financial Transactions,0.11,Financial Transactions,,,Bank Fees
+73,6/30/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+76,6/30/25,Fam Wells,The UPS Store,-2.79,General Merchandise,,,General Merchandise
+75,6/30/25,Fam Wells,Walgreens,-7.27,Medical,,,Medical
+74,6/30/25,Fam Wells,Zelle To Kukenam Camp,-35.0,Travel & Entertainment,,,Travel & Entertainment
+1000,6/30/25,Mich Amex,OpenAI,-20.0,Subscriptions,,,Subscriptions
+1158,6/30/25,Mich Bofa,Amazon,-20.84,Amazon,,,Amazon
+1159,6/30/25,Mich Bofa,Amazon,36.37,Amazon,,,Amazon
+1399,6/30/25,Mich Wells,BTS,6644.65,Income,,,Income
+1398,6/30/25,Mich Wells,BTS,8332.25,Income,,,Income
+1396,6/30/25,Mich Wells,Financial Transactions,0.03,Financial Transactions,,,Bank Fees
+1397,6/30/25,Mich Wells,Transfers,-8300.0,Financial Transactions,,,Loan Payment
+526,6/4/25,Mich City,Chevron,-78.25,Auto,,,Transport
+113,6/4/25,Fam Wells,Car Andre,-1195.9,Auto,,,Vehicle Payment
+1204,6/4/25,Mich Bofa,Amazon,-29.95,Amazon,,,Amazon
+1202,6/4/25,Mich Bofa,Amazon,-42.78,Amazon,,,Amazon
+1203,6/4/25,Mich Bofa,Amazon,-13.86,Amazon,,,Amazon
+1201,6/4/25,Mich Bofa,Cash Rewards,214.89,Financial Transactions,,,Refunds
+1418,6/4/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+525,6/5/25,Mich City,El Faro Latin Cafe,-6.36,Travel & Entertainment,,,Dining
+524,6/5/25,Mich City,ParkMobile,-4.35,Auto,,,Transport
+111,6/5/25,Fam Wells,Guarantee Manage,-226.0,Home,,,Assc. Fee Balm
+112,6/5/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+1200,6/5/25,Mich Bofa,Amazon,-193.12,Amazon,,,Amazon
+1198,6/5/25,Mich Bofa,Amazon,-56.72,Amazon,,,Amazon
+1199,6/5/25,Mich Bofa,Amazon,-298.95,Amazon,,,Amazon
+519,6/6/25,Mich City,Clark Liquor,-42.55,Liquor Store,,,Liquor Store
+523,6/6/25,Mich City,Coral Gables,-4.25,Auto,,,Transport
+522,6/6/25,Mich City,Coral Gables,-2.5,Auto,,,Transport
+518,6/6/25,Mich City,PlanetTaxFree,120.13,General Merchandise,,,General Merchandise
+521,6/6/25,Mich City,Doral Steakhouse,-568.84,Travel & Entertainment,,,Dining
+520,6/6/25,Mich City,Le Rond,-77.4,Travel & Entertainment,,,Dining
+110,6/6/25,Fam Wells,Financial Transactions,161.02,Financial Transactions,,,Refunds
+109,6/6/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1192,6/6/25,Mich Bofa,Amazon,-174.82,Amazon,,,Amazon
+1193,6/6/25,Mich Bofa,Amazon,-76.28,Amazon,,,Amazon
+1195,6/6/25,Mich Bofa,Amazon,-154.6,Amazon,,,Amazon
+1194,6/6/25,Mich Bofa,Amazon,-85.59,Amazon,,,Amazon
+1197,6/6/25,Mich Bofa,Amazon,-40.92,Amazon,,,Amazon
+1196,6/6/25,Mich Bofa,Amazon,-40.92,Amazon,,,Amazon
+1191,6/6/25,Mich Bofa,Interest Charged,-26.09,Financial Transactions,,,Bank Fees
+1417,6/6/25,Mich Wells,Financial Transactions,1956.18,Financial Transactions,,,Refunds
+516,6/7/25,Mich City,City of Miami Beach,-2.5,Auto,,,Transport
+517,6/7/25,Mich City,Fillmore,-136.63,Travel & Entertainment,,,Travel & Entertainment
+1008,6/7/25,Mich Amex,City of Miami Beach,-6.0,Auto,,,Transport
+510,6/8/25,Mich City,Restaurant,-35.0,Travel & Entertainment,,,Travel & Entertainment
+514,6/8/25,Mich City,Dicks Sporting Goods,-148.45,General Merchandise,,,General Merchandise
+513,6/8/25,Mich City,Moramora,-1.62,Travel & Entertainment,,,Dining
+515,6/8/25,Mich City,Pacsun,-120.29,General Merchandise,,,General Merchandise
+512,6/8/25,Mich City,Espanolita,-154.44,Travel & Entertainment,,,Dining
+511,6/8/25,Mich City,Pisco,-85.12,Travel & Entertainment,,,Dining
+1007,6/8/25,Mich Amex,Carne en Vara,-93.71,Travel & Entertainment,,,Dining
+509,6/9/25,Mich City,Chevron,-75.02,Auto,,,Transport
+508,6/9/25,Mich City,Divino Ceviche,-61.17,Travel & Entertainment,,,Dining
+507,6/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+103,6/9/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+106,6/9/25,Fam Wells,440 Corporatio,-33.49,Beach,,,Beach
+105,6/9/25,Fam Wells,440 Corporatio,-2.94,Beach,,,Beach
+108,6/9/25,Fam Wells,440 Corporatio,-12.0,Beach,,,Beach
+104,6/9/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+107,6/9/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+1005,6/9/25,Mich Amex,GPTForWork,-29.0,Subscriptions,,,Subscriptions
+1006,6/9/25,Mich Amex,Sport Car Wash,-48.14,Auto,,,Vehicle Maintenance
+442,7/1/25,Mich City,HARPERANDNEYER,-14.13,General Merchandise,,,General Merchandise
+443,7/1/25,Mich City,ISTOURS,-100.0,Education,,,Education
+70,7/1/25,Fam Wells,Amazon,-300.0,General Merchandise,,,Beach
+69,7/1/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+71,7/1/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+999,7/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Subscriptions
+1157,7/1/25,Mich Bofa,Amazon,64.18,Amazon,,,Amazon
+1393,7/1/25,Mich Wells,Financial Transactions,315.09,Financial Transactions,,,Card Payment
+1395,7/1/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1394,7/1/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+437,7/10/25,Mich City,Hudson News,-6.51,General Merchandise,,,General Merchandise
+60,7/10/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+436,7/11/25,Mich City,Rest La Mamounia,-396.91,Travel & Entertainment,,,Dining
+58,7/11/25,Fam Wells,Financial Transactions,-5.0,Financial Transactions,,,Bank Fees
+59,7/11/25,Fam Wells,Financial Transactions,-564.48,Financial Transactions,,,Cash
+1389,7/11/25,Mich Wells,Transfers,2500.0,Financial Transactions,,,Loan
+431,7/12/25,Mich City,Billetterie LJS,-22.24,Travel & Entertainment,,,Travel & Entertainment
+432,7/12/25,Mich City,Boulgrie Aboufirassi,-51.14,Travel & Entertainment,,,Dining
+433,7/12/25,Mich City,Ksour Bio,-93.39,Travel & Entertainment,,,Groceries
+430,7/12/25,Mich City,L'Adresse,-50.03,Travel & Entertainment,,,Dining
+435,7/12/25,Mich City,Lodging H Nelia Signat,-1212.96,Travel & Entertainment,,,Travel & Lodging
+434,7/12/25,Mich City,Rest La Mamounia,-210.13,Travel & Entertainment,,,Dining
+429,7/13/25,Mich City,Atlas Montgolfiere,-444.72,Travel & Entertainment,,,Travel & Entertainment
+428,7/13/25,Mich City,Financial Transactions,11421.11,Financial Transactions,,,Card Payment
+423,7/14/25,Mich City,Taxi,-13.4,Travel & Entertainment,,,Taxi
+427,7/14/25,Mich City,Holman,-1355.06,Auto,,,Vehicle Maintenance
+425,7/14/25,Mich City,Matsuri,-66.71,Travel & Entertainment,,,Dining
+426,7/14/25,Mich City,OKLM Investment,-662.96,Travel & Entertainment,,,Travel & Entertainment
+424,7/14/25,Mich City,Restaurante La Trainer,-269.08,Travel & Entertainment,,,Dining
+54,7/14/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+57,7/14/25,Fam Wells,Restaurant,97.45,Travel & Entertainment,,,Travel & Entertainment
+55,7/14/25,Fam Wells,Financial Transactions,-5.0,Financial Transactions,,,Bank Fees
+56,7/14/25,Fam Wells,Financial Transactions,-339.14,Financial Transactions,,,Cash
+994,7/14/25,Mich Amex,Amazon,108.94,Amazon,,,Amazon
+1387,7/14/25,Mich Wells,Citi Card,11421.11,Financial Transactions,,,Card Payment
+1388,7/14/25,Mich Wells,Transfers,12500.0,Financial Transactions,,,Loan
+420,7/15/25,Mich City,Brief Atocha,-17.49,Travel & Entertainment,,,Dining
+422,7/15/25,Mich City,La Republicana,-5.97,Travel & Entertainment,,,Dining
+418,7/15/25,Mich City,National General Insurance,-28.08,Auto,,,Insurance
+421,7/15/25,Mich City,Cafe Nolasco,-6.43,Travel & Entertainment,,,Dining
+419,7/15/25,Mich City,Tarin Grupo Joyero,-409.46,Jewerly,,,Jewelry
+53,7/15/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+20,7/15/25,Mich Bofa,PayPal,-61.02,General Merchandise,,,General Merchandise
+1386,7/15/25,Mich Wells,Bus Tele Services,7161.31,Income,,,Income
+1384,7/15/25,Mich Wells,Citi Card,3204.69,Financial Transactions,,,Card Payment
+1385,7/15/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+415,7/16/25,Mich City,FNAC,-24.68,General Merchandise,,,General Merchandise
+417,7/16/25,Mich City,Gastrobar Costa,-16.72,Travel & Entertainment,,,Dining
+416,7/16/25,Mich City,La Republicana,-19.18,Travel & Entertainment,,,Dining
+414,7/16/25,Mich City,XI Store,-35.03,General Merchandise,,,General Merchandise
+52,7/16/25,Fam Wells,Transfers,-150.0,Beach,,,Beach
+1383,7/16/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+407,7/17/25,Mich City,Bodegas Alto Moncayo,-601.27,Liquor Store,,,Liquor Store
+411,7/17/25,Mich City,FARMACIA CARMEN,-30.51,Medical,,,Medical
+410,7/17/25,Mich City,FARMACIA CLAVER,-33.41,Medical,,,Medical
+413,7/17/25,Mich City,Restaurant,-13.48,Travel & Entertainment,,,Dining
+408,7/17/25,Mich City,Restaurant,-141.48,General Merchandise,,,General Merchandise
+412,7/17/25,Mich City,Restaurant,-14.04,General Merchandise,,,General Merchandise
+409,7/17/25,Mich City,RESTaurante Birolla,-139.92,Travel & Entertainment,,,Dining
+49,7/17/25,Fam Wells,FPL,-324.27,Bills & Utilities,,,Bills & Utilities
+50,7/17/25,Fam Wells,Financial Transactions,-5.0,Financial Transactions,,,Bank Fees
+51,7/17/25,Fam Wells,Financial Transactions,-594.36,Financial Transactions,,,Cash
+19,7/17/25,Mich Bofa,Financial Transactions,-20.32,Amazon,,,Amazon
+401,7/18/25,Mich City,Restaurant,-207.51,Travel & Entertainment,,,Dining
+398,7/18/25,Mich City,AC Hotel Recoletos,-861.91,Travel & Entertainment,,,Travel & Lodging
+404,7/18/25,Mich City,Restaurant,-17.9,Travel & Entertainment,,,Dining
+403,7/18/25,Mich City,Restaurant,-134.26,Travel & Entertainment,,,Dining
+400,7/18/25,Mich City,DIESEL,-251.86,General Merchandise,,,General Merchandise
+406,7/18/25,Mich City,FARMACIA LOS SOPORTALE,-1.75,Medical,,,Medical
+405,7/18/25,Mich City,IPARK,-7.88,Travel & Entertainment,,,Parking
+402,7/18/25,Mich City,LAS VIANDAS SAN LORENZO,-192.62,Travel & Entertainment,,,Dining
+399,7/18/25,Mich City,Tumi,-581.13,General Merchandise,,,General Merchandise
+992,7/18/25,Mich Amex,Google,-9.05,Subscriptions,,,Subscriptions
+993,7/18/25,Mich Amex,Uber,-23.29,Travel & Entertainment,,,Taxi
+1382,7/18/25,Mich Wells,Transfers,-1200.0,Financial Transactions,,,Loan Payment
+394,7/19/25,Mich City,DRUNI,-11.03,Medical,,,Medical
+397,7/19/25,Mich City,HELADERIA FRIGO MADRID,-2.8,Travel & Entertainment,,,Dining
+392,7/19/25,Mich City,LAS COLUMNAS DE RECOLE,-25.68,Travel & Entertainment,,,Dining
+396,7/19/25,Mich City,Restaurant,-7.77,Travel & Entertainment,,,Dining
+395,7/19/25,Mich City,PRIMOR,-10.38,General Merchandise,,,General Merchandise
+390,7/19/25,Mich City,TABERNA O CALDINO,-794.11,Travel & Entertainment,,,Dining
+393,7/19/25,Mich City,Taxi Espana,-17.28,Travel & Entertainment,,,Taxi
+391,7/19/25,Mich City,Zara,-295.99,General Merchandise,,,General Merchandise
+68,7/2/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+385,7/20/25,Mich City,AIR EUROPA,-209.17,Travel & Entertainment,,,Travel & Entertainment
+383,7/20/25,Mich City,EL RANA VERDE,-116.74,Travel & Entertainment,,,Dining
+384,7/20/25,Mich City,Google,-19.99,Subscriptions,,,Cloud Services
+386,7/20/25,Mich City,LAS COLUMNAS DE RECOLE,-21.01,Travel & Entertainment,,,Dining
+387,7/20/25,Mich City,Taxi Espana,-11.5,Taxi,,,Taxi
+389,7/20/25,Mich City,Taxi Espana,-4.79,Taxi,,,Taxi
+382,7/20/25,Mich City,Restaurant,-122.58,Travel & Entertainment,,,Dining
+388,7/20/25,Mich City,BATRUN MANAGEM,-5.6,Travel & Entertainment,,,Dining
+378,7/21/25,Mich City,CASAJULIAN,-216.59,Travel & Entertainment,,,Dining
+380,7/21/25,Mich City,LAS COLUMNAS DE RECOLE MADRID,-17.51,Travel & Entertainment,,,Dining
+381,7/21/25,Mich City,ABServiciosSelecta,-2.22,Travel & Entertainment,,,Dining
+379,7/21/25,Mich City,PALMA SUITES,-84.87,Travel & Entertainment,,,Travel & Lodging
+47,7/21/25,Fam Wells,Financial Transactions,-5.0,Financial Transactions,,,Bank Fees
+48,7/21/25,Fam Wells,Financial Transactions,-297.63,Financial Transactions,,,Cash
+990,7/21/25,Mich Amex,Financial Transactions,1270.71,Financial Transactions,,,Card Payment
+991,7/21/25,Mich Amex,Uber,-23.24,Travel & Entertainment,,,Taxi
+18,7/21/25,Mich Bofa,Amazon,-29.94,Amazon,,,Amazon
+17,7/21/25,Mich Bofa,Amazon,-10.68,Amazon,,,Amazon
+16,7/21/25,Mich Bofa,Amazon,-1818.98,Amazon,,,Amazon
+1380,7/21/25,Mich Wells,Financial Transactions,3013.88,Financial Transactions,,,Card Payment
+1381,7/21/25,Mich Wells,Transfers,3114.0,Financial Transactions,,,Loan
+377,7/22/25,Mich City,Cafe Pastelier Palma,-27.54,Travel & Entertainment,,,Dining
+374,7/22/25,Mich City,Chevron,-63.7,Auto,,,Transport
+375,7/22/25,Mich City,Restaurant,-63.29,Travel & Entertainment,,,Dining
+376,7/22/25,Mich City,Restaurant,-51.45,Travel & Entertainment,,,Dining
+989,7/22/25,Mich Amex,Uber,-11.47,Travel & Entertainment,,,Taxi
+371,7/23/25,Mich City,No Boundaries Sport,-43.31,General Merchandise,,,General Merchandise
+372,7/23/25,Mich City,Restaurant,-18.82,Travel & Entertainment,,,Dining
+369,7/23/25,Mich City,NAVARRO DISCOUNT PHARM,-90.68,Medical,,,Medical
+370,7/23/25,Mich City,Restaurant,-59.45,Travel & Entertainment,,,Travel & Lodging
+368,7/23/25,Mich City,Publix,-140.8,Groceries,,,Groceries
+373,7/23/25,Mich City,QUARTERA PALMA ESP,-13.28,Travel & Entertainment,,,Dining
+365,7/24/25,Mich City,Restaurant,-4.7,Travel & Entertainment,,,Dining
+360,7/24/25,Mich City,BOUTIQUE SAVINA,-46.93,General Merchandise,,,General Merchandise
+366,7/24/25,Mich City,Cafeteria Palma,-2.71,Travel & Entertainment,,,Dining
+364,7/24/25,Mich City,CALIMA FOOD AND DRINKS,-8.23,Travel & Entertainment,,,Dining
+359,7/24/25,Mich City,CAN CARLITOS,-96.45,Travel & Entertainment,,,Dining
+367,7/24/25,Mich City,Restaurant,-0.35,Travel & Entertainment,,,Travel & Entertainment
+363,7/24/25,Mich City,El Mirador,-20.0,Beach,,,Beach
+361,7/24/25,Mich City,Restaurant,-41.17,Travel & Entertainment,,,Dining
+362,7/24/25,Mich City,PALMA SUITES,-23.52,Travel & Entertainment,,,Travel & Lodging
+356,7/24/25,Mich City,REG,-39.56,Travel & Entertainment,,,Travel & Entertainment
+357,7/24/25,Mich City,REG,-16.24,Travel & Entertainment,,,Travel & Entertainment
+358,7/24/25,Mich City,440 Corporation,-11.76,Beach,,,Beach
+46,7/24/25,Fam Wells,T-Mobile,-200.29,Bills & Utilities,,,Andre Cell
+988,7/24/25,Mich Amex,OUTDOORSY,-219.18,Travel & Entertainment,,,Travel & Lodging
+15,7/24/25,Mich Bofa,Amazon,-87.74,Amazon,,,Amazon
+14,7/24/25,Mich Bofa,Google,-6.49,General Merchandise,,,General Merchandise
+348,7/25/25,Mich City,BESO BEACH,-120.28,Travel & Entertainment,,,Dining
+354,7/25/25,Mich City,BESO SANT FRANCESC ESP,-8.25,Travel & Entertainment,,,Dining
+353,7/25/25,Mich City,Restaurant,-8.25,Travel & Entertainment,,,Dining
+350,7/25/25,Mich City,Hotel Ca Mari Formentera,-53.06,Travel & Entertainment,,,Travel & Lodging
+349,7/25/25,Mich City,PARAISO DE LOS PINOS,-79.01,Travel & Entertainment,,,Travel & Lodging
+344,7/25/25,Mich City,ROSS STORES,-79.25,General Merchandise,,,General Merchandise
+343,7/25/25,Mich City,Globalblue,59.05,General Merchandise,,,General Merchandise
+342,7/25/25,Mich City,Globalblue,63.97,General Merchandise,,,General Merchandise
+352,7/25/25,Mich City,T J MAXX,-25.66,General Merchandise,,,General Merchandise
+351,7/25/25,Mich City,TAHITI BEACH,-40.45,Travel & Entertainment,,,Dining
+346,7/25/25,Mich City,Total Wine and More,-44.91,Liquor Store,,,Liquor Store
+355,7/25/25,Mich City,LE ROND,-78.69,Travel & Entertainment,,,Dining
+345,7/25/25,Mich City,Whole Foods,-151.72,Groceries,,,Groceries
+347,7/25/25,Mich City,aliexpress,-133.57,General Merchandise,,,General Merchandise
+45,7/25/25,Fam Wells,Healthy Paws Pet,-103.02,Lucky,,,Pet Services
+42,7/25/25,Fam Wells,Financial Transactions,-0.17,Financial Transactions,,,Bank Fees
+43,7/25/25,Fam Wells,Amazon,-5.88,Subscriptions,,,Cloud Services
+44,7/25/25,Fam Wells,SUNPASS,-10.0,Auto,,,Tolls
+985,7/25/25,Mich Amex,Amazon,22.12,Amazon,,,Amazon
+984,7/25/25,Mich Amex,Amazon,55.15,Amazon,,,Amazon
+986,7/25/25,Mich Amex,Amazon,-94.64,Amazon,,,Amazon
+987,7/25/25,Mich Amex,MB-PARKING,-8.35,Auto,,,Transport
+341,7/26/25,Mich City,MAR Y PLAYA CHIRINGUIT,-5.89,Travel & Entertainment,,,Dining
+339,7/26/25,Mich City,Restaurant,-67.86,Travel & Entertainment,,,Dining
+340,7/26/25,Mich City,Taxi Espana,-32.68,Travel & Entertainment,,,Taxi
+982,7/26/25,Mich Amex,Amazon,-22.12,Amazon,,,Amazon
+983,7/26/25,Mich Amex,Amazon,-55.15,Amazon,,,Amazon
+13,7/26/25,Mich Bofa,Amazon,-98.44,Amazon,,,Amazon
+335,7/27/25,Mich City,EL SAZON CUBANO,-79.2,Travel & Entertainment,,,Dining
+332,7/27/25,Mich City,LA PARRILLA,-137.72,Travel & Entertainment,,,Dining
+336,7/27/25,Mich City,Marisol Pacha,-47.01,Travel & Entertainment,,,Travel & Entertainment
+334,7/27/25,Mich City,RESTAURANTE MANAPANY,-103.08,Travel & Entertainment,,,Dining
+333,7/27/25,Mich City,ACE HARDWARE,-116.51,Maintenance,,,Hardware Store
+338,7/27/25,Mich City,SUPER TUSCAN IBIZA,-5.89,Travel & Entertainment,,,Dining
+337,7/27/25,Mich City,Walgreens,-25.66,Medical,,,Medical
+328,7/28/25,Mich City,Bass Pro Store,-24.0,General Merchandise,,,General Merchandise
+329,7/28/25,Mich City,Kokai Sushi & Lounge,-127.01,Travel & Entertainment,,,Dining
+330,7/28/25,Mich City,Taxi Espana,-38.88,Travel & Entertainment,,,Taxi
+331,7/28/25,Mich City,Taxi Espana,-38.88,Travel & Entertainment,,,Taxi
+981,7/28/25,Mich Amex,Google,-3.49,Subscriptions,,,Services
+12,7/28/25,Mich Bofa,Amazon,-35.29,Amazon,,,Amazon
+41,7/29/25,Fam Wells,Car Mich,-1302.06,Auto,,,Vehicle Payment
+10,7/29/25,Mich Bofa,Amazon,-69.54,Amazon,,,Amazon
+11,7/29/25,Mich Bofa,Amazon,20.32,Amazon,,,Amazon
+1378,7/29/25,Mich Wells,Financial Transactions,120.0,Financial Transactions,,,Refunds
+1377,7/29/25,Mich Wells,Financial Transactions,15.0,Financial Transactions,,,Refunds
+1379,7/29/25,Mich Wells,Financial Transactions,95.21,Financial Transactions,,,Refunds
+1376,7/29/25,Mich Wells,Zelle To Sebastian Caminero,-160.0,Pelu,,,Pelu Lore Mich
+998,7/3/25,Mich Amex,Bunk1,-10.0,Education,,,Subscriptions
+1156,7/3/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+327,7/30/25,Mich City,KW Property,-103.0,Beach,,,Beach
+326,7/30/25,Mich City,Publix,-181.48,Groceries,,,Groceries
+980,7/30/25,Mich Amex,OpenAI,-20.0,Subscriptions,,,Streaming
+9,7/30/25,Mich Bofa,Amazon,-139.09,Amazon,,,Amazon
+8,7/30/25,Mich Bofa,Amazon,-23.53,Amazon,,,Amazon
+7,7/30/25,Mich Bofa,Amazon,-48.14,Amazon,,,Amazon
+6,7/30/25,Mich Bofa,Amazon,13.9,Amazon,,,Amazon
+5,7/30/25,Mich Bofa,Amazon,17.11,Amazon,,,Amazon
+1375,7/30/25,Mich Wells,Zelle To Valet Epic,-5.0,Travel & Entertainment,,,Travel & Entertainment
+323,7/31/25,Mich City,South Beach Ace Hardware,31.01,Maintenance,,,Hardware Store
+325,7/31/25,Mich City,Trader Joe's,-64.78,Groceries,,,Groceries
+324,7/31/25,Mich City,Whole Foods,-3.2,Groceries,,,Groceries
+40,7/31/25,Fam Wells,Financial Transactions,0.12,Financial Transactions,,,Bank Fees
+1373,7/31/25,Mich Wells,BTS,7161.3,Income,,,Income
+1372,7/31/25,Mich Wells,BTS,9142.26,Income,,,Income
+1374,7/31/25,Mich Wells,Healthy Paws,0.02,Lucky,,,Pet Services
+1370,7/31/25,Mich Wells,Financial Transactions,0.01,Financial Transactions,,,Bank Fees
+1371,7/31/25,Mich Wells,Transfers,-9142.0,Financial Transactions,,,Loan Payment
+997,7/4/25,Mich Amex,Amazon,-134.71,Amazon,,,Amazon
+440,7/5/25,Mich City,CASA LAC ZARAGOZA,-216.92,Travel & Entertainment,,,Dining
+441,7/5/25,Mich City,Vinonueva,-937.32,Liquor Store,,,Liquor Store
+1155,7/5/25,Mich Bofa,Financial Transactions,-35.68,Financial Transactions,,,Bank Fees
+439,7/6/25,Mich City,Alacena de Aragon,-181.68,Travel & Entertainment,,,Dining
+62,7/7/25,Fam Wells,Car Andre,-1195.9,Auto,,,Vehicle Payment
+66,7/7/25,Fam Wells,MPA PARKING,-3.5,Travel & Entertainment,,,Parking
+63,7/7/25,Fam Wells,Peluqueria,-190.0,Andre,,,Andre Expenses
+64,7/7/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+65,7/7/25,Fam Wells,SHEIN,-48.47,General Merchandise,,,General Merchandise
+67,7/7/25,Fam Wells,SHEIN,-48.98,General Merchandise,,,General Merchandise
+996,7/7/25,Mich Amex,Amazon,-79.22,Amazon,,,Amazon
+1390,7/7/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1391,7/7/25,Mich Wells,Transfers,-500.0,Financial Transactions,,,Loan Payment
+1392,7/7/25,Mich Wells,Zelle From Juan C Florez,500.0,Liquor Store,,,Liquor Store
+61,7/8/25,Fam Wells,Guarantee Management,-226.0,Home,,,Assc. Fee Balm
+438,7/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+995,7/9/25,Mich Amex,AT&T,-108.19,Bills & Utilities,,,Utilities
+322,8/1/25,Mich City,ISTOURS,-100.0,Education,,,Education
+320,8/1/25,Mich City,KLAW,-580.27,Travel & Entertainment,,,Travel & Entertainment
+321,8/1/25,Mich City,KLAW,-56.2,Travel & Entertainment,,,Travel & Entertainment
+37,8/1/25,Fam Wells,Water Bill,-304.11,Bills & Utilities,,,Utilities
+38,8/1/25,Fam Wells,El Mirador,-40.0,Beach,,,Beach
+39,8/1/25,Fam Wells,Transfers,4850.0,Financial Transactions,,,Income Transfer
+979,8/1/25,Mich Amex,Netflix,-28.28,Subscriptions,,,Streaming
+1367,8/1/25,Mich Wells,AppleCard,398.2,Financial Transactions,,,Card Payment
+1368,8/1/25,Mich Wells,Transfers,-4850.0,Financial Transactions,,,Income Transfer
+1369,8/1/25,Mich Wells,Transfers,-1174.0,Savings,,,Savings
+290,8/10/25,Mich City,Publix,-51.61,Groceries,,,Groceries
+289,8/10/25,Mich City,TST,-135.45,Travel & Entertainment,,,Dining
+288,8/11/25,Mich City,Naturxheal,-18.0,Medical,,,Medical
+287,8/11/25,Mich City,AliExpress,91.78,General Merchandise,,,General Merchandise
+25,8/11/25,Fam Wells,Netflix,-20.36,Subscriptions,,,Streaming
+24,8/11/25,Fam Wells,Publix,-105.0,Groceries,,,Groceries
+1357,8/11/25,Mich Wells,Zelle From Jorge Perez,268.0,Travel & Entertainment,,,Travel & Entertainment
+1358,8/11/25,Mich Wells,Zelle From Solarte Alfredo,482.08,Travel & Entertainment,,,Travel & Entertainment
+1356,8/11/25,Mich Wells,Zelle To Jorge Bonini Orlando,-72.0,Travel & Entertainment,,,Travel & Entertainment
+23,8/12/25,Fam Wells,Moto,-219.28,Auto,,,Vehicle Payment
+1355,8/12/25,Mich Wells,Transfers,10207.0,Financial Transactions,,,Loan
+1354,8/12/25,Mich Wells,Transfers,-1800.0,Financial Transactions,,,Loan Payment
+286,8/13/25,Mich City,Transfers,10206.57,Financial Transactions,,,Card Payment
+22,8/13/25,Fam Wells,SunPass,-10.0,Auto,,,Tolls
+21,8/13/25,Fam Wells,Zelle To Bijani Tatiana,-238.09,Travel & Entertainment,,,Travel & Entertainment
+969,8/13/25,Mich Amex,OpenAI,-10.0,Subscriptions,,,Services
+1353,8/13/25,Mich Wells,Transfers,2750.0,Financial Transactions,,,Loan
+319,8/2/25,Mich City,WATER,-30.0,Travel & Entertainment,,,Dining
+317,8/2/25,Mich City,The Miami Beach Edition,-32.21,Travel & Entertainment,,,Travel & Lodging
+316,8/2/25,Mich City,CASADONNA,-60.0,Travel & Entertainment,,,Dining
+318,8/2/25,Mich City,Whole Foods,-138.41,Groceries,,,Groceries
+975,8/2/25,Mich Amex,Nikki Beach,-1699.59,Travel & Entertainment,,,Travel & Entertainment
+976,8/2/25,Mich Amex,The Sylvester,-165.76,Travel & Entertainment,,,Dining
+978,8/2/25,Mich Amex,Uber,-21.43,Travel & Entertainment,,,Transport
+977,8/2/25,Mich Amex,Uber,-2.33,Travel & Entertainment,,,Transport
+313,8/3/25,Mich City,The Miami Beach Editio,-819.32,Travel & Entertainment,,,Travel & Lodging
+315,8/3/25,Mich City,LA VICTORIA,-703.3,Travel & Entertainment,,,Travel & Entertainment
+314,8/3/25,Mich City,Hacienda Ramirez,-86.2,Travel & Entertainment,,,Dining
+974,8/3/25,Mich Amex,Uber,-22.45,Travel & Entertainment,,,Transport
+973,8/3/25,Mich Amex,Uber,-20.68,Travel & Entertainment,,,Transport
+972,8/3/25,Mich Amex,Uber,-17.72,Travel & Entertainment,,,Transport
+971,8/3/25,Mich Amex,Uber,-10.75,Travel & Entertainment,,,Transport
+311,8/4/25,Mich City,HomeGoods,-48.15,Maintenance,,,Hardware Store
+310,8/4/25,Mich City,Publix,-62.98,Groceries,,,Groceries
+312,8/4/25,Mich City,Publix,-1.76,Groceries,,,Groceries
+309,8/4/25,Mich City,Medical Associates Doral,-20.0,Medical,,,Medical
+308,8/4/25,Mich City,The Home Depot,-50.75,Maintenance,,,Hardware Store
+36,8/4/25,Fam Wells,Balmoral Estates,-2883.78,Home,,,Home
+4,8/4/25,Mich Bofa,Amazon,-81.84,Amazon,,,Amazon
+3,8/4/25,Mich Bofa,Financial Transactions,300.0,Financial Transactions,,,Card Payment
+1362,8/4/25,Mich Wells,Bank of America,300.0,Financial Transactions,,,Card Payment
+1363,8/4/25,Mich Wells,Venmo Michel Faleni,-10.0,Travel & Entertainment,,,Travel & Entertainment
+1365,8/4/25,Mich Wells,Zelle From Jorge Bonini,214.0,Travel & Entertainment,,,Travel & Entertainment
+1366,8/4/25,Mich Wells,Zelle From Jorge Perez,14.0,Travel & Entertainment,,,Travel & Entertainment
+1364,8/4/25,Mich Wells,Zelle To Hacienda Dani,-150.0,Travel & Entertainment,,,Travel & Entertainment
+307,8/5/25,Mich City,Columbus,-34.99,Education,,,Education
+31,8/5/25,Fam Wells,Gurantee Management,-226.0,Home,,,Assc. Fee Balm
+30,8/5/25,Fam Wells,Car Andre,-1195.9,Auto,,,Vehicle Payment
+35,8/5/25,Fam Wells,Transfers,-400.0,Auto,,,Andre Gas
+34,8/5/25,Fam Wells,Peluqueria y Mani Pedi,-350.0,Andre,,,Andre Expenses
+33,8/5/25,Fam Wells,Transfers,-652.04,Aditional Expenses,,,Aditional Expenses
+32,8/5/25,Fam Wells,Transfers,-230.0,Financial Transactions,,,Car Insurance Payment
+2,8/5/25,Mich Bofa,Amazon,48.14,Amazon,,,Amazon
+1361,8/5/25,Mich Wells,Transfers,-500.0,Financial Transactions,,,Loan Payment
+304,8/6/25,Mich City,B-21 Liquors,-436.6,Liquor Store,,,Liquor Store
+306,8/6/25,Mich City,Best Buy,-267.49,General Merchandise,,,Electronics
+305,8/6/25,Mich City,Celebrity Cruises,325.0,Travel & Entertainment,,,Travel & Lodging
+1,8/6/25,Mich Bofa,Transfers,-52.07,Financial Transactions,,,Bank Fees
+303,8/7/25,Mich City,Haagen Dazs,-13.15,Travel & Entertainment,,,Dining
+302,8/7/25,Mich City,South Beach Ace Hardware,-66.36,Maintenance,,,Hardware Store
+27,8/7/25,Fam Wells,Publix,-10.99,Groceries,,,Groceries
+28,8/7/25,Fam Wells,Publix,-3.09,Groceries,,,Groceries
+29,8/7/25,Fam Wells,Publix,-17.91,Groceries,,,Groceries
+1350,8/7/25,Mich Bofa,Amazon,-64.17,Amazon,,,Amazon
+1352,8/7/25,Mich Bofa,Amazon,-25.0,Amazon,,,Amazon
+1351,8/7/25,Mich Bofa,Amazon,-27.8,Amazon,,,Amazon
+297,8/8/25,Mich City,Best Buy,-452.61,General Merchandise,,,Electronics
+296,8/8/25,Mich City,ISTOURS,-1899.0,Travel & Entertainment,,,Travel & Entertainment
+299,8/8/25,Mich City,J & C Liquor,-83.92,Liquor Store,,,Liquor Store
+301,8/8/25,Mich City,MPA Parking,-3.5,Auto,,,Transport
+295,8/8/25,Mich City,SQ,-36.22,Auto,,,Transport
+300,8/8/25,Mich City,Total Wine,-71.62,Liquor Store,,,Liquor Store
+298,8/8/25,Mich City,TST,-235.41,Travel & Entertainment,,,Dining
+26,8/8/25,Fam Wells,Zelle To Quero Cesar,-150.0,Maintenance,,,Maintenance
+1349,8/8/25,Mich Bofa,Amazon,-96.28,Amazon,,,Amazon
+1359,8/8/25,Mich Wells,Venmo Michel Faleni,-20.0,Travel & Entertainment,,,Travel & Entertainment
+1360,8/8/25,Mich Wells,Zelle From Lenin Cardenas,819.0,Travel & Entertainment,,,Travel & Entertainment
+294,8/9/25,Mich City,Experian,-21.95,Subscriptions,,,Services
+293,8/9/25,Mich City,SQ,-2.41,Beach,,,Beach
+291,8/9/25,Mich City,Whole Foods,-137.03,Groceries,,,Groceries
+292,8/9/25,Mich City,Whole Foods,-68.43,Groceries,,,Groceries
+970,8/9/25,Mich Amex,AT&T,-108.19,Bills & Utilities,,,Bills & Utilities
+1348,8/9/25,Mich Bofa,Amazon,-40.54,Amazon,,,Amazon
+1347,8/9/25,Mich Bofa,Transfers,120.18,Financial Transactions,,,Refunds

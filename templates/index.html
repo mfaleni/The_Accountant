@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>The 305 Accountant 6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/style.css?v=1.6" />
+    <style>
+        .summary-card.positive #summary-balance { color: #16a34a; }
+        .summary-card.negative #summary-balance { color: #db2777; }
+
+        /* Style for the new active filter in the segmented control */
+        .date-filters .active-filter {
+            background-color: #e5e7eb; /* gray-200 */
+            color: #111827; /* gray-900 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 font-sans">
+    <div class="container mx-auto p-4">
+        <header class="bg-gray-800 text-gray-200 p-3 mb-4 flex items-center justify-between rounded-xl">
+            <div class="flex items-center space-x-3">
+                <svg class="h-8 w-8 text-emerald-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                </svg>
+                <h1 class="text-xl font-bold tracking-tight text-gray-100">The 305 Accountant 6</h1>
+            </div>
+
+            <div class="date-filters flex-1 flex justify-center">
+                <div class="bg-gray-700/80 rounded-full p-1 flex items-center space-x-1">
+                    <button data-period="this_month" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">This Month</button>
+                    <button data-period="last_month" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">Last Month</button>
+                    <button data-period="last_3_months" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">Last 3 Months</button>
+                    <button data-period="last_6_months" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">Last 6 Months</button>
+                    <button data-period="this_year" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">This Year</button>
+                    <button data-period="last_year" class="date-filter-btn px-4 py-1.5 rounded-full text-sm font-semibold transition-colors duration-300 ease-in-out hover:bg-gray-600/50">Last Year</button>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-400 hover:text-white transition-colors">
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </button>
+                <button class="relative text-gray-400 hover:text-white transition-colors">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                    </svg>
+                    <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                    </span>
+                </button>
+                <button class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center font-bold text-sm text-gray-900 ring-2 ring-offset-2 ring-offset-gray-800 ring-emerald-400">
+                    A
+                </button>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-6 gap-4 mb-4">
+            <div class="bg-white p-4 rounded-lg shadow-md lg:col-span-3">
+                <h3 class="font-semibold mb-2 text-gray-800">Spending by Category</h3>
+                <div class="relative h-72">
+                    <canvas id="spending-chart"></canvas>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md lg:col-span-2">
+                <h3 class="font-semibold mb-2 text-gray-800">Category Summary & Budget</h3>
+                <div id="category-summary-list" class="space-y-3 max-h-72 overflow-y-auto pr-2"></div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md lg:col-span-1">
+                <h3 class="font-semibold mb-2">Overall Summary</h3>
+                <div id="summary-cards" class="grid grid-cols-1 gap-2 text-center">
+                    <div class="summary-card p-2 bg-gray-50 rounded">
+                        <span class="text-xs text-gray-500">Total Income</span>
+                        <strong id="summary-income" class="block text-lg text-green-600">$0.00</strong>
+                    </div>
+                    <div class="summary-card p-2 bg-gray-50 rounded">
+                        <span class="text-xs text-gray-500">Total Expenses</span>
+                        <strong id="summary-expenses" class="block text-lg text-red-600">$0.00</strong>
+                    </div>
+                    <div class="summary-card p-2 bg-gray-50 rounded">
+                        <span class="text-xs text-gray-500">Balance</span>
+                        <strong id="summary-balance" class="block text-xl font-bold">$0.00</strong>
+                    </div>
+                    <div class="summary-card p-2 bg-gray-50 rounded">
+                        <span class="text-xs text-gray-500">Savings</span>
+                        <strong id="summary-savings" class="block text-lg text-blue-600">$0.00</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <main class="lg:col-span-2 bg-white p-4 rounded-lg shadow-md">
+                <div id="transaction-header" class="flex justify-between items-center mb-2">
+                    <h2 class="text-lg font-semibold">All Transactions</h2>
+                    <button id="clear-filter-btn" class="hidden text-xs text-blue-500 hover:underline">Clear Filter</button>
+                </div>
+                <div id="transaction-list" class="space-y-2 max-h-[100vh] overflow-y-auto"></div>
+            </main>
+
+            <div class="bg-white p-4 rounded-lg shadow-md">
+    <h3 class="text-lg font-semibold mb-4 border-b pb-2">Data Management</h3>
+
+    <div class="mb-6">
+        <h4 class="font-semibold mb-2 text-gray-700">Accounts</h4>
+        <div id="account-list" class="space-y-1 mb-2"></div>
+        <form id="add-account-form" class="flex space-x-2">
+            <input type="text" id="new-account-name" placeholder="New Account Name" class="flex-grow input-field" />
+            <button type="submit" class="btn-primary">Add</button>
+        </form>
+    </div>
+
+    <div class="mb-6">
+        <h4 class="font-semibold mb-2 text-gray-700">Import New Transactions</h4>
+        <form id="import-form" class="space-y-2">
+            <select id="import-account-select" class="input-field w-full"></select>
+            <input type="file" id="csv-file" class="input-field w-full" />
+            <button type="submit" class="btn-primary w-full">Upload New File</button>
+        </form>
+    </div>
+
+<div>
+    <h4 class="font-semibold mb-2 text-gray-700">Export All to CSV Corrections Module</h4>
+    
+    <div class="mb-4">
+        <p class="text-xs text-gray-500 mb-1">Begin by exporting your transactions to a CSV file.</p>
+        <button id="export-csv-btn" class="btn-secondary w-full">Export All to CSV</button>
+    </div>
+
+    <div>
+         <p class="text-xs text-gray-500 mb-1">After editing, import the corrected file below.</p>
+        <form id="import-corrections-form" class="space-y-2">
+            <label for="corrections-csv-file" class="text-sm font-medium text-gray-600">Choose File</label>
+            <input type="file" id="corrections-csv-file" class="w-full" />
+            <button type="submit" class="btn-primary w-full">Import Corrections</button>
+        </form>
+    </div>
+</div>
+
+    <!-- ACTIONS: Rules & Merchants -->
+<div class="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
+  <!-- Safe re-apply (fills blanks only) -->
+  <button id="apply-rules-btn" class="btn-primary">
+    Rules → Apply Learned (safe)
+  </button>
+
+  <!-- Force re-apply (overwrite finals) -->
+  <button id="apply-rules-force-btn" class="btn-danger">
+    Rules → Apply Learned (OVERWRITE)
+  </button>
+
+  <!-- Merchant extractor for blanks -->
+  <button id="extract-merchants-btn" class="btn-secondary">
+    Merchants → Extract names for blanks
+  </button>
+</div>
+
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold mb-2">AI Tools</h3>
+                    <div class="space-y-2">
+                        <button id="ai-categorize-btn" class="btn-secondary w-full">Categorize with AI</button>
+                        <button id="ai-report-btn" class="btn-secondary w-full">Generate Financial Report</button>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold mb-2">User Profile</h3>
+                    <form id="profile-form" class="space-y-2">
+                        <div>
+                            <label for="annual-income" class="text-xs text-gray-600">Annual After-Tax Income</label>
+                            <input type="number" id="annual-income" placeholder="e.g., 60,000" class="input-field w-full mt-1">
+                            <p id="annual-income-display" class="text-right text-sm text-gray-700 font-semibold h-5"></p>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Save Profile</button>
+                    </form>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold mb-2">Budget Management</h3>
+                    <div class="space-y-2">
+                        <button id="manage-budget-btn" class="btn-secondary w-full">Set & Edit Budget Limits</button>
+                        <p id="monthly-income-display" class="text-xs text-center text-gray-500">Set income to enable AI proposals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ai-report-modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-modal-btn" class="absolute top-2 right-4 text-2xl font-bold">&times;</button>
+            <h2 class="text-xl font-bold mb-4">AI Financial Report</h2>
+            <div id="report-content" class="prose max-w-none"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/script.js?v=1.8"></script>
+
+    <script>
+        window.addEventListener('load', () => {
+            // A modern, vibrant, and more easily distinguishable color palette
+            const newChartColors = [
+                '#4f46e5', '#db2777', '#16a34a', '#f97316', '#6d28d9',
+                '#0891b2', '#ca8a04', '#d946ef', '#059669', '#64748b'
+            ];
+
+            // This function finds the chart and applies our desired styles
+            function applyChartStyles() {
+                // A short delay to ensure the original script has finished re-drawing the chart
+                setTimeout(() => {
+                    const chart = Chart.getChart('spending-chart');
+                    if (chart) {
+                        // 1. Position the legend to the BOTTOM as per your new preference
+                        chart.options.plugins.legend.position = 'bottom';
+
+                        // 2. Update the colors with the new, distinct palette
+                        if (chart.data.datasets.length > 0) {
+                            chart.data.datasets[0].backgroundColor = newChartColors;
+                        }
+
+                        // 3. Apply the changes
+                        chart.update();
+                    }
+                }, 150); // A small delay is necessary to wait for the chart to be recreated.
+            }
+
+            // --- Logic to apply styles ---
+
+            // 1. Apply styles on initial page load using a MutationObserver for reliability.
+            const chartCanvas = document.getElementById('spending-chart');
+            if (chartCanvas) {
+                const observer = new MutationObserver((mutations, obs) => {
+                    applyChartStyles();
+                    // Disconnect after the first run; the click handlers will take over from here.
+                    obs.disconnect();
+                });
+                observer.observe(chartCanvas, { attributes: true });
+            }
+
+            // 2. Re-apply styles every time a date filter button is clicked.
+            const filterButtons = document.querySelectorAll('.date-filter-btn');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', applyChartStyles);
+            });
+        });
+    </script>
+    <div id="budget-modal" class="modal hidden">
+    <div class="modal-content max-w-4xl">
+        <button id="close-budget-modal-btn" class="absolute top-2 right-4 text-2xl font-bold">&times;</button>
+        <h2 class="text-xl font-bold mb-4">Manage Your Monthly Budget</h2>
+        
+        <div class="mb-4 p-3 bg-gray-100 rounded-lg flex items-center justify-between">
+            <p class="text-sm text-gray-700">Not sure where to start? Let our AI create a personalized budget proposal for you.</p>
+            <button id="propose-budget-btn" class="btn-secondary flex-shrink-0">Propose AI Budget</button>
+    </div>
+
+    <div class="budget-settings-header">
+        <div class="header-item category-col">Category</div>
+        <div class="header-item">Last Month</div>
+        <div class="header-item">3 Mo Avg</div>
+        <div class="header-item">6 Mo Avg</div>
+        <div class="header-item">18 Mo Avg</div>
+        <div class="header-item">Budget Limit</div>
+    </div>
+    <div id="budget-list" class="max-h-[50vh] overflow-y-auto pr-2">
+        </div>
+    
+    <div class="mt-6 flex justify-end space-x-3">
+
+        <div id="budget-list" class="space-y-2 max-h-[50vh] overflow-y-auto pr-2">
+            </div>
+        
+        <div class="mt-6 flex justify-end space-x-3">
+            <button id="cancel-budget-btn" class="btn-secondary">Cancel</button>
+            <button id="save-budget-btn" class="btn-primary" onclick="handleSaveBudget()">Save Budget</button>
+        </div>
+    </div>
+</div>
+
+<div id="budget-status-modal" class="modal hidden">
+    <div class="modal-content max-w-2xl bg-gray-800 text-gray-200">
+        <button id="close-status-modal-btn" class="absolute top-2 right-4 text-2xl font-bold text-gray-400 hover:text-white">&times;</button>
+        <h2 class="text-xl font-bold mb-4 text-white">Monthly Budget Status</h2>
+        
+        <div class="budget-status-header">
+            <div class="header-item category-col">Category</div>
+            <div class="header-item">Spent</div>
+            <div class="header-item">Limit</div>
+            <div class="header-item">Remaining</div>
+        </div>
+        
+        <div id="budget-status-list"></div>
+
+        <div class="mt-6 flex justify-end">
+            <button id="confirm-status-btn" class="btn-primary">OK</button>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

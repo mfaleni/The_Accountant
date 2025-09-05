@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "tailwind:init": "node node_modules/tailwindcss/cli.js init",
+    "tailwind:build": "node node_modules/tailwindcss/cli.js -i ./src/input.css -o ./static/style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

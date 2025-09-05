@@ -1,0 +1,1578 @@
+transaction_id,date,account,description,amount,category,new_category,new_description,Sub_category
+286,8/13/25,Mich City,"ONLINE PAYMENT, THANK YOU",10206.57,Card Payment,Financial Transactions,Transfers,Card Payment
+22,8/13/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385224834925042,-10,Tolls,Auto,SunPass,Tolls
+21,8/13/25,Fam Wells,ZELLE TO BIJANI TATIANA ON 08/13 BALANCE GASTOS DE VIAJE A ESPANA,-238.09,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+969,8/13/25,Mich Amex,OPENAI              SAN FRANCISCO,-10,Services,Subscriptions,OpenAI,Services
+1353,8/13/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,2750,Loan,Financial Transactions,Transfers,Loan
+23,8/12/25,Fam Wells,BMW BANK BMWFS PYMT 250811,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+1355,8/12/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,10207,Loan,Financial Transactions,Transfers,Loan
+1354,8/12/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-1800,Loan Payment,Financial Transactions,Transfers,Loan Payment
+288,8/11/25,Mich City,NATURXHEAL FAMILY PHAR DORAL,-18,Medical,Medical,Naturxheal,Medical
+287,8/11/25,Mich City,aliexpress San Mateo,91.78,General Merchandise,General Merchandise,AliExpress,General Merchandise
+25,8/11/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S585221471210775,-20.36,Streaming,Subscriptions,Netflix,Streaming
+24,8/11/25,Fam Wells,PUBLIX SUPER MAR 10755 NW DORAL FL P305224033482627,-105,Groceries,Groceries,Publix,Groceries
+1357,8/11/25,Mich Wells,ZELLE FROM JORGE PEREZ ON 08/09 REF # JBJ0CY0GIIK3,268,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1358,8/11/25,Mich Wells,ZELLE FROM SOLARTE ALFREDO ON 08/09 REF # PP0Z559N34,482.08,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1356,8/11/25,Mich Wells,ZELLE TO JORGE BONINI ORLANDO ON 08/09,-72,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+290,8/10/25,Mich City,PUBLIX #1209 MIAMI BEACH,-51.61,Groceries,Groceries,Publix,Groceries
+289,8/10/25,Mich City,TST*STILTSVILLE FISH B Miami Beach,-135.45,Dining,Travel & Entertainment,TST,Dining
+294,8/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+293,8/9/25,Mich City,SQ *440 CORPORATION Miami Beach,-2.41,Beach,Beach,SQ,Beach
+291,8/9/25,Mich City,Whole Foods SBE 10285 866-216-1072,-137.03,Groceries,Groceries,Whole Foods,Groceries
+292,8/9/25,Mich City,Whole Foods SBE 10285 866-216-1072,-68.43,Groceries,Groceries,Whole Foods,Groceries
+970,8/9/25,Mich Amex,AT&T UVERSE PAYMENT,-108.19,Bills & Utilities,Bills & Utilities,AT&T,Bills & Utilities
+1348,8/9/25,Mich Bofa,AMAZON MKTPL*W25562GH3 Amzn.com/billWA,-40.54,Amazon,Amazon,Amazon,Amazon
+1347,8/9/25,Mich Bofa,CASH REWARDS STATEMENT CREDIT,120.18,Refunds,Financial Transactions,Transfers,Refunds
+297,8/8/25,Mich City,BEST BUY 00014985 MIAMI BEACH,-452.61,Electronics,General Merchandise,Best Buy,Electronics
+296,8/8/25,Mich City,"ISTOURS, INC. FOLSOM",-1899,Travel & Entertainment,Travel & Entertainment,ISTOURS,Travel & Entertainment
+299,8/8/25,Mich City,J & C LIQUOR INCORPORA MIAMI BEACH,-83.92,Liquor Store,Liquor Store,J & C Liquor,Liquor Store
+301,8/8/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-3.5,Transport,Auto,MPA Parking,Transport
+295,8/8/25,Mich City,SQ *LUXE PARKING MIAMI,-36.22,Transport,Auto,SQ,Transport
+300,8/8/25,Mich City,TOTAL WINE AND MORE MIAMI BEACH,-71.62,Liquor Store,Liquor Store,Total Wine,Liquor Store
+298,8/8/25,Mich City,TST*OMAKAI SUSHI - COC Miami,-235.41,Dining,Travel & Entertainment,TST,Dining
+26,8/8/25,Fam Wells,ZELLE TO QUERO CESAR ON 08/08,-150,Maintenance,Maintenance,Zelle,Maintenance
+1349,8/8/25,Mich Bofa,AMAZON MKTPL*B12ZM4DG3 Amzn.com/billWA,-96.28,Amazon,Amazon,Amazon,Amazon
+1359,8/8/25,Mich Wells,VENMO PAYMENT 250808 MICHEL FALENI,-20,Travel & Entertainment,Travel & Entertainment,Venmo,Travel & Entertainment
+1360,8/8/25,Mich Wells,ZELLE FROM LENIN CARDENAS ON 08/08 REF # BACKKPJ3XW1V,819,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+303,8/7/25,Mich City,HAAGEN DAZS ICE CREAM MIAMI BEACH,-13.15,Dining,Travel & Entertainment,Haagen Dazs,Dining
+302,8/7/25,Mich City,SOUTH BEACH ACE HARDWA MIAMI BEACH,-66.36,Hardware Store,Maintenance,South Beach Ace Hardware,Hardware Store
+27,8/7/25,Fam Wells,PUBLIX SUPER MAR 10755 NW DORAL FL P385219794113575,-10.99,Groceries,Groceries,Publix,Groceries
+28,8/7/25,Fam Wells,PUBLIX SUPER MAR 10755 NW DORAL FL P465219792990757,-3.09,Groceries,Groceries,Publix,Groceries
+29,8/7/25,Fam Wells,PUBLIX SUPER MAR 10755 NW DORAL FL P585219790352898,-17.91,Groceries,Groceries,Publix,Groceries
+1350,8/7/25,Mich Bofa,AMAZON MKTPL*2X7E86C03 Amzn.com/billWA,-64.17,Amazon,Amazon,Amazon,Amazon
+1352,8/7/25,Mich Bofa,AMAZON MKTPL*DO99X6613 Amzn.com/billWA,-25,Amazon,Amazon,Amazon,Amazon
+1351,8/7/25,Mich Bofa,AMAZON MKTPL*SP1MP30Q3 Amzn.com/billWA,-27.8,Amazon,Amazon,Amazon,Amazon
+304,8/6/25,Mich City,B-21 LIQUORS TARPON SPRING,-436.6,Liquor Store,Liquor Store,B-21 Liquors,Liquor Store
+306,8/6/25,Mich City,BEST BUY 00005553 HIALEAH,-267.49,Electronics,General Merchandise,Best Buy,Electronics
+305,8/6/25,Mich City,CELEBRITY CRUISES MIAMI,325,Travel & Lodging,Travel & Entertainment,Celebrity Cruises,Travel & Lodging
+1,8/6/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-52.07,Bank Fees,Financial Transactions,Transfers,Bank Fees
+307,8/5/25,Mich City,SP CHRISTOPHER COLUM MIAMI,-34.99,Education,Education,Columbus,Education
+31,8/5/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Gurantee Management,Assc. Fee Balm
+30,8/5/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250805 MICHEL FALENI FERNANDE,-1195.9,Vehicle Payment,Auto,Car Andre,Vehicle Payment
+35,8/5/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+34,8/5/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING PELUQUERIA Y MANI PEDI,-350,Andre Expenses,Andre,Peluqueria y Mani Pedi,Andre Expenses
+33,8/5/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING GASTOS EXTRAS MINA,-652.04,Aditional Expenses,Aditional Expenses,Transfers,Aditional Expenses
+32,8/5/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+2,8/5/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,48.14,Amazon,Amazon,Amazon,Amazon
+1361,8/5/25,Mich Wells,ONLINE TRANSFER TO BUSINESSLINE LINE OF CREDIT,-500,Loan Payment,Financial Transactions,Transfers,Loan Payment
+311,8/4/25,Mich City,HOMEGOODS #1152 MIAMI,-48.15,Hardware Store,Maintenance,HomeGoods,Hardware Store
+310,8/4/25,Mich City,PUBLIX #655 DORAL,-62.98,Groceries,Groceries,Publix,Groceries
+312,8/4/25,Mich City,PUBLIX #655 DORAL,-1.76,Groceries,Groceries,Publix,Groceries
+309,8/4/25,Mich City,SQ *MEDICAL ASSOCIATES DORAL,-20,Medical,Medical,Medical Associates Doral,Medical
+308,8/4/25,Mich City,THE HOME DEPOT #3331 MIAMI,-50.75,Hardware Store,Maintenance,The Home Depot,Hardware Store
+36,8/4/25,Fam Wells,PENNYMAC CASH Aug 25-0059 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+4,8/4/25,Mich Bofa,AMAZON MKTPL*VQ1HG7E63 Amzn.com/billWA,-81.84,Amazon,Amazon,Amazon,Amazon
+3,8/4/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1362,8/4/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250804 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1363,8/4/25,Mich Wells,VENMO PAYMENT 250803 MICHEL FALENI,-10,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1365,8/4/25,Mich Wells,ZELLE FROM JORGE BONINI ON 08/04 REF # BACANTCOZWCN,214,Travel & Entertainment,Travel & Entertainment,Jorge Bonini,Travel & Entertainment
+1366,8/4/25,Mich Wells,ZELLE FROM JORGE PEREZ ON 08/04 REF # JBJ0COORKB24,14,Travel & Entertainment,Travel & Entertainment,Jorge Perez,Travel & Entertainment
+1364,8/4/25,Mich Wells,ZELLE TO HACIENDA DANI ON 08/02,-150,Travel & Entertainment,Travel & Entertainment,Hacienda Dani,Travel & Entertainment
+313,8/3/25,Mich City,THE MIAMI BEACH EDITIO MIAMI BEACH,-819.32,Travel & Lodging,Travel & Entertainment,The Miami Beach Editio,Travel & Lodging
+315,8/3/25,Mich City,TST* LA VICTORIA MIAMI,-703.3,Travel & Entertainment,Travel & Entertainment,LA VICTORIA,Travel & Entertainment
+314,8/3/25,Mich City,TST*HACIENDA RAMIREZ C Miami,-86.2,Dining,Travel & Entertainment,Hacienda Ramirez,Dining
+974,8/3/25,Mich Amex,UBER,-22.45,Transport,Travel & Entertainment,Uber,Transport
+973,8/3/25,Mich Amex,UBER,-20.68,Transport,Travel & Entertainment,Uber,Transport
+972,8/3/25,Mich Amex,UBER,-17.72,Transport,Travel & Entertainment,Uber,Transport
+971,8/3/25,Mich Amex,UBER,-10.75,Transport,Travel & Entertainment,Uber,Transport
+319,8/2/25,Mich City,SQ *WATER Miami,-30,Dining,Travel & Entertainment,WATER,Dining
+317,8/2/25,Mich City,THEMIAMI BEACH EDITION MIAMI BEACH,-32.21,Travel & Lodging,Travel & Entertainment,The Miami Beach Edition,Travel & Lodging
+316,8/2/25,Mich City,TST*CASADONNA Miami,-60,Dining,Travel & Entertainment,CASADONNA,Dining
+318,8/2/25,Mich City,Whole Foods SBE 10285 866-216-1072,-138.41,Groceries,Groceries,Whole Foods,Groceries
+975,8/2/25,Mich Amex,NIKKI BEACH         MIAMI BEACH,-1699.59,Travel & Entertainment,Travel & Entertainment,Nikki Beach,Travel & Entertainment
+976,8/2/25,Mich Amex,TST* THE SYLVESTER 3MIAMI,-165.76,Dining,Travel & Entertainment,The Sylvester,Dining
+978,8/2/25,Mich Amex,UBER,-21.43,Transport,Travel & Entertainment,Uber,Transport
+977,8/2/25,Mich Amex,UBER,-2.33,Transport,Travel & Entertainment,Uber,Transport
+322,8/1/25,Mich City,"ISTOURS, INC. FOLSOM",-100,Education,Education,ISTOURS,Education
+320,8/1/25,Mich City,TST*KLAW Miami,-580.27,Travel & Entertainment,Travel & Entertainment,KLAW,Travel & Entertainment
+321,8/1/25,Mich City,TST*KLAW Miami,-56.2,Travel & Entertainment,Travel & Entertainment,KLAW,Travel & Entertainment
+37,8/1/25,Fam Wells,MDWS M-DWASDPMT 250731 MICHEL FALENI,-304.11,Utilities,Bills & Utilities,Water Bill,Utilities
+38,8/1/25,Fam Wells,OPS*CSC EL MIRADOR MIAMI BEACH FL S305212799201644,-40,Beach,Beach,El Mirador,Beach
+39,8/1/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+979,8/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Streaming,Subscriptions,Netflix,Streaming
+1367,8/1/25,Mich Wells,APPLECARD GSBANK PAYMENT 073125 1881361 Michel Faleni,398.2,Card Payment,Financial Transactions,AppleCard,Card Payment
+1368,8/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1369,8/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+323,7/31/25,Mich City,SOUTH BEACH ACE HARDWA MIAMI BEACH,31.01,Hardware Store,Maintenance,South Beach Ace Hardware,Hardware Store
+325,7/31/25,Mich City,TRADER JOE S #779 MIAMI BEACH,-64.78,Groceries,Groceries,Trader Joe's,Groceries
+324,7/31/25,Mich City,Whole Foods SBE 10285 866-216-1072,-3.2,Groceries,Groceries,Whole Foods,Groceries
+40,7/31/25,Fam Wells,INTEREST PAYMENT,0.12,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1373,7/31/25,Mich Wells,"BUS TELE SVCS PAYROLL 250731A2Q FALENI,MICHEL",7161.3,Income,Income,BTS,Income
+1372,7/31/25,Mich Wells,"BUS TELE SVCS PAYROLL 250731A2Q FALENI,MICHEL",9142.26,Income,Income,BTS,Income
+1374,7/31/25,Mich Wells,Healthy Paws Pet ACCTVERIFY 250731,0.02,Pet Services,Lucky,Healthy Paws,Pet Services
+1370,7/31/25,Mich Wells,INTEREST PAYMENT,0.01,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1371,7/31/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-9142,Loan Payment,Financial Transactions,Transfers,Loan Payment
+327,7/30/25,Mich City,CLCKPAY*KW PROPERTY MA MIAMI,-103,Beach,Beach,KW Property,Beach
+326,7/30/25,Mich City,PUBLIX #1209 MIAMI BEACH,-181.48,Groceries,Groceries,Publix,Groceries
+980,7/30/25,Mich Amex,OPENAI *CHATGPT SUBSSAN FRANCISCO,-20,Streaming,Subscriptions,OpenAI,Streaming
+9,7/30/25,Mich Bofa,AMAZON MKTPL*CE34U9W83 Amzn.com/billWA,-139.09,Amazon,Amazon,Amazon,Amazon
+8,7/30/25,Mich Bofa,AMAZON MKTPL*F06LC0BA3 Amzn.com/billWA,-23.53,Amazon,Amazon,Amazon,Amazon
+7,7/30/25,Mich Bofa,AMAZON MKTPL*LK07Z4Q23 Amzn.com/billWA,-48.14,Amazon,Amazon,Amazon,Amazon
+6,7/30/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,13.9,Amazon,Amazon,Amazon,Amazon
+5,7/30/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,17.11,Amazon,Amazon,Amazon,Amazon
+1375,7/30/25,Mich Wells,ZELLE TO VALET EPIC ON 07/30,-5,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+41,7/29/25,Fam Wells,SANTANDER BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+10,7/29/25,Mich Bofa,AMAZON MKTPL*MB7XA7K23 Amzn.com/billWA,-69.54,Amazon,Amazon,Amazon,Amazon
+11,7/29/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,20.32,Amazon,Amazon,Amazon,Amazon
+1378,7/29/25,Mich Wells,MOBILE DEPOSIT : REF NUMBER :506290822397,120,Refunds,Financial Transactions,Financial Transactions,Refunds
+1377,7/29/25,Mich Wells,MOBILE DEPOSIT : REF NUMBER :706290823023,15,Refunds,Financial Transactions,Financial Transactions,Refunds
+1379,7/29/25,Mich Wells,MOBILE DEPOSIT : REF NUMBER :806290823401,95.21,Refunds,Financial Transactions,Financial Transactions,Refunds
+1376,7/29/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 07/29,-160,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+328,7/28/25,Mich City,"BASS PRO STORE MIAMI, MIAMI",-24,General Merchandise,General Merchandise,Bass Pro Store,General Merchandise
+329,7/28/25,Mich City,KOKAI SUSHI & LOUNGE DORAL,-127.01,Dining,Travel & Entertainment,Kokai Sushi & Lounge,Dining
+330,7/28/25,Mich City,TAXI LICENCIA 1040 MADRID ESP,-38.88,Transport,Travel & Entertainment,Taxi Espana,Taxi
+331,7/28/25,Mich City,TAXI LICENCIA 3683 MADRID ESP,-38.88,Transport,Travel & Entertainment,Taxi Espana,Taxi
+981,7/28/25,Mich Amex,GOOGLE *WAKDEV       G.CO/HELPPAY#,-3.49,Services,Subscriptions,Google,Services
+12,7/28/25,Mich Bofa,AMAZON MKTPL*N18KZ1KP1 Amzn.com/billWA,-35.29,Amazon,Amazon,Amazon,Amazon
+335,7/27/25,Mich City,EL SAZON CUBANO MIAMI BEACH,-79.2,Dining,Travel & Entertainment,EL SAZON CUBANO,Dining
+332,7/27/25,Mich City,LA PARRILLA LIBERTY MIAMI BEACH,-137.72,Dining,Travel & Entertainment,LA PARRILLA,Dining
+336,7/27/25,Mich City,MARISOL PACHA IBIZA AI IBIZA ESP,-47.01,Travel & Entertainment,Travel & Entertainment,Marisol Pacha,Travel & Entertainment
+334,7/27/25,Mich City,RESTAURANTE MANAPANY EIVISSA ESP,-103.08,Dining,Travel & Entertainment,RESTAURANTE MANAPANY,Dining
+333,7/27/25,Mich City,SOUTH BEACH ACE HARDWA MIAMI BEACH,-116.51,Hardware Store,Maintenance,ACE HARDWARE,Hardware Store
+338,7/27/25,Mich City,SUPER TUSCAN IBIZA ESP,-5.89,Dining,Travel & Entertainment,SUPER TUSCAN IBIZA,Dining
+337,7/27/25,Mich City,WALGREENS #10983 MIAMI BEACH,-25.66,Medical,Medical,Walgreens,Medical
+341,7/26/25,Mich City,MAR Y PLAYA CHIRINGUIT FORMENTERA ESP,-5.89,Dining,Travel & Entertainment,MAR Y PLAYA CHIRINGUIT,Dining
+339,7/26/25,Mich City,RTE. SA PALMERA ES PUJOLS ESP,-67.86,Dining,Travel & Entertainment,Restaurant ,Dining
+340,7/26/25,Mich City,TAXI EST 1047 EIVISSA EIVISSA ESP,-32.68,Transport,Travel & Entertainment,Taxi Espana,Taxi
+982,7/26/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,-22.12,Amazon,Amazon,Amazon,Amazon
+983,7/26/25,Mich Amex,AMAZON.COM          AMZN.COM/BILL,-55.15,Amazon,Amazon,Amazon,Amazon
+13,7/26/25,Mich Bofa,AMAZON MKTPL*NP23T2UJ3 Amzn.com/billWA,-98.44,Amazon,Amazon,Amazon,Amazon
+348,7/25/25,Mich City,BESO BEACH . FISICO SANT JORDI DE ESP,-120.28,Dining,Travel & Entertainment,BESO BEACH,Dining
+354,7/25/25,Mich City,FORM - BESO SANT FRANCESC ESP,-8.25,Dining,Travel & Entertainment,BESO SANT FRANCESC ESP,Dining
+353,7/25/25,Mich City,"FORM.-ILLETES 1 CALETA, LA ESP",-8.25,Dining,Travel & Entertainment,Restaurant ,Dining
+350,7/25/25,Mich City,HOTEL CA MARI FORMENTERA ESP,-53.06,Travel & Lodging,Travel & Entertainment,Hotel Ca Mari Formentera,Travel & Lodging
+349,7/25/25,Mich City,PARAISO DE LOS PINOS SANT FRANCESC ESP,-79.01,Travel & Lodging,Travel & Entertainment,PARAISO DE LOS PINOS,Travel & Lodging
+344,7/25/25,Mich City,ROSS STORES #1110 MIAMI BEACH,-79.25,General Merchandise,General Merchandise,ROSS STORES,General Merchandise
+343,7/25/25,Mich City,Refund Globalblue.com Stockholm SWE,59.05,General Merchandise,General Merchandise,Globalblue,General Merchandise
+342,7/25/25,Mich City,Refund Globalblue.com Stockholm SWE,63.97,General Merchandise,General Merchandise,Globalblue,General Merchandise
+352,7/25/25,Mich City,T J MAXX # 1137 MIAMI BEACH,-25.66,General Merchandise,General Merchandise,T J MAXX,General Merchandise
+351,7/25/25,Mich City,TAHITI BEACH ES PUJOLS-FOR ESP,-40.45,Dining,Travel & Entertainment,TAHITI BEACH,Dining
+346,7/25/25,Mich City,TOTAL WINE AND MORE MIAMI BEACH,-44.91,Liquor Store,Liquor Store,Total Wine and More,Liquor Store
+355,7/25/25,Mich City,TST* LE ROND MIAMI BEACH,-78.69,Dining,Travel & Entertainment,LE ROND,Dining
+345,7/25/25,Mich City,Whole Foods SBE 10285 866-216-1072,-151.72,Groceries,Groceries,Whole Foods,Groceries
+347,7/25/25,Mich City,aliexpress San Mateo,-133.57,General Merchandise,General Merchandise,aliexpress,General Merchandise
+45,7/25/25,Fam Wells,HEALTHY PAWS PET I WWW.HEALTHYPA GA S305204332333307,-103.02,Pet Services,Lucky,Healthy Paws Pet,Pet Services
+42,7/25/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.17,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+43,7/25/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 07/25 Amazon Prime*RS96G amazon.es/prm LUX S465206279587695,-5.88,Cloud Services,Subscriptions,Amazon,Cloud Services
+44,7/25/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465205209817017,-10,Tolls,Auto,SUNPASS,Tolls
+985,7/25/25,Mich Amex,AMAZON SHOP WITH POINTS CREDIT,22.12,Amazon,Amazon,Amazon,Amazon
+984,7/25/25,Mich Amex,AMAZON SHOP WITH POINTS CREDIT,55.15,Amazon,Amazon,Amazon,Amazon
+986,7/25/25,Mich Amex,AMAZON.COM          AMZN.COM/BILL,-94.64,Amazon,Amazon,Amazon,Amazon
+987,7/25/25,Mich Amex,MB-PARKING PARKMOBILMIAMI BEACH,-8.35,Transport,Auto,MB-PARKING,Transport
+365,7/24/25,Mich City,BAR APTOS CASTAV S FRANCESC,-4.7,Dining,Travel & Entertainment,Restaurant ,Dining
+360,7/24/25,Mich City,BOUTIQUE SAVINA LA SAVINA ESP,-46.93,General Merchandise,General Merchandise,BOUTIQUE SAVINA,General Merchandise
+366,7/24/25,Mich City,C A F E T E R I A PALMA DE MALL ESP,-2.71,Dining,Travel & Entertainment,Cafeteria Palma,Dining
+364,7/24/25,Mich City,CALIMA FOOD AND DRINKS IBIZA ESP,-8.23,Dining,Travel & Entertainment,CALIMA FOOD AND DRINKS,Dining
+359,7/24/25,Mich City,CAN CARLITOS LA SAVINA ESP,-96.45,Dining,Travel & Entertainment,CAN CARLITOS,Dining
+367,7/24/25,Mich City,FORMENTERA SER PALMA MALLORC ESP,-0.35,Travel & Entertainment,Travel & Entertainment,Restaurant ,Travel & Entertainment
+363,7/24/25,Mich City,OPS*CSC EL MIRADOR MIAMI BEACH,-20,Beach,Beach,El Mirador,Beach
+361,7/24/25,Mich City,P A LLOMPART Y A PIERA PALMA DE MALL ESP,-41.17,Dining,Travel & Entertainment,Restaurant ,Dining
+362,7/24/25,Mich City,PALMA SUITES PZA.MERCA PALMA ESP,-23.52,Travel & Lodging,Travel & Entertainment,PALMA SUITES,Travel & Lodging
+356,7/24/25,Mich City,REG SOUTH BEACH 0482 MIAMI BEACH,-39.56,Travel & Entertainment,Travel & Entertainment,REG,Travel & Entertainment
+357,7/24/25,Mich City,REG SOUTH BEACH 0482 MIAMI BEACH,-16.24,Travel & Entertainment,Travel & Entertainment,REG,Travel & Entertainment
+358,7/24/25,Mich City,SQ *440 CORPORATION Miami Beach,-11.76,Beach,Beach,440 Corporation,Beach
+46,7/24/25,Fam Wells,T-MOBILE PCS SVC 250723 1364496 MARIA FERNANDEZ,-200.29,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+988,7/24/25,Mich Amex,OUTDOORSY* 10513621-AUSTIN,-219.18,Travel & Lodging,Travel & Entertainment,OUTDOORSY,Travel & Lodging
+15,7/24/25,Mich Bofa,AMAZON MKTPL*GZ2MJ3E53 Amzn.com/billWA,-87.74,Amazon,Amazon,Amazon,Amazon
+14,7/24/25,Mich Bofa,PP*GOOGLE YUANWOFEI,-6.49,General Merchandise,General Merchandise,Google,General Merchandise
+371,7/23/25,Mich City,LS NO BOUNDARIES SPORT DORAL,-43.31,General Merchandise,General Merchandise,No Boundaries Sport,General Merchandise
+372,7/23/25,Mich City,MALLORCA SENSE FAM PALMA ESP,-18.82,Dining,Travel & Entertainment,Restaurant ,Dining
+369,7/23/25,Mich City,NAVARRO DISCOUNT PHARM DORAL,-90.68,Medical,Medical,NAVARRO DISCOUNT PHARM,Medical
+370,7/23/25,Mich City,"PALAU SOLEDAT, LA ESP",-59.45,Travel & Lodging,Travel & Entertainment,Restaurant ,Travel & Lodging
+368,7/23/25,Mich City,PUBLIX #1571 DORAL,-140.8,Groceries,Groceries,Publix,Groceries
+373,7/23/25,Mich City,QUARTERA PALMA ESP,-13.28,Dining,Travel & Entertainment,QUARTERA PALMA ESP,Dining
+377,7/22/25,Mich City,CAFE PASTELIER PALMA ESP,-27.54,Dining,Travel & Entertainment,Cafe Pastelier Palma,Dining
+374,7/22/25,Mich City,CHEVRON 0204900 855-285-9595,-63.7,Transport,Auto,Chevron,Transport
+375,7/22/25,Mich City,"NU MALLORCA MURO, ISLAS B ESP",-63.29,Dining,Travel & Entertainment,Restaurant ,Dining
+376,7/22/25,Mich City,WODDY MARE PALMA ESP,-51.45,Dining,Travel & Entertainment,Restaurant ,Dining
+989,7/22/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.COCA,-11.47,Transport,Travel & Entertainment,Uber,Taxi
+378,7/21/25,Mich City,CASAJULIAN MADRID ESP,-216.59,Dining,Travel & Entertainment,CASAJULIAN,Dining
+380,7/21/25,Mich City,LAS COLUMNAS DE RECOLE MADRID ESP,-17.51,Dining,Travel & Entertainment,LAS COLUMNAS DE RECOLE MADRID,Dining
+381,7/21/25,Mich City,NYX*ABServiciosSelecta TorrejondeArd ESP,-2.22,Dining,Travel & Entertainment,ABServiciosSelecta,Dining
+379,7/21/25,Mich City,PALMA SUITES PZA.MERCA PALMA ESP,-84.87,Travel & Lodging,Travel & Entertainment,PALMA SUITES,Travel & Lodging
+47,7/21/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-5,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+48,7/21/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 07/19 CAMAESTROVICTORIA8 MADRID ESP ATM ID EDES5527,-297.63,Cash,Financial Transactions,Financial Transactions,Cash
+990,7/21/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,1270.71,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+991,7/21/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.COCA,-23.24,Transport,Travel & Entertainment,Uber,Taxi
+18,7/21/25,Mich Bofa,AMAZON MKTPL*WZ9PY3QI3 Amzn.com/billWA,-29.94,Amazon,Amazon,Amazon,Amazon
+17,7/21/25,Mich Bofa,AMAZON MKTPL*X72T55Z03 Amzn.com/billWA,-10.68,Amazon,Amazon,Amazon,Amazon
+16,7/21/25,Mich Bofa,AMAZON RETA* KZ3N99X23 SEATTLE,-1818.98,Amazon,Amazon,Amazon,Amazon
+1380,7/21/25,Mich Wells,CITI CARD ONLINE PAYMENT 250720 MICHEL FALENI,3013.88,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1381,7/21/25,Mich Wells,ONLINE TRANSFER FROM BUSINESSLINE LINE OF CREDIT,3114,Loan,Financial Transactions,Transfers,Loan
+385,7/20/25,Mich City,AIR EUROPA LINEAS AERE LLUCMAJOR ESP,-209.17,Travel & Entertainment,Travel & Entertainment,AIR EUROPA,Travel & Entertainment
+383,7/20/25,Mich City,EL RANA VERDE 01 Aranjuez ESP,-116.74,Dining,Travel & Entertainment,EL RANA VERDE,Dining
+384,7/20/25,Mich City,GOOGLE *Google One 650-253-0000,-19.99,Cloud Services,Subscriptions,Google,Cloud Services
+386,7/20/25,Mich City,LAS COLUMNAS DE RECOLE MADRID ESP,-21.01,Dining,Travel & Entertainment,LAS COLUMNAS DE RECOLE,Dining
+387,7/20/25,Mich City,LIC 14706 ADOLFO VAQUE LEGANES ESP,-11.5,Liquor Store,Taxi,Taxi Espana,Taxi
+389,7/20/25,Mich City,LICENCIA 5122 MADRID ESP,-4.79,Liquor Store,Taxi,Taxi Espana,Taxi
+382,7/20/25,Mich City,PUENTES DE ORGAZ MADRID ESP,-122.58,Dining,Travel & Entertainment,Restaurant ,Dining
+388,7/20/25,Mich City,SumUp *BATRUN MANAGEM ARANJUEZ ESP,-5.6,Dining,Travel & Entertainment,BATRUN MANAGEM,Dining
+394,7/19/25,Mich City,DRUNI MAD29-VELAZQUEZ MADRID ESP,-11.03,Medical,Medical,DRUNI,Medical
+397,7/19/25,Mich City,HELADERIA FRIGO MADRID ESP,-2.8,Dining,Travel & Entertainment,HELADERIA FRIGO MADRID,Dining
+392,7/19/25,Mich City,LAS COLUMNAS DE RECOLE MADRID ESP,-25.68,Dining,Travel & Entertainment,LAS COLUMNAS DE RECOLE,Dining
+396,7/19/25,Mich City,MJ MUNOZ MADRID ESP,-7.77,Dining,Travel & Entertainment,Restaurant ,Dining
+395,7/19/25,Mich City,PRIMOR GOYA MADRID ESP,-10.38,General Merchandise,General Merchandise,PRIMOR,General Merchandise
+390,7/19/25,Mich City,TABERNA O CALDINO 01 MADRID ESP,-794.11,Dining,Travel & Entertainment,TABERNA O CALDINO,Dining
+393,7/19/25,Mich City,TAXI 11571 LAS ROZAS ESP,-17.28,Transport,Travel & Entertainment,Taxi Espana,Taxi
+391,7/19/25,Mich City,ZARA ESPANA MADRID ESP,-295.99,General Merchandise,General Merchandise,Zara,General Merchandise
+401,7/18/25,Mich City,10234 ZARAGOZA P.INDEP ZARAGOZA ESP,-207.51,Dining,Travel & Entertainment,Restaurant ,Dining
+398,7/18/25,Mich City,AC HOTEL RECOLETOS FOH MADRID ESP,-861.91,Travel & Lodging,Travel & Entertainment,AC Hotel Recoletos,Travel & Lodging
+404,7/18/25,Mich City,ANGEL DAVID LARREA 140 MADRID ESP,-17.9,Dining,Travel & Entertainment,Restaurant ,Dining
+403,7/18/25,Mich City,BOSTON ZARAGOZA CENTRO ZARAGOZA ESP,-134.26,Dining,Travel & Entertainment,Restaurant ,Dining
+400,7/18/25,Mich City,DIESEL Madrid ESP,-251.86,General Merchandise,General Merchandise,DIESEL,General Merchandise
+406,7/18/25,Mich City,FARMACIA LOS SOPORTALE SAN LORENZO D ESP,-1.75,Medical,Medical,FARMACIA LOS SOPORTALE,Medical
+405,7/18/25,Mich City,IPARK EL ESCORIAL SAN LORENZO D ESP,-7.88,Transport,Travel & Entertainment,IPARK,Parking
+402,7/18/25,Mich City,LAS VIANDAS SAN LORENZO D ESP,-192.62,Dining,Travel & Entertainment,LAS VIANDAS SAN LORENZO,Dining
+399,7/18/25,Mich City,Tumi La Rozas Las Rozas ESP,-581.13,General Merchandise,General Merchandise,Tumi,General Merchandise
+992,7/18/25,Mich Amex,GOOGLE *YT PRIMETIME G.CO/HELPPAY#,-9.05,Subscriptions,Subscriptions,Google,Subscriptions
+993,7/18/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.COCA,-23.29,Transport,Travel & Entertainment,Uber,Taxi
+1382,7/18/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-1200,Loan Payment,Financial Transactions,Transfers,Loan Payment
+407,7/17/25,Mich City,BODEGAS ALTO MONCAYO BORJA ESP,-601.27,Liquor Store,Liquor Store,Bodegas Alto Moncayo,Liquor Store
+411,7/17/25,Mich City,FARMACIA CARMEN PLAZA ZARAGOZA ESP,-30.51,Medical,Medical,FARMACIA CARMEN,Medical
+410,7/17/25,Mich City,FARMACIA CLAVER ZARAGOZA ESP,-33.41,Medical,Medical,FARMACIA CLAVER,Medical
+413,7/17/25,Mich City,ME VA ME VA ZARAGOZA ESP,-13.48,Dining,Travel & Entertainment,Restaurant ,Dining
+408,7/17/25,Mich City,MULAYA ZARAGOZA ESP,-141.48,General Merchandise,General Merchandise,Restaurant ,General Merchandise
+412,7/17/25,Mich City,MULAYA ZARAGOZA ESP,-14.04,General Merchandise,General Merchandise,Restaurant ,General Merchandise
+409,7/17/25,Mich City,RESTAURANTE BIROLLA 4 ZARAGOZA ESP,-139.92,Dining,Travel & Entertainment,RESTaurante Birolla,Dining
+49,7/17/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 07/25 PPDA MICHEL R FALENI,-324.27,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+50,7/17/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-5,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+51,7/17/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 07/17 100490072 ZARAGOZA ESP ATM,-594.36,Cash,Financial Transactions,Financial Transactions,Cash
+19,7/17/25,Mich Bofa,AMAZON MKTPL*724P437W3 Amzn.com/billWA,-20.32,Amazon,Amazon,Financial Transactions,Amazon
+415,7/16/25,Mich City,FNAC PLAZA ESPANA ZARAGOZA ESP,-24.68,General Merchandise,General Merchandise,FNAC,General Merchandise
+417,7/16/25,Mich City,GASTROBAR COSTA 8 ZARAGOZA ESP,-16.72,Dining,Travel & Entertainment,Gastrobar Costa,Dining
+416,7/16/25,Mich City,LA REPUBLICANA ZARAGOZA ESP,-19.18,Dining,Travel & Entertainment,La Republicana,Dining
+414,7/16/25,Mich City,XI STORE ZARAGOZA ESP,-35.03,General Merchandise,General Merchandise,XI Store,General Merchandise
+52,7/16/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING VARIOS MIRADOR,-150,Beach,Beach,Transfers,Beach
+1383,7/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+420,7/15/25,Mich City,BRIEF ATOCHA MADRID ESP,-17.49,Dining,Travel & Entertainment,Brief Atocha,Dining
+422,7/15/25,Mich City,LA REPUBLICANA ZARAGOZA ESP,-5.97,Dining,Travel & Entertainment,La Republicana,Dining
+418,7/15/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-28.08,Insurance,Auto,National General Insurance,Insurance
+421,7/15/25,Mich City,"SQ *CAFE NOLASCO, S.L. ZARAGOZA ESP",-6.43,Dining,Travel & Entertainment,Cafe Nolasco,Dining
+419,7/15/25,Mich City,TARIN GRUPO JOYERO SL ZARAGOZA ESP,-409.46,Jewelry,Jewerly,Tarin Grupo Joyero,Jewelry
+53,7/15/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+20,7/15/25,Mich Bofa,PAYPAL *theereek,-61.02,General Merchandise,General Merchandise,PayPal,General Merchandise
+1386,7/15/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250715A2Q FALENI,MICHEL",7161.31,Income,Income,Bus Tele Services,Income
+1384,7/15/25,Mich Wells,CITI CARD ONLINE PAYMENT 250714 MICHEL FALENI,3204.69,Card Payment,Financial Transactions,Citi Card,Card Payment
+1385,7/15/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+423,7/14/25,Mich City,00176 TAXI MADRID MADRID ESP,-13.4,Transport,Travel & Entertainment,Taxi,Taxi
+427,7/14/25,Mich City,HOLMAN INEOSGRENADIER FORT LAUDERDA,-1355.06,Vehicle Maintenance,Auto,Holman,Vehicle Maintenance
+425,7/14/25,Mich City,MATSURI MARRAKECH Marrakech MAR,-66.71,Dining,Travel & Entertainment,Matsuri,Dining
+426,7/14/25,Mich City,OKLM INVESTMENT MKCH Marrakech MAR,-662.96,Travel & Entertainment,Travel & Entertainment,OKLM Investment,Travel & Entertainment
+424,7/14/25,Mich City,RESTAURANTE LA TRAINER MADRID ESP,-269.08,Dining,Travel & Entertainment,Restaurante La Trainer,Dining
+54,7/14/25,Fam Wells,BMW BANK BMWFS PYMT 250711,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+57,7/14/25,Fam Wells,CARD PROVISIONAL CREDIT,97.45,Travel & Entertainment,Travel & Entertainment,Restaurant ,Travel & Entertainment
+55,7/14/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-5,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+56,7/14/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 07/12 1 RUE MOULAY ISMAIL PL casablanca MAR ATM ID EDMA0045,-339.14,Cash,Financial Transactions,Financial Transactions,Cash
+994,7/14/25,Mich Amex,AMZN MKTP ES        800-279-6620,108.94,Amazon,Amazon,Amazon,Amazon
+1387,7/14/25,Mich Wells,CITI CARD ONLINE PAYMENT 250713 MICHEL FALENI,11421.11,Card Payment,Financial Transactions,Citi Card,Card Payment
+1388,7/14/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,12500,Loan,Financial Transactions,Transfers,Loan
+429,7/13/25,Mich City,ATLAS MONTGOLFIERE Marrakech MAR,-444.72,Travel & Entertainment,Travel & Entertainment,Atlas Montgolfiere,Travel & Entertainment
+428,7/13/25,Mich City,"ONLINE PAYMENT, THANK YOU",11421.11,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+431,7/12/25,Mich City,BILLETTERIE LJS Marrakech MAR,-22.24,Travel & Entertainment,Travel & Entertainment,Billetterie LJS,Travel & Entertainment
+432,7/12/25,Mich City,BOULGRIE ABOUFIRASSI 3 Marrakech MAR,-51.14,Dining,Travel & Entertainment,Boulgrie Aboufirassi,Dining
+433,7/12/25,Mich City,KSOUR BIO Marrakech MAR,-93.39,Groceries,Travel & Entertainment,Ksour Bio,Groceries
+430,7/12/25,Mich City,L'ADRESSE MARRAKECH MAR,-50.03,Dining,Travel & Entertainment,L'Adresse,Dining
+435,7/12/25,Mich City,Lodging H NELIA SIGNAT Marrakech MAR,-1212.96,Travel & Lodging,Travel & Entertainment,Lodging H Nelia Signat,Travel & Lodging
+434,7/12/25,Mich City,REST LA MAMOUNIA A Marrakech MAR,-210.13,Dining,Travel & Entertainment,Rest La Mamounia,Dining
+436,7/11/25,Mich City,REST LA MAMOUNIA A Marrakech MAR,-396.91,Dining,Travel & Entertainment,Rest La Mamounia,Dining
+58,7/11/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-5,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+59,7/11/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 07/11 AEROPORT MARRAK MARRAKECH MAR ATM,-564.48,Cash,Financial Transactions,Financial Transactions,Cash
+1389,7/11/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,2500,Loan,Financial Transactions,Transfers,Loan
+437,7/10/25,Mich City,HUDSONNEWS ST709 MIAMI,-6.51,General Merchandise,General Merchandise,Hudson News,General Merchandise
+60,7/10/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S465190300017579,-20.36,Streaming,Subscriptions,Netflix,Streaming
+438,7/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+995,7/9/25,Mich Amex,AT&T UVERSE PAYMENT,-108.19,Utilities,Bills & Utilities,AT&T,Utilities
+61,7/8/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+62,7/7/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250707 MICHEL FALENI FERNANDE,-1195.9,Vehicle Payment,Auto,Car Andre,Vehicle Payment
+66,7/7/25,Fam Wells,MPA PARKING PAY BY MIAMI FL S305185806740261,-3.5,Transport,Travel & Entertainment,MPA PARKING,Parking
+63,7/7/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING PELUQUERIA,-190,Andre Expenses,Andre,Peluqueria,Andre Expenses
+64,7/7/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+65,7/7/25,Fam Wells,"SHEINUSServices,LL 137-2105366 DE S305185808388914",-48.47,General Merchandise,General Merchandise,SHEIN,General Merchandise
+67,7/7/25,Fam Wells,"SHEINUSServices,LL 137-2105366 DE S385185805553500",-48.98,General Merchandise,General Merchandise,SHEIN,General Merchandise
+996,7/7/25,Mich Amex,AMZN MKTP ES*RC1KE9Q800-279-6620,-79.22,General Merchandise,Amazon,Amazon,Amazon
+1390,7/7/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250707 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1391,7/7/25,Mich Wells,ONLINE TRANSFER TO BUSINESSLINE LINE OF CREDIT,-500,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1392,7/7/25,Mich Wells,ZELLE FROM JUAN C FLOREZ ON 07/05 REF # JPM99BEPM49H,500,Liquor Store,Liquor Store,Juan C Florez,Liquor Store
+439,7/6/25,Mich City,ALACENA DE ARAGON ZARAGOZA ESP,-181.68,Dining,Travel & Entertainment,Alacena de Aragon,Dining
+440,7/5/25,Mich City,CASA LAC ZARAGOZA ESP,-216.92,Dining,Travel & Entertainment,CASA LAC ZARAGOZA,Dining
+441,7/5/25,Mich City,SP VINONUEVA MIAMI,-937.32,Liquor Store,Liquor Store,Vinonueva,Liquor Store
+1155,7/5/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-35.68,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+997,7/4/25,Mich Amex,AMZN MKTP ES*RC6WI7L800-279-6620,-134.71,General Merchandise,Amazon,Amazon,Amazon
+998,7/3/25,Mich Amex,WWW.BUNK1.COM       ATLANTA,-10,Subscriptions,Education,Bunk1,Subscriptions
+1156,7/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+68,7/2/25,Fam Wells,PENNYMAC CASH Jul 25-0058 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+442,7/1/25,Mich City,HARPERANDNEYER ZGZ ZARAGOZA ESP,-14.13,General Merchandise,General Merchandise,HARPERANDNEYER,General Merchandise
+443,7/1/25,Mich City,"ISTOURS, INC. FOLSOM",-100,Education,Education,ISTOURS,Education
+70,7/1/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING COMPRAS VARIAS AMAZON CASA,-300,Beach,General Merchandise,Amazon,Beach
+69,7/1/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+71,7/1/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+999,7/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Subscriptions,Subscriptions,Netflix,Subscriptions
+1157,7/1/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,64.18,Amazon,Amazon,Amazon,Amazon
+1393,7/1/25,Mich Wells,APPLECARD GSBANK PAYMENT 063025 1881361 Michel Faleni,315.09,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1395,7/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1394,7/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+72,6/30/25,Fam Wells,INTEREST PAYMENT,0.11,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+73,6/30/25,Fam Wells,SANTANDER BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+76,6/30/25,Fam Wells,THE UPS STORE 6106 786-3689119 FL S585178592035561,-2.79,General Merchandise,General Merchandise,The UPS Store,General Merchandise
+75,6/30/25,Fam Wells,WALGREENS STORE 1011 ALTO MIAMI BEACH FL P385179732054636,-7.27,Medical,Medical,Walgreens,Medical
+74,6/30/25,Fam Wells,ZELLE TO KUKENAM CAMP ON 06/28 SUETER LORENZO CAMP,-35,Travel & Entertainment,Travel & Entertainment,Kukenam Camp,Travel & Entertainment
+1000,6/30/25,Mich Amex,OPENAI *CHATGPT SUBSSAN FRANCISCO,-20,Subscriptions,Subscriptions,OpenAI,Subscriptions
+1158,6/30/25,Mich Bofa,AMAZON MKTPL*NQ7B442W1 Amzn.com/billWA,-20.84,Amazon,Amazon,Amazon,Amazon
+1159,6/30/25,Mich Bofa,AMAZON RETA* NA97U82P1 SEATTLE,36.37,Amazon,Amazon,Amazon,Amazon
+1399,6/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250630A2Q FALENI,MICHEL",6644.65,Income,Income,BTS,Income
+1398,6/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250630A2Q FALENI,MICHEL",8332.25,Income,Income,BTS,Income
+1396,6/30/25,Mich Wells,INTEREST PAYMENT,0.03,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1397,6/30/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-8300,Loan Payment,Financial Transactions,Transfers,Loan Payment
+446,6/29/25,Mich City,CHEVRON 0204900 855-285-9595,-38.31,Transport,Auto,Chevron,Transport
+445,6/29/25,Mich City,CVS/PHARMACY #03705 MIAMI,-27.58,Medical,Medical,CVS,Medical
+444,6/29/25,Mich City,CVS/PHARMACY #03705 MIAMI,-21.99,Medical,Medical,CVS,Medical
+447,6/29/25,Mich City,ROSINELLA MIAMI BEACH,-39.94,Dining,Travel & Entertainment,Rosinella,Dining
+452,6/28/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-1.35,Transport,Auto,Parkmobile,Transport
+454,6/28/25,Mich City,ROSS STORES #1110 MIAMI BEACH,-104.8,General Merchandise,General Merchandise,Ross,General Merchandise
+448,6/28/25,Mich City,T J MAXX # 1137 MIAMI BEACH,-65.22,General Merchandise,General Merchandise,T J Maxx,General Merchandise
+451,6/28/25,Mich City,TRADER JOE S #779 MIAMI BEACH,-161.08,Groceries,Groceries,Trader Joe's,Groceries
+449,6/28/25,Mich City,WAL-MART #2091 DORAL,-94.05,General Merchandise,General Merchandise,Walmart,General Merchandise
+450,6/28/25,Mich City,WALGREENS #10983 MIAMI BEACH,-96.74,Medical,Medical,Walgreens,Medical
+453,6/28/25,Mich City,Whole Foods SBE 10285 866-216-1072,-30.52,Groceries,Groceries,Whole Foods,Groceries
+1161,6/28/25,Mich Bofa,AMAZON MKTPL*N37G78L82 Amzn.com/billWA,-28.87,Amazon,Amazon,Amazon,Amazon
+1160,6/28/25,Mich Bofa,AMAZON MKTPL*N39C58LK2 Amzn.com/billWA,-64.18,Amazon,Amazon,Amazon,Amazon
+1163,6/28/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,37.44,Amazon,Amazon,Amazon,Amazon
+1162,6/28/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,74.89,Amazon,Amazon,Amazon,Amazon
+1164,6/28/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,83.62,Amazon,Amazon,Amazon,Amazon
+455,6/27/25,Mich City,PUBLIX #655 DORAL,-10.71,Groceries,Groceries,Publix,Groceries
+457,6/27/25,Mich City,TST*CVI.CHE 105 - MIAM Miami Beach,-230.85,Dining,Travel & Entertainment,Restaurant ,Dining
+456,6/27/25,Mich City,Whole Foods SBE 10285 866-216-1072,-74.41,Groceries,Groceries,Whole Foods,Groceries
+77,6/27/25,Fam Wells,ZELLE TO LEON ROCIO ON 06/27 PSICOLOGO,-200,Psicologo,Medical,Psychologo,Psicologo
+1001,6/27/25,Mich Amex,CELEBRITY CRUISES   MIAMI,-697.03,Travel & Lodging,Travel & Entertainment,Celebrity Cruises,Travel & Lodging
+458,6/26/25,Mich City,FATHIA INVESTMENTS LIM NASSAU BHS,-760,Travel & Entertainment,Travel & Entertainment,Fathia Investments,Travel & Entertainment
+460,6/25/25,Mich City,FAB'S CONCH SALAD BIMINI BHS,-35,Dining,Travel & Entertainment,Fab's Conch Salad,Dining
+459,6/25/25,Mich City,FAB'S CONCH SALAD BIMINI BHS,-5,Dining,Travel & Entertainment,Fab's Conch Salad,Dining
+78,6/25/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.17,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+79,6/25/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 06/25 Amazon Prime*G38YD amazon.es/prm LUX S305176269946421,-5.81,Cloud Services,Subscriptions,Amazon Prime,Cloud Services
+1402,6/25/25,Mich Wells,ZELLE TO BURROWS LEANTE ON 06/25,-150,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1400,6/25/25,Mich Wells,ZELLE TO GLENWOOD ON 06/25,-50,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1401,6/25/25,Mich Wells,ZELLE TO UZZIAH ON 06/25,-28,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+81,6/24/25,Fam Wells,HEALTHY PAWS PET I 855-898-8991 GA S585174338772673,-100.03,Pet Services,Lucky,Healthy Paws,Pet Services
+80,6/24/25,Fam Wells,T-MOBILE PCS SVC 250623 9780942 MARIA FERNANDEZ,-192.6,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+1170,6/24/25,Mich Bofa,AMAZON MKTPL*NO5BV8DB0 Amzn.com/billWA,-10.69,Amazon,Amazon,Amazon,Amazon
+1169,6/24/25,Mich Bofa,AMAZON MKTPL*NO7LO69O1 Amzn.com/billWA,-10.69,Amazon,Amazon,Amazon,Amazon
+1168,6/24/25,Mich Bofa,AMAZON MKTPL*NO7MF4D40 Amzn.com/billWA,-10.69,Amazon,Amazon,Amazon,Amazon
+1167,6/24/25,Mich Bofa,AMAZON MKTPL*NO9BZ7DU0 Amzn.com/billWA,-10.69,Amazon,Amazon,Amazon,Amazon
+1166,6/24/25,Mich Bofa,AMAZON MKTPL*NO9LB69T1 Amzn.com/billWA,-10.69,Amazon,Amazon,Amazon,Amazon
+1165,6/24/25,Mich Bofa,AMAZON MKTPL*NQ5WN1GM2 Amzn.com/billWA,-37.44,Amazon,Amazon,Amazon,Amazon
+1171,6/24/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,33.46,Amazon,Amazon,Amazon,Amazon
+461,6/23/25,Mich City,WEST MARINE #1292 FT LAUDERDALE,-74.9,General Merchandise,General Merchandise,West Marine,General Merchandise
+462,6/23/25,Mich City,YETI FT LAUDERDALE FORT LAUDERDA,-128.4,General Merchandise,General Merchandise,Yeti,General Merchandise
+83,6/23/25,Fam Wells,GDP*BONBONITE NAIL SALON MIAMI FL P385172569264319,-55,Andre Pelu,Pelu,Bonbonite Nail Salon,Andre Pelu
+82,6/23/25,Fam Wells,NAVARRO DISCOUNT 10713--1 DORAL FL P465174026706573,-21.44,Medical,Medical,Navarro Discount,Medical
+84,6/23/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305171210903158,-10,Tolls,Auto,SunPass,Tolls
+1172,6/23/25,Mich Bofa,AMAZON MKTPL*NO3MB2MW0 Amzn.com/billWA,-170.08,Amazon,Amazon,Amazon,Amazon
+1173,6/23/25,Mich Bofa,AMAZON MKTPL*NQ6L72C72 Amzn.com/billWA,-8.55,Amazon,Amazon,Amazon,Amazon
+1403,6/23/25,Mich Wells,CITI CARD ONLINE PAYMENT 250620 MICHEL FALENI,4939.89,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1404,6/23/25,Mich Wells,ZELLE TO LDCOUTURE ON 06/23 TUX Y CAMISA,-100,Costurera,Clothing,LDCouture,Costurera
+467,6/22/25,Mich City,BR FACTORY US 1921 MIAMI,-69.55,General Merchandise,General Merchandise,BR Factory,General Merchandise
+468,6/22/25,Mich City,SQ *VOYAGE MEGA OUTLET Miami,-111.28,General Merchandise,General Merchandise,Voyage Mega Outlet,General Merchandise
+463,6/22/25,Mich City,SQ *VOYAGE MEGA OUTLET Miami,64.19,General Merchandise,General Merchandise,Voyage Mega Outlet,General Merchandise
+464,6/22/25,Mich City,T J MAXX # 1137 MIAMI BEACH,128.38,General Merchandise,General Merchandise,T.J. Maxx,General Merchandise
+465,6/22/25,Mich City,TST* ROC GROUP - LA CA MIAMI,-121.19,Dining,Travel & Entertainment,ROC Group,Dining
+466,6/22/25,Mich City,Whole Foods SBE 10285 866-216-1072,-21.68,Groceries,Groceries,Whole Foods,Groceries
+1002,6/22/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,5826.93,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+470,6/21/25,Mich City,BLOOMINGDALES OUTLET # MIAMI,-165.79,General Merchandise,General Merchandise,Bloomingdale's,General Merchandise
+473,6/21/25,Mich City,BR FACTORY US 1921 MIAMI,-157.83,General Merchandise,General Merchandise,BR Factory,General Merchandise
+469,6/21/25,Mich City,Midtown Miami CDD Miami,-10,Travel & Entertainment,Travel & Entertainment,Midtown Miami,Travel & Entertainment
+472,6/21/25,Mich City,SQ *VOYAGE MEGA OUTLET Miami,-64.19,General Merchandise,General Merchandise,Voyage Mega Outlet,General Merchandise
+471,6/21/25,Mich City,Whole Foods SBE 10285 866-216-1072,-48.87,Groceries,Groceries,Whole Foods,Groceries
+1174,6/21/25,Mich Bofa,PAYPAL *ALIPAYUSINC,-25.09,General Merchandise,General Merchandise,PayPal,General Merchandise
+478,6/20/25,Mich City,GOOGLE *Google One 650-253-0000,-19.99,Cloud Services,Subscriptions,Google,Cloud Services
+476,6/20/25,Mich City,MIAMI BEACH PARK LENOX MIAMI BEACH,-3,Transport,Auto,Miami Beach Park,Transport
+474,6/20/25,Mich City,PUBLIX #1209 MIAMI BEACH,-157.07,Groceries,Groceries,Publix,Groceries
+481,6/20/25,Mich City,ROSS STORES #1110 MIAMI BEACH,-84.25,General Merchandise,General Merchandise,Ross Stores,General Merchandise
+475,6/20/25,Mich City,T J MAXX # 1137 MIAMI BEACH,-189.33,General Merchandise,General Merchandise,T.J. Maxx,General Merchandise
+477,6/20/25,Mich City,TARGET 00032698 MIAMI BEACH,-16.13,General Merchandise,General Merchandise,Target,General Merchandise
+479,6/20/25,Mich City,TOTAL WINE AND MORE MIAMI BEACH,-183.14,Liquor Store,Liquor Store,Total Wine and More,Liquor Store
+480,6/20/25,Mich City,TST*BONDI SUSHI - MIAM Miami,-209.66,Dining,Travel & Entertainment,Bondi Sushi,Dining
+86,6/20/25,Fam Wells,SQ *440 CORPORATIO Miami Beach FL S385169650183038,-1.77,Beach,Beach,Unknown,Beach
+85,6/20/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585169658743501,-10,Tolls,Auto,SunPass,Tolls
+1176,6/20/25,Mich Bofa,AMAZON MKTPL*NA8O71YJ0 Amzn.com/billWA,-158.51,Amazon,Amazon,Amazon,Amazon
+1175,6/20/25,Mich Bofa,AMAZON RETA* NO5AE6ZS1 SEATTLE,-139.08,Amazon,Amazon,Amazon,Amazon
+1407,6/20/25,Mich Wells,ONLINE TRANSFER FROM BUSINESSLINE LINE OF CREDIT MIAMI BEACH PAYMENTS EXPENSES,5000,Loan,Financial Transactions,Transfers,Loan
+1405,6/20/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-3200,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1406,6/20/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 06/19,-160,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+482,6/19/25,Mich City,PUBLIX #031 DORAL,-49.95,Groceries,Groceries,Publix,Groceries
+1177,6/19/25,Mich Bofa,AMAZON MKTPL*NO2DX08V2 Amzn.com/billWA,-36.36,Amazon,Amazon,Amazon,Amazon
+87,6/18/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 06/25 PPDA MICHEL R FALENI,-341.09,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+89,6/18/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305168614599818,-10,Tolls,Auto,SUNPASS,Tolls
+88,6/18/25,Fam Wells,WHOLEFDS SBE 102 1020 ALT MIAMI BEACH FL P585169647760924,-25.32,Groceries,Groceries,Whole Foods,Groceries
+1003,6/18/25,Mich Amex,GOOGLE *YT PRIMETIME G.CO/HELPPAY#,-9.05,Subscriptions,Subscriptions,Google,Subscriptions
+1179,6/18/25,Mich Bofa,AMAZON MKTPL*NA4AM79T1 Amzn.com/billWA,-102.69,Amazon,Amazon,Amazon,Amazon
+1178,6/18/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,265.36,Amazon,Amazon,Amazon,Amazon
+1181,6/18/25,Mich Bofa,AMAZON RETA* NA71A72U1 SEATTLE,-29.46,Amazon,Amazon,Amazon,Amazon
+1180,6/18/25,Mich Bofa,AMAZON RETA* NA97U82P1 SEATTLE,-36.37,Amazon,Amazon,Amazon,Amazon
+1408,6/18/25,Mich Wells,Instant Pmt from BUSINESS TELECOMMUNICATIONS SE on 06/18 Ref#20250618021001088P1BAAAA00000122612,3493.43,Expense Reports,Financial Transactions,BUSINESS TELECOMMUNICATIONS SE,Expense Reports
+483,6/17/25,Mich City,BARK FOR C* BARK FOR C DORAL,-105.3,Pet Services,Lucky,BARK FOR C,Pet Services
+487,6/17/25,Mich City,CHEVRON 0357850 855-285-9595,-75.06,Transport,Auto,Chevron,Transport
+485,6/17/25,Mich City,FLOSSOME ORTHODONTICS DORAL,-150,Medical,Medical,Flossome Orthodontics,Medical
+484,6/17/25,Mich City,MENS WEARHOUSE #3333 MIAMI,-64.19,General Merchandise,General Merchandise,Men's Wearhouse,General Merchandise
+486,6/17/25,Mich City,TOTAL WINE & MORE 9 DORAL,-280.06,Liquor Store,Liquor Store,Total Wine & More,Liquor Store
+91,6/17/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385167730002718,-10,Tolls,Auto,SUNPASS,Tolls
+90,6/17/25,Fam Wells,ZELLE TO PROFESSIONAL PELUQUERO LUGUS ON 06/17 PELUQUERIA,-200,Andre Pelu,Pelu,Professional Peluquero Lugus,Andre Pelu
+1409,6/17/25,Mich Wells,ZELLE TO THE 305 BEACH ON 06/17 CAPITAL CONTRIBUTION TO COVER MONTHLY SPEND,-1956.18,Beach,Beach,Beach,Beach
+488,6/16/25,Mich City,CHEVRON 0358537 855-285-9595,-78.4,Transport,Auto,Chevron,Transport
+94,6/16/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+93,6/16/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305164237839806,-10,Tolls,Auto,SUNPASS,Tolls
+92,6/16/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465165232937173,-10,Tolls,Auto,SUNPASS,Tolls
+1411,6/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1410,6/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+491,6/15/25,Mich City,BRADENTON BEACH LIQUOR BRADENTON,-117.67,Liquor Store,Liquor Store,BRADENTON BEACH LIQUOR,Liquor Store
+490,6/15/25,Mich City,CHEVRON 0358537 BONITA SPRING,-15.44,Transport,Auto,Chevron,Transport
+489,6/15/25,Mich City,YETI 1-833-225-9384,-89.88,General Merchandise,General Merchandise,YETI,General Merchandise
+492,6/15/25,Mich City,YETI 1-833-225-9384,-53.5,General Merchandise,General Merchandise,YETI,General Merchandise
+493,6/14/25,Mich City,CROWDER BROS CORTEZ BRADENTON,-71.14,Hardware Store,Maintenance,Crowder Bros,Hardware Store
+494,6/14/25,Mich City,SQ *ALMA DE ESPANA Sarasota,-213.56,Dining,Travel & Entertainment,ALMA DE ESPANA,Dining
+498,6/13/25,Mich City,AMERICAN0010272033911 MEXICO CITY MEXNAME: FALENI/ANDREINA DEPART:06/13/2025 EBC TO FEE: AA: CLASS:Y : STOP: O,-36.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+496,6/13/25,Mich City,CHEVRON 0357850 855-285-9595,-73.03,Transport,Auto,Chevron,Transport
+495,6/13/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-28.08,Insurance,Auto,NATL GEN INS,Insurance
+499,6/13/25,Mich City,SHELL OIL 575424870QPS NAPLES,-60.54,Transport,Auto,Shell,Transport
+497,6/13/25,Mich City,SHELL OIL 575424870QPS NAPLES,-33.54,Transport,Auto,Shell,Transport
+500,6/13/25,Mich City,THE HOME DEPOT #6378 HIALEAH,-108.46,Hardware Store,Maintenance,The Home Depot,Hardware Store
+96,6/13/25,Fam Wells,ATM WITHDRAWAL AUTHORIZED ON 06/13 1700 NW 87TH AVE DORAL ATM ID 6408Y,-500,Cash,Financial Transactions,Financial Transactions,Cash
+95,6/13/25,Fam Wells,ZELLE TO QUERO CESAR ON 06/13,-150,Maintenance,Maintenance,Quero Cesar,Maintenance
+1187,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,12.38,Amazon,Amazon,Amazon,Amazon
+1183,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,38.51,Amazon,Amazon,Amazon,Amazon
+1188,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,48.14,Amazon,Amazon,Amazon,Amazon
+1185,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,53.5,Amazon,Amazon,Amazon,Amazon
+1184,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,92.01,Amazon,Amazon,Amazon,Amazon
+1182,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,96.28,Amazon,Amazon,Amazon,Amazon
+1186,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,154.6,Amazon,Amazon,Amazon,Amazon
+1189,6/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,193.12,Amazon,Amazon,Amazon,Amazon
+1414,6/13/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250613A2Q FALENI,MICHEL",6644.63,Income,Income,BTS,Income
+1413,6/13/25,Mich Wells,CITI CARD ONLINE PAYMENT 250612 MICHEL FALENI,4890.85,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1412,6/13/25,Mich Wells,CITI CARD ONLINE PAYMENT 250612 MICHEL FALENI,13816.99,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+503,6/12/25,Mich City,MEAT CLUB MARKET DORAL,-205,Groceries,Groceries,Meat Club Market,Groceries
+502,6/12/25,Mich City,MEAT TOWN DISTRIBUTORS DORAL,-61.45,Groceries,Groceries,Meat Town Distributors,Groceries
+501,6/12/25,Mich City,"ONLINE PAYMENT, THANK YOU",13816.99,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+97,6/12/25,Fam Wells,BMW BANK BMWFS PYMT 250611,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+98,6/12/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING GASTOS EXTRAS CASA,-652.04,Aditional Expenses,Aditional Expenses,Fernandez M,Aditional Expenses
+99,6/12/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465163036071320,-10,Tolls,Auto,SunPass,Tolls
+1415,6/12/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,5000,Loan,Financial Transactions,Transfers,Loan
+1416,6/12/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,12500,Loan,Financial Transactions,Transfers,Loan
+504,6/11/25,Mich City,SQ *CENTRAL LOCKSMITH Doral,-49.45,Services,Beach,Central Locksmith,Services
+101,6/11/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585161819799615,-10,Tolls,Auto,SunPass,Tolls
+100,6/11/25,Fam Wells,ZELLE TO ROMERO YELITZA COSTURERA DORAL ON 06/11 ALTERACIONES ANDRE,-60,Costurera,Clothing,Yelitza Romero,Costurera
+1004,6/11/25,Mich Amex,AT&T UVERSE PAYMENT,-108.19,Utilities,Bills & Utilities,AT&T,Utilities
+1190,6/11/25,Mich Bofa,AMAZON RETA* N64E398F1 SEATTLE,298.95,Amazon,Amazon,Amazon,Amazon
+505,6/10/25,Mich City,HCO DENTAL INC MIRAMAR,-40,Medical,Medical,HCO Dental,Medical
+506,6/10/25,Mich City,THE HOME DEPOT #3331 MIAMI,-132.62,Hardware Store,Maintenance,The Home Depot,Hardware Store
+102,6/10/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S465160319284546,-20.36,Streaming,Subscriptions,Netflix,Streaming
+509,6/9/25,Mich City,CHEVRON 0204900 855-285-9595,-75.02,Transport,Auto,Chevron,Transport
+508,6/9/25,Mich City,DIVINO CEVICHE DORAL MIAMI,-61.17,Dining,Travel & Entertainment,Divino Ceviche,Dining
+507,6/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+103,6/9/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+106,6/9/25,Fam Wells,SQ *440 CORPORATIO Miami Beach FL S305158557455369,-33.49,Beach,Beach,440 Corporatio,Beach
+105,6/9/25,Fam Wells,SQ *440 CORPORATIO Miami Beach FL S305158561548251,-2.94,Beach,Beach,440 Corporatio,Beach
+108,6/9/25,Fam Wells,SQ *440 CORPORATIO Miami Beach FL S585157666088102,-12,Beach,Beach,440 Corporatio,Beach
+104,6/9/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385159608547320,-10,Tolls,Auto,SunPass,Tolls
+107,6/9/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585158262036260,-10,Tolls,Auto,SunPass,Tolls
+1005,6/9/25,Mich Amex,GPTFORWORK.COM      BRUXELLES,-29,Subscriptions,Subscriptions,GPTForWork,Subscriptions
+1006,6/9/25,Mich Amex,SPORT CAR WASH 00000DORAL,-48.14,Vehicle Maintenance,Auto,Sport Car Wash,Vehicle Maintenance
+510,6/8/25,Mich City,AA Kiosk0010271756242 Miami FLNAME: FALENI/ANDREINA DEPART:06/08/2025 MIA TO MEX: AA: CLASS:O : STOP: O,-35,Travel & Entertainment,Travel & Entertainment,Restaurant ,Travel & Entertainment
+514,6/8/25,Mich City,Dicks Sporting Goods Miami,-148.45,General Merchandise,General Merchandise,Dicks Sporting Goods,General Merchandise
+513,6/8/25,Mich City,MERPAGO*MORAMORA CIUDAD DE MEX MEX,-1.62,Dining,Travel & Entertainment,Moramora,Dining
+515,6/8/25,Mich City,PACSUN #1108 MIAMI,-120.29,General Merchandise,General Merchandise,Pacsun,General Merchandise
+512,6/8/25,Mich City,TST* ESPANOLITA MIAMI BEACH,-154.44,Dining,Travel & Entertainment,Espanolita,Dining
+511,6/8/25,Mich City,TST* PISCO DORAL DORAL,-85.12,Dining,Travel & Entertainment,Pisco,Dining
+1007,6/8/25,Mich Amex,CARNE EN VARA EXPRESMEDLEY,-93.71,Dining,Travel & Entertainment,Carne en Vara,Dining
+516,6/7/25,Mich City,CITY OF MIAMI BEACHQPS MIAMI BEACH,-2.5,Transport,Auto,City of Miami Beach,Transport
+517,6/7/25,Mich City,SQ *FILLMORE MIAMI BEA Miami beach,-136.63,Travel & Entertainment,Travel & Entertainment,Fillmore,Travel & Entertainment
+1008,6/7/25,Mich Amex,CITY OF MIAMI BEACH MIAMI BEACH,-6,Transport,Auto,City of Miami Beach,Transport
+519,6/6/25,Mich City,CLARK LIQUOR 5 DORAL,-42.55,Liquor Store,Liquor Store,Clark Liquor,Liquor Store
+523,6/6/25,Mich City,PFY**Coral Gables Payb CORALGABLES,-4.25,Transport,Auto,Coral Gables,Transport
+522,6/6/25,Mich City,PFY**Coral Gables Payb CORALGABLES,-2.5,Transport,Auto,Coral Gables,Transport
+518,6/6/25,Mich City,PlanetTaxFree-Spain Madrid ESP,120.13,General Merchandise,General Merchandise,PlanetTaxFree,General Merchandise
+521,6/6/25,Mich City,TST* DORAL STEAKHOUSE DORAL,-568.84,Dining,Travel & Entertainment,Doral Steakhouse,Dining
+520,6/6/25,Mich City,TST* LE ROND MIAMI BEACH,-77.4,Dining,Travel & Entertainment,Le Rond,Dining
+110,6/6/25,Fam Wells,MOBILE DEPOSIT : REF NUMBER :306060536874,161.02,Refunds,Financial Transactions,Financial Transactions,Refunds
+109,6/6/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465157011591770,-10,Tolls,Auto,SunPass,Tolls
+1192,6/6/25,Mich Bofa,AMAZON MKTPL*N609W49J1 Amzn.com/billWA,-174.82,Amazon,Amazon,Amazon,Amazon
+1193,6/6/25,Mich Bofa,AMAZON MKTPL*N66OW2DY0 Amzn.com/billWA,-76.28,Amazon,Amazon,Amazon,Amazon
+1195,6/6/25,Mich Bofa,AMAZON MKTPL*N688R1KB1 Amzn.com/billWA,-154.6,Amazon,Amazon,Amazon,Amazon
+1194,6/6/25,Mich Bofa,AMAZON MKTPL*N69IJ66L0 Amzn.com/billWA,-85.59,Amazon,Amazon,Amazon,Amazon
+1197,6/6/25,Mich Bofa,AMAZON MKTPL*NH4GS31V2 Amzn.com/billWA,-40.92,Amazon,Amazon,Amazon,Amazon
+1196,6/6/25,Mich Bofa,AMAZON MKTPL*NH6N26192 Amzn.com/billWA,-40.92,Amazon,Amazon,Amazon,Amazon
+1191,6/6/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-26.09,Bank Fees,Financial Transactions,Interest Charged,Bank Fees
+1417,6/6/25,Mich Wells,MOBILE DEPOSIT : REF NUMBER :506060537689,1956.18,Refunds,Financial Transactions,Financial Transactions,Refunds
+525,6/5/25,Mich City,EL FARO LATIN CAFE DORAL,-6.36,Dining,Travel & Entertainment,El Faro Latin Cafe,Dining
+524,6/5/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-4.35,Transport,Auto,ParkMobile,Transport
+111,6/5/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Manage,Assc. Fee Balm
+112,6/5/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+1200,6/5/25,Mich Bofa,AMAZON MKTPL*N69KS78S1 Amzn.com/billWA,-193.12,Amazon,Amazon,Amazon,Amazon
+1198,6/5/25,Mich Bofa,AMAZON MKTPL*NH32U5AR2 Amzn.com/billWA,-56.72,Amazon,Amazon,Amazon,Amazon
+1199,6/5/25,Mich Bofa,AMAZON RETA* N64E398F1 SEATTLE,-298.95,Amazon,Amazon,Amazon,Amazon
+526,6/4/25,Mich City,CHEVRON 0203037 855-285-9595,-78.25,Transport,Auto,Chevron,Transport
+113,6/4/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250604 MICHEL FALENI FERNANDE,-1195.9,Vehicle Payment,Auto,Car Andre,Vehicle Payment
+1204,6/4/25,Mich Bofa,AMAZON MKTPL*N62UT6AB0 Amzn.com/billWA,-29.95,Amazon,Amazon,Amazon,Amazon
+1202,6/4/25,Mich Bofa,AMAZON MKTPL*N634O8XT1 Amzn.com/billWA,-42.78,Amazon,Amazon,Amazon,Amazon
+1203,6/4/25,Mich Bofa,AMAZON MKTPL*N67O24YP2 Amzn.com/billWA,-13.86,Amazon,Amazon,Amazon,Amazon
+1201,6/4/25,Mich Bofa,CASH REWARDS STATEMENT CREDIT,214.89,Refunds,Financial Transactions,Cash Rewards,Refunds
+1418,6/4/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250604 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1009,6/3/25,Mich Amex,THE HOME DEPOT #3331MIAMI,-6.58,Hardware Store,Maintenance,The Home Depot,Hardware Store
+1206,6/3/25,Mich Bofa,AMAZON MKTPL*N66BU8R82 Amzn.com/billWA,-40.46,Amazon,Amazon,Amazon,Amazon
+1205,6/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+528,6/2/25,Mich City,BUN MEE SAN FRANCISCO,-75.59,Dining,Travel & Entertainment,Bun Mee,Dining
+527,6/2/25,Mich City,"ISTOURS, INC. FOLSOM",-100,Education,Education,ISTOURS,Education
+116,6/2/25,Fam Wells,ATM WITHDRAWAL AUTHORIZED ON 06/01 570 N Shoreline Blvd Mountain View ATM ID 8457Z,-200,Cash,Financial Transactions,Financial Transactions,Cash
+115,6/2/25,Fam Wells,Kukenam Summer C 250601 98338665 ANDREINA FALENI ANDREI,-409.2,Travel & Entertainment,Travel & Entertainment,Kukenam,Travel & Entertainment
+114,6/2/25,Fam Wells,PENNYMAC CASH Jun 25-0057 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+117,6/2/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1207,6/2/25,Mich Bofa,AMAZON MKTPL*N60MY23L1 Amzn.com/billWA,-265.36,Amazon,Amazon,Amazon,Amazon
+1208,6/2/25,Mich Bofa,AMAZON MKTPL*N62735DV2 Amzn.com/billWA,-12.38,Amazon,Amazon,Amazon,Amazon
+1420,6/2/25,Mich Wells,CHASE CREDIT CRD EPAY 250530 MICHEL R FALENI,1288.17,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1421,6/2/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1422,6/2/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+1419,6/2/25,Mich Wells,VENMO PAYMENT 250602 MICHEL FALENI,-5,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1423,6/2/25,Mich Wells,ZELLE FROM AQUILES ADDEO ON 06/02 REF # JPM99BARE737 MTB SHOES AGRADECIDO BRO,134,Travel & Entertainment,Travel & Entertainment,Aquiles Addeo,Travel & Entertainment
+529,6/1/25,Mich City,SQ *COLD PLAY SPECIAL Palm Springs,-83.16,Travel & Entertainment,Travel & Entertainment,Cold Play Special,Travel & Entertainment
+530,6/1/25,Mich City,TOTAL WINE AND MORE MOUNTAIN VIEW,-118.05,Liquor Store,Liquor Store,Total Wine and More,Liquor Store
+1010,6/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Subscriptions,Subscriptions,Netflix,Subscriptions
+533,5/31/25,Mich City,AMERICAN0012245113785 PHOENIX AZNAME: FALENI/MICHEL DEPART:01/04/2026 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O CLT TO ASE: AA: CLASS:Y : STOP: O MIA TO CLT: AA: CLASS:Y : STOP: O,-11.2,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+535,5/31/25,Mich City,AMERICAN0012245113786 PHOENIX AZNAME: FALENI/ANDREINA DEPART:01/04/2026 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O CLT TO ASE: AA: CLASS:Y : STOP: O MIA TO CLT: AA: CLASS:Y : STOP: O,-11.2,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+536,5/31/25,Mich City,AMERICAN0012245113787 PHOENIX AZNAME: FALENI/LORENZO DEPART:01/04/2026 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O CLT TO ASE: AA: CLASS:Y : STOP: O MIA TO CLT: AA: CLASS:Y : STOP: O,-11.2,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+534,5/31/25,Mich City,SQ *COLD PLAY SPECIAL Palm Springs,-39.72,Travel & Entertainment,Travel & Entertainment,Cold Play Special,Travel & Entertainment
+532,5/31/25,Mich City,SQ *COLD PLAY SPECIAL Pasadena,-6.9,Travel & Entertainment,Travel & Entertainment,Cold Play Special,Travel & Entertainment
+531,5/31/25,Mich City,TST* AMANDINE LOUNGE LOS ALTOS,-33.05,Dining,Travel & Entertainment,Amandine Lounge,Dining
+1209,5/31/25,Mich Bofa,AMAZON MKTPL*NN0N60D60 Amzn.com/billWA,-144.42,Amazon,Amazon,Amazon,Amazon
+539,5/30/25,Mich City,10 BUTCHERS KOREA BBQ SUNNYVALE,-237.68,Dining,Travel & Entertainment,Butchers Korea BBQ,Dining
+540,5/30/25,Mich City,KYOSHO MENLO PARK,-182.45,Dining,Travel & Entertainment,KYOSHO,Dining
+537,5/30/25,Mich City,Refund Globalblue.com Stockholm SWE,44.92,General Merchandise,General Merchandise,Globalblue,General Merchandise
+538,5/30/25,Mich City,Refund Globalblue.com Stockholm SWE,52.25,General Merchandise,General Merchandise,Globalblue,General Merchandise
+118,5/30/25,Fam Wells,INTEREST PAYMENT,0.12,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1011,5/30/25,Mich Amex,OPENAI *CHATGPT SUBSSAN FRANCISCO,-20,Subscriptions,Subscriptions,OpenAI,Subscriptions
+1210,5/30/25,Mich Bofa,AMAZON RETA* NB4BP6PX1 SEATTLE,192.59,Amazon,Amazon,Amazon,Amazon
+1428,5/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250530A2Q FALENI,MICHEL",6644.64,Income,Income,BUS TELE SVCS,Income
+1427,5/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250530A2Q FALENI,MICHEL",9100.75,Income,Income,BUS TELE SVCS,Income
+1424,5/30/25,Mich Wells,INTEREST PAYMENT,0.04,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1429,5/30/25,Mich Wells,Instant Pmt from BUSINESS TELECOMMUNICATIONS SE on 05/30 Ref#20250529021001088P1BAAAA00000033775,10664.9,Expense Reports,Financial Transactions,BUSINESS TELECOMMUNICATIONS SE,Expense Reports
+1426,5/30/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-9376,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1425,5/30/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-9100,Loan Payment,Financial Transactions,Transfers,Loan Payment
+542,5/29/25,Mich City,TOTAL WINE AND MORE MOUNTAIN VIEW,-248.29,Liquor Store,Liquor Store,Total Wine and More,Liquor Store
+541,5/29/25,Mich City,VAT REFUND PAYMENT IRL,68.58,General Merchandise,General Merchandise,Tax Refund,General Merchandise
+119,5/29/25,Fam Wells,SANTANDER BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+120,5/29/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 05/29 LORENZO BASKET,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1012,5/29/25,Mich Amex,EVVIA ESTIATORIO    PALO ALTO,-159.4,Dining,Travel & Entertainment,Evvia Estiatorio,Dining
+1013,5/29/25,Mich Amex,OPENAI              SAN FRANCISCO,-10,Subscriptions,Subscriptions,OpenAI,Subscriptions
+1430,5/29/25,Mich Wells,VENMO PAYMENT 250529 MICHEL FALENI,-5,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+543,5/28/25,Mich City,EL FARO LATIN CAFE DORAL,-3.45,Dining,Travel & Entertainment,El Faro Latin Cafe,Dining
+121,5/28/25,Fam Wells,MONEY TRANSFER AUTHORIZED ON 05/26 APPLE CASH SENT MO 1INFINITELOOP CA S585146665364909,-20,Lore,Lore,1INFINITELOOP,Lore
+1014,5/28/25,Mich Amex,HERTZ CAR RENTAL    SAN FRANCISCO,-174.27,Travel & Lodging,Travel & Entertainment,Hertz,Travel & Lodging
+1211,5/28/25,Mich Bofa,AMAZON MKTPL*NN8XS0W22 Amzn.com/billWA,-136.9,Amazon,Amazon,Amazon,Amazon
+125,5/27/25,Fam Wells,HEALTHY PAWS PET I TRACIM@HEALTH PA S465143337855191,-100.03,Pet Services,Lucky,Healthy Paws Pet,Pet Services
+123,5/27/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.17,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+124,5/27/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 05/25 Amazon Prime*KM2T0 amazon.es/prm LUX S465145272234494,-5.68,Cloud Services,Subscriptions,Amazon,Cloud Services
+122,5/27/25,Fam Wells,T-MOBILE PCS SVC 250523 8455728 MARIA FERNANDEZ,-193.26,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+1015,5/27/25,Mich Amex,HERTZ CAR RENTAL    OKLAHOMA CITY,-42.69,Travel & Lodging,Travel & Entertainment,Hertz,Travel & Lodging
+1212,5/27/25,Mich Bofa,AMAZON MKTPL*NN7EC7U72 Amzn.com/billWA,-142.22,Amazon,Amazon,Amazon,Amazon
+544,5/26/25,Mich City,HARPERANDNEYER ZGZ ZARAGOZA ESP,-39.82,General Merchandise,General Merchandise,HARPERANDNEYER,General Merchandise
+1213,5/26/25,Mich Bofa,AMAZON RETA* NB08T0X91 SEATTLE,179.14,Amazon,Amazon,Amazon,Amazon
+547,5/25/25,Mich City,HOTEL LAS LEYENDAS- LA AVILA ESP,-207.29,Travel & Lodging,Travel & Entertainment,Hotel Las Leyendas,Travel & Lodging
+546,5/25/25,Mich City,PARKING CALLE JUAN BRA MADRID ESP,-15.47,Transport,Travel & Entertainment,Parking,Parking
+545,5/25/25,Mich City,YEMAS DE SANTA TERESA AVILA ESP,-14.73,Dining,Travel & Entertainment,YEMAS DE SANTA TERESA,Dining
+553,5/24/25,Mich City,BO SPECIALTY COFFEE MADRID ESP,-45.74,Dining,Travel & Entertainment,BO SPECIALTY COFFEE,Dining
+555,5/24/25,Mich City,EL CORTE INGLES-DEPART MADRID ESP,-184.02,General Merchandise,General Merchandise,EL CORTE INGLES,General Merchandise
+554,5/24/25,Mich City,EL CORTE INGLES-DEPART MADRID ESP,-54.78,General Merchandise,General Merchandise,EL CORTE INGLES,General Merchandise
+551,5/24/25,Mich City,EL CORTE INGLES-DEPART MADRID ESP,-17.35,General Merchandise,General Merchandise,EL CORTE INGLES,General Merchandise
+550,5/24/25,Mich City,EL CORTE INGLES-DEPART MADRID ESP,-14.56,General Merchandise,General Merchandise,EL CORTE INGLES,General Merchandise
+548,5/24/25,Mich City,FARMACIA M MAR CASTILL MADRID ESP,-39.48,Medical,Medical,Farmacia M Mar,Medical
+549,5/24/25,Mich City,KIOSKO RETIRO MADRID ESP,-3.41,Dining,Travel & Entertainment,KIOSKO,Dining
+552,5/24/25,Mich City,LA TASCA DE RETIRO MADRID ESP,-25.03,Dining,Travel & Entertainment,La Tasca De Retiro,Dining
+1214,5/24/25,Mich Bofa,AMAZON MKTPL*NZ3F68MN0 Amzn.com/billWA,-37.15,Amazon,Amazon,Amazon,Amazon
+560,5/23/25,Mich City,CH CAROLINA HERRERA SANTA MARIA ( ESP,-596.61,General Merchandise,General Merchandise,Carolina Herrera,General Merchandise
+558,5/23/25,Mich City,DIESEL Madrid ESP,-420.01,General Merchandise,General Merchandise,DIESEL,General Merchandise
+557,5/23/25,Mich City,FARMACIA CUZCO MADRID ESP,-408.09,Medical,Medical,FARMACIA CUZCO,Medical
+556,5/23/25,Mich City,GOYANAR LAS ROZAS ROZAS LAS ESP,-22.44,General Merchandise,General Merchandise,Las Rozas,General Merchandise
+559,5/23/25,Mich City,VALENTINO LAS ROZAS ESP,-465.92,General Merchandise,General Merchandise,VALENTINO,General Merchandise
+561,5/22/25,Mich City,PRIMAPRIX ZARAGOZA VII ZARAGOZA ESP,-3.35,Groceries,Groceries,PRIMAPRIX,Groceries
+126,5/22/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 05/22 BASKET LORENZO,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1016,5/22/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,5995.59,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1432,5/22/25,Mich Wells,CITI CARD ONLINE PAYMENT 250521 MICHEL FALENI,1469.96,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1431,5/22/25,Mich Wells,CITI CARD ONLINE PAYMENT 250521 MICHEL FALENI,2318,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1433,5/21/25,Mich Wells,ONLINE TRANSFER FROM FALENI M PLATINUM SAVINGS INSURANCE APRIL OCT,2318,Car Insurance Payment,Auto,Transfers,Car Insurance Payment
+563,5/20/25,Mich City,CAFETERIA PRADO MADRID ESP,-7.68,Dining,Travel & Entertainment,Cafeteria Prado,Dining
+564,5/20/25,Mich City,EL PATIO VERTICAL MADRID ESP,-19.25,Dining,Travel & Entertainment,EL PATIO VERTICAL,Dining
+562,5/20/25,Mich City,GOOGLE *Google One 650-253-0000,0.4,Cloud Services,Subscriptions,Google,Cloud Services
+565,5/20/25,Mich City,TARIN JOYEROS ZARAGOZA ESP,-1004.81,Jewelry,Jewerly,TARIN JOYEROS,Jewelry
+567,5/19/25,Mich City,MACYS .COM MASON,-444.91,General Merchandise,General Merchandise,Macy's,General Merchandise
+568,5/19/25,Mich City,MACYS .COM MASON,-159.69,General Merchandise,General Merchandise,Macy's,General Merchandise
+566,5/19/25,Mich City,MACYS .COM MASON,-149.05,General Merchandise,General Merchandise,Macy's,General Merchandise
+129,5/19/25,Fam Wells,APPLE CASH BALANCE 877-233-8552 CA S585136451460432,-50,Lore,Lore,Apple Cash,Lore
+127,5/19/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 05/25 PPDA MICHEL R FALENI,-290.85,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+128,5/19/25,Fam Wells,MENTA Y CANELA NAI MIAMI FL S305137525294437,-54.75,Andre Pelu,Pelu,MENTA Y CANELA,Andre Pelu
+130,5/19/25,Fam Wells,MONEY TRANSFER AUTHORIZED ON 05/16 APPLE CASH SENT MO 1INFINITELOOP CA S585136450831550,-39.24,Lore,Lore,1INFINITELOOP,Lore
+572,5/18/25,Mich City,MEAT CLUB MARKET DORAL,-136.82,Groceries,Groceries,Meat Club Market,Groceries
+571,5/18/25,Mich City,MEAT CLUB MARKET DORAL,-8.44,Groceries,Groceries,Meat Club Market,Groceries
+570,5/18/25,Mich City,TST*CRAFT DORAL ISLES Doral,-4.24,Dining,Travel & Entertainment,Craft Doral Isles,Dining
+569,5/18/25,Mich City,TST*FRANCISCA CHARCOAL 786-542-1393,-56.84,Dining,Travel & Entertainment,Francisca Charcoal,Dining
+1017,5/18/25,Mich Amex,GOOGLE *YT PRIMETIME G.CO/HELPPAY#,-9.05,Subscriptions,Subscriptions,Google,Subscriptions
+1019,5/18/25,Mich Amex,TST* CRAZY ABOUT YOUMIAMI,-93.2,Dining,Travel & Entertainment,CRAZY ABOUT YOU,Dining
+1018,5/18/25,Mich Amex,TST* CRAZY ABOUT YOUMIAMI,-47.96,Dining,Travel & Entertainment,CRAZY ABOUT YOU,Dining
+573,5/17/25,Mich City,BAIRES GRILL DORAL MIAMI,-189.69,Dining,Travel & Entertainment,Baires Grill,Dining
+575,5/17/25,Mich City,CHEVRON 0200464 DORAL,-13.78,Transport,Auto,Chevron,Transport
+574,5/17/25,Mich City,LAZ PARKING M06285-1 P DORAL,-12,Transport,Travel & Entertainment,LAZ PARKING,Parking
+576,5/17/25,Mich City,PARKRECEIPTS.COM -V PLANO,-33,Transport,Travel & Entertainment,Parking,Parking
+1215,5/17/25,Mich Bofa,AMAZON MKTPL*NW3X69EI0 Amzn.com/billWA,-65.25,Amazon,Amazon,Amazon,Amazon
+579,5/16/25,Mich City,BAIRES GRILL DORAL MIAMI,-188.67,Dining,Travel & Entertainment,Baires Grill,Dining
+578,5/16/25,Mich City,PUBLIX #655 DORAL,-25.78,Groceries,Groceries,Publix,Groceries
+577,5/16/25,Mich City,eBay O*18-13011-28679 San Jose,214,General Merchandise,General Merchandise,eBay,General Merchandise
+131,5/16/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465135645865722,-10,Tolls,Auto,SUNPASS,Tolls
+1020,5/16/25,Mich Amex,TIRES PLUS 240062   MIAMI,-70.62,Vehicle Maintenance,Auto,Tires Plus,Vehicle Maintenance
+1216,5/16/25,Mich Bofa,AMAZON MKTPL*NW6TQ7JG1 Amzn.com/billWA,-115.16,Amazon,Amazon,Amazon,Amazon
+1434,5/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+580,5/15/25,Mich City,CHRISTOPHER COLUMBUS MIAMI,-1856.16,Education,Education,Columbus,Education
+582,5/15/25,Mich City,INTEREST CHARGED TO PUR PR-05/06/25.,-448.65,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+581,5/15/25,Mich City,INTEREST CHARGED TO STANDARD PURCH,-2.86,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+132,5/15/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-3,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+133,5/15/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 05/15 8455 NW 53RD TERRACE DORAL FL ATM ID A157171,-403.25,Cash,Financial Transactions,Financial Transactions,Cash
+134,5/15/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1218,5/15/25,Mich Bofa,AMAZON MKTPL*NW45U0F81 Amzn.com/billWA,-53.5,Amazon,Amazon,Amazon,Amazon
+1220,5/15/25,Mich Bofa,AMAZON MKTPL*NW72X1CJ1 Amzn.com/billWA,-47.07,Amazon,Amazon,Amazon,Amazon
+1217,5/15/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,36.11,Amazon,Amazon,Amazon,Amazon
+1219,5/15/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,37.45,Amazon,Amazon,Amazon,Amazon
+1438,5/15/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250515A2Q FALENI,MICHEL",6644.64,Income,Income,BUS TELE SVCS,Income
+1435,5/15/25,Mich Wells,CITI CARD ONLINE PAYMENT 250514 MICHEL FALENI,4058.53,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1437,5/15/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1436,5/15/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 05/15,-110,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+584,5/14/25,Mich City,GOOGLE *Google One 650-253-0000,-0.49,Cloud Services,Subscriptions,Google One,Cloud Services
+583,5/14/25,Mich City,SPIRIT A48704341555270 MIRAMAR FLNAME: FALENI/A DEPART:05/18/2025 IAH TO MIA: NK: CLASS:V : STOP:,-467.98,Travel & Entertainment,Travel & Entertainment,Spirit,Travel & Entertainment
+586,5/14/25,Mich City,"SQ *MASF DOCS, LLC MIAMI SPRINGS",-25,Services,Medical,Dr. Santos,Services
+585,5/14/25,Mich City,SQ *MEDICAL ASSOCIATES DORAL,-20,Medical,Medical,Medical Associates,Medical
+587,5/14/25,Mich City,WEBPAY-COURTORTICKET MIAMI,-36,Transport,Auto,Tickets,Transport
+135,5/14/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 05/14 LORENZO BASKET,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1021,5/14/25,Mich Amex,CVS/PHARMACY #10464 MIAMI,-70.94,Medical,Medical,CVS,Medical
+1221,5/14/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,127.33,Amazon,Amazon,Amazon,Amazon
+588,5/13/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-28.08,Services,Auto,National General Insurance,Services
+136,5/13/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385132220366730,-10,Tolls,Auto,SunPass,Tolls
+1023,5/13/25,Mich Amex,WALMART.COM         WALMART.COM,85.54,General Merchandise,General Merchandise,Walmart,General Merchandise
+1022,5/13/25,Mich Amex,WALMART.COM         WALMART.COM,171.07,General Merchandise,General Merchandise,Walmart,General Merchandise
+1223,5/13/25,Mich Bofa,AMAZON MKTPL*NI12V8S90 Amzn.com/billWA,-14.97,Amazon,Amazon,Amazon,Amazon
+1225,5/13/25,Mich Bofa,AMAZON MKTPL*NI27N6QB0 Amzn.com/billWA,-159,Amazon,Amazon,Amazon,Amazon
+1224,5/13/25,Mich Bofa,AMAZON MKTPL*NI67E4B31 Amzn.com/billWA,-33.46,Amazon,Amazon,Amazon,Amazon
+1222,5/13/25,Mich Bofa,AMAZON MKTPL*NW87E3S62 Amzn.com/billWA,-36.11,Amazon,Amazon,Amazon,Amazon
+1439,5/13/25,Mich Wells,CITI CARD ONLINE PAYMENT 250512 MICHEL FALENI,13778.4,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+592,5/12/25,Mich City,CHEVRON 0371873 855-285-9595,-49.02,Transport,Auto,Chevron,Transport
+589,5/12/25,Mich City,"ONLINE PAYMENT, THANK YOU",13778.4,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+591,5/12/25,Mich City,TST* GRAZIANOS MARKET DORAL,-121.61,Groceries,Groceries,Grazianos Market,Groceries
+590,5/12/25,Mich City,YETI 1-833-225-9384,90.95,General Merchandise,General Merchandise,Yeti,General Merchandise
+137,5/12/25,Fam Wells,BMW BANK BMWFS PYMT 250511,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+139,5/12/25,Fam Wells,Netflix.com netflix.com CA S305129295245640,-20.36,Streaming,Subscriptions,Netflix,Streaming
+138,5/12/25,Fam Wells,ZELLE TO QUERO CESAR ON 05/12 CESAR MANTENIMIENTO,-150,Maintenance,Maintenance,Cesar Mantenimiento,Maintenance
+1228,5/12/25,Mich Bofa,AMAZON MKTPL*NI2HT0P91 Amzn.com/billWA,-124.1,Amazon,Amazon,Amazon,Amazon
+1226,5/12/25,Mich Bofa,AMAZON MKTPL*NI8EV6X91 Amzn.com/billWA,-37.45,Amazon,Amazon,Amazon,Amazon
+1227,5/12/25,Mich Bofa,AMAZON MKTPL*NI8ME5V60 Amzn.com/billWA,-53.45,Amazon,Amazon,Amazon,Amazon
+1441,5/12/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,18000,Loan,Financial Transactions,Transfers,Loan
+1440,5/12/25,Mich Wells,ONLINE TRANSFER TO FALENI M PLATINUM SAVINGS SAVINGS FROM AMEX,-26448,Savings,Savings,Transfers,Savings
+594,5/11/25,Mich City,CITY OF MIAMI BEACHQPS MIAMI BEACH,-20.5,Transport,Auto,City of Miami Beach,Transport
+593,5/11/25,Mich City,WINN-DIXIE #0280 DORAL,-39.44,Groceries,Groceries,Winn-Dixie,Groceries
+1024,5/11/25,Mich Amex,PABLO FLOWERS       Miami,-228,General Merchandise,General Merchandise,Pablo Flowers,General Merchandise
+595,5/10/25,Mich City,DORAL ACE HDWE MIAMI,-2.38,Hardware Store,Maintenance,Doral Ace Hardware,Hardware Store
+596,5/10/25,Mich City,EL CAPITAN SPORTS CENT MIAMI,-42.8,General Merchandise,General Merchandise,El Capitan Sports Center,General Merchandise
+597,5/10/25,Mich City,SHADOW WAGYU CORAL GABLES,-355.03,Dining,Travel & Entertainment,Shadow Wagyu,Dining
+1025,5/10/25,Mich Amex,AT&T UVERSE PAYMENT,-108.19,Utilities,Bills & Utilities,AT&T,Utilities
+598,5/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+599,5/9/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-6.5,Transport,Auto,MPA Parking,Transport
+140,5/9/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465128183518583,-10,Tolls,Auto,SunPass,Tolls
+1027,5/9/25,Mich Amex,AMAZON.COM          AMZN.COM/BILL,-293.48,Amazon,Amazon,Amazon,Amazon
+1026,5/9/25,Mich Amex,AMAZON.COM          AMZN.COM/BILL,-198.7,Amazon,Amazon,Amazon,Amazon
+1028,5/9/25,Mich Amex,WALMART.COM         WALMART.COM,-320.78,General Merchandise,General Merchandise,Walmart,General Merchandise
+1442,5/9/25,Mich Wells,"AMERICAN EXPRESS TRANSFER FALENI,MICHEL MICHEL R FALENI",26448.53,Savings,Financial Transactions,Transfers,Savings
+1029,5/8/25,Mich Amex,AMAZON SHOP WITH POINTS CREDIT,198.7,Amazon,Amazon,Amazon,Amazon
+1030,5/8/25,Mich Amex,HERTZ CAR RENTAL    OKLAHOMA CITY,-270.02,Travel & Lodging,Travel & Entertainment,Hertz,Travel & Lodging
+1443,5/8/25,Mich Wells,ZELLE TO VALET ZUMA ON 05/08,-50,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+141,5/7/25,Fam Wells,ZELLE TO FACIALES YMACK ON 05/06 FACIAL LORENZO FALENI,-100,Health & Wellness,Medical,Zelle,Health & Wellness
+1230,5/7/25,Mich Bofa,AMAZON RETA* MI0RI97G3 SEATTLE,45.34,Amazon,Amazon,Amazon,Amazon
+1229,5/7/25,Mich Bofa,AMAZON RETA* N21CW72K1 SEATTLE,45.75,Amazon,Amazon,Amazon,Amazon
+1444,5/7/25,Mich Wells,ZELLE FROM BY GERUNCHO INC ON 05/07 REF # BACNL58UARE6 PRESTAMO,1000,Geruncho Loan,Financial Transactions,Zelle,Geruncho Loan
+143,5/6/25,Fam Wells,CVS/PHARMACY #1046 MIAMI FL S305125625448869,-10,Medical,Medical,CVS,Medical
+142,5/6/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+1031,5/6/25,Mich Amex,AIRWALXUK*FERRYHOPPEMOSCHATO,-117.64,Travel & Lodging,Travel & Entertainment,Airwallex,Travel & Lodging
+1032,5/6/25,Mich Amex,CKO*FERRYHOPPER SA 5AGION OROS,-414.59,Travel & Lodging,Travel & Entertainment,Ferryhopper,Travel & Lodging
+1231,5/6/25,Mich Bofa,AMAZON RETA* NB08T0X91 SEATTLE,-179.14,Amazon,Amazon,Amazon,Amazon
+1445,5/6/25,Mich Wells,ZELLE TO TOP GOLF TIP ON 05/06,-20,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+600,5/5/25,Mich City,NAPLES JAGUAR LANDROVE NAPLES,-5000,Vehicle Payment,Auto,Naples Jaguar,Vehicle Payment
+144,5/5/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+1033,5/5/25,Mich Amex,SAKS OFF 5TH #718   MIAMI,81.3,General Merchandise,General Merchandise,Saks Off 5th,General Merchandise
+1232,5/5/25,Mich Bofa,AMAZON RETA* NB4BP6PX1 SEATTLE,-192.59,Amazon,Amazon,Amazon,Amazon
+1233,5/5/25,Mich Bofa,AMAZON RETA* NB5LX81J1 SEATTLE,-363.74,Amazon,Amazon,Amazon,Amazon
+1234,5/5/25,Mich Bofa,PAYPAL *PROGRESSIVE,-163.24,Car Insurance Payment,Auto,PayPal,Car Insurance Payment
+1446,5/5/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250505 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1448,5/5/25,Mich Wells,ZELLE TO FERNANDEZ MINA ON 05/03 GORRAS,-200,General Merchandise,General Merchandise,Zelle,General Merchandise
+1447,5/5/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 05/03 GRACIAS MI BRO,-60,Pelu Lore Mich,Pelu,Zelle,Pelu Lore Mich
+601,5/4/25,Mich City,TST* SEGAFREDO CAFE - MIAMI BEACH,-149.64,Dining,Travel & Entertainment,Segafredo Cafe,Dining
+1034,5/4/25,Mich Amex,HOTELCOM730981869218HOTELS.COM,-1461.38,Travel & Lodging,Travel & Entertainment,Hotels.com,Travel & Lodging
+607,5/3/25,Mich City,CHEVRON 0204900 855-285-9595,-74,Transport,Auto,Chevron,Transport
+603,5/3/25,Mich City,HARD ROCK STADIUM MIAMI GARDENS,-12.96,Travel & Entertainment,Travel & Entertainment,Hard Rock Stadium,Travel & Entertainment
+609,5/3/25,Mich City,HARD ROCK STADIUM REST MIAMI,-64.8,Travel & Entertainment,Travel & Entertainment,Hard Rock Stadium,Travel & Entertainment
+608,5/3/25,Mich City,HARD ROCK STADIUM REST MIAMI,-57.02,Travel & Entertainment,Travel & Entertainment,Hard Rock Stadium,Travel & Entertainment
+602,5/3/25,Mich City,Official F1 Shop Miami Miami,-288.9,General Merchandise,General Merchandise,Official F1 Shop,General Merchandise
+606,5/3/25,Mich City,SQ *DH VENDING INC Pompano Beach,-23.76,Travel & Entertainment,Travel & Entertainment,DH Vending,Travel & Entertainment
+605,5/3/25,Mich City,SQ *DH VENDING INC Pompano Beach,-15.84,Travel & Entertainment,Travel & Entertainment,DH Vending,Travel & Entertainment
+604,5/3/25,Mich City,SQ *DH VENDING INC Pompano Beach,-13.2,Travel & Entertainment,Travel & Entertainment,DH Vending,Travel & Entertainment
+1235,5/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+611,5/2/25,Mich City,RYANAIR2224PR1WHM SWORDS IRLNAME: FALENI/MICHEL DEPART:07/11/2025 RAK TO MAD: FR: CLASS:W : STOP: 0 MAD TO RAK: FR: CLASS:A : STOP: 0,-472.84,Travel & Entertainment,Travel & Entertainment,Ryanair,Travel & Entertainment
+610,5/2/25,Mich City,TOTAL WINE & MORE 9 DORAL,-18.17,Liquor Store,Liquor Store,Total Wine & More,Liquor Store
+146,5/2/25,Fam Wells,Kukenam Summer C 250501 95544465 ANDREINA FALENI ANDREI,-409.16,Education,Education,Kukenam,Education
+147,5/2/25,Fam Wells,MDWS M-DWASDPMT 250501 MICHEL FALENI,-304.11,Bills & Utilities,Bills & Utilities,Water Bill,Bills & Utilities
+148,5/2/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING GASTOS EXTRAS CASA,-881,Aditional Expenses,Aditional Expenses,Fernandez,Aditional Expenses
+145,5/2/25,Fam Wells,PENNYMAC CASH May 25-0056 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+1449,5/2/25,Mich Wells,APPLECARD GSBANK PAYMENT 050125 1881361 Michel Faleni,1231.83,Card Payment,Financial Transactions,Apple,Card Payment
+613,5/1/25,Mich City,FANDANGO *,-48.8,Travel & Entertainment,Travel & Entertainment,Fandango,Travel & Entertainment
+615,5/1/25,Mich City,NAVARRO DISCOUNT PHARM DORAL,-183.66,Medical,Medical,Navarro Discount Pharm,Medical
+614,5/1/25,Mich City,YETI 1-833-225-9384,-90.95,General Merchandise,General Merchandise,Yeti,General Merchandise
+612,5/1/25,Mich City,eBay O*18-13011-28679 San Jose,-347.7,General Merchandise,General Merchandise,eBay,General Merchandise
+150,5/1/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+149,5/1/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465120215060613,-10,Tolls,Auto,SunPass,Tolls
+1035,5/1/25,Mich Amex,HOTELCOM720627717097HOTELS.COM,-1309.54,Travel & Lodging,Travel & Entertainment,Hotels.com,Travel & Lodging
+1036,5/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Subscriptions,Subscriptions,Netflix,Subscriptions
+1236,5/1/25,Mich Bofa,AMAZON RETA* N21CW72K1 SEATTLE,-45.75,Amazon,Amazon,Amazon,Amazon
+1453,5/1/25,Mich Wells,ONLINE TRANSFER FROM FALENI M PLATINUM SAVINGS,1174,Loan,Savings,Transfers,Loan
+1451,5/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1452,5/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+1450,5/1/25,Mich Wells,ZELLE TO RITZ OLIVER ON 05/01,-20,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+618,4/30/25,Mich City,AMERICAN0010625355922 PHOENIX AZNAME: FALENI/ANDREINA DEPART:05/29/2025 SFO TO MIA: AA: CLASS:B : STOP:,-21.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+620,4/30/25,Mich City,AMERICAN0010625355923 PHOENIX AZNAME: FALENI/LORENZO DEPART:05/29/2025 SFO TO MIA: AA: CLASS:B : STOP:,-21.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+619,4/30/25,Mich City,AMERICAN0012235970086 PHOENIX AZNAME: FALENI/ANDREINA DEPART:05/29/2025 SFO TO MIA: AA: CLASS:B : STOP:,-391.96,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+617,4/30/25,Mich City,AMERICAN0012235970087 PHOENIX AZNAME: FALENI/LORENZO DEPART:05/29/2025 SFO TO MIA: AA: CLASS:B : STOP:,-391.96,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+616,4/30/25,Mich City,SP YETI RESCUES BEVERLY HILLS,-230.05,General Merchandise,General Merchandise,Yeti,General Merchandise
+151,4/30/25,Fam Wells,INTEREST PAYMENT,0.1,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+152,4/30/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+1037,4/30/25,Mich Amex,OPENAI *CHATGPT SUBSSAN FRANCISCO,-20,Subscriptions,Subscriptions,OpenAI,Subscriptions
+1239,4/30/25,Mich Bofa,AMAZON MKTPL*NB0HI55U2 Amzn.com/billWA,-19.09,Amazon,Amazon,Amazon,Amazon
+1238,4/30/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,126.42,Amazon,Amazon,Amazon,Amazon
+1237,4/30/25,Mich Bofa,AMAZON RETA* F45Y94VC3 SEATTLE,-59.37,Amazon,Amazon,Amazon,Amazon
+1458,4/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250430A2Q FALENI,MICHEL",6644.65,Income,Income,BTS,Income
+1457,4/30/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250430A2Q FALENI,MICHEL",10134.88,Income,Income,BTS,Income
+1454,4/30/25,Mich Wells,INTEREST PAYMENT,0.02,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1456,4/30/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-10000,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1455,4/30/25,Mich Wells,ZELLE TO SUPPLY SERVICES MIAMI FABIO LAVAC ON 04/30,-55,Car Wash,Auto,Supply Services,Car Wash
+153,4/29/25,Fam Wells,SANTANDER BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1038,4/29/25,Mich Amex,TM *TICKETMASTER    LOS ANGELES,-566.51,Travel & Entertainment,Travel & Entertainment,Ticketmaster,Travel & Entertainment
+1039,4/29/25,Mich Amex,WALMART.COM 80092562BENTONVILLE,-145.36,General Merchandise,General Merchandise,Walmart,General Merchandise
+1241,4/29/25,Mich Bofa,AMAZON MKTPL*750FL62Y3 Amzn.com/billWA,-26.3,Amazon,Amazon,Amazon,Amazon
+1240,4/29/25,Mich Bofa,AMAZON RETA* MI0RI97G3 SEATTLE,-45.34,Amazon,Amazon,Amazon,Amazon
+1242,4/29/25,Mich Bofa,AMAZON RETA* NB18F7PV2 SEATTLE,-31.56,Amazon,Amazon,Amazon,Amazon
+621,4/28/25,Mich City,TST* GRAZIANOS MARKET DORAL,-84.9,Groceries,Groceries,Grazianos Market,Groceries
+1245,4/28/25,Mich Bofa,AMAZON MKTPL*NB1980FZ2 Amzn.com/billWA,-16.67,Amazon,Amazon,Amazon,Amazon
+1243,4/28/25,Mich Bofa,AMAZON MKTPL*NB5F34N32 Amzn.com/billWA,-126.42,Amazon,Amazon,Amazon,Amazon
+1244,4/28/25,Mich Bofa,AMAZON MKTPL*NB5OQ4OF2 Amzn.com/billWA,-56.7,Amazon,Amazon,Amazon,Amazon
+624,4/27/25,Mich City,AMERICAN0012234760612 PHOENIX AZNAME: FALENI/ANDREINA DEPART:07/10/2025 MAD TO MIA: AA: CLASS:O : STOP: O MIA TO MAD: AA: CLASS:O : STOP: O,-10,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+623,4/27/25,Mich City,TST* GRAZIANOS MARKET DORAL,-62.06,Groceries,Groceries,Grazianos Market,Groceries
+622,4/27/25,Mich City,WINN-DIXIE #0280 DORAL,-14.95,Groceries,Groceries,Winn-Dixie,Groceries
+1040,4/27/25,Mich Amex,FIRST CLASS PARKING MIAMI BEACH,-25,Transport,Auto,First Class Parking,Transport
+630,4/26/25,Mich City,5KASEYA CENTER 5 MIAMI,-24.61,Travel & Entertainment,Travel & Entertainment,Kaseya Center,Travel & Entertainment
+631,4/26/25,Mich City,7KASEYA CENTER 7V MIAMI,-36.76,Travel & Entertainment,Travel & Entertainment,Kaseya Center,Travel & Entertainment
+629,4/26/25,Mich City,Miami to Brazil Rodizi DORAL,-245.8,Dining,Travel & Entertainment,Rodizi,Dining
+627,4/26/25,Mich City,THE MIAMI HEAT STORE - MIAMI,-247.17,Travel & Entertainment,Travel & Entertainment,Miami Heat Store,Travel & Entertainment
+626,4/26/25,Mich City,THE MIAMI HEAT STORE - MIAMI,-37.45,Travel & Entertainment,Travel & Entertainment,Miami Heat Store,Travel & Entertainment
+625,4/26/25,Mich City,THE MIAMI HEAT STORE - MIAMI,-3.64,Travel & Entertainment,Travel & Entertainment,Miami Heat Store,Travel & Entertainment
+628,4/26/25,Mich City,TST*DEVIA JUICE BAR - Miami,-35.38,Dining,Travel & Entertainment,Devia Juice Bar,Dining
+154,4/25/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.17,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+155,4/25/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 04/25 Amazon Prime*PL66Y amazon.es/prm LUX S465115291054482,-5.69,Cloud Services,Subscriptions,Amazon,Cloud Services
+1246,4/25/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,89.87,Amazon,Amazon,Amazon,Amazon
+157,4/24/25,Fam Wells,HEALTHY PAWS PET I TRACIM@HEALTH PA S385113339560802,-100.03,Pet Services,Lucky,Healthy Paws Pet,Pet Services
+156,4/24/25,Fam Wells,T-MOBILE PCS SVC 250423 7010053 MARIA FERNANDEZ,-192.83,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+1459,4/24/25,Mich Wells,ZELLE TO JC CELL NEGRO ON 04/24 HEAT TICKET,-150,Travel & Entertainment,Travel & Entertainment,JC Cell Negro,Travel & Entertainment
+632,4/22/25,Mich City,BEST BUY 00015024 MIAMI,64.19,Electronics,General Merchandise,Best Buy,Electronics
+158,4/22/25,Fam Wells,DDCUS.ORG DDCUS.ORG FL S305111777913862,-40,Education,Education,DDCUS,Education
+633,4/21/25,Mich City,AMERICAN0012233193376 PHOENIX AZNAME: ANDREINA FALENI DEPART:07/17/2025 MAD TO MIA: AA: CLASS:Q : STOP:,-702.64,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+160,4/21/25,Fam Wells,APPLE CASH BALANCE 877-233-8552 CA S585109731302145,-50,Lore,Lore,Apple Cash,Lore
+159,4/21/25,Fam Wells,"WF Credit Card AUTO PAY 250421 FALENI,MICHEL",734,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1041,4/21/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,4071.54,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+638,4/19/25,Mich City,BEST BUY 00014985 MIAMI BEACH,-64.19,Electronics,General Merchandise,Best Buy,Electronics
+641,4/19/25,Mich City,CHEVRON 0204900 855-285-9595,-68.18,Transport,Auto,Chevron,Transport
+634,4/19/25,Mich City,DONS LIQUOR,45.84,Liquor Store,Liquor Store,DONS LIQUOR,Liquor Store
+637,4/19/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-20.35,Transport,Auto,Parkmobile,Transport
+636,4/19/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-4.35,Transport,Auto,MB-PARKING,Transport
+639,4/19/25,Mich City,TOTAL WINE AND MORE MIAMI BEACH,-161.45,Liquor Store,Liquor Store,Total Wine and More,Liquor Store
+635,4/19/25,Mich City,TST* BARCELONETA MIAMI BEACH,-107.71,Dining,Travel & Entertainment,BARCELONETA,Dining
+640,4/19/25,Mich City,TST*CASA,-356.9,Dining,Travel & Entertainment,CASA,Dining
+642,4/19/25,Mich City,VALET AT COCONUT GROVE BURLINGAME,-28,Transport,Auto,Coconut Grove,Transport
+1043,4/19/25,Mich Amex,SAKS OFF5THCOM,-145.49,General Merchandise,General Merchandise,SAKS OFF 5TH,General Merchandise
+1042,4/19/25,Mich Amex,SAKS OFF5THCOM,-64.19,General Merchandise,General Merchandise,SAKS OFF 5TH,General Merchandise
+649,4/18/25,Mich City,AMERICAN0012232666372 PHOENIX AZNAME: FALENI/ANDREINA DEPART:06/09/2025 MEX TO MIA: AA: CLASS:O : STOP:,-312.76,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+648,4/18/25,Mich City,AMERICAN0012232666373 PHOENIX AZNAME: GONCALVES/ANDRE DEPART:06/09/2025 MEX TO MIA: AA: CLASS:O : STOP:,-312.76,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+646,4/18/25,Mich City,"ISTOURS, INC. FOLSOM",-300,Education,Education,ISTOURS,Education
+647,4/18/25,Mich City,MARIANELA CARDENAS DDS MIAMI,-700,Medical,Medical,Marianela Cardenas DDS,Medical
+644,4/18/25,Mich City,Miami DD Club LLC Miami,-305.75,Dining,Travel & Entertainment,Miami DD Club,Dining
+643,4/18/25,Mich City,Miami DD Club LLC Miami,-122.7,Dining,Travel & Entertainment,Miami DD Club,Dining
+650,4/18/25,Mich City,PASTIS MIAMI MIAMI,-65.08,Dining,Travel & Entertainment,Pastis,Dining
+645,4/18/25,Mich City,SHE GIULIANI SALON & S DORAL,-32.96,Andre Pelu,Pelu,She Giuliani Salon & Spa,Andre Pelu
+161,4/18/25,Fam Wells,ZELLE TO SEBASTIAN CAMINERO ON 04/18,-100,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+1044,4/18/25,Mich Amex,GOOGLE *YT PRIMETIME G.CO/HELPPAY#,-9.05,Subscriptions,Subscriptions,Google,Subscriptions
+1247,4/18/25,Mich Bofa,AMAZON RETA* WS6OY06L3 SEATTLE,-38.65,Amazon,Amazon,Amazon,Amazon
+653,4/17/25,Mich City,QDI*QUEST DIAGNOSTICS 866-697-8378,-63.33,Medical,Medical,Quest Diagnostics,Medical
+652,4/17/25,Mich City,QDI*QUEST DIAGNOSTICS 866-697-8378,-35.23,Medical,Medical,Quest Diagnostics,Medical
+651,4/17/25,Mich City,QDI*QUEST DIAGNOSTICS 866-697-8378,-33.14,Medical,Medical,Quest Diagnostics,Medical
+654,4/17/25,Mich City,SMH CASHIERS OFFICE CORAL GABLES,-202.8,Education,Education,SMH Cashiers Office,Education
+655,4/17/25,Mich City,TST*LA FERNETERIA MIAMI,-397.84,Dining,Travel & Entertainment,La Ferneteria,Dining
+163,4/17/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 04/25 PPDA MICHEL R FALENI,-221.48,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+162,4/17/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250417 MICHEL FALENI FERNANDE,-1100,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1460,4/17/25,Mich Wells,Cash eWithdrawal in Branch 04/17/2025 09:29 AM 169 SW 8TH ST MIAMI FL 3222,-1000,Cash,Financial Transactions,Cash,Cash
+1461,4/17/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-1000,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1045,4/16/25,Mich Amex,PAYPAL *KYOTOPOPSLT,-49.98,Dining,Travel & Entertainment,PayPal,Dining
+1248,4/16/25,Mich Bofa,AMAZON MKTPL*M84MG8TH3 Amzn.com/billWA,-14.97,Amazon,Amazon,Amazon,Amazon
+1463,4/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+1464,4/16/25,Mich Wells,ZELLE FROM DANIEL LOPEZ ON 04/16 REF # PNCAA0ROR68I,1500,DelaFlor Loan,Financial Transactions,Daniel Lopez,DelaFlor Loan
+1462,4/16/25,Mich Wells,ZELLE TO THE 305 PROJECT MAIN ON 04/16 PAYBACK PRESTAMO DELAFLOR,-3000,DelaFlor Loan,Financial Transactions,The 305 Project,DelaFlor Loan
+658,4/15/25,Mich City,INTEREST CHARGED TO STANDARD PURCH,-444.12,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+657,4/15/25,Mich City,LATE FEE - MAR PAYMENT PAST DUE,-30,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+656,4/15/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-28.08,Services,Auto,National General Insurance,Services
+164,4/15/25,Fam Wells,IRS USATAXPYMT 041525 MICHEL & ANDREINA FALE,-12576,Taxes,Taxes,IRS,Taxes
+165,4/15/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1046,4/15/25,Mich Amex,Celebrity Cruises,-2675.78,Travel & Lodging,Travel & Entertainment,Celebrity Cruises,Travel & Lodging
+1249,4/15/25,Mich Bofa,AMAZON MKTPL*YR9SF5I13 Amzn.com/billWA,-20.17,Amazon,Amazon,Amazon,Amazon
+1468,4/15/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250415A2Q FALENI,MICHEL",6644.63,Income,Income,BTS,Income
+1465,4/15/25,Mich Wells,CITI CARD ONLINE PAYMENT 250414 MICHEL FALENI,13099.62,Card Payment,Financial Transactions,Citi Card,Card Payment
+1466,4/15/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1467,4/15/25,Mich Wells,ZELLE FROM DANIEL LOPEZ ON 04/15 REF # PNCAA0RNQ18Q,2500,DelaFlor Loan,Financial Transactions,Daniel Lopez,DelaFlor Loan
+660,4/14/25,Mich City,"ONLINE PAYMENT, THANK YOU",13099.62,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+661,4/14/25,Mich City,USPS.COM CLICKNSHIP 800-3447779,-45.18,General Merchandise,General Merchandise,USPS,General Merchandise
+659,4/14/25,Mich City,WM SUPERCENTER #2091 DORAL,127.33,General Merchandise,General Merchandise,Walmart,General Merchandise
+166,4/14/25,Fam Wells,BMW BANK BMWFS PYMT 250411,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+168,4/14/25,Fam Wells,ONLINE TRANSFER FROM FALENI M CHECKING TAXES 2024,11576,Taxes,Taxes,Transfers,Taxes
+169,4/14/25,Fam Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,1000,Loan,Financial Transactions,Transfers,Loan
+167,4/14/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GYM,-149,Andre Expenses,Andre,Transfers,Andre Expenses
+1047,4/14/25,Mich Amex,EVO.COM             SEATTLE,176.55,General Merchandise,General Merchandise,EVO.COM,General Merchandise
+1472,4/14/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,13100,Loan,Financial Transactions,Transfers,Loan
+1469,4/14/25,Mich Wells,ONLINE TRANSFER TO FALENI M CHECKING TAXES 2024,-11576,Taxes,Taxes,Transfers,Taxes
+1474,4/14/25,Mich Wells,ZELLE FROM DANIEL LOPEZ ON 04/13 REF # PNCAA0RLU52M PRUEBA,11.11,DelaFlor Loan,Financial Transactions,Daniel Lopez,DelaFlor Loan
+1473,4/14/25,Mich Wells,ZELLE FROM EDELL JAKOB ON 04/14 REF # PP0YQBYP47 SEAT,600,Travel & Entertainment,Travel & Entertainment,Edel Jako,Travel & Entertainment
+1470,4/14/25,Mich Wells,ZELLE TO DELAFLOR DANNILO ON 04/13,-988,DelaFlor Loan,Financial Transactions,DelaFlor Dannilo,DelaFlor Loan
+1471,4/14/25,Mich Wells,ZELLE TO DELAFLOR DANNILO ON 04/13 PRUEBA,-11.19,DelaFlor Loan,Financial Transactions,DelaFlor Dannilo,DelaFlor Loan
+662,4/13/25,Mich City,HOTEL SANCTUARY HIGUEY DOM,-92.3,Travel & Lodging,Travel & Entertainment,Hotel Sanctuary,Travel & Lodging
+663,4/13/25,Mich City,MINIMARKET HIGUEY DOM,-14.42,Groceries,Groceries,Minimarket,Groceries
+664,4/12/25,Mich City,BARK FOR C* BARK FOR C DORAL,-101.05,Pet Services,Lucky,Bark for C,Pet Services
+665,4/11/25,Mich City,DONS LIQUOR,-567.15,Liquor Store,Liquor Store,Dons Liquor,Liquor Store
+1048,4/11/25,Mich Amex,JAGUAR LAND ROVER CGCORAL GABLES,-2308.48,Vehicle Maintenance,Auto,Jaguar Land Rover,Vehicle Maintenance
+1049,4/11/25,Mich Amex,UM MY CHART BILLING MIAMI,-43,Medical,Medical,UM My Chart,Medical
+1476,4/11/25,Mich Wells,COINBASE INC. 7E0E1DA0 250411 RTL-6MJ7WABZ MICHEL FALENI,11953,Crypto Income,Income,Coinbase,Crypto Income
+1475,4/11/25,Mich Wells,Coinbase Inc. 250411 RTL-PJN9LBL2 MICHEL FALENI,-29.99,Crypto Income,Income,Coinbase,Crypto Income
+666,4/10/25,Mich City,HOTEL SANCTUARY HIGUEY DOM,-2720.92,Travel & Lodging,Travel & Entertainment,Hotel Sanctuary,Travel & Lodging
+170,4/10/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S465099353352304,-20.36,Streaming,Subscriptions,Netflix,Streaming
+1050,4/10/25,Mich Amex,AT&T UVERSE PAYMENT,-108.19,Utilities,Bills & Utilities,AT&T,Utilities
+1051,4/10/25,Mich Amex,KJUS NORTH AMERICA  800-848-0468,961.93,General Merchandise,General Merchandise,Kjus North America,General Merchandise
+1052,4/10/25,Mich Amex,RUELALA.COM         BOSTON,448.09,General Merchandise,General Merchandise,RueLaLa,General Merchandise
+667,4/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+1053,4/9/25,Mich Amex,EZ CONTACTS         RIDGEFIELD PA,576.22,Medical,Medical,EZ Contacts,Medical
+171,4/7/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+172,4/7/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+173,4/7/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305094517692178,-10,Tolls,Auto,SunPass,Tolls
+1250,4/7/25,Mich Bofa,AMAZON MKTPL*TW3YA9V63 Amzn.com/billWA,-89.87,Amazon,Amazon,Amazon,Amazon
+1252,4/7/25,Mich Bofa,AMAZON MKTPL*TW9Y04YZ3 Amzn.com/billWA,-79.99,Amazon,Amazon,Amazon,Amazon
+1251,4/7/25,Mich Bofa,AMAZON MKTPL*ZT7ST6963 Amzn.com/billWA,-127.33,Amazon,Amazon,Amazon,Amazon
+669,4/6/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-6.35,Transport,Auto,MB-Parking,Transport
+671,4/6/25,Mich City,TRAVELASSIST CAMDEN,-68,Travel & Lodging,Travel & Entertainment,TravelAssist,Travel & Lodging
+670,4/6/25,Mich City,WAL-MART #2091 DORAL,-410,General Merchandise,General Merchandise,Walmart,General Merchandise
+668,4/6/25,Mich City,WAL-MART #2091 DORAL,-177.95,General Merchandise,General Merchandise,Walmart,General Merchandise
+1054,4/6/25,Mich Amex,PROYECTO C.CAMPO-ALOLA ROMANA,-83.35,Travel & Entertainment,Travel & Entertainment,Proyecto,Travel & Entertainment
+672,4/5/25,Mich City,CHEVRON 0204900 855-285-9595,-78.42,Transport,Auto,Chevron,Transport
+675,4/5/25,Mich City,FANDANGO *,-112,Travel & Entertainment,Travel & Entertainment,Fandango,Travel & Entertainment
+673,4/5/25,Mich City,FANDANGO *,-28,Travel & Entertainment,Travel & Entertainment,Fandango,Travel & Entertainment
+674,4/5/25,Mich City,LAS MERCEDES GRILL DORAL,-58.9,Dining,Travel & Entertainment,Las Mercedes Grill,Dining
+677,4/5/25,Mich City,MEAT CLUB MARKET DORAL,-145.85,Groceries,Groceries,Meat Club Market,Groceries
+676,4/5/25,Mich City,SQ *CARACAS BAKERY DOR Doral,-91.99,Dining,Travel & Entertainment,Caracas Bakery,Dining
+1056,4/5/25,Mich Amex,BTS NORTH F& B      DORAL,-210,Dining,Travel & Entertainment,BTS North F&B,Dining
+1055,4/5/25,Mich Amex,BTS NORTH F& B      DORAL,-90,Dining,Travel & Entertainment,BTS NORTH F& B,Dining
+1256,4/5/25,Mich Bofa,AMAZON MKTPL*LD0TT6JZ3 Amzn.com/billWA,-42.98,Amazon,Amazon,Amazon,Amazon
+1255,4/5/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,259.79,Amazon,Amazon,Amazon,Amazon
+1254,4/5/25,Mich Bofa,AMAZON RETA* E615N7A83 SEATTLE,-11.36,Amazon,Amazon,Amazon,Amazon
+1253,4/5/25,Mich Bofa,AMAZON RETA* L34GY1XL3 SEATTLE,-9.84,Amazon,Amazon,Amazon,Amazon
+678,4/4/25,Mich City,TDR-GRET MIAMI,-64.2,Dining,Travel & Entertainment,Restaurant,Dining
+679,4/4/25,Mich City,TST*FRANCISCA CHARCOAL Doral,-196.83,Dining,Travel & Entertainment,Francisca Charcoal,Dining
+174,4/4/25,Fam Wells,MENTA Y CANELA NAI MIAMI FL S585093809864050,-56.75,Andre Pelu,Pelu,MENTA Y CANELA,Andre Pelu
+1057,4/4/25,Mich Amex,PAYPAL *METAPLATFOR,-59.98,Travel & Entertainment,Travel & Entertainment,Metaplatfor,Travel & Entertainment
+1058,4/4/25,Mich Amex,TST* GUSTO 00131117 DORAL,-61.7,Dining,Travel & Entertainment,Gusto,Dining
+1477,4/4/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250404 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1478,4/4/25,Mich Wells,ZELLE TO ELMER ON 04/04,-5,Travel & Entertainment,Travel & Entertainment,Elmer,Travel & Entertainment
+682,4/3/25,Mich City,DicksSportingGoods.com Coraopolis,-85.6,General Merchandise,General Merchandise,Dicks Sporting Goods,General Merchandise
+683,4/3/25,Mich City,MB-PARKING PARKMOBILE MIAMI BEACH,-10.35,Transport,Auto,MB-PARKING,Transport
+681,4/3/25,Mich City,PUBLIX #655 DORAL,-10.71,Groceries,Groceries,Publix,Groceries
+680,4/3/25,Mich City,SAKS O5 DOLPHIN 718 MIAMI,303.84,General Merchandise,General Merchandise,SAKS,General Merchandise
+684,4/3/25,Mich City,UA.COM*888-727-6687 MD BALTIMORE,-106.96,General Merchandise,General Merchandise,UA,General Merchandise
+175,4/3/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING REINTEGRO GASTOS EXTRAS CASA,-228.32,Aditional Expenses,Aditional Expenses,Fernandez M,Aditional Expenses
+1059,4/3/25,Mich Amex,BACKCOUNTRY,-176.55,General Merchandise,General Merchandise,Backcountry,General Merchandise
+1257,4/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1479,4/3/25,Mich Wells,CITI CARD ONLINE PAYMENT 250402 MICHEL FALENI,8967.14,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+177,4/2/25,Fam Wells,Kukenam Summer C 250401 92660535 ANDREINA FALENI ANDREI,-409.16,Education,Education,Kukenam,Education
+176,4/2/25,Fam Wells,PENNYMAC CASH Apr 25-0055 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+1259,4/2/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,26.94,Amazon,Amazon,Amazon,Amazon
+1258,4/2/25,Mich Bofa,AMAZON RETA* 124AN4H03 SEATTLE,-38.52,Amazon,Amazon,Amazon,Amazon
+1480,4/2/25,Mich Wells,APPLECARD GSBANK PAYMENT 040125 1881361 Michel Faleni,58.24,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1482,4/2/25,Mich Wells,Instant Pmt from BUSINESS TELECOMMUNICATIONS SE on 04/02 Ref#20250401021001088P1BAAAA00000790155,10220.68,Expense Reports,Financial Transactions,BUSINESS TELECOMMUNICATIONS SE,Expense Reports
+1481,4/2/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-1200,Loan Payment,Financial Transactions,Transfers,Loan Payment
+178,4/1/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1060,4/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Subscriptions,Subscriptions,Netflix,Subscriptions
+1061,4/1/25,Mich Amex,RENTALTOLL571252005 877-860-1283,-11.47,Transport,Auto,Toll,Transport
+1483,4/1/25,Mich Wells,CITI CARD ONLINE PAYMENT 250331 MICHEL FALENI,149.85,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1484,4/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1485,4/1/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+685,3/31/25,Mich City,WAL-MART #2091 DORAL,-396,General Merchandise,General Merchandise,WAL-MART,General Merchandise
+179,3/31/25,Fam Wells,INTEREST PAYMENT,0.1,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+180,3/31/25,Fam Wells,SANTANDER CONSUM BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1489,3/31/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250331A2Q FALENI,MICHEL",6644.65,Income,Income,BTS,Income
+1488,3/31/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250331A2Q FALENI,MICHEL",9155.42,Income,Income,BUS TELE SVCS,Income
+1486,3/31/25,Mich Wells,INTEREST PAYMENT,0.03,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1487,3/31/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-9155,Loan Payment,Financial Transactions,Transfers,Loan Payment
+686,3/29/25,Mich City,SAKS O5 DOLPHIN 718 MIAMI,-544.55,General Merchandise,General Merchandise,SAKS,General Merchandise
+1062,3/29/25,Mich Amex,DESIGNER OPTICS     718-412-0407,-188.16,Medical,Medical,Designer Optics,Medical
+1063,3/29/25,Mich Amex,PPDC DOWNTOWN DORAL DORAL,-11.55,Travel & Entertainment,Travel & Entertainment,PPDC Downtown Doral,Travel & Entertainment
+1064,3/29/25,Mich Amex,Viewline Resort SnowSnowmass Village,-182,Travel & Lodging,Travel & Entertainment,Viewline Resort,Travel & Lodging
+1260,3/29/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,239.65,Amazon,Amazon,Amazon,Amazon
+689,3/28/25,Mich City,MEAT CLUB MARKET DORAL,-323.39,Groceries,Groceries,MEAT CLUB MARKET,Groceries
+687,3/28/25,Mich City,PUBLIX #1492 DORAL,-291.89,Groceries,Groceries,Publix,Groceries
+688,3/28/25,Mich City,TST*BEIRUT DORAL RESTA Miami,-191.87,Dining,Travel & Entertainment,Beirut,Dining
+1065,3/28/25,Mich Amex,UBER EATS           help.uber.com,-176.46,Dining,Travel & Entertainment,Uber Eats,Dining
+1066,3/28/25,Mich Amex,Viewline Resort SnowSnowmass Village,-135.52,Travel & Lodging,Travel & Entertainment,Viewline Resort,Travel & Lodging
+1261,3/28/25,Mich Bofa,AMAZON MKTPL*7V7WI3413 Amzn.com/billWA,-18.18,Amazon,Amazon,Amazon,Amazon
+694,3/27/25,Mich City,DFW WHATABURGER - E27 DALLAS,-23.71,Dining,Travel & Entertainment,Whataburger,Dining
+693,3/27/25,Mich City,MILLER SPOR,-755,General Merchandise,General Merchandise,Miller Sport,General Merchandise
+691,3/27/25,Mich City,SP STUSSY.COM IRVINE,-148.73,General Merchandise,General Merchandise,Stussy,General Merchandise
+692,3/27/25,Mich City,TRG DUTY FREE TERM D C MIAMI,-106.09,General Merchandise,General Merchandise,TRG Duty Free,General Merchandise
+690,3/27/25,Mich City,TST* ASPEN ONE - HIGH SNOWMASS VILL,-74,Dining,Travel & Entertainment,ASPEN ONE,Dining
+1067,3/27/25,Mich Amex,EVO.COM             SEATTLE,-176.55,General Merchandise,General Merchandise,EVO,General Merchandise
+1068,3/27/25,Mich Amex,RENTALTOLL571252005 877-860-1283,-11.47,Transport,Auto,Rental Toll,Transport
+1490,3/27/25,Mich Wells,VENMO PAYMENT 250327 MICHEL FALENI,-20,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1491,3/27/25,Mich Wells,VENMO PAYMENT 250327 MICHEL FALENI,-10,Travel & Entertainment,Travel & Entertainment,Tips,Travel & Entertainment
+1492,3/27/25,Mich Wells,ZELLE TO ELIZABETH ON 03/26,-50,Travel & Entertainment,Travel & Entertainment,Elizabeth,Travel & Entertainment
+696,3/26/25,Mich City,LITTLE NELL F & B ASPEN,-60.28,Dining,Travel & Entertainment,LITTLE NELL F & B,Dining
+697,3/26/25,Mich City,TST*BETULA ASPEN Aspen,-376.42,Dining,Travel & Entertainment,Betula Aspen,Dining
+695,3/26/25,Mich City,VENGA VENGA SNOWMASS VILL,-121.7,Dining,Travel & Entertainment,Venga Venga,Dining
+698,3/25/25,Mich City,SP MILLER SPORTS ASPEN,-409.89,General Merchandise,General Merchandise,SP MILLER SPORTS,General Merchandise
+699,3/25/25,Mich City,TST*ROCK ISLAND OYSTER Snowmass Vill,-157.54,Dining,Travel & Entertainment,Rock Island Oyster,Dining
+181,3/25/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.16,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+182,3/25/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 03/25 Amazon Prime*RW4VL amazon.es/prm LUX S465084294688290,-5.42,Bills & Utilities,Subscriptions,Amazon,Cloud Services
+1069,3/25/25,Mich Amex,UBER,-26.85,Transport,Travel & Entertainment,Uber,Taxi
+1070,3/25/25,Mich Amex,Viewline Resort SnowSnowmass Village,-267.69,Travel & Lodging,Travel & Entertainment,Viewline Resort,Travel & Lodging
+1493,3/25/25,Mich Wells,ZELLE TO KAYLA SNOWM ON 03/25,-100,Travel & Entertainment,Travel & Entertainment,Kayla Snowm,Travel & Entertainment
+701,3/24/25,Mich City,105 PIZZA + BOWL SNOWMASS VILL,-500,Dining,Travel & Entertainment,105 Pizza + Bowl,Dining
+700,3/24/25,Mich City,CATCH STEAK ASPEN ASPEN,-204.94,Dining,Travel & Entertainment,Catch Steak,Dining
+186,3/24/25,Fam Wells,HEALTHY PAWS PET I TRACIM@HEALTH PA S585082333015418,-100.03,Pet Services,Lucky,Healthy Paws Pet,Pet Services
+188,3/24/25,Fam Wells,ONLINE TRANSFER FROM BROUGH A EVERYDAY CHECKING DEVOLUCION PRESTAMO MONEY ORDER,501,Loan,Financial Transactions,Transfers,Loan
+185,3/24/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASTOS,-100,Aditional Expenses,Aditional Expenses,Transfers,Aditional Expenses
+187,3/24/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305080254461166,-10,Tolls,Auto,SUNPASS,Tolls
+183,3/24/25,Fam Wells,T-MOBILE PCS SVC 250323 5912907 MARIA FERNANDEZ,-201.26,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+184,3/24/25,Fam Wells,"WF Credit Card AUTO PAY 250321 FALENI,MICHEL",734,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1071,3/24/25,Mich Amex,UBER,-56.63,Transport,Travel & Entertainment,Uber,Taxi
+704,3/23/25,Mich City,SNOWMASS SPORTS SNOWMASS VLG,-22.02,General Merchandise,General Merchandise,Snowmass Sports,General Merchandise
+703,3/23/25,Mich City,TST* THE TAVERN KITCHE SNOWMASS VILL,-306.05,Dining,Travel & Entertainment,The Tavern Kitchen,Dining
+702,3/23/25,Mich City,VENGA VENGA SNOWMASS VILL,-283.51,Dining,Travel & Entertainment,Venga Venga,Dining
+708,3/22/25,Mich City,FOUR MOUNTAIN SPORTS BASALT,-108.79,General Merchandise,General Merchandise,Four Mountain Sports,General Merchandise
+707,3/22/25,Mich City,GRUB THAI LLC SNOWMASS,-169.03,Dining,Travel & Entertainment,Grub Thai,Dining
+706,3/22/25,Mich City,JUAN VALDEZ CAFE 93 AC MIAMI,-31.08,Dining,Travel & Entertainment,Juan Valdez Cafe,Dining
+705,3/22/25,Mich City,UBER *TRIP,-30.45,Transport,Travel & Entertainment,Uber,Taxi
+1072,3/22/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,2477.14,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1074,3/22/25,Mich Amex,UBER,-54.1,Transport,Travel & Entertainment,Uber,Taxi
+1073,3/22/25,Mich Amex,UBER,-10.37,Transport,Travel & Entertainment,Uber,Taxi
+1262,3/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,287.73,Amazon,Amazon,Amazon,Amazon
+1263,3/22/25,Mich Bofa,AMAZON RETA* 7M73Z6LN3 SEATTLE,376.42,Amazon,Amazon,Amazon,Amazon
+709,3/21/25,Mich City,UBER *TRIP,-59.63,Transport,Travel & Entertainment,Uber,Taxi
+713,3/20/25,Mich City,CHEVRON 0371873 855-285-9595,-54.79,Transport,Auto,Chevron,Transport
+712,3/20/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-5,Transport,Auto,MPA Parking,Transport
+714,3/20/25,Mich City,SAMSCLUB.COM 888-746-7726,-755.48,General Merchandise,General Merchandise,Sam's Club,General Merchandise
+711,3/20/25,Mich City,SP SPORTS BASEMENT I SAN FRANCISCO,-237.76,General Merchandise,General Merchandise,Sports Basement,General Merchandise
+710,3/20/25,Mich City,TST*SPIZZIGO - LA GRIG Doral,-126.9,Dining,Travel & Entertainment,Spizzigo,Dining
+189,3/20/25,Fam Wells,CHECK # 1715,-40,Travel & Entertainment,Travel & Entertainment,Check,Travel & Entertainment
+190,3/20/25,Fam Wells,PUBLIX SUPER MAR 311 SW 7 MIAMI FL P385079666361220,-500.99,Groceries,Groceries,Publix,Groceries
+1075,3/20/25,Mich Amex,Celebrity Cruises,-107.96,Travel & Lodging,Travel & Entertainment,Celebrity Cruises,Travel & Lodging
+1076,3/20/25,Mich Amex,MARATHON PETRO259416MIAMI,-3.6,Transport,Auto,Marathon,Transport
+1265,3/20/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,342.35,Amazon,Amazon,Amazon,Amazon
+1264,3/20/25,Mich Bofa,AMAZON RETA* 7M73Z6LN3 SEATTLE,-376.42,Amazon,Amazon,Amazon,Amazon
+718,3/19/25,Mich City,CORAL GABLES PAYBYPHON CORAL GABLES,-10.77,Transport,Auto,Coral Gables,Transport
+717,3/19/25,Mich City,CORAL GABLES PAYBYPHON CORAL GABLES,-8.44,Transport,Auto,Coral Gables,Transport
+716,3/19/25,Mich City,CORAL GABLES PAYBYPHON CORAL GABLES,-3.77,Transport,Auto,Coral Gables,Transport
+719,3/19/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-12.5,Transport,Auto,MPA Parking,Transport
+715,3/19/25,Mich City,UBER *TRIP,-224.83,Transport,Travel & Entertainment,Uber,Taxi
+191,3/19/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 03/25 PPDA MICHEL R FALENI,-206.37,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+192,3/19/25,Fam Wells,ZELLE TO ROMERO YELITZA COSTURERA DORAL ON 03/19 ARREGLOS JEANS,-60,Costurera,Clothing,Zelle,Costurera
+720,3/18/25,Mich City,TST*CASA,-250.91,Dining,Travel & Entertainment,Casa,Dining
+193,3/18/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250318 MICHEL FALENI FERNANDE,-1100,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+195,3/18/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING INSPCRIPCION GYM,-99,Andre Expenses,Andre,Transfers,Andre Expenses
+194,3/18/25,Fam Wells,WAL-MART #4826 DAVIE FL P000000577338492,-30.99,General Merchandise,General Merchandise,Walmart,General Merchandise
+1077,3/18/25,Mich Amex,AMZ*PETER GLENN SKI PAY.AMAZON.CO,-176.55,General Merchandise,Amazon,Peter Glenn Ski,General Merchandise
+1078,3/18/25,Mich Amex,GOOGLE *YT PRIMETIME G.CO/HELPPAY#,-9.05,Subscriptions,Subscriptions,Google,Subscriptions
+1079,3/18/25,Mich Amex,NATIONAL CAR R017273ORLANDO,-270.98,Travel & Lodging,Travel & Entertainment,National Car,Travel & Lodging
+1080,3/18/25,Mich Amex,RUELALA.COM         BOSTON,-951.18,General Merchandise,General Merchandise,RueLaLa,General Merchandise
+1266,3/18/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,86.6,Amazon,Amazon,Amazon,Amazon
+1494,3/18/25,Mich Wells,ZELLE TO ORLANDO TIP ORLANDO ON 03/18,-5,Travel & Entertainment,Travel & Entertainment,Orlando,Travel & Entertainment
+722,3/17/25,Mich City,AMERICAN0014456273374 FORT WORTH TXNAME: MICHEL FALENI DEPART:03/22/2025 LAX TO ASE: AA: CLASS:Y : STOP: O MIA TO LAX: AA: CLASS:J : STOP: O,-252.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+723,3/17/25,Mich City,AMERICAN0014456273375 FORT WORTH TXNAME: MICHEL FALENI DEPART:03/22/2025 LAX TO ASE: AA: CLASS:Y : STOP: O MIA TO LAX: AA: CLASS:J : STOP: O,-252.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+721,3/17/25,Mich City,BBTM *COLUMBUS HS MIAMI,-928.08,Education,Education,COLUMBUS HS,Education
+724,3/17/25,Mich City,UBER *TRIP,-15.61,Transport,Travel & Entertainment,Uber,Taxi
+197,3/17/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+196,3/17/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305073221643830,-10,Tolls,Auto,SUNPASS,Tolls
+1081,3/17/25,Mich Amex,SKI ASPEN ONLINE STOBASALT,-1821.08,General Merchandise,General Merchandise,Ski Aspen,General Merchandise
+1267,3/17/25,Mich Bofa,AMAZON MKTPL*X55GG66S3 Amzn.com/billWA,-40.65,Amazon,Amazon,Amazon,Amazon
+1500,3/17/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1498,3/17/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+1496,3/17/25,Mich Wells,ZELLE TO GABRIEL ON 03/17,-5,Travel & Entertainment,Travel & Entertainment,Gabriel,Travel & Entertainment
+1499,3/17/25,Mich Wells,ZELLE TO OMNIJR PARKING LLC ON 03/15 PARKING GREN,-20,Transport,Auto,Omnijr Parking,Transport
+1495,3/17/25,Mich Wells,ZELLE TO TIP ORANDO ON 03/17,-20,Travel & Entertainment,Travel & Entertainment,Orando,Travel & Entertainment
+1497,3/17/25,Mich Wells,ZELLE TO TREN TIP ON 03/16,-20,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+725,3/16/25,Mich City,TST* DOLORES BUT YOU C MIAMI,-145.16,Dining,Travel & Entertainment,Dolores But You Can,Dining
+728,3/16/25,Mich City,TST* HAMPTON SOCIAL MI MIAMI,-185.15,Dining,Travel & Entertainment,Hampton Social,Dining
+726,3/16/25,Mich City,TST* HAMPTON SOCIAL MI MIAMI,-63,Dining,Travel & Entertainment,Hampton Social,Dining
+727,3/16/25,Mich City,WINN-DIXIE #0280 DORAL,-83.55,Groceries,Groceries,Winn-Dixie,Groceries
+1082,3/16/25,Mich Amex,MIAMI BEACH MARINA  MIAMI BEACH,-428.25,Travel & Entertainment,Travel & Entertainment,Miami Beach Marina,Travel & Entertainment
+1268,3/15/25,Mich Bofa,AMAZON MKTPL*UL6FX1OC3 Amzn.com/billWA,-86.6,Amazon,Amazon,Amazon,Amazon
+1502,3/14/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250314A2Q FALENI,MICHEL",6644.64,Income,Income,BUS TELE SVCS,Income
+1501,3/14/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 03/14,-100,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+729,3/13/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-33.12,Insurance,Auto,NATL GEN INS,Insurance
+199,3/13/25,Fam Wells,ZELLE TO GUSTAVO LUGUS PELUQUERO ON 03/13 AF PELUQUERIA,-150,Andre Pelu,Pelu,GUSTAVO LUGUS PELUQUERO,Andre Pelu
+198,3/13/25,Fam Wells,ZELLE TO PROFESSIONAL PELUQUERO LUGUS ON 03/13 PELUQUERIA,-100,Andre Pelu,Pelu,Professional Peluquero Lugus,Andre Pelu
+1272,3/13/25,Mich Bofa,AMAZON MKTPL*8A65R9YI3 Amzn.com/billWA,-27.81,Amazon,Amazon,Amazon,Amazon
+1269,3/13/25,Mich Bofa,AMAZON MKTPL*MQ0UV24H3 Amzn.com/billWA,-21.35,Amazon,Amazon,Amazon,Amazon
+1270,3/13/25,Mich Bofa,WWW.F1.COM INTERNET,0.93,Travel & Entertainment,Travel & Entertainment,F1,Travel & Entertainment
+1271,3/13/25,Mich Bofa,WWW.F1.COM LONDON LND,-110.49,Travel & Entertainment,Travel & Entertainment,F1,Travel & Entertainment
+1504,3/13/25,Mich Wells,CITI CARD ONLINE PAYMENT 250312 MICHEL FALENI,4523.58,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1503,3/13/25,Mich Wells,CITI CARD ONLINE PAYMENT 250312 MICHEL FALENI,8694.71,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+732,3/12/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-10.25,Transport,Auto,MPA PARKING,Transport
+731,3/12/25,Mich City,MPA PARKING PAY BY PHO MIAMI,-3.75,Transport,Auto,MPA PARKING,Transport
+730,3/12/25,Mich City,"ONLINE PAYMENT, THANK YOU",8694.71,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+733,3/12/25,Mich City,TST*MICHAELS GENUINE F Miami,-27.72,Dining,Travel & Entertainment,Michaels,Dining
+200,3/12/25,Fam Wells,BMW BANK BMWFS PYMT 250311,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+201,3/12/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585070617291717,-10,Tolls,Auto,SUNPASS,Tolls
+1083,3/12/25,Mich Amex,EZ CONTACTS         RIDGEFIELD PA,-588.17,Medical,Medical,EZ Contacts,Medical
+1275,3/12/25,Mich Bofa,AMAZON MKTPL*4K8A831V3 Amzn.com/billWA,-308.11,Amazon,Amazon,Amazon,Amazon
+1274,3/12/25,Mich Bofa,AMAZON MKTPL*5L4IT7A83 Amzn.com/billWA,-597.86,Amazon,Amazon,Amazon,Amazon
+1273,3/12/25,Mich Bofa,AMAZON MKTPL*836724CS3 Amzn.com/billWA,-29.94,Amazon,Amazon,Amazon,Amazon
+1505,3/12/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,13220,Loan,Financial Transactions,Transfers,Loan
+734,3/11/25,Mich City,Refund Globalblue.com Stockholm SWE,40.04,General Merchandise,General Merchandise,Global Blue,General Merchandise
+735,3/11/25,Mich City,Refund Globalblue.com Stockholm SWE,59.08,General Merchandise,General Merchandise,Global Blue,General Merchandise
+736,3/11/25,Mich City,Refund Globalblue.com Stockholm SWE,68.1,General Merchandise,General Merchandise,Global Blue,General Merchandise
+202,3/11/25,Fam Wells,CVS/PHARMACY #1046 MIAMI FL S385069681607727,-10,Medical,Medical,CVS,Medical
+1084,3/11/25,Mich Amex,AT&T UVERSE PAYMENT,-117.47,Utilities,Bills & Utilities,AT&T,Utilities
+1085,3/11/25,Mich Amex,EL CAR WASH #6      MIAMI,33.41,Vehicle Maintenance,Auto,El Car Wash,Vehicle Maintenance
+1086,3/11/25,Mich Amex,MONIMOTO.COM        DUBLIN,-49,Services,Auto,Monimoto,Services
+1506,3/11/25,Mich Wells,Coinbase Inc. 250311 RTL-H2E9MASH MICHEL FALENI,-29.99,Crypto Income,Income,Coinbase,Crypto Income
+737,3/10/25,Mich City,TST* GRAZIANOS MARKET DORAL,-48.94,Groceries,Groceries,Grazianos Market,Groceries
+207,3/10/25,Fam Wells,NAVARRO DISCOUNT 10713--1 DORAL FL P385067714013595,-5.34,Groceries,Groceries,Navarro Discount,Groceries
+205,3/10/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-3,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+206,3/10/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 03/08 11402 NW 41 STREET DORAL FL ATM ID VZ001794,-63.5,Cash,Financial Transactions,Financial Transactions,Cash
+204,3/10/25,Fam Wells,Netflix.com 408-5403700 CA S585068434835365,-20.36,Streaming,Subscriptions,Netflix,Streaming
+203,3/10/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING GASTOS EXTRAS MINA,-148.41,Aditional Expenses,Aditional Expenses,Transfers,Aditional Expenses
+1087,3/10/25,Mich Amex,CLEAR               NEW YORK,199,Travel & Entertainment,Travel & Entertainment,Clear,Travel & Entertainment
+1088,3/10/25,Mich Amex,CLEAR  *CLEARME.COM CLEARME.COM,199,Travel & Entertainment,Travel & Entertainment,Clear,Travel & Entertainment
+1509,3/10/25,Mich Wells,ONLINE TRANSFER TO FALENI M PLATINUM SAVINGS,-6224,Savings,Financial Transactions,Transfers,Savings
+1508,3/10/25,Mich Wells,ZELLE TO HERMILIO ON 03/10 PARKING LOOPUP,-40,Transport,Auto,Zelle,Transport
+1507,3/10/25,Mich Wells,ZELLE TO SUPPLY SERVICES MIAMI FABIO LAVAC ON 03/10 MICHEL MOTO Y GREN,-100,Car Wash,Auto,Zelle,Car Wash
+741,3/9/25,Mich City,CHEVRON 0204900 855-285-9595,-73.22,Transport,Auto,Chevron,Transport
+738,3/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+740,3/9/25,Mich City,TST* PISCO DORAL DORAL,-116.48,Dining,Travel & Entertainment,Pisco,Dining
+739,3/9/25,Mich City,WINN-DIXIE #0280 DORAL,-80.3,Groceries,Groceries,Winn-Dixie,Groceries
+1089,3/9/25,Mich Amex,CLEAR  *CLEARME.COM CLEARME.COM,-199,Travel & Entertainment,Travel & Entertainment,Clear,Travel & Entertainment
+744,3/8/25,Mich City,LAZ PARKING M06285-1 P DORAL,-7,Transport,Auto,Laz Parking,Transport
+742,3/8/25,Mich City,LICENCIA 08254 SEVILLA LA NU ESP,-35.94,Services,Travel & Entertainment,Taxi Espana,Taxi
+743,3/8/25,Mich City,NAVARRO DISCOUNT PHARM DORAL,-71.23,Medical,Medical,Navarro Discount,Medical
+1090,3/8/25,Mich Amex,AMZN MKTP ES*RB7TF8T800-279-6620,-53.8,General Merchandise,Amazon,Amazon,Amazon
+1091,3/8/25,Mich Amex,EL CAR WASH #6      MIAMI,-39.57,Vehicle Maintenance,Auto,El Car Wash,Vehicle Maintenance
+1092,3/8/25,Mich Amex,WESTIN MADRID CUZCO MADRID,-8.71,Dining,Travel & Entertainment,Westin,Dining
+1276,3/8/25,Mich Bofa,AMAZON MKTPL*708CA1T53 Amzn.com/billWA,-25.66,Amazon,Amazon,Amazon,Amazon
+748,3/7/25,Mich City,CASA LAC ZARAGOZA ESP,-110.72,Dining,Travel & Entertainment,Casa Lac,Dining
+750,3/7/25,Mich City,GENTLEBAR ZARAGOZA ESP,-108.55,Dining,Travel & Entertainment,Gentlebar,Dining
+749,3/7/25,Mich City,GENTLEBAR ZARAGOZA ESP,-105.62,Dining,Travel & Entertainment,Gentlebar,Dining
+751,3/7/25,Mich City,LA ALACENA DE ARAGON ZARAGOZA ESP,-129.01,Dining,Travel & Entertainment,La Alacena de Aragon,Dining
+746,3/7/25,Mich City,LICENCIA 87 JUAN IGNAC SAN SEBASTIAN ESP,-10.37,Services,Travel & Entertainment,Taxi Espana,Taxi
+745,3/7/25,Mich City,TAXI 03419 A GARGANTIL MADRID ESP,-5.97,Transport,Travel & Entertainment,Taxi Espana,Taxi
+747,3/7/25,Mich City,TAXI MADRID LICENCIA 0 TORREJON DE A ESP,-10.8,Transport,Travel & Entertainment,Taxi Espana,Taxi
+1510,3/7/25,Mich Wells,WT FED#01447 CITY NATL BK FLORI /ORG=LD TELECOMMUNICATIONS INC SRF# OPF44565066 TRN#250307166735 RFB# Q2GT3581676,6224,Expense Reports,Financial Transactions,City National Bank,Expense Reports
+752,3/6/25,Mich City,STC Switzerland Travel Z?rich CHE,100,Travel & Entertainment,Travel & Entertainment,STC Switzerland Travel,Travel & Entertainment
+753,3/6/25,Mich City,TAXI LCIA 225 ZARAGOZA ESP,-13.15,Transport,Travel & Entertainment,Taxi,Taxi
+1277,3/6/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-19.45,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+755,3/5/25,Mich City,DIESEL Barcelona ESP,-353.4,General Merchandise,General Merchandise,DIESEL,General Merchandise
+757,3/5/25,Mich City,Moncler La Rocha Barcelona ESP,-572.25,General Merchandise,General Merchandise,Moncler,General Merchandise
+754,3/5/25,Mich City,Refund Globalblue.com Stockholm SWE,75.6,General Merchandise,General Merchandise,Globalblue,General Merchandise
+756,3/5/25,Mich City,Tumi La Roca Sta Agnes de ESP,-526.41,General Merchandise,General Merchandise,Tumi,General Merchandise
+208,3/5/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+210,3/5/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+211,3/5/25,Fam Wells,VIRTUAL IMAGING SE 305-5969992 FL S385063551139249,-48.24,Medical,Medical,Virtual Imaging,Medical
+209,3/5/25,Fam Wells,ZELLE TO CARROZ LORENA ON 03/05 GALA DDCUS,-200,Travel & Entertainment,Travel & Entertainment,Carroz Lorena,Travel & Entertainment
+1093,3/5/25,Mich Amex,BISTRO MATO 35228689BARCELONA,-185.47,Dining,Travel & Entertainment,Bistro Mato,Dining
+1278,3/5/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,342.35,Amazon,Amazon,Amazon,Amazon
+758,3/4/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-17.86,Transport,Travel & Entertainment,Uber,Taxi
+214,3/4/25,Fam Wells,DDCUS WWW.DDCUS.ORG FL S585063078505487,-400,Education,Education,DDCUS,Education
+213,3/4/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+212,3/4/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING MANI Y PEDI,-50,Andre Expenses,Andre,Transfers,Andre Expenses
+1094,3/4/25,Mich Amex,PAYPAL *CABIFY      911238662,-53.93,Transport,Travel & Entertainment,Cabify,Taxi
+1511,3/4/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250304 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+762,3/3/25,Mich City,FARMACIA GIBERT PARIS BARCELONA ESP,-402.96,Medical,Medical,FARMACIA GIBERT,Medical
+761,3/3/25,Mich City,LIC. 13.856 MADRID ESP,-35.39,Services,Travel & Entertainment,Taxi Espana,Taxi
+760,3/3/25,Mich City,T4S01DL67 ARZABAL MARK MADRID ESP,-25.54,Dining,Travel & Entertainment,Restaurant,Dining
+763,3/3/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-16.31,Transport,Travel & Entertainment,Uber,Taxi
+759,3/3/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-13.65,Transport,Travel & Entertainment,Uber,Taxi
+216,3/3/25,Fam Wells,Kukenam Summer C 250301 90238835 ANDREINA FALENI ANDREI,-409.16,Education,Education,Kukenam Summer C,Education
+215,3/3/25,Fam Wells,PENNYMAC CASH Mar 25-0054 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+217,3/3/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1279,3/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1512,3/3/25,Mich Wells,ONLINE TRANSFER TO FALENI M PLATINUM SAVINGS,-1500,Savings,Savings,Transfers,Savings
+1513,3/3/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-8810,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1514,3/3/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1515,3/3/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+774,3/2/25,Mich City,ALEHOP 219 MADRID AUGU MADRID ESP,-52.11,General Merchandise,General Merchandise,ALEHOP,General Merchandise
+775,3/2/25,Mich City,BAR MANERO MADRID MADRID ESP,-145.92,Dining,Travel & Entertainment,BAR MANERO,Dining
+779,3/2/25,Mich City,EL GRAN ASADOR LECANDA MADRID ESP,-562.84,Dining,Travel & Entertainment,EL GRAN ASADOR,Dining
+778,3/2/25,Mich City,FARMACIA LOPEZ VICENTE MADRID ESP,-373.88,Medical,Medical,FARMACIA LOPEZ VICENTE,Medical
+773,3/2/25,Mich City,JAIBO CAMPERO MADRID ESP,-32.31,Dining,Travel & Entertainment,JAIBO CAMPERO,Dining
+766,3/2/25,Mich City,JAIBO CASTIZO MADRID ESP,-7.3,Dining,Travel & Entertainment,Restaurant,Dining
+768,3/2/25,Mich City,JAIBO CROQUETAS MADRID ESP,-11.47,Dining,Travel & Entertainment,JAIBO CROQUETAS,Dining
+771,3/2/25,Mich City,JAIBO JAPONES MADRID ESP,-13.03,Dining,Travel & Entertainment,JAIBO JAPONES,Dining
+770,3/2/25,Mich City,LA AREPERA MADRID ESP,-12.51,Dining,Travel & Entertainment,LA AREPERA MADRID,Dining
+767,3/2/25,Mich City,MERCADO DE SAN ILDEFON MADRID ESP,-7.61,Dining,Travel & Entertainment,Restaurant,Dining
+765,3/2/25,Mich City,MERCADO DE SAN ILDEFON MADRID ESP,-3.96,Dining,Travel & Entertainment,Restaurant,Dining
+764,3/2/25,Mich City,MERCADO DE SAN ILDEFON MADRID ESP,-2.61,Dining,Travel & Entertainment,Restaurant,Dining
+776,3/2/25,Mich City,OYSHO ALCOBENDAS ESP,-242.55,General Merchandise,General Merchandise,OYSHO,General Merchandise
+777,3/2/25,Mich City,OYSHO MADRID ESP,-247.15,General Merchandise,General Merchandise,OYSHO,General Merchandise
+769,3/2/25,Mich City,PARKING FUENCARRAL MADRID ESP,-12.25,Transport,Travel & Entertainment,Parking,Parking
+772,3/2/25,Mich City,URBANO CAFE MADRID ESP,-18.45,Dining,Travel & Entertainment,URBANO CAFE,Dining
+1095,3/2/25,Mich Amex,GOFUNDME            SAN DIEGO,-58.75,Travel & Entertainment,Travel & Entertainment,GoFundMe,Travel & Entertainment
+781,3/1/25,Mich City,CON.FID. STATION SRL . MILANO ITA,-1.25,Dining,Travel & Entertainment,Restaurant,Dining
+782,3/1/25,Mich City,Caffe Spettacolo St. Moritz CHE,-5.68,Dining,Travel & Entertainment,Caffe Spettacolo,Dining
+783,3/1/25,Mich City,Hotel Arte + Pizzeria St. Moritz CHE,-1048.57,Travel & Lodging,Travel & Entertainment,Hotel Arte + Pizzeria St. Moritz,Travel & Lodging
+785,3/1/25,Mich City,OSTERIA ITALIANA MILANO ITA,-145.92,Dining,Travel & Entertainment,Osteria Italiana Milano,Dining
+780,3/1/25,Mich City,SumUp **Taxi St. Morit St. Moritz CHE,-27.84,Transport,Travel & Entertainment,Taxi St. Morit,Taxi
+784,3/1/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-41,Transport,Travel & Entertainment,Uber,Taxi
+1096,3/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-28.28,Streaming,Subscriptions,Netflix,Streaming
+1097,3/1/25,Mich Amex,WESTIN MADRID CUZCO MADRID,-366.89,Travel & Lodging,Travel & Entertainment,Westin,Travel & Lodging
+793,2/28/25,Mich City,Badrutt's Restaurants St. Moritz CHE,-300.7,Dining,Travel & Entertainment,Badrutt's Restaurants,Dining
+790,2/28/25,Mich City,Bergrestaurant Corvigl St. Moritz CHE,-113.88,Dining,Travel & Entertainment,Bergrestaurant Corvigl,Dining
+791,2/28/25,Mich City,Boutique Hotel Monopol St. Moritz CHE,-117.69,Travel & Lodging,Travel & Entertainment,Boutique Hotel Monopol,Travel & Lodging
+787,2/28/25,Mich City,Coop-1786 St.Morit St. Moritz CHE,-3.7,Groceries,Travel & Entertainment,Coop,Groceries
+786,2/28/25,Mich City,Coop-1786 St.Morit St. Moritz CHE,-2.13,Groceries,Travel & Entertainment,Coop,Groceries
+788,2/28/25,Mich City,Hotel Steffani - Resta St. Moritz CHE,-25.78,Dining,Travel & Entertainment,Hotel Steffani,Dining
+789,2/28/25,Mich City,Restaurant La Stalla St. Moritz CHE,-108.72,Dining,Travel & Entertainment,La Stalla,Dining
+792,2/28/25,Mich City,Skiservice Corvatsch A St. Moritz CHE,-192.78,General Merchandise,General Merchandise,Skiservice Corvatsch,General Merchandise
+218,2/28/25,Fam Wells,INTEREST PAYMENT,0.08,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+219,2/28/25,Fam Wells,SANTANDER CONSUM BILLPAY,-1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1519,2/28/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250228A2Q FALENI,MICHEL",6644.64,Income,Income,BUS TELE SVCS,Income
+1518,2/28/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250228A2Q FALENI,MICHEL",9219.67,Income,Income,BUS TELE SVCS,Income
+1516,2/28/25,Mich Wells,INTEREST PAYMENT,0.03,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1520,2/28/25,Mich Wells,Instant Pmt from BUSINESS TELECOMMUNICATIONS SE on 02/28 Ref#20250228021001088P1BAAAA00000639124,4822.28,Expense Reports,Financial Transactions,BUSINESS TELECOMMUNICATIONS SE,Expense Reports
+1517,2/28/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-4800,Loan Payment,Financial Transactions,Transfers,Loan Payment
+798,2/27/25,Mich City,B MAINENTE GMBH ST. MORITZ CHE,-85.26,Travel & Entertainment,Travel & Entertainment,B MAINENTE GMBH,Travel & Entertainment
+802,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/ANDREINA DEPART:03/01/2025 LIN TO MAD: IB: CLASS:N : STOP:,-78.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+800,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/ANDREINA DEPART:03/01/2025 LIN TO MAD: IB: CLASS:Y : STOP:,-68,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+805,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/LORENZO DEPART:03/01/2025 LIN TO MAD: IB: CLASS:N : STOP:,-78.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+804,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/LORENZO DEPART:03/01/2025 LIN TO MAD: IB: CLASS:Y : STOP:,-68,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+803,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/MICHEL DEPART:03/01/2025 LIN TO MAD: IB: CLASS:N : STOP:,-78.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+801,2/27/25,Mich City,IBERIA 180 07724642 FLNAME: FALENI/MICHEL DEPART:03/01/2025 LIN TO MAD: IB: CLASS:Y : STOP:,-68,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+797,2/27/25,Mich City,Panoramic Gourmet AG Chur CHE,-65.63,Dining,Travel & Entertainment,Panoramic Gourmet,Dining
+799,2/27/25,Mich City,RESTAURANT ENGIADINA ST. MORITZ CHE,-224.37,Dining,Travel & Entertainment,Restaurant Engiadina,Dining
+796,2/27/25,Mich City,SumUp **Taxi Botelho St.Moritz CHE,-40.39,Transport,Travel & Entertainment,Taxi Botelho,Taxi
+795,2/27/25,Mich City,SumUp **Taxi Engadina st. moritz CHE,-26.92,Transport,Travel & Entertainment,Taxi Engadina,Taxi
+794,2/27/25,Mich City,VI-COVERAGE.COM MINNEAPOLIS,-21.66,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+1280,2/27/25,Mich Bofa,AMAZON MKTPL*VW5PU16D3 Amzn.com/billWA,-26.94,Amazon,Amazon,Amazon,Amazon
+807,2/26/25,Mich City,B?ckerei Fuchs AG Zermatt CHE,-8.42,Dining,Travel & Entertainment,Bäckerei Fuchs,Dining
+808,2/26/25,Mich City,Bahnhofstrasse 22 Zermatt CHE,-38.16,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+809,2/26/25,Mich City,Hirschberg AG Zermatt CHE,-68.46,Travel & Entertainment,Travel & Entertainment,Hirschberg,Travel & Entertainment
+806,2/26/25,Mich City,M?ller Handels AG Schw Zermatt CHE,-1.74,Groceries,Travel & Entertainment,Müller Handels,Groceries
+810,2/26/25,Mich City,Osteria Bella Italia G Zermatt CHE,-179.49,Dining,Travel & Entertainment,Osteria Bella Italia,Dining
+811,2/26/25,Mich City,Restaurant Adler Zermatt CHE,-190.8,Dining,Travel & Entertainment,Restaurant Adler,Dining
+812,2/26/25,Mich City,Taxi Christophe GmbH Zermatt CHE,-33.45,Transport,Travel & Entertainment,Taxi Christophe,Taxi
+220,2/26/25,Fam Wells,RSF* DOWNTOWN DORA READYSETFUND. IN S465056682759978,-10,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+1281,2/26/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,273.88,Amazon,Amazon,Amazon,Amazon
+817,2/25/25,Mich City,CasaMia Zermatt Zermatt CHE,-59.21,Dining,Travel & Entertainment,CasaMia,Dining
+820,2/25/25,Mich City,Coop-2215 Zermatt Zermatt CHE,-69.71,Groceries,Travel & Entertainment,Coop,Groceries
+814,2/25/25,Mich City,Glacier Sport ski + hi Zermatt CHE,-33.4,General Merchandise,General Merchandise,Glacier Sport,General Merchandise
+819,2/25/25,Mich City,Iglu-Dorf Zermatt Zermatt CHE,-67.03,Dining,Travel & Entertainment,Iglu-Dorf,Dining
+818,2/25/25,Mich City,Osteria Bella Italia G Zermatt CHE,-63.12,Dining,Travel & Entertainment,Osteria Bella Italia,Dining
+821,2/25/25,Mich City,Restaurant zum See Zer Zermatt CHE,-418.95,Dining,Travel & Entertainment,Restaurant zum See,Dining
+816,2/25/25,Mich City,SumUp **Schmuggler Hoh Zermatt CHE,-43.57,Dining,Travel & Entertainment,Schmuggler,Dining
+815,2/25/25,Mich City,Taxi 24 Lombardo Zermatt CHE,-33.52,Transport,Travel & Entertainment,Taxi 24 Lombardo,Taxi
+813,2/25/25,Mich City,ZBAG Schluhmatte Bille Zermatt CHE,-12.29,Travel & Entertainment,Travel & Entertainment,ZBAG Schluhmatte,Travel & Entertainment
+221,2/25/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.15,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+222,2/25/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 02/24 Amazon Prime*R035T amazon.es/prm LUX S465056282067673,-5.25,Cloud Services,Subscriptions,Amazon Prime,Cloud Services
+823,2/24/25,Mich City,Coop-2215 Zermatt Zermatt CHE,-48.22,Groceries,Travel & Entertainment,Coop,Groceries
+826,2/24/25,Mich City,GGB Zermatt Station Zermatt CHE,-565.28,Travel & Entertainment,Travel & Entertainment,GGB,Travel & Entertainment
+822,2/24/25,Mich City,Hotel Gornergrat-Dorf Zermatt CHE,-10.59,Travel & Lodging,Travel & Entertainment,Hotel Gornergrat-Dorf,Travel & Lodging
+825,2/24/25,Mich City,Hotel Schweizerhof Zermatt CHE,-278.74,Travel & Lodging,Travel & Entertainment,Hotel Schweizerhof,Travel & Lodging
+824,2/24/25,Mich City,Restaurant Findlerhof Zermatt CHE,-250.86,Dining,Travel & Entertainment,Restaurant Findlerhof,Dining
+827,2/24/25,Mich City,Taxi Christophe GmbH Zermatt CHE,-30.33,Transport,Travel & Entertainment,Taxi Christophe,Taxi
+224,2/24/25,Fam Wells,HEALTHY PAWS PET I TRACIM@HEALTH PA S465054365798473,-100.03,Pet Services,Lucky,Healthy Paws,Pet Services
+223,2/24/25,Fam Wells,T-MOBILE PCS SVC 250223 5350963 MARIA FERNANDEZ,-194.66,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+1098,2/24/25,Mich Amex,KJUS NORTH AMERICA  800-848-0468,-961.93,General Merchandise,General Merchandise,Kjus,General Merchandise
+829,2/23/25,Mich City,Brasserie Federal Z?rich CHE,-80.83,Dining,Travel & Entertainment,Brasserie Federal,Dining
+830,2/23/25,Mich City,Coop-2215 Zermatt Zermatt CHE,-237.09,Groceries,Travel & Entertainment,Coop,Groceries
+828,2/23/25,Mich City,Elvetino AG Z?rich CHE,-32.56,Dining,Travel & Entertainment,Elvetino,Dining
+831,2/23/25,Mich City,Le Gitan Zermatt CHE,-250.86,Dining,Travel & Entertainment,Le Gitan,Dining
+1100,2/23/25,Mich Amex,3CPAYMENT*MARRIOTT ZZUERICH,-366.82,Travel & Lodging,Travel & Entertainment,Marriott,Travel & Lodging
+1099,2/23/25,Mich Amex,3CPAYMENT*MARRIOTT ZZUERICH,-11.71,Travel & Lodging,Travel & Entertainment,Marriott,Travel & Lodging
+1101,2/23/25,Mich Amex,BAYARD ZERMATT AG   ZERMATT,-816.14,General Merchandise,General Merchandise,Bayard,General Merchandise
+1102,2/23/25,Mich Amex,SBB MOBILE          BERN,-27.87,Travel & Entertainment,Travel & Entertainment,SBB,Travel & Entertainment
+832,2/22/25,Mich City,C.COFFEE LOVERS VENEZIA ITA,-2.63,Dining,Travel & Entertainment,C.Coffee Lovers,Dining
+836,2/22/25,Mich City,Globus Z?rich City Gas Z?rich CHE,-183.97,General Merchandise,General Merchandise,Globus,General Merchandise
+837,2/22/25,Mich City,Hotel Adler Zuerich Zurich CHE,-222.99,Travel & Lodging,Travel & Entertainment,Hotel Adler,Travel & Lodging
+839,2/22/25,Mich City,LUFTHAN202204084770205 FALCONARA MAR ITANAME: FALENI/ANDREINA MRS DEPART:02/22/2025 VCE TO ZRH: LX: CLASS: : STOP:,-63.05,Travel & Entertainment,Travel & Entertainment,Lufthansa,Travel & Entertainment
+833,2/22/25,Mich City,PARAFARMACRIMI MARCO . VENEZIA ITA,-12.47,Medical,Medical,Parafarmacrimi,Medical
+835,2/22/25,Mich City,Scheerer Optik AG Z?rich CHE,-52.4,Medical,Medical,Scheerer Optik,Medical
+834,2/22/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-33.62,Transport,Travel & Entertainment,Uber,Taxi
+838,2/22/25,Mich City,UBER *TRIP HELP.UBER.COM NLD,-16.72,Transport,Travel & Entertainment,Uber,Taxi
+1103,2/22/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,8886.7,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1282,2/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,32.09,Amazon,Amazon,Amazon,Amazon
+1283,2/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,53.49,Amazon,Amazon,Amazon,Amazon
+1284,2/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,85.38,Amazon,Amazon,Amazon,Amazon
+841,2/21/25,Mich City,DFS ITALIA srl Venezia ITA,-16.77,General Merchandise,General Merchandise,DFS Italia,General Merchandise
+840,2/21/25,Mich City,STELLA SHOP VENEZIA ITA,-206.48,General Merchandise,General Merchandise,Stella Shop,General Merchandise
+225,2/21/25,Fam Wells,"WF Credit Card AUTO PAY 250221 FALENI,MICHEL",734,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1104,2/21/25,Mich Amex,JACK DUGGAN S PUB 00PHILADELPHIA,-41.21,Dining,Travel & Entertainment,Jack Duggan's Pub,Dining
+845,2/20/25,Mich City,BAR AUTORIMESSA VE VENEZIA ITA,-88.41,Dining,Travel & Entertainment,Bar Autorimessa,Dining
+844,2/20/25,Mich City,DARSENA AEROPORTO M. P VENEZIA ITA,-47.08,Transport,Travel & Entertainment,Darsena,Taxi
+842,2/20/25,Mich City,DARSENA AEROPORTO M. P VENEZIA ITA,-31.39,Transport,Travel & Entertainment,Darsena,Taxi
+843,2/20/25,Mich City,TRATTORIA DA GIOIA VENEZIA ITA,-42.19,Dining,Travel & Entertainment,Trattoria Da Gioia,Dining
+1287,2/20/25,Mich Bofa,AMAZON MKTPL*EC35J2LZ3 Amzn.com/billWA,-51.35,Amazon,Amazon,Amazon,Amazon
+1286,2/20/25,Mich Bofa,AMAZON MKTPL*IL4LB9PN3 Amzn.com/billWA,-582,Amazon,Amazon,Amazon,Amazon
+1285,2/20/25,Mich Bofa,AMAZON MKTPL*SR8X97U03 Amzn.com/billWA,-85.38,Amazon,Amazon,Amazon,Amazon
+1288,2/20/25,Mich Bofa,AMZN Mktp US*ID9WI8ME3 Amzn.com/billWA,-342.35,General Merchandise,Amazon,Amazon,Amazon
+1521,2/20/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 02/20,-150,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+846,2/19/25,Mich City,CITY BAR DI VISENTIN O CASSOLA ITA,-8.92,Dining,Travel & Entertainment,City Bar,Dining
+847,2/19/25,Mich City,RISTORANTE BAR AGORA' DESENZANO DEL ITA,-188.64,Dining,Travel & Entertainment,Ristorante Bar Agora',Dining
+227,2/19/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 02/25 PPDA MICHEL R FALENI,-205.19,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+226,2/19/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250219 MICHEL FALENI FERNANDE,1100,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+852,2/18/25,Mich City,CITY BAR DI VISENTIN O CASSOLA ITA,-14.5,Dining,Travel & Entertainment,City Bar,Dining
+851,2/18/25,Mich City,CITY BAR DI VISENTIN O CASSOLA ITA,-3.05,Dining,Travel & Entertainment,City Bar,Dining
+849,2/18/25,Mich City,DOLCE BASSANO SNC BASSANO DEL G ITA,-15.45,Dining,Travel & Entertainment,Dolce Bassano,Dining
+850,2/18/25,Mich City,PMT*VEHICLE TAG RENEW MIAMI,-53.65,Vehicle Maintenance,Auto,Tag Renewal,Parking
+848,2/18/25,Mich City,SIS SRL BASSANO DEL G ITA,-3.15,Travel & Entertainment,Travel & Entertainment,SIS,Travel & Entertainment
+853,2/18/25,Mich City,"SQ *MASF DOCS, LLC MIAMI SPRINGS",-25,Services,Medical,Dr. Santos,Services
+230,2/18/25,Fam Wells,MOBILE DEPOSIT : REF NUMBER :310170317402,195.83,Refunds,Financial Transactions,Financial Transactions,Refunds
+228,2/18/25,Fam Wells,NON-WELLS FARGO ATM TRANSACTION FEE,-5,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+229,2/18/25,Fam Wells,NON-WF ATM WITHDRAWAL AUTHORIZED ON 02/17 VIA MONTEGRAPPA 1 BASSANO DEL G ITA ATM,-105.15,Transport,Travel & Entertainment,Montegrappa,Taxi
+231,2/18/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1290,2/18/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,158.6,Amazon,Amazon,Amazon,Amazon
+1289,2/18/25,Mich Bofa,AMAZON RETA* Z71PU6QY2 SEATTLE,237.18,Amazon,Amazon,Amazon,Amazon
+1523,2/18/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250218 CKF828154125POS FALENI FERNANDEZ,MICHE",500,Card Payment,Financial Transactions,Bank of America,Card Payment
+1522,2/18/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250218 CKF828154125POS FALENI FERNANDEZ,MICHE",3000,Card Payment,Financial Transactions,Bank of America,Card Payment
+1526,2/18/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,3500,Loan,Financial Transactions,Transfers,Loan
+1525,2/18/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1524,2/18/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+855,2/17/25,Mich City,183 - VERONA ITA,-4.21,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+854,2/17/25,Mich City,183 - VERONA ITA,-1.05,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+856,2/17/25,Mich City,CASA DEL CAFFE' VERONA ITA,-14.2,Dining,Travel & Entertainment,Casa del Caffè,Dining
+857,2/17/25,Mich City,CHARGET VERONA ITA,-49.74,Travel & Entertainment,Travel & Entertainment,Charge,Travel & Entertainment
+859,2/17/25,Mich City,Hotel Milano Verona ITA,-106.2,Travel & Lodging,Travel & Entertainment,Hotel Milano,Travel & Lodging
+860,2/17/25,Mich City,LABCORP8008456167 800-845-6167,-48.87,Medical,Medical,Labcorp,Medical
+858,2/17/25,Mich City,PHR*DIGESTIVEMEDICINE HIALEAH,-62.81,Medical,Medical,Digestive Medicine,Medical
+861,2/17/25,Mich City,TST* ADRIAN FISH MARKE HIALEAH GARDE,-252.89,Dining,Travel & Entertainment,Adrian Fish Market,Dining
+1293,2/17/25,Mich Bofa,AMAZON MKTPL*YR45G1TH3 Amzn.com/billWA,-561.61,Amazon,Amazon,Amazon,Amazon
+1292,2/17/25,Mich Bofa,BA ELECTRONIC PAYMENT,500,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1291,2/17/25,Mich Bofa,BA ELECTRONIC PAYMENT,3000,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+863,2/16/25,Mich City,AEROP. ADOLFO SUAREZ M MADRID ESP,-7.05,Transport,Travel & Entertainment,Adolfo Suárez Madrid-Barajas,Taxi
+867,2/16/25,Mich City,CHEVRON 0204900 855-285-9595,-8.82,Transport,Travel & Entertainment,Chevron,Gas
+865,2/16/25,Mich City,EMPORIO DEL GRANO VENEZIA ITA,-14.62,Dining,Travel & Entertainment,Emporio del Grano,Dining
+862,2/16/25,Mich City,MARATHON PETRO109553 CLEWISTON,-2.9,Transport,Travel & Entertainment,Marathon Petroleum,Gas
+864,2/16/25,Mich City,MARATHON PETRO145524 WESTON,-7.89,Transport,Travel & Entertainment,Marathon Petroleum,Gas
+866,2/16/25,Mich City,TST*LABELLE BREWING CO Labelle,-46.54,Dining,Travel & Entertainment,Labelle Brewing Co,Dining
+1105,2/16/25,Mich Amex,7-ELEVEN 41127 00074LABELLE,-17.56,General Merchandise,General Merchandise,7-Eleven,General Merchandise
+1106,2/16/25,Mich Amex,MARATHON PETRO109553CLEWISTON,-10.12,Transport,Travel & Entertainment,Marathon Petroleum,Gas
+870,2/15/25,Mich City,CAPPUCCINO MADRID MADRID ESP,-31.81,Dining,Travel & Entertainment,Cappuccino,Dining
+875,2/15/25,Mich City,CHEVRON 0204900 855-285-9595,-66.76,Transport,Auto,Chevron,Transport
+869,2/15/25,Mich City,LA MALLORQUINA VELAZQU MADRID ESP,-13.35,Dining,Travel & Entertainment,La Mallorquina,Dining
+874,2/15/25,Mich City,LAZ PARKING M06285-2 P DORAL,-6,Transport,Auto,LAZ Parking,Transport
+873,2/15/25,Mich City,OYSHO MADRID ESP,-123.29,General Merchandise,General Merchandise,Oysho,General Merchandise
+872,2/15/25,Mich City,RTE MARISQUERIA EL BAR MADRID ESP,-89.38,Dining,Travel & Entertainment,Rte Marisqueria El Bar,Dining
+868,2/15/25,Mich City,SANCOCHO Y LENA STEAK SOUTHWEST RAN,-71.34,Dining,Travel & Entertainment,Sancocho y Lena Steak,Dining
+871,2/15/25,Mich City,TABERNA LOS GALLOS MADRID ESP,-79.07,Dining,Travel & Entertainment,Taberna Los Gallos,Dining
+878,2/14/25,Mich City,MIA SUSHI MAKI D(A) MIAMI,-8.11,Dining,Travel & Entertainment,Mia Sushi Maki,Dining
+877,2/14/25,Mich City,TATEL MADRID MADRID ESP,-484.79,Dining,Travel & Entertainment,Tatel,Dining
+876,2/14/25,Mich City,TATEL MADRID MADRID ESP,-114.93,Dining,Travel & Entertainment,TATEL,Dining
+879,2/14/25,Mich City,TST*GUSTO Doral,-191.52,Dining,Travel & Entertainment,Gusto,Dining
+1107,2/14/25,Mich Amex,UM MY CHART BILLING MIAMI,-75,Medical,Medical,UM MY CHART,Medical
+1529,2/14/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250214A2Q FALENI,MICHEL",6644.64,Income,Income,BUS TELE SVCS,Income
+1528,2/14/25,Mich Wells,CITI CARD ONLINE PAYMENT 250213 MICHEL FALENI,654.31,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1527,2/14/25,Mich Wells,CITI CARD ONLINE PAYMENT 250213 MICHEL FALENI,8571.33,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+881,2/13/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-31.03,Insurance,Auto,NATL GEN INS,Insurance
+880,2/13/25,Mich City,"ONLINE PAYMENT, THANK YOU",8571.33,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1530,2/13/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,9500,Loan,Financial Transactions,Transfers,Loan
+232,2/12/25,Fam Wells,BMW BANK BMWFS PYMT 250211,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+1531,2/12/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-1000,Loan Payment,Financial Transactions,Transfers,Loan Payment
+882,2/11/25,Mich City,SPIRIT A48704250342850 MIRAMAR FLNAME: FALENI/M DEPART:02/11/2025,-69.95,Travel & Entertainment,Travel & Entertainment,Spirit,Travel & Entertainment
+234,2/11/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING ENTRADAS COLUMBUS,-60,Education,Education,Transfers,Education
+233,2/11/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING QUEST DEDUCIBLE,-134,Medical,Medical,Transfers,Medical
+1294,2/11/25,Mich Bofa,AMAZON RETA* Z97FI6RS1 SEATTLE,149.79,Amazon,Amazon,Amazon,Amazon
+1532,2/11/25,Mich Wells,Coinbase.com 6A9ZK54W 6A9ZK54We765 MICHEL FALENI,-29.99,Travel & Entertainment,Travel & Entertainment,Coinbase,Travel & Entertainment
+883,2/10/25,Mich City,LS MOTOR SHOP CENTER L MIAMI,-100,Vehicle Maintenance,Auto,LS MOTOR SHOP,Vehicle Maintenance
+884,2/10/25,Mich City,MIAMI AIRP BOOKS AND B MIAMI,-27.24,General Merchandise,General Merchandise,Miami Airp Books,General Merchandise
+237,2/10/25,Fam Wells,ATT* BILL PAYMENT 800-331-0500 TX S585039464590537,-14.93,Bills & Utilities,Bills & Utilities,ATT,Bills & Utilities
+236,2/10/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S305040353240696,-17.53,Streaming,Subscriptions,Netflix,Streaming
+235,2/10/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385040395961758,-10,Tolls,Auto,SUNPASS,Tolls
+1108,2/10/25,Mich Amex,AT&T UVERSE PAYMENT,-97.49,Bills & Utilities,Bills & Utilities,AT&T,Bills & Utilities
+1535,2/10/25,Mich Wells,ZELLE FROM LENIN CARDENAS ON 02/10 REF # BACKO436W6BG,765,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1534,2/10/25,Mich Wells,ZELLE FROM LENIN CARDENAS ON 02/10 REF # BACQ64OAATP3,100,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1533,2/10/25,Mich Wells,ZELLE TO PADOVAN SAMUEL ON 02/09 SUPERBOWL,-15,Travel & Entertainment,Travel & Entertainment,Padovan Samuel,Travel & Entertainment
+885,2/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Financial Services,Financial Transactions,Experian,Financial Services
+886,2/9/25,Mich City,PUBLIX #1492 DORAL,-59.09,Groceries,Groceries,Publix,Groceries
+887,2/9/25,Mich City,TST* GRAZIANOS MARKET DORAL,-93.39,Dining,Travel & Entertainment,Grazianos Market,Dining
+1109,2/9/25,Mich Amex,NIC*-PBS FL STATE PRTALLAHASSEE,-71.95,Travel & Entertainment,Travel & Entertainment,Parking,Travel & Entertainment
+1110,2/9/25,Mich Amex,UM MY CHART BILLING MIAMI,-75,Medical,Medical,UM MY CHART,Medical
+890,2/8/25,Mich City,CHEVRON 0204900 855-285-9595,-22.24,Transport,Auto,Chevron,Transport
+888,2/8/25,Mich City,HAAGEN DAZS ICE CREAM MIAMI BEACH,-22.88,Dining,Travel & Entertainment,Haagen Dazs,Dining
+889,2/8/25,Mich City,MOTOR SHOP CENTER DORAL,-282.94,Vehicle Maintenance,Auto,MOTOR SHOP CENTER,Vehicle Maintenance
+891,2/8/25,Mich City,TOTALWINE 932 DIGITAL DORAL,-173.15,Liquor Store,Liquor Store,Total Wine,Liquor Store
+1111,2/8/25,Mich Amex,EL CAR WASH #6      MIAMI,-21.38,Vehicle Maintenance,Auto,EL CAR WASH,Vehicle Maintenance
+1112,2/8/25,Mich Amex,MB-PARKING PARKMOBILMIAMI BEACH,-4.35,Transport,Auto,MB-PARKING,Transport
+892,2/7/25,Mich City,KOKAI SUSHI & LOUNGE DORAL,-283.53,Dining,Travel & Entertainment,Kokai Sushi & Lounge,Dining
+1113,2/7/25,Mich Amex,AMERICANAIRLINES PACIRVINE,-35,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+1536,2/7/25,Mich Wells,ZELLE FROM MOE NATHAN ON 02/07 REF # PP0YHVDXKG,100,Travel & Entertainment,Travel & Entertainment,Moe Nathan,Travel & Entertainment
+1295,2/6/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-57.95,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1537,2/6/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,1000,Loan,Financial Transactions,Transfers,Loan
+238,2/5/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+240,2/5/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+239,2/5/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 02/05 BASKET LORENZO,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1296,2/5/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,21.39,Amazon,Amazon,Amazon,Amazon
+1538,2/5/25,Mich Wells,CHASE CREDIT CRD AUTOPAY 250204 FALENI MICHEL R,932.9,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1539,2/5/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,500,Loan,Financial Transactions,Transfers,Loan
+1540,2/4/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250204 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1542,2/4/25,Mich Wells,COINBASE INC. 250204 RTL-PDPBPQ76 MICHEL FALENI,14401.13,Crypto Income,Income,Coinbase,Crypto Income
+1541,2/4/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-14269.37,Loan Payment,Financial Transactions,Transfers,Loan Payment
+242,2/3/25,Fam Wells,Kukenam Summer C 250131 87774835 ANDREINA FALENI ANDREI,-409.16,Education,Education,Kukenam,Education
+243,2/3/25,Fam Wells,MDWS M-DWASDPMT 250131 MICHEL FALENI,-304.11,Bills & Utilities,Bills & Utilities,Water Bill,Bills & Utilities
+241,2/3/25,Fam Wells,PENNYMAC CASH Feb 25-0053 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+247,2/3/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+245,2/3/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385032607100359,-10,Tolls,Auto,SunPass,Tolls
+246,2/3/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 02/01 LORENZO BASCKET,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+244,2/3/25,Fam Wells,ZELLE TO ROMERO YELITZA COSTURERA DORAL ON 02/02 PANTALONES,-48,Costurera,Clothing,Yelitza Romero,Costurera
+1298,2/3/25,Mich Bofa,AMAZON MKTPL*Z79I47TE0 Amzn.com/billWA,-190.69,Amazon,Amazon,Amazon,Amazon
+1299,2/3/25,Mich Bofa,AMAZON MKTPL*ZC5KY0231 Amzn.com/billWA,-53.49,Amazon,Amazon,Amazon,Amazon
+1297,2/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1543,2/3/25,Mich Wells,APPLECARD GSBANK PAYMENT 020125 1881361 Michel Faleni,934.42,Card Payment,Financial Transactions,Apple Card,Card Payment
+1545,2/3/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1544,2/3/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+893,2/2/25,Mich City,UKVI ETAMOB00000089307 LONDON GBR,-12.97,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+894,2/1/25,Mich City,CHEVRON 0204900 855-285-9595,-64.59,Transport,Auto,Chevron,Transport
+895,2/1/25,Mich City,CITY OF MIAMI BEACHQPS MIAMI BEACH,-2.5,Transport,Auto,City of Miami Beach,Transport
+896,2/1/25,Mich City,MEAT CLUB MARKET DORAL,-135,Groceries,Groceries,Meat Club Market,Groceries
+1114,2/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-26.02,Streaming,Subscriptions,Netflix,Streaming
+898,1/31/25,Mich City,CHEVRON 0204900 DORAL,-3.1,Transport,Auto,Chevron,Transport
+900,1/31/25,Mich City,CITY OF MIAMI BEACHQPS MIAMI BEACH,-8.5,Transport,Auto,City of Miami Beach,Transport
+899,1/31/25,Mich City,CITY OF MIAMI BEACHQPS MIAMI BEACH,-4.5,Transport,Auto,City of Miami Beach,Transport
+897,1/31/25,Mich City,PUBLIX #1571 DORAL,-21.98,Groceries,Groceries,Publix,Groceries
+248,1/31/25,Fam Wells,INTEREST PAYMENT,0.09,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+249,1/31/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+1300,1/31/25,Mich Bofa,AMAZON MKTPL*ZC6T787A0 Amzn.com/billWA,-21.39,Amazon,Amazon,Amazon,Amazon
+1301,1/31/25,Mich Bofa,AMAZON RETA* Z71PU6QY2 SEATTLE,-237.18,Amazon,Amazon,Amazon,Amazon
+1302,1/31/25,Mich Bofa,AMZN Mktp US*ZC13P9SI0 Amzn.com/billWA,-74.89,General Merchandise,Amazon,Amazon,Amazon
+1550,1/31/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250131A2Q FALENI,MICHEL",6644.64,Income,Income,BTS,Income
+1549,1/31/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250131A2Q FALENI,MICHEL",12257.15,Income,Income,BTS,Income
+1546,1/31/25,Mich Wells,INTEREST PAYMENT,0.01,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1548,1/31/25,Mich Wells,ONLINE TRANSFER TO INSTALLMENT LOANS,-3755.35,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1547,1/31/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-8500,Loan Payment,Financial Transactions,Transfers,Loan Payment
+901,1/30/25,Mich City,CVS/PHARMACY #03705 MIAMI,-39.5,Medical,Medical,CVS,Medical
+250,1/30/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING MANICURE,-55,Andre Expenses,Andre,Transfers,Andre Expenses
+251,1/30/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 01/30 BASKET LORENZO,-25,Basket Lore,Education,Charlie,Basket Lore
+1116,1/30/25,Mich Amex,W ASPEN W ASPEN     ASPEN,23.67,Travel & Lodging,Travel & Entertainment,W Aspen,Travel & Lodging
+1115,1/30/25,Mich Amex,W ASPEN W ASPEN     ASPEN,120.56,Travel & Lodging,Travel & Entertainment,W Aspen,Travel & Lodging
+1304,1/30/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,12.83,Amazon,Amazon,Amazon,Amazon
+1303,1/30/25,Mich Bofa,AMAZON RETA* ZC52B74R1 SEATTLE,-17.37,Amazon,Amazon,Amazon,Amazon
+902,1/29/25,Mich City,TUMI STORES INC MIAMI,-473.5,General Merchandise,General Merchandise,Tumi,General Merchandise
+252,1/29/25,Fam Wells,SANTANDER CONSUM BILLPAY,1302.06,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1117,1/29/25,Mich Amex,MYPARK RESERVATION  MIAMI,-5.35,Transport,Auto,MyPark,Transport
+1118,1/29/25,Mich Amex,SMH CASHIERS OFFICE CORAL GABLES,-50,Travel & Entertainment,Travel & Entertainment,SMH Cashiers Office,Travel & Entertainment
+1119,1/29/25,Mich Amex,W ASPEN W ASPEN     ASPEN,-23.67,Travel & Lodging,Travel & Entertainment,W Aspen,Travel & Lodging
+905,1/28/25,Mich City,AMERICAN0012210081492 PHOENIX AZNAME: FALENI/MICHEL DEPART:03/22/2025 LAX TO ASE: AA: CLASS:Y : STOP: O MIA TO LAX: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+903,1/28/25,Mich City,AMERICAN0012210081493 PHOENIX AZNAME: FALENI/ANDREINA DEPART:03/22/2025 LAX TO ASE: AA: CLASS:Y : STOP: O MIA TO LAX: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+907,1/28/25,Mich City,AMERICAN0012210081494 PHOENIX AZNAME: FALENI/LORENZO DEPART:03/22/2025 LAX TO ASE: AA: CLASS:Y : STOP: O MIA TO LAX: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+904,1/28/25,Mich City,AMERICAN0012210081555 PHOENIX AZNAME: FALENI/MICHEL DEPART:03/27/2025 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+908,1/28/25,Mich City,AMERICAN0012210081556 PHOENIX AZNAME: FALENI/ANDREINA DEPART:03/27/2025 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+906,1/28/25,Mich City,AMERICAN0012210081557 PHOENIX AZNAME: FALENI/LORENZO DEPART:03/27/2025 DFW TO MIA: AA: CLASS:Y : STOP: O ASE TO DFW: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+253,1/28/25,Fam Wells,"SQ *MASF DOCS, LLC MIAMI SPRINGS FL S585027731798631",-25,Travel & Entertainment,Travel & Entertainment,Dr. Santos,Travel & Entertainment
+1120,1/28/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,53.24,Amazon,Amazon,Amazon,Amazon
+1122,1/28/25,Mich Amex,W ASPEN W ASPEN     ASPEN,-339.42,Travel & Lodging,Travel & Entertainment,W Aspen,Travel & Lodging
+1121,1/28/25,Mich Amex,W ASPEN W ASPEN     ASPEN,-120.56,Travel & Lodging,Travel & Entertainment,W Aspen,Travel & Lodging
+257,1/27/25,Fam Wells,DR YOLANDA BOGARIN DORAL FL S385024567575032,-35,Medical,Medical,Dr. Yolanda Bogarin,Medical
+255,1/27/25,Fam Wells,INTERNATIONAL PURCHASE TRANSACTION FEE,-0.15,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+256,1/27/25,Fam Wells,RECURRING PAYMENT INTL AUTHORIZED ON 01/24 Amazon Prime*FV6ME amazon.es/prm LUX S465025284248906,-5.25,Cloud Services,Subscriptions,Amazon,Cloud Services
+254,1/27/25,Fam Wells,RSF* DOWNTOWN DORA READYSETFUND. IN S385025682939958,-10,Travel & Entertainment,Travel & Entertainment,ReadySetFund,Travel & Entertainment
+1551,1/27/25,Mich Wells,ATM WITHDRAWAL AUTHORIZED ON 01/25 119 S Mill St Aspen ATM ID 9901M,-250,Cash,Financial Transactions,Financial Transactions,Cash
+909,1/26/25,Mich City,LITTLE NELL F & B ASPEN,-157.16,Dining,Travel & Entertainment,Little Nell,Dining
+1123,1/25/25,Mich Amex,LITTLE NELL F & B   ASPEN,-318.96,Dining,Travel & Entertainment,Little Nell,Dining
+1124,1/25/25,Mich Amex,SP STARTINGATE      JAMAICA,-298.5,Dining,Travel & Entertainment,StartingGate,Dining
+911,1/24/25,Mich City,AHCA / RITZ-CARLTON AS ASPEN CO PHONE NUMBER: FOLIO NUMBER: M02680 ARRIVE: 01/24/2025 DEPART:01/24/2025,-5.47,Travel & Lodging,Travel & Entertainment,Ritz-Carlton,Travel & Lodging
+912,1/24/25,Mich City,FOUR MOUNTAIN SPORTS BASALT,-77.45,General Merchandise,General Merchandise,Four Mountain Sports,General Merchandise
+910,1/24/25,Mich City,GORSUCH AT NELLS #26 ASPEN,-1967.6,General Merchandise,General Merchandise,Gorsuch,General Merchandise
+259,1/24/25,Fam Wells,HEALTHY PAWS PET I TRACIM@HEALTH PA S585023374940563,-100.03,Pet Services,Lucky,Healthy Paws,Pet Services
+258,1/24/25,Fam Wells,T-MOBILE PCS SVC 250123 3593575 MARIA FERNANDEZ,-192.58,Andre Cell,Bills & Utilities,T-Mobile,Andre Cell
+1125,1/24/25,Mich Amex,BETULA              ASPEN,-828.59,Dining,Travel & Entertainment,Betula,Dining
+914,1/23/25,Mich City,FOUR MOUNTAIN SPORTS BASALT,-968.45,General Merchandise,General Merchandise,Four Mountain Sports,General Merchandise
+913,1/23/25,Mich City,FOUR MOUNTAIN SPORTS BASALT,-18.23,General Merchandise,General Merchandise,Four Mountain Sports,General Merchandise
+1126,1/23/25,Mich Amex,AMERICANAIRLINES PACIRVINE,-35,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+1553,1/23/25,Mich Wells,ONLINE TRANSFER TO WELLS FARGO ACTIVE CASH VISA CARD,1200,Card Payment,Financial Transactions,Wells Fargo,Card Payment
+1554,1/23/25,Mich Wells,ZELLE FROM LISA CASTRO ON 01/23 REF # BACCA6I5BSTQ,1200,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1555,1/23/25,Mich Wells,ZELLE FROM LISA CASTRO ON 01/23 REF # BACF99THALX7,1,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+1552,1/23/25,Mich Wells,ZELLE TO DOMANTI MARIETTO ON 01/23 TIRES GIFT,-50,Travel & Entertainment,Travel & Entertainment,Domanti Marietto,Travel & Entertainment
+915,1/22/25,Mich City,ABC #91 HAWAII HONOLULU,-6.93,Groceries,Groceries,Unknown,Groceries
+916,1/22/25,Mich City,TST*PAIA FISH MARKET - Honolulu,-24.9,Dining,Travel & Entertainment,Paia Fish Market,Dining
+1127,1/22/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,74.44,Amazon,Amazon,Amazon,Amazon
+1128,1/22/25,Mich Amex,AUTOPAY PAYMENT - THANK YOU,8593.27,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1307,1/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,35.3,Amazon,Amazon,Amazon,Amazon
+1305,1/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,41.15,Amazon,Amazon,Amazon,Amazon
+1308,1/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,74.79,Amazon,Amazon,Amazon,Amazon
+1306,1/22/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,128.35,Amazon,Amazon,Amazon,Amazon
+1556,1/22/25,Mich Wells,ONLINE TRANSFER TO PERSONAL LINE OF CREDIT,-2000,Loan Payment,Financial Transactions,Transfers,Loan Payment
+917,1/21/25,Mich City,BBTM *COLUMBUS HS MIAMI,-882.71,Education,Education,Columbus HS,Education
+918,1/21/25,Mich City,HI TREND-HILTON HONOLULU,-123,Travel & Lodging,Travel & Entertainment,Hilton,Travel & Lodging
+261,1/21/25,Fam Wells,FPL DIRECT DEBIT ELEC PYMT 01/25 PPDA MICHEL R FALENI,-271.7,Bills & Utilities,Bills & Utilities,FPL,Bills & Utilities
+263,1/21/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585019232322184,-10,Tolls,Auto,SunPass,Tolls
+260,1/21/25,Fam Wells,"WF Credit Card AUTO PAY 250121 FALENI,MICHEL",734,Card Payment,Financial Transactions,WF Credit Card,Card Payment
+262,1/21/25,Fam Wells,ZELLE TO LEON ROCIO ON 01/20 TERAPIAS,-285,Medical,Medical,Zelle,Medical
+1129,1/21/25,Mich Amex,HOTEL ON BOOKING.COMAMSTERDAM,-3408.34,Travel & Lodging,Travel & Entertainment,Hotel,Travel & Entertainment
+1557,1/21/25,Mich Wells,CITI CARD ONLINE PAYMENT 250120 MICHEL FALENI,90.93,Card Payment,Financial Transactions,Citi Card,Card Payment
+919,1/20/25,Mich City,AMERICAN0012205921483 PHOENIX AZNAME: FALENI/ANDREINA DEPART:01/21/2025,122.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+920,1/20/25,Mich City,AMERICAN0012207560265 PHOENIX AZNAME: FALENI/ANDREINA DEPART:02/14/2025 MAD TO VCE: IB: CLASS:X : STOP:,-57.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+921,1/20/25,Mich City,HI TREND-HILTON HONOLULU,-717.59,Travel & Lodging,Travel & Entertainment,Hilton,Travel & Lodging
+922,1/20/25,Mich City,HILTON TAPA BAR HONOLULU,-38.46,Dining,Travel & Entertainment,Hilton Tapa Bar,Dining
+1130,1/19/25,Mich Amex,UBER,-45.77,Transport,Travel & Entertainment,Uber,Transport
+925,1/18/25,Mich City,LAZ PARKING M06285-2 P DORAL,-7,Transport,Auto,Laz Parking,Transport
+923,1/18/25,Mich City,NAVARRO DISCOUNT PHARM DORAL,-7.29,Medical,Medical,Navarro Discount Pharmacy,Medical
+924,1/18/25,Mich City,SP CHRISTOPHER COLUM MIAMI,-130.49,Education,Education,St. Christopher,Education
+926,1/18/25,Mich City,TST*58 GOURMET Doral,-7.76,Dining,Travel & Entertainment,Gourmet,Dining
+927,1/18/25,Mich City,TST*FRANCISCA CHARCOAL Doral,-90.88,Dining,Travel & Entertainment,Francisca Charcoal,Dining
+1132,1/18/25,Mich Amex,IBERIA.COM   U      MIAMI,-98,Travel & Entertainment,Travel & Entertainment,Iberia,Travel & Entertainment
+1131,1/18/25,Mich Amex,IBERIA.COM   U      MIAMI,-31.91,Travel & Entertainment,Travel & Entertainment,Iberia,Travel & Entertainment
+1309,1/18/25,Mich Bofa,AMAZON MKTPL*Z59UC57Y0 Amzn.com/billWA,-12.83,Amazon,Amazon,Amazon,Amazon
+929,1/17/25,Mich City,CHEVRON 0204900 855-285-9595,-47.59,Transport,Auto,Chevron,Transport
+928,1/17/25,Mich City,NIKE.COM AP BEAVERTON,86.14,General Merchandise,General Merchandise,Nike,General Merchandise
+264,1/17/25,Fam Wells,JPMorgan Chase Ext Trnsfr 250117 MICHEL FALENI FERNANDE,1100,Vehicle Payment,Auto,Car Mich,Vehicle Payment
+1133,1/17/25,Mich Amex,TST* DORAL STEAKHOUSDORAL,-536.18,Dining,Travel & Entertainment,Doral Steakhouse,Dining
+1310,1/17/25,Mich Bofa,AMAZON MKTPL*ZG87218P2 Amzn.com/billWA,-52.41,Amazon,Amazon,Amazon,Amazon
+1558,1/17/25,Mich Wells,ZELLE TO SEBASTIAN CAMINERO ON 01/17 MICHEL Y LORENZO,-125,Pelu Lore Mich,Pelu,Sebastian Caminero,Pelu Lore Mich
+1134,1/16/25,Mich Amex,SBB MOBILE          BERN,-62.62,Travel & Entertainment,Travel & Entertainment,SBB Mobile,Travel & Entertainment
+1561,1/16/25,Mich Wells,Instant Pmt from BUSINESS TELECOMMUNICATIONS SE on 01/16 Ref#20250116021001088P1BAAAA00000465052,6687.72,Expense Reports,Financial Transactions,Business Telecommunications,Expense Reports
+1559,1/16/25,Mich Wells,ONLINE TRANSFER TO INSTALLMENT LOANS,-5000,Loan Payment,Financial Transactions,Transfers,Loan Payment
+1560,1/16/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+265,1/15/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1138,1/15/25,Mich Amex,UBER,-24.33,Transport,Travel & Entertainment,Uber,Transport
+1137,1/15/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.CODO,-2.9,Transport,Travel & Entertainment,Uber,Transport
+1136,1/15/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.CODO,-2.79,Transport,Travel & Entertainment,Uber,Transport
+1135,1/15/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.CODO,-0.98,Transport,Travel & Entertainment,Uber,Transport
+1563,1/15/25,Mich Wells,"BUS TELE SVCS DIRECT DEP 250115A2Q FALENI,MICHEL",6644.64,Income,Income,Bus Tele Svcs,Income
+1562,1/15/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+932,1/14/25,Mich City,AMERICAN0012205921483 PHOENIX AZNAME: FALENI/ANDREINA DEPART:02/15/2025 MAD TO VCE: IB: CLASS:X : STOP: O MIA TO MAD: IB: CLASS:P : STOP: O,-122.4,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+934,1/14/25,Mich City,AMERICAN0012205923974 PHOENIX AZNAME: FALENI/MICHEL DEPART:02/21/2025 PHL TO ZRH: AA: CLASS:Y : STOP: O MIA TO PHL: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+933,1/14/25,Mich City,AMERICAN0012205923975 PHOENIX AZNAME: FALENI/LORENZO DEPART:02/21/2025 PHL TO ZRH: AA: CLASS:Y : STOP: O MIA TO PHL: AA: CLASS:Y : STOP: O,-5.6,Travel & Entertainment,Travel & Entertainment,Falení/Lorenzo,Travel & Entertainment
+930,1/14/25,Mich City,APPLE.COM/US 800-676-2775,-99,Electronics,Subscriptions,Apple,Electronics
+931,1/14/25,Mich City,NATL GEN INS*RECURRING 800-462-2123,-31.03,Services,Auto,National General Insurance,Services
+266,1/14/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 01/14 BASKET LORENZO,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1139,1/14/25,Mich Amex,AMERICAN AIRLINES   FORT WORTH,5.6,Travel & Entertainment,Travel & Entertainment,American Airlines,Travel & Entertainment
+1140,1/14/25,Mich Amex,RESTAURANTE MOOREA  SANTO DOMINGO,-262.56,Dining,Travel & Entertainment,Restaurante Moorea,Dining
+1141,1/14/25,Mich Amex,SWISS Intl Air LinesROME,-165.08,Travel & Entertainment,Travel & Entertainment,Swiss Intl Air Lines,Travel & Entertainment
+1142,1/14/25,Mich Amex,UBER TRIP           HTTPS://HELP.UBER.CODO,-4.32,Transport,Travel & Entertainment,Uber,Transport
+1565,1/14/25,Mich Wells,CITI CARD ONLINE PAYMENT 250113 MICHEL FALENI,5017.07,Card Payment,Financial Transactions,Citi Card,Card Payment
+1564,1/14/25,Mich Wells,CITI CARD ONLINE PAYMENT 250113 MICHEL FALENI,7144,Card Payment,Financial Transactions,Citi Card,Card Payment
+936,1/13/25,Mich City,AMERICAN00122007652128 FORT WORTH TXNAME: FERNANDEZ LAREU MARI DEPART:12/28/2024 CLT TO MIA: AA: CLASS:Y : STOP:,5.6,Travel & Entertainment,Travel & Entertainment,Ferdandez Lareu Mari,Travel & Entertainment
+935,1/13/25,Mich City,"ONLINE PAYMENT, THANK YOU",7144,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+267,1/13/25,Fam Wells,BMW BANK BMWFS PYMT 250111,-219.28,Vehicle Payment,Auto,Moto,Vehicle Payment
+269,1/13/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385010602479756,-10,Tolls,Auto,SunPass,Tolls
+268,1/13/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S465012700604749,-10,Tolls,Auto,SunPass,Tolls
+1312,1/13/25,Mich Bofa,AMAZON MKTPL*Z56Z352A2 Amzn.com/billWA,-128.35,Amazon,Amazon,Amazon,Amazon
+1311,1/13/25,Mich Bofa,AMAZON MKTPL*Z57ON6SB2 Amzn.com/billWA,-126.59,Amazon,Amazon,Amazon,Amazon
+1313,1/13/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,106.98,Amazon,Amazon,Amazon,Amazon
+1566,1/13/25,Mich Wells,Coinbase.com 6KVV5342 6KVV5342e765 MICHEL FALENI,-29.99,Crypto Income,Income,Coinbase,Crypto Income
+1568,1/13/25,Mich Wells,ONLINE TRANSFER FROM PERSONAL LINE OF CREDIT,12700,Loan,Financial Transactions,Transfers,Loan
+1567,1/13/25,Mich Wells,ZELLE TO VALET SEACOAST ALEX ON 01/11,-5,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+937,1/12/25,Mich City,CVS/PHARMACY #10464 MIAMI,-10,Medical,Medical,CVS,Medical
+940,1/12/25,Mich City,SANCOCHO Y LENA STEAK SW RANCHES,-142.03,Dining,Travel & Entertainment,Sancocho Y Lena,Dining
+938,1/12/25,Mich City,TST* OMAKAI SUSHI - DO DORAL,-195.3,Dining,Travel & Entertainment,Omakai Sushi,Dining
+939,1/12/25,Mich City,TST*SANTO DULCE FOOD T Southwest Ran,-18.19,Dining,Travel & Entertainment,Santo Dulce Food,Dining
+941,1/11/25,Mich City,CHEVRON 0204900 855-285-9595,-63.89,Transport,Auto,Chevron,Transport
+942,1/11/25,Mich City,VSI*PARKS BROWARDCNTY OAKLAND PARK,-55,Transport,Auto,VSI*PARKS,Transport
+1314,1/11/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,24.6,Amazon,Amazon,Amazon,Amazon
+1316,1/11/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,35.3,Amazon,Amazon,Amazon,Amazon
+1315,1/11/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,40.64,Amazon,Amazon,Amazon,Amazon
+1317,1/11/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,114.28,Amazon,Amazon,Amazon,Amazon
+944,1/10/25,Mich City,PUBLIX #655 DORAL,-7.52,Groceries,Groceries,Publix,Groceries
+943,1/10/25,Mich City,PUBLIX #655 DORAL,-5.3,Groceries,Groceries,Publix,Groceries
+945,1/10/25,Mich City,THE TUMI STORE #1241 MIAMI,-26.75,General Merchandise,General Merchandise,Tumi,General Merchandise
+271,1/10/25,Fam Wells,NETFLIX.COM NETFLIX.COM CA S585009316604037,-17.53,Streaming,Subscriptions,Netflix,Streaming
+270,1/10/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 01/10 BASKET LOREN,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1143,1/10/25,Mich Amex,AT&T UVERSE PAYMENT,-97.49,Bills & Utilities,Bills & Utilities,AT&T,Bills & Utilities
+947,1/9/25,Mich City,BARK FOR C* BARK FOR C DORAL,-101.05,Pet Services,Lucky,Bark For C,Pet Services
+948,1/9/25,Mich City,EL CAR WASH #6 MIAMI,-10,Vehicle Maintenance,Auto,EL CAR WASH,Vehicle Maintenance
+946,1/9/25,Mich City,EXPERIAN* CREDIT REPO COSTA MESA,-21.95,Services,Subscriptions,Experian,Services
+272,1/9/25,Fam Wells,ATT* BILL PAYMENT 800-331-0500 TX S385008486184395,-14.92,Bills & Utilities,Bills & Utilities,ATT,Bills & Utilities
+1319,1/9/25,Mich Bofa,AMAZON MKTPL*Z54NX5A72 Amzn.com/billWA,-24.6,Amazon,Amazon,Amazon,Amazon
+1318,1/9/25,Mich Bofa,AMAZON MKTPL*Z56O10JW2 Amzn.com/billWA,-154.92,Amazon,Amazon,Amazon,Amazon
+1320,1/9/25,Mich Bofa,AMAZON MKTPL*ZD8ZV91D0 Amzn.com/billWA,-284.58,Amazon,Amazon,Amazon,Amazon
+1569,1/9/25,Mich Wells,ZELLE TO ANA GOMEZ ON 01/09 MICH UPS,-100,Travel & Entertainment,Travel & Entertainment,Zelle,Travel & Entertainment
+949,1/8/25,Mich City,BITCOIN.TAX SEATTLE,-49.95,Services,Crypto Income,Bitcoin.Tax,Services
+273,1/8/25,Fam Wells,ZELLE TO BASKETBALL CHARLIE ON 01/08 BASKET LOREN,-25,Basket Lore,Education,Basketball Charlie,Basket Lore
+1144,1/8/25,Mich Amex,THE WINE TO BUY E   SARASOTA,-211.57,Liquor Store,Liquor Store,The Wine To Buy,Liquor Store
+1570,1/8/25,Mich Wells,ZELLE TO PSICOLOGO DR ARTURO ON 01/08 MICHEL FALENI,-100,Psicologo,Medical,Psicologo Dr Arturo,Psicologo
+950,1/7/25,Mich City,TST* ROBEKS - 411 - DO DORAL,-123.48,Dining,Travel & Entertainment,Robeks,Dining
+274,1/7/25,Fam Wells,Guarantee Manage RESIDENT,-226,Home,Home,Guarantee Management,Assc. Fee Balm
+275,1/7/25,Fam Wells,ONLINE TRANSFER TO FERNANDEZ M EVERYDAY CHECKING DIF GASTOS DIC,-465.86,Aditional Expenses,Aditional Expenses,Fernandez M,Aditional Expenses
+1146,1/7/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,70.28,Amazon,Amazon,Amazon,Amazon
+1145,1/7/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,78.41,Amazon,Amazon,Amazon,Amazon
+1147,1/7/25,Mich Amex,STOCKXX*145455895101PHILADELPHIA,-919.08,General Merchandise,General Merchandise,StockX,General Merchandise
+1322,1/7/25,Mich Bofa,AMAZON MKTPL*ZD1PM49H2 Amzn.com/billWA,-35.3,Amazon,Amazon,Amazon,Amazon
+1321,1/7/25,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,69.5,Amazon,Amazon,Amazon,Amazon
+1571,1/7/25,Mich Wells,ZELLE TO PSICOLOGO ON 01/07,-100,Psicologo,Medical,Psicologo,Psicologo
+953,1/6/25,Mich City,H&M 0345MIAMI MIAMI,-149.77,General Merchandise,General Merchandise,H&M,General Merchandise
+952,1/6/25,Mich City,STC Switzerland Travel Z?rich CHE,-1302,Travel & Entertainment,Travel & Entertainment,STC,Travel & Entertainment
+951,1/6/25,Mich City,TST* BEIRUT DORAL REST MIAMI,-111.47,Dining,Travel & Entertainment,Beirut,Dining
+276,1/6/25,Fam Wells,ONLINE TRANSFER TO BROUGH A EVERYDAY CHECKING GASOLINA,-400,Andre Gas,Auto,Transfers,Andre Gas
+278,1/6/25,Fam Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS CAR INSURANCE REPAYMENT TO SAVINGS,-230,Savings,Financial Transactions,Transfers,Car Insurance Payment
+279,1/6/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S305005109841830,-10,Tolls,Auto,SUNPASS,Tolls
+280,1/6/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385005091777546,-10,Tolls,Auto,SUNPASS,Tolls
+277,1/6/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S385005821449178,-10,Tolls,Auto,SUNPASS,Tolls
+281,1/6/25,Fam Wells,SUNPASS*ACC613078 888-865-5352 FL S585005002331577,-10,Tolls,Auto,SunPass,Tolls
+1148,1/6/25,Mich Amex,AMAZON MARKETPLACE PAMZN.COM/BILL,-276.37,Amazon,Amazon,Amazon,Amazon
+1149,1/6/25,Mich Amex,AMAZON SHOP WITH POINTS CREDIT,276.37,Amazon,Amazon,Amazon,Amazon
+1150,1/6/25,Mich Amex,RHB WEBSHOP         CHUR,-303.13,General Merchandise,General Merchandise,Unknown,General Merchandise
+1151,1/6/25,Mich Amex,SBB CFF FFS         BERN,-16.66,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+1324,1/6/25,Mich Bofa,AMAZON MKTPL*ZP2B610U1 Amzn.com/billWA,-765.12,Amazon,Amazon,Amazon,Amazon
+1323,1/6/25,Mich Bofa,INTEREST CHARGED ON PURCHASES,-42.52,Bank Fees,Financial Transactions,Financial Transactions,Bank Fees
+1573,1/6/25,Mich Wells,"BK OF AMER MC ONLINE PMT 250106 CKF828154125POS FALENI FERNANDEZ,MICHE",300,Card Payment,Financial Transactions,Bank of America,Card Payment
+1572,1/6/25,Mich Wells,CHASE CREDIT CRD AUTOPAY 250103 FALENI MICHEL R,96.85,Card Payment,Financial Transactions,Chase,Card Payment
+1574,1/6/25,Mich Wells,ZELLE TO MICH REGIONS ON 01/04,-1080,Transfer,Financial Transactions,Zelle,Transfer
+956,1/5/25,Mich City,CHEVRON 0204900 855-285-9595,-67.69,Transport,Auto,Chevron,Transport
+954,1/5/25,Mich City,TARGET 00028480 MIAMI,107.48,General Merchandise,General Merchandise,Target,General Merchandise
+955,1/5/25,Mich City,WM SUPERCENTER #2091 DORAL,118.91,General Merchandise,General Merchandise,Walmart,General Merchandise
+960,1/4/25,Mich City,SHELL OIL57543704118 OKEECHOBEE,-75.64,Transport,Auto,Shell,Transport
+957,1/4/25,Mich City,TST* PUDDLE JUMPERS LA TAVARES,-21.76,Dining,Travel & Entertainment,TST,Dining
+959,1/4/25,Mich City,TST*LISBON PORTUGUESE Orlando,-283.35,Dining,Travel & Entertainment,TST,Dining
+958,1/4/25,Mich City,TST*SOYA 2 doral,-164.74,Dining,Travel & Entertainment,TST,Dining
+1152,1/4/25,Mich Amex,U-HAUL 787071       PHOENIX,-45.96,Transport,Travel & Entertainment,U-Haul,Transport
+961,1/3/25,Mich City,WAWA 5442 TAVARES,-22,Transport,Travel & Entertainment,Wawa,Transport
+1153,1/3/25,Mich Amex,A3DM,-96.89,General Merchandise,General Merchandise,Unknown,General Merchandise
+1325,1/3/25,Mich Bofa,BA ELECTRONIC PAYMENT,300,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+962,1/2/25,Mich City,SQ *CEVICHE MIX Winter Garden,-51.55,Dining,Travel & Entertainment,Ceviche Mix,Dining
+963,1/2/25,Mich City,TST*CROOKED CAN BREWIN Winter Garden,-24.04,Dining,Travel & Entertainment,Crooked Can Brewing,Dining
+964,1/2/25,Mich City,TST*HUNGER STREET TACO Winter Garden,-47.12,Dining,Travel & Entertainment,Hunger Street Taco,Dining
+283,1/2/25,Fam Wells,Kukenam Summer C 241231 84184896 ANDREINA FALENI ANDREI,-409.16,Education,Education,Kukenam,Education
+282,1/2/25,Fam Wells,PENNYMAC CASH Jan 25-0052 Michel Faleni,-2883.78,Home,Home,Balmoral Estates,Home
+285,1/2/25,Fam Wells,RECURRING TRANSFER FROM FALENI M CHECKING SUELDO MICH,4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+284,1/2/25,Fam Wells,ZELLE TO BROUGH STEPHEN ON 01/02 BALANCE GASTOS ORLANDO,-480,Travel & Entertainment,Travel & Entertainment,AppleCard,Travel & Entertainment
+1575,1/2/25,Mich Wells,APPLECARD GSBANK PAYMENT 123124 1881361 Michel Faleni,251.48,Card Payment,Financial Transactions,Financial Transactions,Card Payment
+1577,1/2/25,Mich Wells,RECURRING TRANSFER TO FALENI M CHECKING SUELDO MICH,-4850,Income Transfer,Financial Transactions,Transfers,Income Transfer
+1576,1/2/25,Mich Wells,RECURRING TRANSFER TO FALENI M PLATINUM SAVINGS,-1174,Savings,Savings,Transfers,Savings
+966,1/1/25,Mich City,LOST CONTINENT00901959 ORLANDO,-25.5,Travel & Entertainment,Travel & Entertainment,Lost Continent,Travel & Entertainment
+965,1/1/25,Mich City,LOST CONTINENT00901959 ORLANDO,-6.5,Travel & Entertainment,Travel & Entertainment,Lost Continent,Travel & Entertainment
+968,1/1/25,Mich City,VALET PARKING 140019 ORLANDO,-75,Transport,Travel & Entertainment,Unknown,Transport
+967,1/1/25,Mich City,WATERING HOLE 00901421 ORLANDO,-38.29,Travel & Entertainment,Travel & Entertainment,Restaurant,Travel & Entertainment
+1154,1/1/25,Mich Amex,NETFLIX.COM         866-579-7172,-26.02,Streaming,Subscriptions,Netflix,Streaming
+1327,12/30/24,Mich Bofa,AMAZON MKTPL*ZP3SM4PZ2 Amzn.com/billWA,-30.68,Amazon,Amazon,Amazon,Amazon
+1326,12/30/24,Mich Bofa,AMAZON MKTPL*ZP4B631P2 Amzn.com/billWA,-85.59,Amazon,Amazon,Amazon,Amazon
+1328,12/27/24,Mich Bofa,AMAZON RETA* Z97FI6RS1 SEATTLE,-149.79,Amazon,Amazon,Amazon,Amazon
+1329,12/24/24,Mich Bofa,AMAZON MKTPL*Z922A0X71 Amzn.com/billWA,-38.51,Amazon,Amazon,Amazon,Amazon
+1331,12/23/24,Mich Bofa,AMAZON MKTPL*Z963N4ER1 Amzn.com/billWA,-106.98,Amazon,Amazon,Amazon,Amazon
+1330,12/23/24,Mich Bofa,AMAZON RETA* EU25X0KL3 SEATTLE,491.13,Amazon,Amazon,Amazon,Amazon
+1332,12/23/24,Mich Bofa,AMAZON RETA* ZE0EH33Z2 SEATTLE,-40.55,Amazon,Amazon,Amazon,Amazon
+1333,12/21/24,Mich Bofa,AMAZON MKTPL*Z97MU0GL0 Amzn.com/billWA,-39.56,Amazon,Amazon,Amazon,Amazon
+1335,12/19/24,Mich Bofa,AMAZON RETA* A05RB75X3 SEATTLE,24.34,Amazon,Amazon,Amazon,Amazon
+1334,12/19/24,Mich Bofa,AMAZON RETA* Z11NZ2TY0 SEATTLE,108.62,Amazon,Amazon,Amazon,Amazon
+1336,12/18/24,Mich Bofa,AMAZON RETA* Z19JN1JG1 SEATTLE,-235.37,Amazon,Amazon,Amazon,Amazon
+1337,12/18/24,Mich Bofa,AMZN Mktp US Amzn.com/billWA,22.84,General Merchandise,Amazon,Amazon,Amazon
+1339,12/17/24,Mich Bofa,AMAZON MKTPL*Z10TZ3PI0 Amzn.com/billWA,-17.11,Amazon,Amazon,Amazon,Amazon
+1338,12/17/24,Mich Bofa,AMAZON MKTPL*Z15KC5CE1 Amzn.com/billWA,-155.98,Amazon,Amazon,Amazon,Amazon
+1340,12/16/24,Mich Bofa,AMAZON RETA* Z11NZ2TY0 SEATTLE,-108.62,Amazon,Amazon,Amazon,Amazon
+1341,12/16/24,Mich Bofa,AMAZON RETA* ZX6603U01 SEATTLE,-31.17,Amazon,Amazon,Amazon,Amazon
+1342,12/13/24,Mich Bofa,AMAZON RETA* ZX9890ZR1 SEATTLE,-373.43,Amazon,Amazon,Amazon,Amazon
+1343,12/11/24,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,146.14,Amazon,Amazon,Amazon,Amazon
+1344,12/9/24,Mich Bofa,AMZN Mktp US*ZR7GD3L91 Amzn.com/billWA,-28.88,General Merchandise,Amazon,Amazon,Amazon
+1346,12/7/24,Mich Bofa,AMAZON MKTPL*ZR2SV9XT2 Amzn.com/billWA,-21.59,Amazon,Amazon,Amazon,Amazon
+1345,12/7/24,Mich Bofa,AMAZON MKTPLACE PMTS Amzn.com/billWA,146.14,Amazon,Amazon,Amazon,Amazon
