@@ -12,6 +12,8 @@ services:
     envVars:
       - key: PORT
         value: 5056
+      - key: APP_SECRET
+        generateValue: true
       - key: PLAID_ENV
         value: sandbox
       - key: PLAID_CLIENT_ID

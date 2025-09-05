@@ -2,6 +2,36 @@ from fernet_util import FERNET
 import hashlib
 import base64
 
+
+import base64, os, hashlib
+from cryptography.fernet import Fernet
+
+def _get_fernet():
+    fk = os.getenv("FERNET_KEY")
+    if fk:
+        try:
+            return Fernet(fk.encode("utf-8"))
+        except Exception:
+            try:
+                # support hex material pasted by mistake
+                return Fernet(base64.urlsafe_b64encode(bytes.fromhex(fk)))
+            except Exception:
+                pass
+    sec = os.getenv("APP_SECRET", "")
+    if sec:
+        key = base64.urlsafe_b64encode(hashlib.sha256(sec.encode("utf-8")).digest())
+        return Fernet(key)
+    return Fernet(Fernet.generate_key())
+
+FERNET = _get_fernet()
+
+def encrypt(s: str) -> str:
+    return FERNET.encrypt(s.encode()).decode()
+
+def decrypt(t: str) -> str:
+    return FERNET.decrypt(t.encode()).decode()
+
+
 def _make_fernet():
     # Prefer FERNET_KEY (must be 32 url-safe base64-encoded bytes / 44 chars)
     fk = os.getenv("FERNET_KEY", "").strip()
@@ -30,7 +60,7 @@ from plaid.model.item_public_token_exchange_request import ItemPublicTokenExchan
 from plaid.model.accounts_get_request import AccountsGetRequest
 from plaid.model.transactions_sync_request import TransactionsSyncRequest
 
-APP_SECRET = (os.getenv("APP_SECRET") or "dev-secret").encode()
+# APP_SECRET = (os.getenv("APP_SECRET") or "dev-secret").encode()
 # NOTE: For a proper static key: set APP_SECRET to a 32+ char random value and replace the above with Fernet(APP_SECRET32)
 
 def get_plaid_client() -> plaid_api.PlaidApi:
@@ -176,4 +206,4 @@ def transactions_get_by_date(item_id: str, start: str, end: str, account_ids=Non
   con.close()
   return {"transactions": all_txns, "total": len(all_txns)}
 
-FERNET = _make_fernet()
+# FERNET = _make_fernet()
