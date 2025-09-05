@@ -1480,13 +1480,7 @@ def _ai_suggest(desc, amount):
     try:
         from openai import OpenAI
         client = OpenAI()
-        # patched to avoid f-string braces parsing
-        prompt = (
-            "Merchant+category suggestion.\n"
-            f"Description: {desc}\n"
-            f"Amount: {amount}\n"
-            "Return JSON like {\"merchant\":\"\",\"category\":\"\",\"sub_category\":\"\"}."
-        )
+        prompt = f"Merchant+category suggestion.\nDescription: {desc}\nAmount: {amount}\nReturn JSON like {\"merchant\":\"\",\"category\":\"\",\"sub_category\":\"\"}."
         msg = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role":"user","content":prompt}],
