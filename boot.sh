@@ -4,7 +4,7 @@ set -euo pipefail
 APP_DIR="/opt/render/project/src"
 DB="$APP_DIR/finance.db"
 SEED="$APP_DIR/seed/finance.db.gz"
-CSV_CANDIDATE_1="$APP_DIR/The New Wholy Grail - CLEAN.csv"
+# CSV_CANDIDATE_1="$APP_DIR/The New Wholy Grail - CLEAN.csv"
 CSV_CANDIDATE_2="$APP_DIR/The Wholy Grail.csv"
 if [[ -f "$CSV_CANDIDATE_1" ]]; then CSV="$CSV_CANDIDATE_1"; elif [[ -f "$CSV_CANDIDATE_2" ]]; then CSV="$CSV_CANDIDATE_2"; else CSV=""; fi
 
@@ -45,8 +45,8 @@ else
 fi
 
 if [[ "$COUNT" -eq 0 && -f "$CSV" ]]; then
-  echo "BOOT: DB empty; loading from CSV with grail_loader.py"
-  python3 "$APP_DIR/grail_loader.py" --csv "$CSV" || echo "BOOT: grail_loader returned non-zero"
+#   echo "BOOT: DB empty; loading from CSV with grail_loader.py"
+#   python3 "$APP_DIR/grail_loader.py" --csv "$CSV" || echo "BOOT: grail_loader returned non-zero"
   echo "BOOT: rows after CSV: $(sqlite3 "$DB" "SELECT COUNT(*) FROM transactions;")"
 else
   echo "BOOT: Skip CSV import (rows=$COUNT; csv_exists=$( [[ -f "$CSV" ]] && echo yes || echo no ))"
