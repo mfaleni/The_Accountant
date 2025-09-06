@@ -1,22 +1,26 @@
-<!doctype html><meta charset="utf-8"><title>Plaid</title>
-<button id="link-button">Link a bank</button>
-<div id="out"></div>
+<!doctype html><html><head>
+<meta charset="utf-8"/><title>Plaid Demo</title>
 <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+</head><body>
+  <h1>Plaid Link</h1>
+  <button id="link-btn">Connect bank</button>
+  <pre id="out"></pre>
 <script>
 async function openLink(){
-  const tok = await fetch('/plaid/create_link_token',{method:'POST'}).then(r=>r.json());
-  if(!tok.link_token){ alert('Failed to create link token'); return; }
+  const tok = await fetch("/plaid/create_link_token",{method:"POST"}).then(r=>r.json());
+  if(!tok.link_token){ document.getElementById("out").textContent = JSON.stringify(tok); return; }
   const handler = Plaid.create({
     token: tok.link_token,
     onSuccess: async (public_token) => {
-      const res = await fetch('/plaid/exchange_public_token',{
-        method:'POST',headers:{'Content-Type':'application/json'},
+      const res = await fetch("/plaid/exchange_public_token",{
+        method:"POST", headers:{"Content-Type":"application/json"},
         body: JSON.stringify({ public_token })
       }).then(r=>r.json());
-      document.getElementById('out').textContent = 'Linked ✓ item_id='+(res.item_id||'?');
+      document.getElementById("out").textContent = JSON.stringify(res,null,2);
     }
   });
   handler.open();
 }
-document.getElementById('link-button').onclick=openLink;
+document.getElementById("link-btn").addEventListener("click", openLink);
 </script>
+</body></html>
