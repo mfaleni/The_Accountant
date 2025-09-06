@@ -1651,3 +1651,28 @@ def import_discard(batch_id):
 @app.get("/plaid_import")
 def plaid_import_page():
     return render_template("plaid_import.html")
+
+
+from flask import request, jsonify, render_template
+from plaid_integration import create_link_token, exchange_public_token, transactions_sync
+
+@app.post("/plaid/create_link_token")
+def create_link():
+    user_id = "user-1"
+    return jsonify({"link_token": create_link_token(user_id)})
+
+@app.post("/plaid/exchange_public_token")
+def exchange_public():
+    public_token = (request.json or {}).get("public_token")
+    if not public_token:
+        return jsonify({"error":"missing public_token"}), 400
+    return jsonify(exchange_public_token(public_token))
+
+@app.post("/plaid/transactions/sync/<item_id>")
+def plaid_sync(item_id):
+    return jsonify(transactions_sync(item_id))
+
+@app.get("/plaid/oauth/callback")
+def plaid_oauth_callback():
+    return render_template("dashboard.html")
+
