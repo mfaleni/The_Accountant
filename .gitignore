@@ -20,3 +20,9 @@ node_modules/
 seed/*.gz
 .env
 !seed/finance.db.gz
+finance.db-*
+finance.*.sqlite
+*.bak
+.backup/
+0
+*.gz

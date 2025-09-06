@@ -1,79 +1,22 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Plaid import</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:2rem;max-width:900px}
-    label{display:block;margin:.5rem 0}
-    input,button{font-size:1rem;padding:.5rem}
-    .row{display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0}
-    .card{border:1px solid #ddd;border-radius:12px;padding:1rem;margin-top:1rem}
-  </style>
-</head>
-<body>
-  <h1>Plaid staged import</h1>
-
-  <div class="card">
-    <button id="link-button">Link a bank</button>
-    <div id="link-status" style="margin-top:.5rem;color:#0a0;"></div>
-  </div>
-
-  <div class="card">
-    <h3>Fetch transactions by date</h3>
-    <div class="row">
-      <label>Item ID <input id="plaid-item" placeholder="Returned after linking"></label>
-      <label>Start <input id="start" type="date"></label>
-      <label>End <input id="end" type="date"></label>
-    </div>
-    <button id="fetch-plaid">Fetch from Plaid</button>
-    <div id="fetch-result" style="margin-top:.5rem;"></div>
-  </div>
-
-  <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
-  <script>
-    async function openLink(){
-      const tok = await fetch('/plaid/create_link_token', {method:'POST'})
-        .then(r=>r.json()).catch(()=>({}));
-      if (!tok.link_token){ alert('Failed to create link token'); return; }
-      const handler = Plaid.create({
-        token: tok.link_token,
-        onSuccess: async (public_token, metadata) => {
-          const r = await fetch('/plaid/exchange_public_token',{
-            method:'POST', headers:{'Content-Type':'application/json'},
-            body: JSON.stringify({ public_token })
-          }).then(r=>r.json());
-          if (r.item_id){
-            document.getElementById('plaid-item').value = r.item_id;
-            document.getElementById('link-status').textContent = 'Linked ✓ item_id: ' + r.item_id;
-          }
-        },
-        onExit: (err) => { if(err) console.warn(err); }
-      });
-      handler.open();
-    }
-    document.getElementById('link-button').addEventListener('click', openLink);
-
-    document.getElementById('fetch-plaid').onclick = async () => {
-      const item = document.getElementById('plaid-item').value.trim();
-      const start = document.getElementById('start').value;
-      const end = document.getElementById('end').value;
-      if(!item||!start||!end){ alert('Enter item + dates'); return; }
-      const r = await fetch('/import/plaid/start', {
-        method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ item_id:item, start_date:start, end_date:end })
+<!doctype html><meta charset="utf-8"><title>Plaid</title>
+<button id="link-button">Link a bank</button>
+<div id="out"></div>
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script>
+async function openLink(){
+  const tok = await fetch('/plaid/create_link_token',{method:'POST'}).then(r=>r.json());
+  if(!tok.link_token){ alert('Failed to create link token'); return; }
+  const handler = Plaid.create({
+    token: tok.link_token,
+    onSuccess: async (public_token) => {
+      const res = await fetch('/plaid/exchange_public_token',{
+        method:'POST',headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ public_token })
       }).then(r=>r.json());
-      if (r.batch_id){
-        const s = await fetch(`/import/suggest/${r.batch_id}`, {method:'POST'}).then(r=>r.json());
-        document.getElementById('fetch-result').innerHTML =
-          `Batch #${r.batch_id} (raw: ${r.raw_inserted}) — suggestions: ${s.suggested}. ` +
-          `<a href="/import/review/${r.batch_id}.csv">Download CSV</a> ` +
-          `| <a href="/import/review/${r.batch_id}.json" target="_blank">JSON</a>`;
-      } else {
-        document.getElementById('fetch-result').textContent = JSON.stringify(r);
-      }
-    };
-  </script>
-</body>
-</html>
+      document.getElementById('out').textContent = 'Linked ✓ item_id='+(res.item_id||'?');
+    }
+  });
+  handler.open();
+}
+document.getElementById('link-button').onclick=openLink;
+</script>

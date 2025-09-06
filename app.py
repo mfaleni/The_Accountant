@@ -23,6 +23,8 @@ STATIC_DIR   = os.path.join(BASE_DIR, "static")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
+from routes_import import import_bp
+app.register_blueprint(import_bp)
 @app.get("/favicon.ico")
 def favicon():
     try:
@@ -1676,3 +1678,9 @@ def plaid_sync(item_id):
 def plaid_oauth_callback():
     return render_template("dashboard.html")
 
+
+
+@app.get("/plaid")
+def plaid_page():
+    from flask import render_template
+    return render_template("plaid.html")
