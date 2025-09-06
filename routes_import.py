@@ -1,7 +1,33 @@
 import io, csv, json, hashlib, os
 import sqlite3
 from flask import Blueprint, request, jsonify, send_file
-from database import get_or_create_account, get_db  # your helpers
+import os, sqlite3
+
+# Try to import only get_or_create_account; provide a fallback if it is missing.
+try:
+    from database import get_or_create_account  # type: ignore
+except Exception:
+    def get_or_create_account(cur, name, external_id=None):
+        # Minimal fallback: ensure an account row exists by name and return its id.
+        row = cur.execute("SELECT id FROM accounts WHERE name=? LIMIT 1", (name,)).fetchone()
+        if row:
+            try:
+                return row["id"]
+            except Exception:
+                return row[0]
+        cur.execute("INSERT INTO accounts(name) VALUES(?)", (name,))
+        return cur.lastrowid
+
+def get_db():
+    # Resolve DB path from env or default to finance.db next to app.
+    db = os.getenv("DATABASE_URL") or os.getenv("FINANCE_DB")
+    if not db:
+        from pathlib import Path as _P
+        db = str(_P(__file__).with_name("finance.db"))
+    con = sqlite3.connect(db)
+    con.row_factory = sqlite3.Row
+    return con
+  # your helpers
 from plaid_integration import transactions_get_by_date
 
 import_bp = Blueprint("staged_import", __name__)
