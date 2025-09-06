@@ -100,7 +100,59 @@
                     <button id="clear-filter-btn" class="hidden text-xs text-blue-500 hover:underline">Clear Filter</button>
                 </div>
                 <div id="transaction-list" class="space-y-2 max-h-[100vh] overflow-y-auto"></div>
-            </main>
+            
+<!-- Plaid CTA -->
+<div style="margin:1rem 0">
+  <button id="plaid-link-btn" type="button"
+          style="padding:.6rem 1rem; background:#0f172a; color:#fff; border:0; border-radius:.5rem; cursor:pointer">
+    Link bank (Plaid)
+  </button>
+  <div id="plaid-result" style="margin-top:.5rem; font:14px/1.4 system-ui, -apple-system, Segoe UI, Roboto"></div>
+</div>
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script>
+async function openPlaid(){
+  try{
+    const resp = await fetch('/plaid/create_link_token', { method:'POST' });
+    const data = await resp.json().catch(()=> ({}));
+    if(!data || !data.link_token){
+      document.getElementById('plaid-result').textContent = 'Could not create link token';
+      return;
+    }
+    const handler = Plaid.create({
+      token: data.link_token,
+      onSuccess: async (public_token, metadata) => {
+        try{
+          const ex = await fetch('/plaid/exchange_public_token', {
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ public_token })
+          });
+          const out = await ex.json().catch(()=> ({}));
+          document.getElementById('plaid-result').textContent =
+            out.item_id ? ('Linked ✓ item_id=' + out.item_id) : JSON.stringify(out);
+        }catch(e){
+          document.getElementById('plaid-result').textContent = 'Exchange failed: ' + e;
+        }
+      },
+      onExit: (err, metadata) => {
+        if(err){
+          document.getElementById('plaid-result').textContent = 'Exited: ' + (err.error_message || 'user cancelled');
+        }
+      }
+    });
+    handler.open();
+  }catch(e){
+    console.error(e);
+    document.getElementById('plaid-result').textContent = 'Plaid init failed: ' + e;
+  }
+}
+document.addEventListener('DOMContentLoaded', function(){
+  const btn = document.getElementById('plaid-link-btn');
+  if(btn) btn.addEventListener('click', openPlaid);
+});
+</script>
+</main>
 
             <div class="bg-white p-4 rounded-lg shadow-md">
     <h3 class="text-lg font-semibold mb-4 border-b pb-2">Data Management</h3>
