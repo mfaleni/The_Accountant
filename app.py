@@ -23,6 +23,9 @@ STATIC_DIR   = os.path.join(BASE_DIR, "static")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
+
+from routes_plaiddev import plaiddev_bp
+app.register_blueprint(plaiddev_bp)
 from routes_import import import_bp
 app.register_blueprint(import_bp)
 @app.get("/favicon.ico")

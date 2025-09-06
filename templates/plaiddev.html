@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head>
+  <meta charset="utf-8" />
+  <title>Plaid Link (dev)</title>
+  <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+  <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:2rem} button{padding:.7rem 1rem}</style>
+</head><body>
+  <h1>Plaid Link — Dev</h1>
+  <p>Uses /plaiddev/* endpoints (safe on this branch).</p>
+  <button id="link-btn">Open Plaid Link</button>
+  <pre id="out" style="margin-top:1rem;white-space:pre-wrap"></pre>
+  <script>
+  async function openLink(){
+    try{
+      const tok = await fetch('/plaiddev/create_link_token',{method:'POST'}).then(r=>r.json());
+      if(!tok.link_token){ document.getElementById('out').textContent='No link_token: '+JSON.stringify(tok); return; }
+      const handler = Plaid.create({
+        token: tok.link_token,
+        onSuccess: async (public_token) => {
+          const res = await fetch('/plaiddev/exchange_public_token',{
+            method:'POST',headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ public_token })
+          }).then(r=>r.json());
+          document.getElementById('out').textContent='Linked ✓\\n'+JSON.stringify(res,null,2);
+        },
+        onExit: (err) => { if(err) document.getElementById('out').textContent='Exit: '+err.error_code; }
+      });
+      handler.open();
+    }catch(e){ document.getElementById('out').textContent='Error: '+e; }
+  }
+  document.getElementById('link-btn').addEventListener('click', openLink);
+  </script>
+</body></html>
