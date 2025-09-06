@@ -302,5 +302,66 @@
         </div>
     </div>
 </div>
-    </body>
+    
+<!-- === Plaid Link + Staged Import === -->
+<section class="mt-4 p-3 border rounded">
+  <h3>Link a bank (Plaid)</h3>
+  <button id="link-button" class="btn">Link a bank</button>
+  <div id="link-status" style="margin-top:.5rem;"></div>
+</section>
+
+<section class="mt-4 p-3 border rounded">
+  <h3>Plaid staged import</h3>
+  <label>Item ID <input id="plaid-item" placeholder="PLAID_ITEM_ID" style="margin-right:.5rem;"></label>
+  <label>Start <input id="start" type="date" style="margin-right:.5rem;"></label>
+  <label>End <input id="end" type="date" style="margin-right:.5rem;"></label>
+  <button id="fetch-plaid">Fetch from Plaid</button>
+  <div id="fetch-result" style="margin-top:.5rem;"></div>
+</section>
+
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script>
+  async function openLink() {
+    const tok = await fetch('/plaid/create_link_token', {method:'POST'}).then(r=>r.json()).catch(()=>({}));
+    if (!tok || !tok.link_token){ alert('Failed to create link token'); return; }
+    const handler = Plaid.create({
+      token: tok.link_token,
+      onSuccess: async (public_token, metadata) => {
+        const res = await fetch('/plaid/exchange_public_token', {
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ public_token })
+        }).then(r=>r.json()).catch(()=>({}));
+        document.getElementById('link-status').textContent = res.item_id ? ('Linked ✓ ('+res.item_id+')') : 'Linked ✓';
+        if (res && res.item_id){
+          await fetch('/plaid/transactions/sync/' + res.item_id, {method:'POST'}).catch(()=>{});
+          location.reload();
+        }
+      },
+      onExit: (err) => { if (err) console.warn('Plaid Link exit', err); }
+    });
+    handler.open();
+  }
+  document.getElementById('link-button').addEventListener('click', openLink);
+
+  document.getElementById('fetch-plaid').addEventListener('click', async () => {
+    const item = document.getElementById('plaid-item').value.trim();
+    const start = document.getElementById('start').value;
+    const end = document.getElementById('end').value;
+    if (!item || !start || !end){ alert('Enter item id + dates'); return; }
+    const r = await fetch('/import/plaid/start', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ item_id: item, start_date: start, end_date: end })
+    }).then(r=>r.json());
+    if (r.batch_id){
+      const s = await fetch(`/import/suggest/${r.batch_id}`, {method:'POST'}).then(r=>r.json());
+      document.getElementById('fetch-result').innerHTML =
+        `Batch #${r.batch_id} (raw: ${r.raw_inserted}) — suggestions: ${s.suggested}. ` +
+        `<a href="/import/review/${r.batch_id}.csv">Download CSV</a> ` +
+        `| <a href="/import/review/${r.batch_id}.json" target="_blank">JSON</a>`;
+    } else {
+      document.getElementById('fetch-result').textContent = JSON.stringify(r);
+    }
+  });
+</script>
+</body>
 </html>
