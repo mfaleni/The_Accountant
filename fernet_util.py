@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 def _make_fernet():
     fk = (os.getenv("FERNET_KEY") or "").strip()
     if fk:
-        pad = (-len(fk)) % 4
+        pad = (-len(fk)) % 4  # pad to multiple of 4
         fk2 = fk + ("=" * pad)
         try:
             raw = base64.urlsafe_b64decode(fk2.encode("utf-8"))
