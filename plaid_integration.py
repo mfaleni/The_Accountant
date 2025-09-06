@@ -1,3 +1,5 @@
+from fernet_util import FERNET as __FERNET_FROM_UTIL__
+FERNET = __FERNET_FROM_UTIL__  # from fernet_util
 import os, json, sqlite3
 from typing import Optional, List, Dict
 from fernet_util import encrypt, decrypt
