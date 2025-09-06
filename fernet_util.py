@@ -17,7 +17,6 @@ def _make_fernet():
         raw32 = hashlib.sha256(sec.encode("utf-8")).digest()[:32]
         fk2 = base64.urlsafe_b64encode(raw32).decode("utf-8")
         return Fernet(fk2.encode("utf-8"))
-    # last resort (ephemeral)
     return Fernet(Fernet.generate_key())
 
 FERNET = _make_fernet()
