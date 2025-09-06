@@ -1466,7 +1466,7 @@ if __name__ == "__main__":
 from flask import request, jsonify, send_file, render_template
 import json, io, csv, sqlite3, hashlib, os
 import database
-from plaid_integration import transactions_get_by_date
+from plaid_integration import create_link_token, exchange_public_token, transactions_get_by_date
 from database import get_or_create_account
 
 def _rule_suggest(cat_rules, desc: str):
@@ -1656,7 +1656,7 @@ def plaid_import_page():
 
 
 from flask import request, jsonify, render_template
-from plaid_integration import create_link_token, exchange_public_token, @app.post("/plaid/create_link_token")
+from plaid_integration import create_link_token, exchange_public_token, transactions_get_by_date
 def create_link():
     user_id = "user-1"
     return jsonify({"link_token": create_link_token(user_id)})
@@ -1671,7 +1671,7 @@ def exchange_public():
 @app.post("/plaid/transactions/sync/<item_id>")
 def plaid_sync(item_id):
     from flask import jsonify
-    return jsonify({"error": "Plaid sync not enabled on this deploy"}), 501
+    return jsonify({"error":"Plaid sync not enabled"}), 501
 
 @app.get("/plaid/oauth/callback")
 def plaid_oauth_callback():
