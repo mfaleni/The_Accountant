@@ -1671,8 +1671,7 @@ def exchange_public():
 @app.post("/plaid/transactions/sync/<item_id>")
 def plaid_sync(item_id):
     from flask import jsonify
-    return jsonify({"error":"Plaid sync not enabled on this deploy"}), 501
-
+    return jsonify({"error": "Plaid sync not enabled on this deploy"}), 501
 
 @app.get("/plaid/oauth/callback")
 def plaid_oauth_callback():
