@@ -2,6 +2,7 @@
 import io, json
 import os, csv, traceback
 from datetime import datetime
+import requests
 from flask import Flask, request, jsonify, Response, send_from_directory
 from dotenv import load_dotenv
 import pandas as pd
@@ -1686,3 +1687,14 @@ def plaid_oauth_callback():
 def plaid_page():
     from flask import render_template
     return render_template("plaid.html")
+
+
+@app.post("/plaid/create_link_token")
+def _plaid_create_link_token():
+    from flask import jsonify, session
+    user_id = (session.get("user_id") or "local-dev-user")
+    try:
+        tok = create_link_token(user_id)
+        return jsonify({"link_token": tok})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500

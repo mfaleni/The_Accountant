@@ -904,3 +904,59 @@ document.addEventListener('DOMContentLoaded', () => {
   // -------------------------------
   fetchAndRenderAllData();
 });
+
+
+/* PLAID-LINK-START */
+async function plaidCreateToken() {
+  try {
+    const r = await fetch('/plaid/create_link_token', { method:'POST' });
+    if (!r.ok) {
+      const text = await r.text();
+      alert('Plaid error (create): HTTP ' + r.status + ' ' + text.slice(0,200));
+      return null;
+    }
+    const d = await r.json();
+    if (!d.link_token) {
+      alert('Plaid error: no link_token in response');
+      return null;
+    }
+    return d.link_token;
+  } catch (e) {
+    alert('Plaid error (create): ' + e);
+    return null;
+  }
+}
+
+async function openPlaidLink() {
+  const token = await plaidCreateToken();
+  if (!token) return;
+
+  const handler = Plaid.create({
+    token,
+    onSuccess: async function(public_token, metadata) {
+      try {
+        const r = await fetch('/plaid/exchange_public_token', {
+          method: 'POST',
+          headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ public_token })
+        });
+        const d = await r.json().catch(()=> ({}));
+        if (r.ok) {
+          const out = document.getElementById('plaid-result');
+          if (out) out.textContent = 'Linked ✓ item_id=' + (d.item_id || '?');
+        } else {
+          alert('Plaid exchange failed: ' + (d.error_message || JSON.stringify(d)).slice(0,300));
+        }
+      } catch (e) {
+        alert('Plaid exchange error: ' + e);
+      }
+    },
+    onExit: function(err, metadata) {
+      if (err) console.warn('Plaid exit:', err);
+    }
+  });
+  handler.open();
+}
+
+document.getElementById('plaid-link-btn')?.addEventListener('click', openPlaidLink);
+/* PLAID-LINK-END */

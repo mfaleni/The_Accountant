@@ -105,7 +105,6 @@
 <div style="margin:1rem 0">
   <button id="plaid-link-btn" type="button"
           style="padding:.6rem 1rem; background:#0f172a; color:#fff; border:0; border-radius:.5rem; cursor:pointer">
-    Link bank (Plaid)
   </button>
   <div id="plaid-result" style="margin-top:.5rem; font:14px/1.4 system-ui, -apple-system, Segoe UI, Roboto"></div>
 </div>
@@ -152,6 +151,53 @@ document.addEventListener('DOMContentLoaded', function(){
   if(btn) btn.addEventListener('click', openPlaid);
 });
 </script>
+
+
+<!-- PLAID-LINK-START -->
+<div class="mt-4 p-3 border rounded bg-gray-50">
+  <div class="flex items-center justify-between gap-2">
+    <button id="plaid-link-btn" class="px-3 py-2 rounded bg-blue-600 text-white hover:bg-blue-700">
+      Link a bank with Plaid
+    </button>
+    <span id="plaid-link-status" class="text-sm text-gray-600"></span>
+  </div>
+</div>
+
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script>
+(function(){
+  function ready(fn){ document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn); }
+  ready(function(){
+    var btn = document.getElementById('plaid-link-btn');
+    if(!btn) return;
+    btn.addEventListener('click', async function(){
+      try{
+        const r = await fetch('/plaid/create_link_token', { method: 'POST' });
+        const j = await r.json();
+        if(!j.link_token){ alert('Failed to create link token: ' + JSON.stringify(j)); return; }
+        const handler = Plaid.create({
+          token: j.link_token,
+          onSuccess: async function(public_token, metadata){
+            const ex = await fetch('/plaid/exchange_public_token', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ public_token })
+            });
+            const out = await ex.json();
+            document.getElementById('plaid-link-status').textContent =
+              out.item_id ? ('Linked ✓ item '+ out.item_id) : ('Linked (check logs)');
+          }
+        });
+        handler.open();
+      }catch(e){
+        alert('Plaid error: ' + e);
+      }
+    });
+  });
+})();
+</script>
+<!-- PLAID-LINK-END -->
+
 </main>
 
             <div class="bg-white p-4 rounded-lg shadow-md">
@@ -420,7 +466,6 @@ document.addEventListener('DOMContentLoaded', function(){
 <div id="plaid-cta" style="margin:1rem 0">
   <a href="/plaiddev" class="btn"
      style="padding:.6rem 1rem; background:#0f172a; color:#fff; border-radius:.5rem; text-decoration:none">
-     Link bank (Plaid)
   </a>
 </div>
 </body>
