@@ -1656,9 +1656,7 @@ def plaid_import_page():
 
 
 from flask import request, jsonify, render_template
-from plaid_integration import create_link_token, exchange_public_token, transactions_sync
-
-@app.post("/plaid/create_link_token")
+from plaid_integration import create_link_token, exchange_public_token, @app.post("/plaid/create_link_token")
 def create_link():
     user_id = "user-1"
     return jsonify({"link_token": create_link_token(user_id)})
@@ -1672,7 +1670,9 @@ def exchange_public():
 
 @app.post("/plaid/transactions/sync/<item_id>")
 def plaid_sync(item_id):
-    return jsonify(transactions_sync(item_id))
+    from flask import jsonify
+    return jsonify({"error":"Plaid sync not enabled on this deploy"}), 501
+
 
 @app.get("/plaid/oauth/callback")
 def plaid_oauth_callback():
