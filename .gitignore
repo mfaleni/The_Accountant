@@ -19,3 +19,4 @@ node_modules/
 
 seed/*.gz
 .env
+!seed/finance.db.gz
