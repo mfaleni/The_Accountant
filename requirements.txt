@@ -1,4 +1,4 @@
-Flask and Server Essentials
+#Flask and Server Essentials
 flask==3.1.1
 gunicorn==23.0.0
 python-dotenv==1.1.1
@@ -9,16 +9,16 @@ Werkzeug==3.1.3
 click==8.2.1
 blinker==1.9.0
 
-Plaid Integration
+#Plaid Integration
 plaid-python>=10.0.0
 cryptography
 
-AI Features
+#AI Features
 openai==1.101.0
 
-Data Handling
+#Data Handling
 pandas==2.3.2
 python-dateutil==2.9.0.post0
 
-Utilities
+#Utilities
 requests==2.32.4
