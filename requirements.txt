@@ -114,7 +114,7 @@ yfinance==0.2.65
 gunicorn==23.0.0
 gunicorn==23.0.0
 gunicorn==23.0.0
-plaid-python
+plaid-python>=10.0.0
 cryptography
 
 
