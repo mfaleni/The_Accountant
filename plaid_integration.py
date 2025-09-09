@@ -10,16 +10,18 @@ from fernet_util import FERNET
 import sqlite3
 from flask import current_app
 
-# Configure the Plaid client using the official library
+# Configure the Plaid client by building the host URL directly from the environment variable.
+# This is the most robust method.
 plaid_env = os.getenv('PLAID_ENV', 'sandbox').lower()
-host = plaid.Environment.Sandbox  # Default
-if plaid_env == 'development':
-    host = plaid.Environment.Development
-elif plaid_env == 'production':
-    host = plaid.Environment.Production
+host_map = {
+    "sandbox": "https://sandbox.plaid.com",
+    "development": "https://development.plaid.com",
+    "production": "https://production.plaid.com"
+}
+host_url = host_map.get(plaid_env, "https://sandbox.plaid.com")
 
 configuration = plaid.Configuration(
-    host=host,
+    host=host_url,
     api_key={
         'clientId': os.getenv('PLAID_CLIENT_ID'),
         'secret': os.getenv('PLAID_SECRET'),
@@ -29,11 +31,11 @@ api_client = plaid.ApiClient(configuration)
 plaid_client = plaid_api.PlaidApi(api_client)
 
 def _get_db_connection():
-    conn = sqlite3.connect(current_app.config['DATABASE'])
-    conn.row_factory = sqlite3.Row
-    return conn
+    """Gets a database connection using the app context."""
+    return sqlite3.connect(current_app.config['DATABASE'])
 
 def create_link_token(user_id: str) -> str:
+    """Creates a Plaid Link token for a given user."""
     try:
         request = LinkTokenCreateRequest(
             user=LinkTokenCreateRequestUser(client_user_id=str(user_id)),
@@ -44,7 +46,6 @@ def create_link_token(user_id: str) -> str:
         )
         if os.getenv("PLAID_REDIRECT_URI"):
             request.redirect_uri = os.getenv("PLAID_REDIRECT_URI")
-
         response = plaid_client.link_token_create(request)
         return response['link_token']
     except plaid.ApiException as e:
@@ -52,6 +53,7 @@ def create_link_token(user_id: str) -> str:
         raise
 
 def exchange_public_token(public_token: str) -> dict:
+    """Exchanges a public token for an access token and saves it."""
     try:
         request = ItemPublicTokenExchangeRequest(public_token=public_token)
         response = plaid_client.item_public_token_exchange(request)
@@ -77,13 +79,11 @@ def exchange_public_token(public_token: str) -> dict:
         conn.commit()
         
         return {"item_id": item_id, "error": None}
-    except plaid.ApiException as e:
-        print(f"Plaid API Error exchanging token: {e.body}")
-        return {"item_id": None, "error": "Plaid API error during token exchange."}
-    except sqlite3.Error as e:
-        print(f"Database Error: {e}")
-        return {"item_id": None, "error": "Could not save Plaid item to database."}
+    except (plaid.ApiException, sqlite3.Error) as e:
+        print(f"Error during token exchange: {e}")
+        raise
 
 def transactions_get_by_date(*args, **kwargs):
+    """Placeholder for legacy compatibility."""
     return {"transactions": [], "error": "This function is deprecated."}
 
