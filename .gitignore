@@ -26,3 +26,5 @@ finance.*.sqlite
 .backup/
 0
 *.gz
+.env
+.env

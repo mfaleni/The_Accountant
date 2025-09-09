@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 # app.py — The_305_Accountant (final, suggestions-only AI; transaction_id is canonical)
 import io, json
 import os, csv, traceback
@@ -18,12 +22,24 @@ from datetime import datetime
 from flask import Flask
 import os
 
-BASE_DIR     = os.path.dirname(os.path.abspath(__file__))
+app = Flask(__name__)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
-STATIC_DIR   = os.path.join(BASE_DIR, "static")
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+DATABASE_PATH = os.path.join(BASE_DIR, "finance.db")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
+app.config['DATABASE'] = DATABASE_PATH
+app.config['SECRET_KEY'] = 'dev' # Replace with a real secret key
 
+from flask import g
+
+@app.teardown_appcontext
+def close_db(e=None):
+    db = g.pop('db', None)
+    if db is not None:
+        db.close()
 
 from routes_plaiddev import plaiddev_bp
 app.register_blueprint(plaiddev_bp)
@@ -72,7 +88,8 @@ except Exception:
 
 # init
 load_dotenv()
-DATABASE = "finance.db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE = os.path.join(BASE_DIR, "finance.db")
 
 def _to_mmddyy(s: str) -> str:
     if not s:
@@ -232,7 +249,7 @@ def api_accounts():
         conn.rollback()
         return jsonify({"error": f"Accounts operation failed: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 # ------------------- transactions -------------
@@ -286,7 +303,7 @@ def api_transactions():
     except Exception as e:
         return jsonify({"error": f"Failed to fetch transactions: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 # ------------------- inline update / quick rule upsert -------------
 @app.route("/api/update-category", methods=["POST"])
@@ -387,7 +404,7 @@ def api_summary():
     except Exception as e:
         return jsonify({"error": f"Failed to compute summary: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 # ------------------- category summary ----------
 @app.route('/api/category-summary', methods=['GET'])
@@ -419,7 +436,7 @@ def api_categories():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 # ------------------- upload (bank CSVs) -------
 # ------------------- upload (bank CSVs) -------
@@ -983,7 +1000,7 @@ def api_historical_spending():
     except Exception as e:
         return jsonify({"error": f"Failed to fetch historical spending: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 @app.route("/api/budgets", methods=["GET","POST"])
 def api_budgets():
@@ -1077,7 +1094,7 @@ def api_learn_rules_from_history():
         conn.rollback()
         return jsonify({"error": f"Learning rules failed: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
         # ---------- APPLY RULES (safe by default; overwrite with ?force=1) ----------
 @app.route('/api/apply-rules', methods=['POST'])
@@ -1104,7 +1121,7 @@ def api_apply_rules():
         conn.rollback()
         return jsonify({"error": f"Failed to apply rules: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 @app.route("/api/debug/db-stats", methods=["GET"])
 def api_debug_db_stats():
@@ -1136,7 +1153,7 @@ def api_debug_db_stats():
             "rows_this_month": row["rows_this_month"] or 0,
         })
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 @app.route("/api/repair-accounts", methods=["POST"])
 def api_repair_accounts():
@@ -1160,7 +1177,7 @@ def api_repair_accounts():
         conn.rollback()
         return jsonify({"error": f"Repair failed: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
         
 
@@ -1312,7 +1329,7 @@ def api_fix_p2p_merchants():
         except Exception: pass
         return jsonify({"error": f"Failed to fix P2P merchants: {e}"}), 500
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 @app.route('/api/debug/extract-merchants', methods=['POST'])
 def api_debug_extract_merchants():
@@ -1391,7 +1408,7 @@ def api_debug_p2p_scan():
             LIMIT ?
         """, (limit,)).fetchall()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
     texts = []
     items = []
@@ -1455,17 +1472,21 @@ def api_admin_enforce_unique_fingerprint():
         conn.commit()
         return jsonify({"created_or_exists": True})
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 # ------------------- main ---------------------
 if __name__ == "__main__":
-    if not os.path.exists(DATABASE):
-        initialize_database()
-    else:
-        initialize_database()  # safe no-op if exists
-    apply_v1_compat_migrations()  # <-- ensure columns on every boot
+    with app.app_context():
+        # These commands will now run inside a context and succeed
+        if not os.path.exists(app.config['DATABASE']):
+            initialize_database()
+        else:
+            initialize_database()
+        apply_v1_compat_migrations()
+
     app.run(host="0.0.0.0", port=5056, debug=True, use_reloader=False)
+
 # === Staged import endpoints ===
 from flask import request, jsonify, send_file, render_template
 import json, io, csv, sqlite3, hashlib, os
@@ -1698,3 +1719,10 @@ def _plaid_create_link_token():
         return jsonify({"link_token": tok})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+def _plaid_base_url():
+    env = (os.getenv("PLAID_ENV","sandbox") or "sandbox").lower()
+    return {"sandbox":"https://sandbox.plaid.com",
+            "development":"https://development.plaid.com",
+            "production":"https://production.plaid.com"}.get(env, "https://sandbox.plaid.com")

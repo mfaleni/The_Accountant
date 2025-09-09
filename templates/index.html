@@ -100,162 +100,68 @@
                     <button id="clear-filter-btn" class="hidden text-xs text-blue-500 hover:underline">Clear Filter</button>
                 </div>
                 <div id="transaction-list" class="space-y-2 max-h-[100vh] overflow-y-auto"></div>
-            
-<!-- Plaid CTA -->
-<div style="margin:1rem 0">
-  <button id="plaid-link-btn" type="button"
-          style="padding:.6rem 1rem; background:#0f172a; color:#fff; border:0; border-radius:.5rem; cursor:pointer">
-  </button>
-  <div id="plaid-result" style="margin-top:.5rem; font:14px/1.4 system-ui, -apple-system, Segoe UI, Roboto"></div>
-</div>
-<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
-<script>
-async function openPlaid(){
-  try{
-    const resp = await fetch('/plaid/create_link_token', { method:'POST' });
-    const data = await resp.json().catch(()=> ({}));
-    if(!data || !data.link_token){
-      document.getElementById('plaid-result').textContent = 'Could not create link token';
-      return;
-    }
-    const handler = Plaid.create({
-      token: data.link_token,
-      onSuccess: async (public_token, metadata) => {
-        try{
-          const ex = await fetch('/plaid/exchange_public_token', {
-            method:'POST',
-            headers:{'Content-Type':'application/json'},
-            body: JSON.stringify({ public_token })
-          });
-          const out = await ex.json().catch(()=> ({}));
-          document.getElementById('plaid-result').textContent =
-            out.item_id ? ('Linked ✓ item_id=' + out.item_id) : JSON.stringify(out);
-        }catch(e){
-          document.getElementById('plaid-result').textContent = 'Exchange failed: ' + e;
-        }
-      },
-      onExit: (err, metadata) => {
-        if(err){
-          document.getElementById('plaid-result').textContent = 'Exited: ' + (err.error_message || 'user cancelled');
-        }
-      }
-    });
-    handler.open();
-  }catch(e){
-    console.error(e);
-    document.getElementById('plaid-result').textContent = 'Plaid init failed: ' + e;
-  }
-}
-document.addEventListener('DOMContentLoaded', function(){
-  const btn = document.getElementById('plaid-link-btn');
-  if(btn) btn.addEventListener('click', openPlaid);
-});
-</script>
+            </main>
 
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-4 border-b pb-2">Data Management</h3>
 
-<!-- PLAID-LINK-START -->
-<div class="mt-4 p-3 border rounded bg-gray-50">
-  <div class="flex items-center justify-between gap-2">
-    <button id="plaid-link-btn" class="px-3 py-2 rounded bg-blue-600 text-white hover:bg-blue-700">
-      Link a bank with Plaid
-    </button>
-    <span id="plaid-link-status" class="text-sm text-gray-600"></span>
-  </div>
-</div>
+        <div class="mb-6">
+            <h4 class="font-semibold mb-2 text-gray-700">Accounts</h4>
+            <div id="account-list" class="space-y-1 mb-2"></div>
+            <form id="add-account-form" class="flex space-x-2">
+                <input type="text" id="new-account-name" placeholder="New Account Name" class="flex-grow input-field" />
+                <button type="submit" class="btn-primary">Add</button>
+            </form>
+        </div>
 
-<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
-<script>
-(function(){
-  function ready(fn){ document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn); }
-  ready(function(){
-    var btn = document.getElementById('plaid-link-btn');
-    if(!btn) return;
-    btn.addEventListener('click', async function(){
-      try{
-        const r = await fetch('/plaid/create_link_token', { method: 'POST' });
-        const j = await r.json();
-        if(!j.link_token){ alert('Failed to create link token: ' + JSON.stringify(j)); return; }
-        const handler = Plaid.create({
-          token: j.link_token,
-          onSuccess: async function(public_token, metadata){
-            const ex = await fetch('/plaid/exchange_public_token', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ public_token })
-            });
-            const out = await ex.json();
-            document.getElementById('plaid-link-status').textContent =
-              out.item_id ? ('Linked ✓ item '+ out.item_id) : ('Linked (check logs)');
-          }
-        });
-        handler.open();
-      }catch(e){
-        alert('Plaid error: ' + e);
-      }
-    });
-  });
-})();
-</script>
-<!-- PLAID-LINK-END -->
+        <div class="mb-6">
+            <h4 class="font-semibold mb-2 text-gray-700">Import New Transactions</h4>
+            <form id="import-form" class="space-y-2">
+                <select id="import-account-select" class="input-field w-full"></select>
+                <input type="file" id="csv-file" class="input-field w-full" />
+                <button type="submit" class="btn-primary w-full">Upload New File</button>
+            </form>
+        </div>
 
-</main>
+        <div class="mb-6">
+            <h4 class="font-semibold mb-2 text-gray-700">Connect Bank</h4>
+            <button id="plaid-link-btn" class="btn-primary w-full">Link a bank with Plaid</button>
+            <div id="plaid-result" class="mt-2 text-sm text-gray-600"></div>
+        </div>
 
-            <div class="bg-white p-4 rounded-lg shadow-md">
-    <h3 class="text-lg font-semibold mb-4 border-b pb-2">Data Management</h3>
-
-    <div class="mb-6">
-        <h4 class="font-semibold mb-2 text-gray-700">Accounts</h4>
-        <div id="account-list" class="space-y-1 mb-2"></div>
-        <form id="add-account-form" class="flex space-x-2">
-            <input type="text" id="new-account-name" placeholder="New Account Name" class="flex-grow input-field" />
-            <button type="submit" class="btn-primary">Add</button>
-        </form>
+        <div>
+            <h4 class="font-semibold mb-2 text-gray-700">Export All to CSV Corrections Module</h4>
+            <div class="mb-4">
+                <p class="text-xs text-gray-500 mb-1">Begin by exporting your transactions to a CSV file.</p>
+                <button id="export-csv-btn" class="btn-secondary w-full">Export All to CSV</button>
+        </div>
+        <div>
+            <p class="text-xs text-gray-500 mb-1">After editing, import the corrected file below.</p>
+            <form id="import-corrections-form" class="space-y-2">
+                <label for="corrections-csv-file" class="text-sm font-medium text-gray-600">Choose File</label>
+                <input type="file" id="corrections-csv-file" class="w-full" />
+                <button type="submit" class="btn-primary w-full">Import Corrections</button>
+            </form>
+        </div>
     </div>
 
-    <div class="mb-6">
-        <h4 class="font-semibold mb-2 text-gray-700">Import New Transactions</h4>
-        <form id="import-form" class="space-y-2">
-            <select id="import-account-select" class="input-field w-full"></select>
-            <input type="file" id="csv-file" class="input-field w-full" />
-            <button type="submit" class="btn-primary w-full">Upload New File</button>
-        </form>
+        <!-- ACTIONS: Rules & Merchants -->
+    <div class="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
+      <!-- Safe re-apply (fills blanks only) -->
+      <button id="apply-rules-btn" class="btn-primary">
+        Rules → Apply Learned (safe)
+      </button>
+
+      <!-- Force re-apply (overwrite finals) -->
+      <button id="apply-rules-force-btn" class="btn-danger">
+        Rules → Apply Learned (OVERWRITE)
+      </button>
+
+      <!-- Merchant extractor for blanks -->
+      <button id="extract-merchants-btn" class="btn-secondary">
+        Merchants → Extract names for blanks
+      </button>
     </div>
-
-<div>
-    <h4 class="font-semibold mb-2 text-gray-700">Export All to CSV Corrections Module</h4>
-    
-    <div class="mb-4">
-        <p class="text-xs text-gray-500 mb-1">Begin by exporting your transactions to a CSV file.</p>
-        <button id="export-csv-btn" class="btn-secondary w-full">Export All to CSV</button>
-    </div>
-
-    <div>
-         <p class="text-xs text-gray-500 mb-1">After editing, import the corrected file below.</p>
-        <form id="import-corrections-form" class="space-y-2">
-            <label for="corrections-csv-file" class="text-sm font-medium text-gray-600">Choose File</label>
-            <input type="file" id="corrections-csv-file" class="w-full" />
-            <button type="submit" class="btn-primary w-full">Import Corrections</button>
-        </form>
-    </div>
-</div>
-
-    <!-- ACTIONS: Rules & Merchants -->
-<div class="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
-  <!-- Safe re-apply (fills blanks only) -->
-  <button id="apply-rules-btn" class="btn-primary">
-    Rules → Apply Learned (safe)
-  </button>
-
-  <!-- Force re-apply (overwrite finals) -->
-  <button id="apply-rules-force-btn" class="btn-danger">
-    Rules → Apply Learned (OVERWRITE)
-  </button>
-
-  <!-- Merchant extractor for blanks -->
-  <button id="extract-merchants-btn" class="btn-secondary">
-    Merchants → Extract names for blanks
-  </button>
-</div>
 
             </div>
 
@@ -402,71 +308,24 @@ document.addEventListener('DOMContentLoaded', function(){
 </div>
     
 <!-- === Plaid Link + Staged Import === -->
-<section class="mt-4 p-3 border rounded">
-  <h3>Link a bank (Plaid)</h3>
-  <button id="link-button" class="btn">Link a bank</button>
-  <div id="link-status" style="margin-top:.5rem;"></div>
-</section>
-
-<section class="mt-4 p-3 border rounded">
-  <h3>Plaid staged import</h3>
-  <label>Item ID <input id="plaid-item" placeholder="PLAID_ITEM_ID" style="margin-right:.5rem;"></label>
-  <label>Start <input id="start" type="date" style="margin-right:.5rem;"></label>
-  <label>End <input id="end" type="date" style="margin-right:.5rem;"></label>
-  <button id="fetch-plaid">Fetch from Plaid</button>
-  <div id="fetch-result" style="margin-top:.5rem;"></div>
-</section>
-
-<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
-<script>
-  async function openLink() {
-    const tok = await fetch('/plaid/create_link_token', {method:'POST'}).then(r=>r.json()).catch(()=>({}));
-    if (!tok || !tok.link_token){ alert('Failed to create link token'); return; }
-    const handler = Plaid.create({
-      token: tok.link_token,
-      onSuccess: async (public_token, metadata) => {
-        const res = await fetch('/plaid/exchange_public_token', {
-          method:'POST', headers:{'Content-Type':'application/json'},
-          body: JSON.stringify({ public_token })
-        }).then(r=>r.json()).catch(()=>({}));
-        document.getElementById('link-status').textContent = res.item_id ? ('Linked ✓ ('+res.item_id+')') : 'Linked ✓';
-        if (res && res.item_id){
-          await fetch('/plaid/transactions/sync/' + res.item_id, {method:'POST'}).catch(()=>{});
-          location.reload();
-        }
-      },
-      onExit: (err) => { if (err) console.warn('Plaid Link exit', err); }
-    });
-    handler.open();
-  }
-  document.getElementById('link-button').addEventListener('click', openLink);
-
-  document.getElementById('fetch-plaid').addEventListener('click', async () => {
-    const item = document.getElementById('plaid-item').value.trim();
-    const start = document.getElementById('start').value;
-    const end = document.getElementById('end').value;
-    if (!item || !start || !end){ alert('Enter item id + dates'); return; }
-    const r = await fetch('/import/plaid/start', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ item_id: item, start_date: start, end_date: end })
-    }).then(r=>r.json());
-    if (r.batch_id){
-      const s = await fetch(`/import/suggest/${r.batch_id}`, {method:'POST'}).then(r=>r.json());
-      document.getElementById('fetch-result').innerHTML =
-        `Batch #${r.batch_id} (raw: ${r.raw_inserted}) — suggestions: ${s.suggested}. ` +
-        `<a href="/import/review/${r.batch_id}.csv">Download CSV</a> ` +
-        `| <a href="/import/review/${r.batch_id}.json" target="_blank">JSON</a>`;
-    } else {
-      document.getElementById('fetch-result').textContent = JSON.stringify(r);
-    }
-  });
-</script>
-
-<!-- Plaid CTA -->
-<div id="plaid-cta" style="margin:1rem 0">
-  <a href="/plaiddev" class="btn"
-     style="padding:.6rem 1rem; background:#0f172a; color:#fff; border-radius:.5rem; text-decoration:none">
-  </a>
+<div class="mb-6">
+        <h4 class="font-semibold mb-2 text-gray-700">Import New Transactions</h4>
+        <form id="import-form" class="space-y-2">
+            <select id="import-account-select" class="input-field w-full"></select>
+            <input type="file" id="csv-file" class="input-field w-full" />
+            <button type="submit" class="btn-primary w-full">Upload New File</button>
+        </form>
+</div>
+    <div class="mb-6">
+    <h4 class="font-semibold mb-2 text-gray-700">Connect Bank</h4>
+    <button id="plaid-link-btn" class="btn-primary w-full">Link a bank with Plaid</button>
+    <div id="plaid-result" class="mt-2 text-sm text-gray-600"></div>
 </div>
 </body>
 </html>
+
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/script.js?v=1.8"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/script.js?v=1.8"></script>

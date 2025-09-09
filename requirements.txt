@@ -117,3 +117,5 @@ gunicorn==23.0.0
 plaid-python
 cryptography
 
+
+requests

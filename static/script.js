@@ -780,7 +780,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const data   = expenseRows.map(r => Math.abs(parseNum(r.total)));
 
     const ctx = canvas.getContext('2d');
-    if (spendingChart) spendingChart.destroy();
+    const existingChart = Chart.getChart('spending-chart');
+    if (existingChart) {
+        existingChart.destroy();
+}
     spendingChart = new Chart(ctx, {
       type: 'doughnut',
       data: { labels, datasets: [{ data }] },
@@ -909,7 +912,7 @@ document.addEventListener('DOMContentLoaded', () => {
 /* PLAID-LINK-START */
 async function plaidCreateToken() {
   try {
-    const r = await fetch('/plaid/create_link_token', { method:'POST' });
+    const r = await fetch('/plaiddev/create_link_token', { method:'POST' });
     if (!r.ok) {
       const text = await r.text();
       alert('Plaid error (create): HTTP ' + r.status + ' ' + text.slice(0,200));
@@ -935,7 +938,7 @@ async function openPlaidLink() {
     token,
     onSuccess: async function(public_token, metadata) {
       try {
-        const r = await fetch('/plaid/exchange_public_token', {
+        const r = await fetch('/plaiddev/exchange_public_token', {
           method: 'POST',
           headers: {'Content-Type':'application/json'},
           body: JSON.stringify({ public_token })

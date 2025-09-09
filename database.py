@@ -43,6 +43,7 @@ import hashlib
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime, date, timedelta
 from parser import extract_zelle_to_from, extract_to_from_party
+from flask import current_app, g
 
 import pandas as pd
 from dateutil.relativedelta import relativedelta
@@ -51,19 +52,29 @@ from dateutil.relativedelta import relativedelta
 # Paths / connection
 # -------------------------------------------------------------------
 
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(PROJECT_DIR, "finance.db")
 
+import sqlite3
+from flask import current_app, g
 
 def get_db_connection():
-    conn = sqlite3.connect(DB_PATH, detect_types=sqlite3.PARSE_DECLTYPES, timeout=30.0)
-    conn.row_factory = sqlite3.Row
-    conn.execute("PRAGMA foreign_keys=ON")
-    conn.execute("PRAGMA journal_mode=WAL")
-    conn.execute("PRAGMA synchronous=NORMAL")
-    conn.execute("PRAGMA busy_timeout=5000")
-    return conn
+    if 'db' not in g:
+        # Connect to the database path from the app's central config
+        conn = sqlite3.connect(
+            current_app.config['DATABASE'],
+            detect_types=sqlite3.PARSE_DECLTYPES,
+            timeout=30.0
+        )
+        conn.row_factory = sqlite3.Row
 
+        # Your critical settings to prevent database locking issues
+        conn.execute("PRAGMA foreign_keys=ON")
+        conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA synchronous=NORMAL")
+        conn.execute("PRAGMA busy_timeout=5000")
+
+        g.db = conn
+    
+    return g.db
 # --- Stronger normalization for global fingerprinting ---
 _REF_TOKEN_RE   = re.compile(r"(?i)\bref(?:erence)?\s*#?\s*[\w-]+\b")
 _MASKED_RE      = re.compile(r"(?i)\bX{2,}\d+\b|\bx{2,}\d+\b")  # XXXXXX4311, xxx1234
@@ -192,8 +203,9 @@ def initialize_database():
         )
         conn.commit()
         print("Database schema created/verified successfully (transaction_id is UNIQUE).")
+
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def apply_v1_compat_migrations():
@@ -245,7 +257,7 @@ def apply_v1_compat_migrations():
         """)
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def ensure_unique_fp_index() -> dict:
@@ -263,8 +275,7 @@ def ensure_unique_fp_index() -> dict:
             # This can fail if duplicates still exist at index-creation time
             return {"created_or_exists": False, "error": str(e)}
     finally:
-        conn.close()
-
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 # -------------------------------------------------------------------
 # Helpers
@@ -693,7 +704,7 @@ def list_accounts() -> List[Dict]:
         rows = conn.execute("SELECT id, name FROM accounts ORDER BY name").fetchall()
         return [dict(r) for r in rows]
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 # -------------------------------------------------------------------
@@ -863,7 +874,7 @@ def autofill_subcategory_for_tx(transaction_id: str, category: Optional[str] = N
         conn.commit()
         return sub
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 
@@ -988,7 +999,7 @@ def add_transactions_df(df: pd.DataFrame, account_name: str) -> Tuple[int, int]:
         conn.commit()
         return added, skipped
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 
@@ -1081,7 +1092,7 @@ def fetch_transactions(
         q += " ORDER BY t.transaction_date DESC, t.id DESC"
         return [dict(r) for r in conn.execute(q, args).fetchall()]
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def fetch_summary(start_date: Optional[str] = None, end_date: Optional[str] = None) -> Dict:
@@ -1116,7 +1127,7 @@ def fetch_summary(start_date: Optional[str] = None, end_date: Optional[str] = No
 
         return {"income": float(income), "expenses": float(expenses), "balance": float(income + expenses)}
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def fetch_category_summary(
@@ -1145,7 +1156,7 @@ def fetch_category_summary(
         q += " GROUP BY category, subcategory ORDER BY ABS(SUM(amount)) DESC"
         return [dict(r) for r in conn.execute(q, args).fetchall()]
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def update_transaction_category_by_txid(
@@ -1165,7 +1176,7 @@ def update_transaction_category_by_txid(
             )
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 # -------------------------------------------------------------------
@@ -1178,7 +1189,7 @@ def get_user_profile() -> Dict:
         row = conn.execute("SELECT * FROM user_profile WHERE id=1").fetchone()
         return dict(row) if row else {"annual_after_tax_income": None, "household_size": 1, "currency": "USD"}
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def set_user_profile(annual_after_tax_income: Optional[float], household_size: int = 1, currency: str = "USD"):
@@ -1198,7 +1209,7 @@ def set_user_profile(annual_after_tax_income: Optional[float], household_size: i
         )
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def upsert_budget(category: str, limit_amount: float):
@@ -1211,7 +1222,7 @@ def upsert_budget(category: str, limit_amount: float):
         )
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def list_budgets() -> List[Dict]:
@@ -1220,7 +1231,7 @@ def list_budgets() -> List[Dict]:
         rows = conn.execute("SELECT id, category, limit_amount FROM budgets ORDER BY category").fetchall()
         return [dict(r) for r in rows]
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def estimate_budgets_from_history(months: int = 3) -> Dict[str, float]:
@@ -1247,7 +1258,7 @@ def estimate_budgets_from_history(months: int = 3) -> Dict[str, float]:
         ).fetchall()
         return {r["category"]: float(r["avg_spend"] or 0.0) for r in rows if r["category"]}
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def _month_bounds(ym: str) -> Tuple[str, str]:
@@ -1279,7 +1290,7 @@ def recompute_tracking_for_month(ym: str):
             )
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def get_budget_status(start_date: str, end_date: str) -> List[Dict]:
@@ -1315,7 +1326,7 @@ def get_budget_status(start_date: str, end_date: str) -> List[Dict]:
             )
         return out
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 
 def normalize_amount_signs():
@@ -1331,7 +1342,7 @@ def normalize_amount_signs():
         )
         conn.commit()
     finally:
-        conn.close()
+        pass # Or you can remove the `try...finally` block if it's now empty
 
 def uppercase_existing_transactions(conn=None):
     """
