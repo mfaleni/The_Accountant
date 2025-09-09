@@ -18,7 +18,10 @@ host_map = {
     "development": "https://development.plaid.com",
     "production": "https://production.plaid.com"
 }
-host_url = host_map.get(plaid_env, "https://sandbox.plaid.com")
+try:
+    host_url = host_map[plaid_env]
+except KeyError:
+    raise ValueError(f"Invalid PLAID_ENV: '{plaid_env}'. Must be one of {list(host_map.keys())}")
 
 configuration = plaid.Configuration(
     host=host_url,
