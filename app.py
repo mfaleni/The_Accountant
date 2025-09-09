@@ -21,6 +21,8 @@ from werkzeug.exceptions import NotFound
 from datetime import datetime
 from flask import Flask
 import os
+from collections import defaultdict
+from dateutil.relativedelta import relativedelta
 
 app = Flask(__name__)
 
@@ -861,35 +863,62 @@ def api_ai_categorize():
 def ai_financial_report():
     if not openai_client:
         return jsonify({"error": "OpenAI client not initialized or AI module missing."}), 500
+
     conn = get_db_connection()
-    rows = conn.execute(
-        """
-        SELECT transaction_id, transaction_date as date, cleaned_description, amount, category 
-        FROM transactions
-        WHERE category NOT IN ('Card Payment','Financial Transactions','Savings')
-           OR category IS NULL
-        ORDER BY transaction_date DESC
-        """
-    ).fetchall()
-    conn.close()
-    if not rows:
-        return jsonify({"error": "No analyzable transactions available to generate a report."}), 400
-    transaction_summary = [dict(r) for r in rows]
-    prompt = (
-        "You are a professional financial advisor. Analyze the following transactions and produce:\n"
-        "1) Monthly Spending Analysis (top 3-5 categories & flags)\n"
-        "2) Recommended Monthly Budget (with dollar amounts)\n"
-        "3) 2-3 actionable recommendations.\n\n"
-        f"Transactions JSON:\n{json.dumps(transaction_summary, indent=2)}"
-    )
     try:
+        # Step 1: Get user profile for income context
+        profile = get_user_profile()
+        annual_income = profile.get('annual_after_tax_income') if profile else None
+        if not annual_income:
+            return jsonify({"error": "Annual income is not set in your profile. Please set it to generate a report."}), 400
+
+        # Step 2: Get aggregated monthly spending for the last 18 months
+        rows = conn.execute("""
+            SELECT
+                strftime('%Y-%m', transaction_date) as month,
+                category,
+                SUM(amount) as total_spend
+            FROM transactions
+            WHERE
+                amount < 0 
+                AND category NOT IN ('Card Payment', 'Financial Transactions', 'Savings', 'Transfer')
+                AND transaction_date >= date('now', '-18 months')
+            GROUP BY 1, 2
+            ORDER BY 1, 2
+        """).fetchall()
+
+        if not rows:
+            return jsonify({"error": "No analyzable spending data from the last 18 months was found."}), 400
+
+        # Step 3: Format the data cleanly for the AI prompt
+        monthly_summary = defaultdict(dict)
+        for row in rows:
+            monthly_summary[row['month']][row['category']] = abs(round(row['total_spend'], 2))
+        
+        summary_json_string = json.dumps(dict(monthly_summary), indent=2)
+
+        # Step 4: Create the new, smarter prompt
+        prompt = (
+            f"You are a professional financial advisor. A client has provided their financial data for analysis.\n\n"
+            f"Client's Annual After-Tax Income: ${annual_income:,.2f}\n\n"
+            f"Here is their monthly spending, broken down by category, for the last 18 months:\n"
+            f"{summary_json_string}\n\n"
+            f"Based on this data, please perform the following tasks:\n"
+            f"1. Analyze their spending habits. Are there any notable patterns or high-spending categories?\n"
+            f"2. Compare their spending to typical budget percentages for someone with a similar income.\n"
+            f"3. Provide 2-3 specific and actionable recommendations on where they could save money or optimize their budget.\n"
+            f"Keep your analysis concise, easy to understand, and formatted in Markdown."
+        )
+
+        # Step 5: Call the OpenAI API
         resp = openai_client.chat.completions.create(
-            model=os.getenv("OPENAI_REPORT_MODEL","gpt-4o"),
+            model=os.getenv("OPENAI_REPORT_MODEL", "gpt-4o"),
             messages=[{"role": "user", "content": prompt}],
         )
         return jsonify({"report": resp.choices[0].message.content})
+
     except Exception as e:
-        return jsonify({"error": f"OpenAI API error: {str(e)}"}), 500
+        return jsonify({"error": f"An error occurred while generating the report: {str(e)}"}), 500
 
 # ------------------- export -------------------
 @app.route("/api/export", methods=["GET"])
@@ -982,26 +1011,37 @@ def api_profile():
 def api_historical_spending():
     conn = get_db_connection()
     try:
-        def avg_months(m):
-            return conn.execute("""
-                SELECT category, AVG(monthly_sum) AS avg_spend FROM (
-                  SELECT strftime('%Y-%m', transaction_date) AS ym, category, SUM(amount) AS monthly_sum
-                  FROM transactions
-                  WHERE transaction_date >= date('now', ?)
-                  GROUP BY ym, category
-                )
-                GROUP BY category
-            """, (f'-{m} months',)).fetchall()
-        data = {"1":{r["category"]:r["avg_spend"] or 0 for r in avg_months(1)},
-                "3":{r["category"]:r["avg_spend"] or 0 for r in avg_months(3)},
-                "6":{r["category"]:r["avg_spend"] or 0 for r in avg_months(6)},
-                "18":{r["category"]:r["avg_spend"] or 0 for r in avg_months(18)}}
-        return jsonify(data)
+        # This single, more efficient query calculates all period averages at once
+        rows = conn.execute("""
+            WITH monthly_sums AS (
+                SELECT
+                    strftime('%Y-%m', transaction_date) as month,
+                    category,
+                    SUM(amount) as total_amount
+                FROM transactions
+                WHERE 
+                    category IS NOT NULL 
+                    AND category NOT IN ('Income', 'Financial Transactions', 'Card Payment', 'Savings')
+                    AND transaction_date >= date('now', '-18 months')
+                GROUP BY 1, 2
+            )
+            SELECT
+                ms.category,
+                SUM(CASE WHEN ms.month = strftime('%Y-%m', date('now', 'start of month', '-1 month')) THEN ABS(ms.total_amount) ELSE 0 END) as avg_1m,
+                AVG(CASE WHEN date(ms.month || '-01') >= date('now', '-3 months') THEN ABS(ms.total_amount) END) as avg_3m,
+                AVG(CASE WHEN date(ms.month || '-01') >= date('now', '-6 months') THEN ABS(ms.total_amount) END) as avg_6m,
+                AVG(CASE WHEN date(ms.month || '-01') >= date('now', '-18 months') THEN ABS(ms.total_amount) END) as avg_18m
+            FROM monthly_sums ms
+            GROUP BY ms.category
+            HAVING avg_1m IS NOT NULL OR avg_3m IS NOT NULL OR avg_6m IS NOT NULL OR avg_18m IS NOT NULL
+        """).fetchall()
+
+        # Restructure the data into the format the frontend expects
+        output = {r['category']: dict(r) for r in rows}
+        return jsonify(output)
     except Exception as e:
         return jsonify({"error": f"Failed to fetch historical spending: {e}"}), 500
-    finally:
-        pass # Or you can remove the `try...finally` block if it's now empty
-
+    
 @app.route("/api/budgets", methods=["GET","POST"])
 def api_budgets():
     try:

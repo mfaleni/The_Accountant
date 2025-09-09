@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let allTransactions = [];
   let allCategories = []; // Dynamic, learned from DB (/api/categories)
   let allAccounts = [];
-  let currentFilter = { type: null, value: null, name: null, period: 'all_time' };
+  let currentFilter = { type: null, value: null, name: null, period: 'this_month' };
+  let initialLoadCheck = true;
   let spendingChart = null;
   let lastBudgetStatus = [];
 
@@ -350,7 +351,11 @@ document.addEventListener('DOMContentLoaded', () => {
     proposeBudgetBtn.disabled = true;
     proposeBudgetBtn.textContent = 'Analyzing...';
     try {
-      const response = await fetch('/api/propose-budget', { method: 'POST' });
+      const response = await fetch('/api/propose-budget', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({}) // <-- Add this line
+});
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'AI proposal failed.');
 
@@ -471,6 +476,22 @@ document.addEventListener('DOMContentLoaded', () => {
   // Fetch & Render
   // -------------------------------
   async function fetchAndRenderAllData() {
+if (initialLoadCheck && currentFilter.period === 'this_month') {
+    const { startDate, endDate } = getDateRange('this_month');
+    const params = new URLSearchParams({ start_date: startDate, end_date: endDate });
+    const txRes = await fetch(`/api/transactions?${params.toString()}`);
+    const transactionsThisMonth = await txRes.json();
+
+    if (transactionsThisMonth.length === 0) {
+        console.log("No data for 'This Month', falling back to 'Last Month'.");
+        currentFilter.period = 'last_month';
+
+        // Update the active button in the UI
+        document.querySelector('.date-filter-btn[data-period="this_month"]').classList.remove('active-filter');
+        document.querySelector('.date-filter-btn[data-period="last_month"]').classList.add('active-filter');
+    }
+}
+initialLoadCheck = false; // Prevents this check from running again
     try {
       const { startDate, endDate } = getDateRange(currentFilter.period);
       const params = new URLSearchParams();
