@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+import os, sys, sqlite3, json
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+DBPATH = os.environ.get("DBPATH") or os.path.join(ROOT, "finance.db")
+DBPATH = os.path.abspath(DBPATH)
+
+def cols(cur, table):
+    return {r[1] for r in cur.execute(f"PRAGMA table_info({table})").fetchall()}
+
+def main():
+    conn = sqlite3.connect(DBPATH)
+    cur  = conn.cursor()
+
+    t_cols = cols(cur, "transactions")
+    a_cols = cols(cur, "accounts")
+
+    # accounts: map name -> id
+    acct_map = {}
+    for i, n in cur.execute("SELECT id,name FROM accounts"):
+        acct_map[n] = i
+
+    rows = cur.execute("""
+      SELECT transaction_id, account_name, name, merchant_name, amount, date
+      FROM plaid_transactions_raw
+      ORDER BY date DESC
+    """).fetchall()
+
+    inserted = 0
+    for (txid, acct_name, name, merchant, amt, date) in rows:
+        if not txid:
+            continue
+
+        # choose account_id via account_name; create if missing
+        account_id = None
+        if acct_name:
+            account_id = acct_map.get(acct_name)
+            if account_id is None and "name" in a_cols:
+                cur.execute("INSERT INTO accounts(name) VALUES (?)", (acct_name,))
+                account_id = cur.lastrowid
+                acct_map[acct_name] = account_id
+
+        # app expects negative for expenses
+        amount = -abs(float(amt or 0.0))
+
+        data = {
+            "transaction_id": txid,
+            "account_id": account_id,
+            "transaction_date": date,
+            "amount": amount,
+            "merchant": merchant or name or "",
+            "cleaned_description": name or merchant or "",
+            "source": "plaid",
+        }
+        # keep only columns that exist in your transactions table
+        cols_to_use = [k for k in data.keys() if k in t_cols]
+        placeholders = ",".join("?" for _ in cols_to_use)
+        sql = f"INSERT OR IGNORE INTO transactions ({','.join(cols_to_use)}) VALUES ({placeholders})"
+        cur.execute(sql, tuple(data[k] for k in cols_to_use))
+        if cur.rowcount:
+            inserted += 1
+
+    conn.commit()
+    conn.close()
+    print(json.dumps({"ok": True, "inserted": inserted}))
+if __name__ == "__main__":
+    main()

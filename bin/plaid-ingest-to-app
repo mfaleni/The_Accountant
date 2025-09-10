@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+import os, json, sqlite3
+
+DEFAULT_ACCOUNT_NAME = "Plaid (unassigned)"
+
+db = os.environ.get("DBPATH") or "finance.db"
+conn = sqlite3.connect(db)
+conn.row_factory = sqlite3.Row
+cur = conn.cursor()
+
+tx_cols = {r["name"] for r in cur.execute("PRAGMA table_info(transactions)")}
+insert_cols = [c for c in [
+    "transaction_id","account_id","account_name",
+    "transaction_date","cleaned_description","merchant","amount","category",
+] if c in tx_cols]
+placeholders = ",".join(["?"]*len(insert_cols))
+sql = f"INSERT INTO transactions ({','.join(insert_cols)}) VALUES ({placeholders})"
+
+# Ensure a default local account exists
+cur.execute(
+  "INSERT INTO accounts (name) SELECT ? WHERE NOT EXISTS (SELECT 1 FROM accounts WHERE name = ?)",
+  (DEFAULT_ACCOUNT_NAME, DEFAULT_ACCOUNT_NAME)
+)
+conn.commit()
+local_acct_id = cur.execute("SELECT id FROM accounts WHERE name = ?", (DEFAULT_ACCOUNT_NAME,)).fetchone()["id"]
+
+# Optional institution labels
+try:
+    item_to_institution = {r["item_id"]: r["institution_name"] for r in cur.execute("SELECT item_id,institution_name FROM plaid_items")}
+except Exception:
+    item_to_institution = {}
+
+raw_cols = {r["name"] for r in cur.execute("PRAGMA table_info(plaid_transactions_raw)")}
+
+if "raw_json" in raw_cols:
+    rows = cur.execute("""
+        SELECT r.*
+          FROM plaid_transactions_raw r
+          LEFT JOIN transactions t
+            ON t.transaction_id = ('plaid:' || json_extract(r.raw_json,'$.transaction_id'))
+         WHERE t.id IS NULL
+         ORDER BY r.id
+    """).fetchall()
+else:
+    rows = cur.execute("""
+        SELECT r.*
+          FROM plaid_transactions_raw r
+          LEFT JOIN transactions t
+            ON t.transaction_id = ('plaid:' || r.item_id || '|' || COALESCE(r.date,'') || '|' ||
+                                   COALESCE(CAST(r.amount AS TEXT),'') || '|' || COALESCE(r.name,''))
+         WHERE t.id IS NULL
+         ORDER BY r.id
+    """).fetchall()
+
+def map_row(r):
+    tr = {}
+    if "raw_json" in r.keys() and r["raw_json"]:
+        try: tr = json.loads(r["raw_json"])
+        except Exception: tr = {}
+
+    tid   = tr.get("transaction_id") or f"{r['item_id']}|{r['date']}|{r['amount']}|{r['name'] or ''}"
+    date  = tr.get("date") or r["date"]
+    name  = tr.get("name") or r["name"]
+    merch = tr.get("merchant_name") or r["merchant_name"]
+    amt   = tr.get("amount", r["amount"] or 0) or 0
+    try: amt = float(amt)
+    except Exception: amt = 0.0
+
+    pfc = (tr.get("personal_finance_category") or {}).get("primary") or ""  # e.g., INCOME_WAGES, TRANSFER_IN, TRANSFER_OUT
+
+    # Classification rules:
+    is_transfer = pfc.startswith("TRANSFER_")
+    is_income   = pfc.startswith("INCOME")
+
+    if is_transfer:
+        category    = "Transfer"
+        norm_amount = amt             # preserve Plaid sign (inflow +, outflow -)
+    elif is_income or amt < 0:
+        category    = "Income"
+        norm_amount = abs(amt)        # show income as positive
+    else:
+        category    = "Uncategorized"
+        norm_amount = -abs(amt)       # show spend as negative
+
+    suggested_label = None
+    if "account_name" in insert_cols:
+        suggested_label = (r["account_name"] if "account_name" in r.keys() else None) or item_to_institution.get(r["item_id"])
+
+    out = {
+        "transaction_id": f"plaid:{tid}",
+        "account_id": local_acct_id,
+        "account_name": suggested_label,
+        "transaction_date": date,
+        "cleaned_description": (merch or name or "")[:255],
+        "merchant": merch,
+        "amount": norm_amount,
+        "category": category,
+    }
+    return [out[c] for c in insert_cols]
+
+inserted = 0
+for r in rows:
+    try:
+        cur.execute(sql, map_row(r))
+        inserted += 1
+    except sqlite3.IntegrityError:
+        pass
+
+conn.commit()
+conn.close()
+print(f"Inserted {inserted} new transactions into 'transactions' (account_id={local_acct_id}).")

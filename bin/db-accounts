@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+DBPATH=$(.venv/bin/python -c 'from app import app; print(app.config.get("DATABASE") or "")' 2>/dev/null | tail -n1)
+sqlite3 -header -csv "$DBPATH" \
+"SELECT id,item_id,account_id,name,official_name,mask,type,subtype,datetime(created_at) AS created_at FROM plaid_accounts ORDER BY id DESC LIMIT 10;" | column -t -s,

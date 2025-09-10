@@ -582,7 +582,12 @@ def upload_csv():
             try:
                 row = conn.execute('SELECT name FROM accounts WHERE id = ?', (account_id,)).fetchone()
             finally:
-                conn.close()
+                conn = get_db_connection()
+                row = conn.execute('SELECT name FROM accounts WHERE id = ?', (account_id,)).fetchone() # <-- SIMPLIFIED
+                if not row:
+                    return jsonify({"error": "Account not found."}), 404
+
+                a, s = add_transactions_df(df, row['name'])
             if not row:
                 return jsonify({"error": "Account not found."}), 404
 
@@ -1760,9 +1765,25 @@ def _plaid_create_link_token():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route("/", subdomain=None, defaults={"_redir": 1})
+@app.route("/<path:_>", methods=["GET"], defaults={"_redir": 1})
+def http_redirect(_="", _redir=None):
+    # Only used on the HTTP port
+    from flask import request, redirect
+    if request.environ.get("wsgi.url_scheme") == "http":
+        return redirect(request.url.replace("http://", "https://").replace(":5055", ":5056"), code=307)
+    # If hit on HTTPS, fall through to your normal index (optional)
+    return app.send_static_file("index.html")
+
 
 def _plaid_base_url():
     env = (os.getenv("PLAID_ENV","sandbox") or "sandbox").lower()
     return {"sandbox":"https://sandbox.plaid.com",
             "development":"https://development.plaid.com",
             "production":"https://production.plaid.com"}.get(env, "https://sandbox.plaid.com")
+
+
+@app.route('/.well-known/appspecific/com.chrome.devtools.json')
+def _quiet_devtools():
+    # Chrome DevTools probes this path; avoid stack traces in logs.
+    return ('', 204)

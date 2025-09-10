@@ -18,7 +18,6 @@ dupe_audit_latest/*
 node_modules/
 
 seed/*.gz
-.env
 !seed/finance.db.gz
 finance.db-*
 finance.*.sqlite
@@ -26,5 +25,13 @@ finance.*.sqlite
 .backup/
 0
 *.gz
-.env
-.env
+# local/python
+# local data / secrets
+*.db
+*.db.*
+*.bak*
+.certs/
+*.pem
+*.key
+# misc
+/tmp/

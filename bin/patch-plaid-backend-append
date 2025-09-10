@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+# Ensure routes pass selected_accounts + institution through
+python - <<'PY'
+import io,sys,re
+p="routes_plaiddev.py"
+s=open(p,encoding="utf-8").read()
+if "selected_accounts" not in s or "institution" not in s:
+    s=re.sub(
+        r"def exchange_public_token_route\(\):([\s\S]*?)public_token\s*=\s*data\.get\('public_token'\)",
+        r"def exchange_public_token_route():\1public_token = data.get('public_token')\n    selected_accounts = data.get('selected_accounts')\n    institution = data.get('institution')",
+        s, count=1)
+    s=re.sub(
+        r"out\s*=\s*exchange_public_token\(\s*public_token\s*\)",
+        r"out = exchange_public_token(public_token, selected_accounts=selected_accounts, institution=institution)",
+        s, count=1)
+    open(p,"w",encoding="utf-8").write(s)
+    print("patched", p)
+else:
+    print("routes already pass meta")
+PY
+
+# Append a fresh exchange_public_token (uses your actual columns)
+python - <<'PY'
+from pathlib import Path
+p=Path("plaid_integration.py")
+s=p.read_text(encoding="utf-8")
+
+append = r'''
+
+# === appended by patch (safe override) ===
+def exchange_public_token(public_token, selected_accounts=None, institution=None):
+    """
+    Exchange the public_token and save:
+      - access_token_enc + item row
+      - selected accounts into plaid_accounts (schema without created_at)
+      - a friendly name into accounts (for the left list)
+    """
+    selected_accounts = selected_accounts or []
+    inst_name = None
+    if isinstance(institution, dict):
+        inst_name = institution.get('name') or institution.get('institution_name')
+
+    client = get_plaid_client()
+    from plaid.model.item_public_token_exchange_request import ItemPublicTokenExchangeRequest
+    req = ItemPublicTokenExchangeRequest(public_token=public_token)
+    resp = client.item_public_token_exchange(req)
+    access_token = resp['access_token'] if isinstance(resp, dict) else getattr(resp, 'access_token', None)
+    item_id = resp['item_id'] if isinstance(resp, dict) else getattr(resp, 'item_id', None)
+    if not access_token or not item_id:
+        raise RuntimeError("No access_token/item_id in exchange response")
+
+    enc = FERNET.encrypt(access_token.encode()).decode()
+
+    import sqlite3
+    conn = sqlite3.connect(DB_PATH)
+    cur = conn.cursor()
+
+    # Upsert item (plaid_items DOES have created_at)
+    cur.execute("""
+        INSERT INTO plaid_items (item_id, access_token_enc, institution_name, status, created_at)
+        VALUES (?, ?, COALESCE(?,''), 'linked', datetime('now'))
+        ON CONFLICT(item_id) DO UPDATE SET
+            access_token_enc=excluded.access_token_enc,
+            institution_name=excluded.institution_name,
+            status='linked'
+    """, (item_id, enc, inst_name))
+
+    # Upsert accounts into plaid_accounts (NO created_at column there)
+    for a in (selected_accounts or []):
+        if not isinstance(a, dict): 
+            continue
+        plaid_account_id = a.get('id') or a.get('account_id')
+        if not plaid_account_id:
+            continue
+        name = a.get('name') or a.get('official_name') or ''
+        official_name = a.get('official_name') or ''
+        mask = a.get('mask') or ''
+        subtype = a.get('subtype') or a.get('type') or ''
+
+        # Upsert pattern that works with your schema
+        cur.execute("SELECT 1 FROM plaid_accounts WHERE plaid_account_id=?", (plaid_account_id,))
+        if cur.fetchone():
+            cur.execute("""
+                UPDATE plaid_accounts
+                   SET item_id=?, name=?, official_name=?, mask=?, subtype=?, account_id=?
+                 WHERE plaid_account_id=?
+            """, (item_id, name, official_name, mask, subtype, plaid_account_id, plaid_account_id))
+        else:
+            cur.execute("""
+                INSERT INTO plaid_accounts (plaid_account_id, item_id, name, official_name, mask, subtype, account_id)
+                VALUES (?,?,?,?,?,?,?)
+            """, (plaid_account_id, item_id, name, official_name, mask, subtype, plaid_account_id))
+
+        # Mirror a friendly display into 'accounts' (used by /api/accounts)
+        display = (inst_name or 'Bank') + ' • ' + (mask or (name[:12] or '?'))
+        cur.execute("""
+            INSERT INTO accounts (name)
+            SELECT ? WHERE NOT EXISTS (SELECT 1 FROM accounts WHERE name=?)
+        """, (display, display))
+
+    conn.commit()
+    conn.close()
+    return {"item_id": item_id, "stored_accounts": len(selected_accounts)}
+'''
+if "def exchange_public_token(" in s and append.strip() in s:
+    print("backend already appended")
+else:
+    p.write_text(s + append, encoding="utf-8")
+    print("appended new exchange_public_token() to", p)
+PY

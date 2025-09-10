@@ -1,0 +1,97 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ---- 0) sanity
+git rev-parse --is-inside-work-tree >/dev/null 2>&1 || git init
+
+# ---- 1) .gitignore (append; keep unique)
+IGNO="$(cat <<'EOF'
+# local/python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# local data / secrets
+*.db
+*.db.*
+*.bak*
+.certs/
+.env
+*.pem
+*.key
+
+# misc
+.DS_Store
+/tmp/
+EOF
+)"
+touch .gitignore
+printf "%s\n" "$IGNO" >> .gitignore
+# de-dup lines
+awk '!seen[$0]++' .gitignore > .gitignore.tmp && mv .gitignore.tmp .gitignore
+
+# ---- 2) ensure deps include gunicorn (for Render)
+# (does not clobber your venv; just locks a requirements.txt)
+python - <<'PY'
+import re, subprocess, sys, pathlib
+req = pathlib.Path("requirements.txt")
+need = {"gunicorn", "plaid-python", "cryptography"}
+
+current = set()
+if req.exists():
+    for line in req.read_text().splitlines():
+        pkg = re.split(r'[<>= ]', line.strip(), 1)[0].lower()
+        if pkg and not pkg.startswith('#'):
+            current.add(pkg)
+
+missing = [p for p in need if p not in current]
+if missing:
+    cmd = [sys.executable, "-m", "pip", "install", *missing]
+    subprocess.check_call(cmd)
+
+# refresh the lockfile (safe for Render)
+subprocess.check_call([sys.executable, "-m", "pip", "freeze", ">", "requirements.txt"], shell=True)
+PY
+
+# ---- 3) render.yaml: create minimal one if absent (keeps your existing if present)
+if [ ! -f render.yaml ]; then
+  cat > render.yaml <<'YAML'
+services:
+  - type: web
+    name: the-305-accountant
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --preload --bind 0.0.0.0:$PORT
+    autoDeploy: true
+    envVars:
+      - key: PLAID_ENV
+        value: production
+      # Set these in Render dashboard (DO NOT commit secrets locally)
+      # - key: PLAID_CLIENT_ID
+      #   sync: false
+      # - key: PLAID_SECRET
+      #   sync: false
+      # - key: FERNET_KEY
+      #   sync: false
+YAML
+fi
+
+# ---- 4) commit current working tree
+git add -A
+git commit -m "Deployable snapshot: current app state, ignore local DB/certs, lock deps" || true
+
+# ---- 5) set default branch to main
+git branch -M main
+
+# ---- 6) push to GitHub
+# >>>> CHANGE THIS to your repo <<<<
+REPO_SSH="git@github.com:YOURUSER/the_305_accountant_6.git"
+if git remote get-url origin >/dev/null 2>&1; then
+  echo "Using existing remote: $(git remote get-url origin)"
+else
+  git remote add origin "$REPO_SSH"
+fi
+
+git push -u origin main

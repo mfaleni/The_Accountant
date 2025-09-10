@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+source .venv/bin/activate
+export FLASK_APP=app.py
+export PLAID_ENV=production
+export PLAID_REDIRECT_URI="https://127.0.0.1:5056/plaid/oauth-return"
+# export PLAID_CLIENT_ID=...   # <-- your PROD keys
+# export PLAID_SECRET=...      # <-- your PROD keys
+flask run -p 5056 --cert .certs/localhost-cert.pem --key .certs/localhost-key.pem

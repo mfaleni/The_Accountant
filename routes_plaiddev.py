@@ -44,3 +44,29 @@ def plaiddev_exchange_public_token():
         return jsonify(data), status
     except Exception as e:
         return jsonify({"error":"server_error","detail":str(e)}), 500
+
+@plaiddev_bp.route("/plaiddev/sync_now", methods=["POST"])
+def plaiddev_sync_now():
+    from flask import request, jsonify
+    import sqlite3, os
+    from plaid_integration import plaid_sync_transactions
+
+    payload = request.get_json(silent=True) or {}
+    item_id = payload.get("item_id")
+
+    # Default to most recent item if none provided
+    if not item_id:
+        import sqlite3
+        db = os.environ.get("DBPATH") or os.path.join(os.path.dirname(__file__), "finance.db")
+        row = sqlite3.connect(db).execute("SELECT item_id FROM plaid_items ORDER BY id DESC LIMIT 1").fetchone()
+        if row:
+            item_id = row[0]
+
+    if not item_id:
+        return jsonify({"ok": False, "error": "no_item", "detail": "No Plaid item found/selected."}), 400
+
+    try:
+        stats = plaid_sync_transactions(item_id)
+        return jsonify({"ok": True, "item_id": item_id, **stats})
+    except Exception as e:
+        return jsonify({"ok": False, "error": "sync_failed", "detail": str(e)}), 500

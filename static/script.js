@@ -940,11 +940,7 @@ async function plaidCreateToken() {
       return null;
     }
     const d = await r.json();
-    if (!d.link_token) {
-      alert('Plaid error: no link_token in response');
-      return null;
-    }
-    return d.link_token;
+    return d.link_token || null;
   } catch (e) {
     alert('Plaid error (create): ' + e);
     return null;
@@ -952,35 +948,55 @@ async function plaidCreateToken() {
 }
 
 async function openPlaidLink() {
-  const token = await plaidCreateToken();
-  if (!token) return;
+  const linkToken = await plaidCreateToken();
+  if (!linkToken) return;
+
+  const isOAuthRedirect = window.location.search.includes('oauth_state_id=');
 
   const handler = Plaid.create({
-    token,
-    onSuccess: async function(public_token, metadata) {
-      try {
-        const r = await fetch('/plaiddev/exchange_public_token', {
-          method: 'POST',
-          headers: {'Content-Type':'application/json'},
-          body: JSON.stringify({ public_token })
-        });
-        const d = await r.json().catch(()=> ({}));
-        if (r.ok) {
-          const out = document.getElementById('plaid-result');
-          if (out) out.textContent = 'Linked ✓ item_id=' + (d.item_id || '?');
-        } else {
-          alert('Plaid exchange failed: ' + (d.error_message || JSON.stringify(d)).slice(0,300));
+    token: linkToken,
+    receivedRedirectUri: isOAuthRedirect ? window.location.href : undefined,
+    onSuccess(public_token, meta) {
+      fetch('/plaiddev/exchange_public_token', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          public_token,
+          selected_accounts: meta?.accounts || [],
+          institution: meta?.institution || null
+        })
+      })
+      .then(r => r.json())
+      .then(d => {
+        if (d?.error || !d?.item_id) {
+          alert('Plaid exchange failed: ' + (d?.error_message || JSON.stringify(d)).slice(0,300));
+          return;
         }
-      } catch (e) {
-        alert('Plaid exchange error: ' + e);
-      }
+        const out = document.getElementById('plaid-result');
+        if (out) out.textContent = 'Linked ✓ item_id=' + d.item_id + ' (accounts saved: ' + (d.stored_accounts||0) + ')';
+        // easiest way to refresh the left Accounts list
+        setTimeout(() => window.location.reload(), 500);
+      })
+      .catch(e => alert('Plaid exchange parse error: ' + e));
     },
-    onExit: function(err, metadata) {
-      if (err) console.warn('Plaid exit:', err);
-    }
+    onExit(err) { if (err) console.warn('Plaid exit:', err); }
   });
   handler.open();
 }
 
+if (window.location.search.includes('oauth_state_id=')) { openPlaidLink(); }
 document.getElementById('plaid-link-btn')?.addEventListener('click', openPlaidLink);
 /* PLAID-LINK-END */
+
+
+// --- Simple Plaid sync button ---
+document.getElementById('plaid-sync-btn')?.addEventListener('click', async () => {
+  try {
+    const r = await fetch('/plaiddev/sync_now', {method:'POST', headers:{'content-type':'application/json'}, body:'{}'});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.detail || 'sync failed');
+    alert(`Plaid sync done.\nAdded: ${j.added}\nModified: ${j.modified}\nRemoved: ${j.removed}`);
+    location.reload();
+  } catch(e){ alert('Plaid sync error: ' + e.message); }
+});
+// --- end ---

@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+import os, sys, sqlite3, json
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(os.path.join(ROOT, ".env"))
+except Exception:
+    pass
+
+from fernet_util import FERNET
+from plaid import Configuration, ApiClient, Environment
+from plaid.api import plaid_api
+from plaid.model.transactions_sync_request import TransactionsSyncRequest
+
+def plaid_client():
+    env = (os.environ.get("PLAID_ENV","sandbox") or "sandbox").lower()
+    host = {"sandbox": Environment.Sandbox,
+            "production": Environment.Production}.get(env, Environment.Sandbox)
+    cfg = Configuration(host=host, api_key={
+        "clientId": os.environ["PLAID_CLIENT_ID"],
+        "secret":   os.environ["PLAID_SECRET"],
+    })
+    return plaid_api.PlaidApi(ApiClient(cfg))
+
+DBPATH = os.environ.get("DBPATH") or os.path.join(ROOT, "finance.db")
+DBPATH = os.path.abspath(DBPATH)
+
+def main():
+    conn = sqlite3.connect(DBPATH)
+    cur  = conn.cursor()
+    cur.execute("""
+      CREATE TABLE IF NOT EXISTS plaid_transactions_raw(
+        id INTEGER PRIMARY KEY,
+        transaction_id TEXT UNIQUE,
+        item_id TEXT,
+        account_id TEXT,
+        account_name TEXT,
+        name TEXT,
+        merchant_name TEXT,
+        amount REAL,
+        currency TEXT,
+        date TEXT,
+        pending INTEGER,
+        json TEXT,
+        created_at TEXT DEFAULT (datetime('now'))
+      )
+    """)
+
+    row = cur.execute(
+        "SELECT item_id, access_token_enc, COALESCE(next_cursor,'') "
+        "FROM plaid_items ORDER BY id DESC LIMIT 1"
+    ).fetchone()
+    if not row:
+        print(json.dumps({"ok": False, "error": "No plaid_items yet. Link an account first."}))
+        return
+
+    item_id, enc, cursor = row
+    access_token = FERNET.decrypt(enc.encode()).decode()
+
+    acct_name = {r[0]: (r[1] or r[0]) for r in cur.execute(
+        "SELECT plaid_account_id, COALESCE(name,official_name) "
+        "FROM plaid_accounts WHERE item_id=?", (item_id,)
+    ).fetchall()}
+
+    client = plaid_client()
+
+    added = modified = removed = loops = 0
+    has_more = True
+    while has_more:
+        kwargs = {"access_token": access_token, "count": 500}
+        if cursor:  # only include if we actually have one
+            kwargs["cursor"] = cursor
+        req = TransactionsSyncRequest(**kwargs)
+
+        resp = client.transactions_sync(req).to_dict()
+
+        for t in resp.get("added", []):
+            cur.execute("""
+              INSERT OR IGNORE INTO plaid_transactions_raw
+              (transaction_id,item_id,account_id,account_name,name,merchant_name,amount,currency,date,pending,json)
+              VALUES (?,?,?,?,?,?,?,?,?,?,?)
+            """, (
+              t["transaction_id"], item_id, t.get("account_id"),
+              acct_name.get(t.get("account_id")),
+              t.get("name"), t.get("merchant_name"),
+              float(t.get("amount") or 0),
+              (t.get("iso_currency_code") or t.get("unofficial_currency_code")),
+              t.get("date"),
+              1 if t.get("pending") else 0,
+              json.dumps(t, default=str),
+            ))
+            if cur.rowcount: added += 1
+
+        for t in resp.get("modified", []):
+            cur.execute("""
+              UPDATE plaid_transactions_raw
+                 SET name=?, merchant_name=?, amount=?, currency=?, date=?, pending=?, json=?
+               WHERE transaction_id=?
+            """, (
+              t.get("name"), t.get("merchant_name"),
+              float(t.get("amount") or 0),
+              (t.get("iso_currency_code") or t.get("unofficial_currency_code")),
+              t.get("date"),
+              1 if t.get("pending") else 0,
+              json.dumps(t, default=str),
+              t["transaction_id"],
+            ))
+            modified += cur.rowcount
+
+        for r in resp.get("removed", []):
+            cur.execute("UPDATE plaid_transactions_raw SET pending=0 WHERE transaction_id=?", (r["transaction_id"],))
+            removed += cur.rowcount
+
+        cursor = resp.get("next_cursor") or cursor
+        has_more = bool(resp.get("has_more"))
+        cur.execute("UPDATE plaid_items SET next_cursor=? WHERE item_id=?", (cursor, item_id))
+        conn.commit()
+        loops += 1
+
+    print(json.dumps({"ok": True, "item_id": item_id, "added": added, "modified": modified, "removed": removed, "loops": loops}))
+    conn.close()
+
+if __name__ == "__main__":
+    main()

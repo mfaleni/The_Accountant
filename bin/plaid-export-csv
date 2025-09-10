@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+import os, csv, json, sqlite3, sys, datetime as dt
+
+DB=os.environ.get("DBPATH") or "finance.db"
+DAYS=int(os.environ.get("DAYS","45"))  # export last ~45 days by default
+out_path=os.environ.get("OUT","/tmp/plaid_for_import.csv")
+
+con=sqlite3.connect(DB)
+con.row_factory=sqlite3.Row
+cur=con.cursor()
+
+# Prefer rows with raw_json; fall back to columns if needed
+have_raw = any(r[1]=="raw_json" for r in cur.execute("PRAGMA table_info(plaid_transactions_raw)"))
+since=(dt.date.today()-dt.timedelta(days=DAYS)).isoformat()
+
+if have_raw:
+    rows=cur.execute("""
+      SELECT *
+        FROM plaid_transactions_raw
+       WHERE date>=? OR (json_valid(raw_json)=1 AND json_extract(raw_json,'$.date')>=?)
+       ORDER BY date DESC, id DESC
+    """,(since,since)).fetchall()
+else:
+    rows=cur.execute("""
+      SELECT *
+        FROM plaid_transactions_raw
+       WHERE date>=?
+       ORDER BY date DESC, id DESC
+    """,(since,)).fetchall()
+
+def as_float(x):
+    try: return float(x)
+    except: return 0.0
+
+with open(out_path,"w",newline="") as f:
+    w=csv.writer(f)
+    w.writerow(["Date","Description","Amount","Merchant"])  # generic importer header
+    for r in rows:
+        tr={}
+        if have_raw and r["raw_json"]:
+            try: tr=json.loads(r["raw_json"])
+            except: tr={}
+        date = tr.get("date") or r["date"]
+        name = tr.get("name") or r["name"] or ""
+        merch= tr.get("merchant_name") or r["merchant_name"] or ""
+        amt  = as_float(tr.get("amount", r["amount"]))
+
+        # Use Plaid's personal finance category if present to keep signs sane
+        pfc = (tr.get("personal_finance_category") or {}).get("primary","")
+        is_transfer = pfc.startswith("TRANSFER_")
+        is_income   = pfc.startswith("INCOME")
+
+        if is_transfer:
+            norm = amt                 # preserve Plaid sign for transfers
+        elif is_income or amt < 0:
+            norm = abs(amt)            # income positive
+        else:
+            norm = -abs(amt)           # spend negative
+
+        if not date: # skip invalid
+            continue
+        w.writerow([date, (merch or name), f"{norm:.2f}", merch])
+
+print(out_path)

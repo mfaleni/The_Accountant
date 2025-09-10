@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+HTML="templates/index.html"
+JS="static/script.js"
+
+cp -v "$JS" "$JS.bak.$(date +%s)"
+
+cat > /tmp/plaid_snippet.js <<'JSNIP'
+async function plaidCreateToken() {
+  try {
+    const r = await fetch('/plaiddev/create_link_token', { method:'POST' });
+    if (!r.ok) {
+      const text = await r.text();
+      alert('Plaid error (create): HTTP ' + r.status + ' ' + text.slice(0,200));
+      return null;
+    }
+    const d = await r.json();
+    return d.link_token || null;
+  } catch (e) {
+    alert('Plaid error (create): ' + e);
+    return null;
+  }
+}
+
+async function openPlaidLink() {
+  const linkToken = await plaidCreateToken();
+  if (!linkToken) return;
+
+  const isOAuthRedirect = window.location.search.includes('oauth_state_id=');
+
+  const handler = Plaid.create({
+    token: linkToken,
+    receivedRedirectUri: isOAuthRedirect ? window.location.href : undefined,
+    onSuccess(public_token, meta) {
+      fetch('/plaiddev/exchange_public_token', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          public_token,
+          selected_accounts: meta?.accounts || [],
+          institution: meta?.institution || null
+        })
+      })
+      .then(r => r.json())
+      .then(d => {
+        if (d?.error || !d?.item_id) {
+          alert('Plaid exchange failed: ' + (d?.error_message || JSON.stringify(d)).slice(0,300));
+          return;
+        }
+        const out = document.getElementById('plaid-result');
+        if (out) out.textContent = 'Linked ✓ item_id=' + d.item_id + ' (accounts saved: ' + (d.stored_accounts||0) + ')';
+        // easiest way to refresh the left Accounts list
+        setTimeout(() => window.location.reload(), 500);
+      })
+      .catch(e => alert('Plaid exchange parse error: ' + e));
+    },
+    onExit(err) { if (err) console.warn('Plaid exit:', err); }
+  });
+  handler.open();
+}
+
+if (window.location.search.includes('oauth_state_id=')) { openPlaidLink(); }
+document.getElementById('plaid-link-btn')?.addEventListener('click', openPlaidLink);
+JSNIP
+
+awk '
+  BEGIN{inblk=0}
+  /\/\* PLAID-LINK-START \*\// { print;
+                                  while ((getline line < "/tmp/plaid_snippet.js") > 0) print line;
+                                  inblk=1; next }
+  /\/\* PLAID-LINK-END \*\//   { print; inblk=0; next }
+  inblk { next }
+  { print }
+' "$JS" > "$JS.tmp" && mv "$JS.tmp" "$JS"
+
+# Make sure Link script is present once and bump cache-buster
+grep -q 'cdn.plaid.com/link/v2/stable/link-initialize.js' "$HTML" || \
+  sed -i '' 's#</head>#<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>\n</head>#' "$HTML"
+sed -i '' 's|/static/script\.js?v=[0-9.]*|/static/script.js?v=1.12|' "$HTML"
+
+echo "Front-end Plaid block patched."

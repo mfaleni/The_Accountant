@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+import os, sys, sqlite3, pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+os.chdir(ROOT)
+sys.path.insert(0, str(ROOT))
+
+db = os.environ.get("DBPATH") or "finance.db"
+print(f"[migrate] Using DB: {db}")
+conn = sqlite3.connect(db)
+cur = conn.cursor()
+
+def has_col(table, col):
+    cur.execute(f"PRAGMA table_info({table})")
+    return any(r[1] == col for r in cur.fetchall())
+
+def first_existing(table, candidates):
+    for c in candidates:
+        if has_col(table, c):
+            return c
+    return None
+
+def is_fernet_token(s):
+    return isinstance(s, str) and s.startswith("gAAAAA")
+
+# --- plaid_items ---
+cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='plaid_items'")
+if cur.fetchone():
+    if not has_col("plaid_items", "access_token_enc"):
+        print("[migrate] Adding column plaid_items.access_token_enc")
+        cur.execute("ALTER TABLE plaid_items ADD COLUMN access_token_enc TEXT")
+
+    src = first_existing("plaid_items", ["access_token_enc", "access_token", "access_token_ciphertext", "token"])
+    if src and src != "access_token_enc":
+        try:
+            from fernet_util import FERNET
+            have_fernet = True
+            print("[migrate] FERNET available; will encrypt legacy tokens")
+        except Exception as e:
+            have_fernet = False
+            print(f"[migrate] FERNET not available ({e}); copying legacy tokens as-is")
+
+        cur.execute(f"""
+            SELECT id, {src}
+            FROM plaid_items
+            WHERE {src} IS NOT NULL AND {src} <> ''
+              AND (access_token_enc IS NULL OR access_token_enc = '')
+        """)
+        rows = cur.fetchall()
+        migrated = copied = 0
+        for rid, val in rows:
+            if not val:
+                continue
+            if is_fernet_token(val):
+                enc = val
+                copied += 1
+            elif have_fernet:
+                enc = FERNET.encrypt(val.encode("utf-8")).decode("utf-8")
+                migrated += 1
+            else:
+                enc = val
+                copied += 1
+            cur.execute("UPDATE plaid_items SET access_token_enc = ? WHERE id = ?", (enc, rid))
+        print(f"[migrate] plaid_items: {migrated} encrypted, {copied} copied")
+else:
+    print("[migrate] Table plaid_items does not exist; skipping.")
+
+# --- plaid_accounts ---
+cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='plaid_accounts'")
+if cur.fetchone():
+    if not has_col("plaid_accounts", "account_id"):
+        print("[migrate] Adding column plaid_accounts.account_id")
+        cur.execute("ALTER TABLE plaid_accounts ADD COLUMN account_id TEXT")
+        srcacc = first_existing("plaid_accounts", ["plaid_account_id", "acct_id", "account"])
+        if srcacc:
+            print(f"[migrate] Populating account_id from {srcacc}")
+            cur.execute(f"""
+                UPDATE plaid_accounts
+                   SET account_id = {srcacc}
+                 WHERE (account_id IS NULL OR account_id = '')
+                   AND {srcacc} IS NOT NULL AND {srcacc} <> ''
+            """)
+else:
+    print("[migrate] Table plaid_accounts does not exist; skipping.")
+
+conn.commit()
+conn.close()
+print("[migrate] OK")

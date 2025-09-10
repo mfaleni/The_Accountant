@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+python - <<'PY'
+import re, pathlib
+p = pathlib.Path("plaid_integration.py")
+s = p.read_text(encoding="utf-8")
+
+helper = '''
+# --- BEGIN plaid env resolver ---
+def _plaid_host_from_env():
+    import os, plaid
+    env = (os.environ.get("PLAID_ENV","sandbox") or "sandbox").lower()
+
+    def pick(*names):
+        for n in names:
+            if hasattr(plaid.Environment, n):
+                return getattr(plaid.Environment, n)
+        # final fallback
+        return getattr(plaid.Environment, "Sandbox")
+
+    if env in ("prod","production"):     # prefer prod
+        return pick("Production","PRODUCTION")
+    if env in ("dev","development"):     # some SDKs lack Development; fall back to Sandbox
+        return pick("Development","DEVELOPMENT","Sandbox")
+    return pick("Sandbox","SANDBOX")
+# --- END plaid env resolver ---
+'''
+
+if "_plaid_host_from_env" not in s:
+    s = helper + "\n" + s
+
+# Patch get_plaid_client() to always use the resolver
+s = re.sub(
+    r"def\s+get_plaid_client\([^\)]*\):[\s\S]*?(?=\n\ndef\s|\Z)",
+    r'''def get_plaid_client():
+    import os, plaid
+    from plaid.api import plaid_api
+    configuration = plaid.Configuration(
+        host=_plaid_host_from_env(),
+        api_key={"clientId": os.environ["PLAID_CLIENT_ID"], "secret": os.environ["PLAID_SECRET"]},
+    )
+    api_client = plaid.ApiClient(configuration)
+    return plaid_api.PlaidApi(api_client)
+''',
+    s, flags=re.M
+)
+
+# If our self-contained exchange_public_token exists, make it use the resolver too
+s = re.sub(r"host\s*=\s*{[\s\S]*?}\.get\(env,[^\n]*\)", "host = _plaid_host_from_env()", s)
+
+p.write_text(s, encoding="utf-8")
+print("patched plaid_integration.py")
+PY

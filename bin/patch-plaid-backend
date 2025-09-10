@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+# routes_plaiddev.py: pass selected_accounts + institution through
+python - <<'PY'
+import io,sys,re
+p="routes_plaiddev.py"
+s=open(p,encoding="utf-8").read()
+pat=r"def exchange_public_token_route\(\):[\s\S]*?return jsonify\(out\)"
+if "selected_accounts" in s and "institution" in s:
+    print("routes_plaiddev.py already patched"); sys.exit(0)
+s=re.sub(
+r"def exchange_public_token_route\(\):[\s\S]*?public_token\s*=\s*data\.get\('public_token'\)",
+lambda m: m.group(0)+"\n    selected_accounts = data.get('selected_accounts')\n    institution = data.get('institution')",
+s,count=1)
+s=re.sub(r"out\s*=\s*exchange_public_token\(\s*public_token\s*\)",
+         "out = exchange_public_token(public_token, selected_accounts=selected_accounts, institution=institution)", s, count=1)
+open(p,"w",encoding="utf-8").write(s)
+print("patched", p)
+PY
+
+# plaid_integration.py: extend exchange_public_token
+python - <<'PY'
+import re,sys
+p="plaid_integration.py"
+s=open(p,encoding="utf-8").read()
+
+def repl(_):
+    return r'''
+def exchange_public_token(public_token, selected_accounts=None, institution=None):
+    """
+    Exchange the Link public_token for an access_token + item_id.
+    Also save selected account metadata (from Link) into plaid_accounts and mirror a
+    user-friendly name into accounts for the left-nav list.
+    """
+    selected_accounts = selected_accounts or []
+    inst_name = (institution or {}).get('name') if isinstance(institution, dict) else None
+
+    client = get_plaid_client()
+    try:
+        from plaid.model.item_public_token_exchange_request import ItemPublicTokenExchangeRequest
+        req = ItemPublicTokenExchangeRequest(public_token=public_token)
+        resp = client.item_public_token_exchange(req)
+        access_token = resp['access_token'] if isinstance(resp, dict) else getattr(resp, 'access_token', None)
+        item_id = resp['item_id'] if isinstance(resp, dict) else getattr(resp, 'item_id', None)
+        if not access_token or not item_id:
+            raise RuntimeError("No access_token/item_id in exchange response")
+
+        enc = FERNET.encrypt(access_token.encode()).decode()
+
+        import sqlite3
+        conn = sqlite3.connect(DB_PATH)
+        cur = conn.cursor()
+
+        # Save/Update item
+        cur.execute("""
+            INSERT INTO plaid_items (item_id, access_token_enc, institution_name, status, created_at)
+            VALUES (?, ?, COALESCE(?,''), 'linked', datetime('now'))
+            ON CONFLICT(item_id) DO UPDATE SET
+                access_token_enc=excluded.access_token_enc,
+                institution_name=excluded.institution_name,
+                status='linked'
+        """, (item_id, enc, inst_name))
+
+        # Save selected accounts (best-effort; not all fields always present)
+        for a in selected_accounts:
+            plaid_account_id = a.get('id') if isinstance(a, dict) else None
+            if not plaid_account_id: 
+                continue
+            name = (a.get('name') or a.get('official_name') or '') if isinstance(a, dict) else ''
+            official_name = (a.get('official_name') or '') if isinstance(a, dict) else ''
+            mask = (a.get('mask') or '') if isinstance(a, dict) else ''
+            subtype = (a.get('subtype') or a.get('type') or '') if isinstance(a, dict) else ''
+
+            # Upsert into plaid_accounts
+            cur.execute("""
+                INSERT INTO plaid_accounts (plaid_account_id, item_id, name, official_name, mask, subtype, account_id, created_at)
+                SELECT ?,?,?,?,?,?,?, datetime('now')
+                WHERE NOT EXISTS (SELECT 1 FROM plaid_accounts WHERE plaid_account_id = ?)
+            """, (plaid_account_id, item_id, name, official_name, mask, subtype, plaid_account_id, plaid_account_id))
+            cur.execute("""
+                UPDATE plaid_accounts
+                   SET item_id=?, name=?, official_name=?, mask=?, subtype=?
+                 WHERE plaid_account_id=?
+            """, (item_id, name, official_name, mask, subtype, plaid_account_id))
+
+            # Mirror a friendly name into `accounts` if not present (left side list uses /api/accounts)
+            display = (inst_name or 'Bank') + ' • ' + (mask or (name[:12] or '?'))
+            cur.execute("INSERT INTO accounts (name) SELECT ? WHERE NOT EXISTS (SELECT 1 FROM accounts WHERE name = ?)", (display, display))
+
+        conn.commit()
+        conn.close()
+        return {"item_id": item_id, "stored_accounts": len(selected_accounts)}
+    except (plaid.ApiException, Exception) as e:
+        print("Error during token exchange:", e)
+        raise
+'''
+m=re.search(r"def\s+exchange_public_token\([^\)]*\):", s)
+if not m:
+    print("Could not find exchange_public_token; abort"); sys.exit(1)
+s=re.sub(r"def\s+exchange_public_token\([^\)]*\):[\s\S]*?(?=\n\ndef\s|\Z)", repl, s, count=1)
+open(p,"w",encoding="utf-8").write(s)
+print("patched", p)
+PY

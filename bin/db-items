@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+DBPATH=$(.venv/bin/python -c 'from app import app; print(app.config.get("DATABASE") or "")' 2>/dev/null | tail -n1)
+sqlite3 -line "$DBPATH" \
+"SELECT id,item_id,substr(access_token_enc,1,16)||'…' AS token_prefix,length(access_token_enc) AS token_len,datetime(created_at) AS created_at FROM plaid_items ORDER BY id DESC LIMIT 5;"
